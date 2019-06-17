@@ -1,0 +1,5542 @@
+Publics by module
+
+cbbcsd_ 	size = 0
+	cbbcsd_                         
+
+cbdsqr_ 	size = 0
+	cbdsqr_                         
+
+cgbbrd_ 	size = 0
+	cgbbrd_                         
+
+cgbcon_ 	size = 0
+	cgbcon_                         
+
+cgbequ_ 	size = 0
+	cgbequ_                         
+
+cgbequb_	size = 0
+	cgbequb_                        
+
+cgbrfs_ 	size = 0
+	cgbrfs_                         
+
+cgbsv_  	size = 0
+	cgbsv_                          
+
+cgbsvx_ 	size = 0
+	cgbsvx_                         
+
+cgbtf2_ 	size = 0
+	cgbtf2_                         
+
+cgbtrf_ 	size = 0
+	cgbtrf_                         
+
+cgbtrs_ 	size = 0
+	cgbtrs_                         
+
+cgebak_ 	size = 0
+	cgebak_                         
+
+cgebal_ 	size = 0
+	cgebal_                         
+
+cgebd2_ 	size = 0
+	cgebd2_                         
+
+cgebrd_ 	size = 0
+	cgebrd_                         
+
+cgecon_ 	size = 0
+	cgecon_                         
+
+cgeequ_ 	size = 0
+	cgeequ_                         
+
+cgeequb_	size = 0
+	cgeequb_                        
+
+cgees_  	size = 0
+	cgees_                          
+
+cgeesx_ 	size = 0
+	cgeesx_                         
+
+cgeev_  	size = 0
+	cgeev_                          
+
+cgeevx_ 	size = 0
+	cgeevx_                         
+
+cgehd2_ 	size = 0
+	cgehd2_                         
+
+cgehrd_ 	size = 0
+	cgehrd_                         
+
+cgejsv_ 	size = 0
+	cgejsv_                         
+
+cgelq2_ 	size = 0
+	cgelq2_                         
+
+cgelq_  	size = 0
+	cgelq_                          
+
+cgelqf_ 	size = 0
+	cgelqf_                         
+
+cgelqt3_	size = 0
+	cgelqt3_                        
+
+cgelqt_ 	size = 0
+	cgelqt_                         
+
+cgels_  	size = 0
+	cgels_                          
+
+cgelsd_ 	size = 0
+	cgelsd_                         
+
+cgelss_ 	size = 0
+	cgelss_                         
+
+cgelsy_ 	size = 0
+	cgelsy_                         
+
+cgemlq_ 	size = 0
+	cgemlq_                         
+
+cgemlqt_	size = 0
+	cgemlqt_                        
+
+cgemqr_ 	size = 0
+	cgemqr_                         
+
+cgemqrt_	size = 0
+	cgemqrt_                        
+
+cgeql2_ 	size = 0
+	cgeql2_                         
+
+cgeqlf_ 	size = 0
+	cgeqlf_                         
+
+cgeqp3_ 	size = 0
+	cgeqp3_                         
+
+cgeqr2_ 	size = 0
+	cgeqr2_                         
+
+cgeqr2p_	size = 0
+	cgeqr2p_                        
+
+cgeqr_  	size = 0
+	cgeqr_                          
+
+cgeqrf_ 	size = 0
+	cgeqrf_                         
+
+cgeqrfp_	size = 0
+	cgeqrfp_                        
+
+cgeqrt2_	size = 0
+	cgeqrt2_                        
+
+cgeqrt3_	size = 0
+	cgeqrt3_                        
+
+cgeqrt_ 	size = 0
+	cgeqrt_                         
+
+cgerfs_ 	size = 0
+	cgerfs_                         
+
+cgerq2_ 	size = 0
+	cgerq2_                         
+
+cgerqf_ 	size = 0
+	cgerqf_                         
+
+cgesc2_ 	size = 0
+	cgesc2_                         
+
+cgesdd_ 	size = 0
+	cgesdd_                         
+
+cgesv_  	size = 0
+	cgesv_                          
+
+cgesvd_ 	size = 0
+	cgesvd_                         
+
+cgesvdx_	size = 0
+	cgesvdx_                        
+
+cgesvj_ 	size = 0
+	cgesvj_                         
+
+cgesvx_ 	size = 0
+	cgesvx_                         
+
+cgetc2_ 	size = 0
+	cgetc2_                         
+
+cgetf2_ 	size = 0
+	cgetf2_                         
+
+cgetrf2_	size = 0
+	cgetrf2_                        
+
+cgetrf_ 	size = 0
+	cgetrf_                         
+
+cgetri_ 	size = 0
+	cgetri_                         
+
+cgetrs_ 	size = 0
+	cgetrs_                         
+
+cgetsls_	size = 0
+	cgetsls_                        
+
+cggbak_ 	size = 0
+	cggbak_                         
+
+cggbal_ 	size = 0
+	cggbal_                         
+
+cgges3_ 	size = 0
+	cgges3_                         
+
+cgges_  	size = 0
+	cgges_                          
+
+cggesx_ 	size = 0
+	cggesx_                         
+
+cggev3_ 	size = 0
+	cggev3_                         
+
+cggev_  	size = 0
+	cggev_                          
+
+cggevx_ 	size = 0
+	cggevx_                         
+
+cggglm_ 	size = 0
+	cggglm_                         
+
+cgghd3_ 	size = 0
+	cgghd3_                         
+
+cgghrd_ 	size = 0
+	cgghrd_                         
+
+cgglse_ 	size = 0
+	cgglse_                         
+
+cggqrf_ 	size = 0
+	cggqrf_                         
+
+cggrqf_ 	size = 0
+	cggrqf_                         
+
+cggsvd3_	size = 0
+	cggsvd3_                        
+
+cggsvp3_	size = 0
+	cggsvp3_                        
+
+cgsvj0_ 	size = 0
+	cgsvj0_                         
+
+cgsvj1_ 	size = 0
+	cgsvj1_                         
+
+cgtcon_ 	size = 0
+	cgtcon_                         
+
+cgtrfs_ 	size = 0
+	cgtrfs_                         
+
+cgtsv_  	size = 0
+	cgtsv_                          
+
+cgtsvx_ 	size = 0
+	cgtsvx_                         
+
+cgttrf_ 	size = 0
+	cgttrf_                         
+
+cgttrs_ 	size = 0
+	cgttrs_                         
+
+cgtts2_ 	size = 0
+	cgtts2_                         
+
+chb2st_kernels_	size = 0
+	chb2st_kernels_                 
+
+chbev_  	size = 0
+	chbev_                          
+
+chbev_2stage_	size = 0
+	chbev_2stage_                   
+
+chbevd_ 	size = 0
+	chbevd_                         
+
+chbevd_2stage_	size = 0
+	chbevd_2stage_                  
+
+chbevx_ 	size = 0
+	chbevx_                         
+
+chbevx_2stage_	size = 0
+	chbevx_2stage_                  
+
+chbgst_ 	size = 0
+	chbgst_                         
+
+chbgv_  	size = 0
+	chbgv_                          
+
+chbgvd_ 	size = 0
+	chbgvd_                         
+
+chbgvx_ 	size = 0
+	chbgvx_                         
+
+chbtrd_ 	size = 0
+	chbtrd_                         
+
+checon_ 	size = 0
+	checon_                         
+
+checon_3_	size = 0
+	checon_3_                       
+
+checon_rook_	size = 0
+	checon_rook_                    
+
+cheequb_	size = 0
+	cheequb_                        
+
+cheev_  	size = 0
+	cheev_                          
+
+cheev_2stage_	size = 0
+	cheev_2stage_                   
+
+cheevd_ 	size = 0
+	cheevd_                         
+
+cheevd_2stage_	size = 0
+	cheevd_2stage_                  
+
+cheevr_ 	size = 0
+	cheevr_                         
+
+cheevr_2stage_	size = 0
+	cheevr_2stage_                  
+
+cheevx_ 	size = 0
+	cheevx_                         
+
+cheevx_2stage_	size = 0
+	cheevx_2stage_                  
+
+chegs2_ 	size = 0
+	chegs2_                         
+
+chegst_ 	size = 0
+	chegst_                         
+
+chegv_  	size = 0
+	chegv_                          
+
+chegv_2stage_	size = 0
+	chegv_2stage_                   
+
+chegvd_ 	size = 0
+	chegvd_                         
+
+chegvx_ 	size = 0
+	chegvx_                         
+
+cherfs_ 	size = 0
+	cherfs_                         
+
+chesv_  	size = 0
+	chesv_                          
+
+chesv_aa_	size = 0
+	chesv_aa_                       
+
+chesv_aa_2stage_	size = 0
+	chesv_aa_2stage_                
+
+chesv_rk_	size = 0
+	chesv_rk_                       
+
+chesv_rook_	size = 0
+	chesv_rook_                     
+
+chesvx_ 	size = 0
+	chesvx_                         
+
+cheswapr_	size = 0
+	cheswapr_                       
+
+chetd2_ 	size = 0
+	chetd2_                         
+
+chetf2_ 	size = 0
+	chetf2_                         
+
+chetf2_rk_	size = 0
+	chetf2_rk_                      
+
+chetf2_rook_	size = 0
+	chetf2_rook_                    
+
+chetrd_ 	size = 0
+	chetrd_                         
+
+chetrd_2stage_	size = 0
+	chetrd_2stage_                  
+
+chetrd_hb2st_	size = 0
+	chetrd_hb2st_                   
+
+chetrd_he2hb_	size = 0
+	chetrd_he2hb_                   
+
+chetrf_ 	size = 0
+	chetrf_                         
+
+chetrf_aa_	size = 0
+	chetrf_aa_                      
+
+chetrf_aa_2stage_	size = 0
+	chetrf_aa_2stage_               
+
+chetrf_rk_	size = 0
+	chetrf_rk_                      
+
+chetrf_rook_	size = 0
+	chetrf_rook_                    
+
+chetri2_	size = 0
+	chetri2_                        
+
+chetri2x_	size = 0
+	chetri2x_                       
+
+chetri_ 	size = 0
+	chetri_                         
+
+chetri_3_	size = 0
+	chetri_3_                       
+
+chetri_3x_	size = 0
+	chetri_3x_                      
+
+chetri_rook_	size = 0
+	chetri_rook_                    
+
+chetrs2_	size = 0
+	chetrs2_                        
+
+chetrs_ 	size = 0
+	chetrs_                         
+
+chetrs_3_	size = 0
+	chetrs_3_                       
+
+chetrs_aa_	size = 0
+	chetrs_aa_                      
+
+chetrs_aa_2stage_	size = 0
+	chetrs_aa_2stage_               
+
+chetrs_rook_	size = 0
+	chetrs_rook_                    
+
+chfrk_  	size = 0
+	chfrk_                          
+
+chgeqz_ 	size = 0
+	chgeqz_                         
+
+chla_transtype_	size = 0
+	chla_transtype_                 
+
+chpcon_ 	size = 0
+	chpcon_                         
+
+chpev_  	size = 0
+	chpev_                          
+
+chpevd_ 	size = 0
+	chpevd_                         
+
+chpevx_ 	size = 0
+	chpevx_                         
+
+chpgst_ 	size = 0
+	chpgst_                         
+
+chpgv_  	size = 0
+	chpgv_                          
+
+chpgvd_ 	size = 0
+	chpgvd_                         
+
+chpgvx_ 	size = 0
+	chpgvx_                         
+
+chprfs_ 	size = 0
+	chprfs_                         
+
+chpsv_  	size = 0
+	chpsv_                          
+
+chpsvx_ 	size = 0
+	chpsvx_                         
+
+chptrd_ 	size = 0
+	chptrd_                         
+
+chptrf_ 	size = 0
+	chptrf_                         
+
+chptri_ 	size = 0
+	chptri_                         
+
+chptrs_ 	size = 0
+	chptrs_                         
+
+chsein_ 	size = 0
+	chsein_                         
+
+chseqr_ 	size = 0
+	chseqr_                         
+
+clabrd_ 	size = 0
+	clabrd_                         
+
+clacgv_ 	size = 0
+	clacgv_                         
+
+clacn2_ 	size = 0
+	clacn2_                         
+
+clacon_ 	size = 0
+	clacon_                         
+
+clacp2_ 	size = 0
+	clacp2_                         
+
+clacpy_ 	size = 0
+	clacpy_                         
+
+clacrm_ 	size = 0
+	clacrm_                         
+
+clacrt_ 	size = 0
+	clacrt_                         
+
+cladiv_ 	size = 0
+	cladiv_                         
+
+claed0_ 	size = 0
+	claed0_                         
+
+claed7_ 	size = 0
+	claed7_                         
+
+claed8_ 	size = 0
+	claed8_                         
+
+claein_ 	size = 0
+	claein_                         
+
+claesy_ 	size = 0
+	claesy_                         
+
+claev2_ 	size = 0
+	claev2_                         
+
+clag2z_ 	size = 0
+	clag2z_                         
+
+clags2_ 	size = 0
+	clags2_                         
+
+clagtm_ 	size = 0
+	clagtm_                         
+
+clahef_ 	size = 0
+	clahef_                         
+
+clahef_aa_	size = 0
+	clahef_aa_                      
+
+clahef_rk_	size = 0
+	clahef_rk_                      
+
+clahef_rook_	size = 0
+	clahef_rook_                    
+
+clahqr_ 	size = 0
+	clahqr_                         
+
+clahr2_ 	size = 0
+	clahr2_                         
+
+claic1_ 	size = 0
+	claic1_                         
+
+clals0_ 	size = 0
+	clals0_                         
+
+clalsa_ 	size = 0
+	clalsa_                         
+
+clalsd_ 	size = 0
+	clalsd_                         
+
+clamswlq_	size = 0
+	clamswlq_                       
+
+clamtsqr_	size = 0
+	clamtsqr_                       
+
+clangb_ 	size = 0
+	clangb_                         
+
+clange_ 	size = 0
+	clange_                         
+
+clangt_ 	size = 0
+	clangt_                         
+
+clanhb_ 	size = 0
+	clanhb_                         
+
+clanhe_ 	size = 0
+	clanhe_                         
+
+clanhf_ 	size = 0
+	clanhf_                         
+
+clanhp_ 	size = 0
+	clanhp_                         
+
+clanhs_ 	size = 0
+	clanhs_                         
+
+clanht_ 	size = 0
+	clanht_                         
+
+clansb_ 	size = 0
+	clansb_                         
+
+clansp_ 	size = 0
+	clansp_                         
+
+clansy_ 	size = 0
+	clansy_                         
+
+clantb_ 	size = 0
+	clantb_                         
+
+clantp_ 	size = 0
+	clantp_                         
+
+clantr_ 	size = 0
+	clantr_                         
+
+clapll_ 	size = 0
+	clapll_                         
+
+clapmr_ 	size = 0
+	clapmr_                         
+
+clapmt_ 	size = 0
+	clapmt_                         
+
+claqgb_ 	size = 0
+	claqgb_                         
+
+claqge_ 	size = 0
+	claqge_                         
+
+claqhb_ 	size = 0
+	claqhb_                         
+
+claqhe_ 	size = 0
+	claqhe_                         
+
+claqhp_ 	size = 0
+	claqhp_                         
+
+claqp2_ 	size = 0
+	claqp2_                         
+
+claqps_ 	size = 0
+	claqps_                         
+
+claqr0_ 	size = 0
+	claqr0_                         
+
+claqr1_ 	size = 0
+	claqr1_                         
+
+claqr2_ 	size = 0
+	claqr2_                         
+
+claqr3_ 	size = 0
+	claqr3_                         
+
+claqr4_ 	size = 0
+	claqr4_                         
+
+claqr5_ 	size = 0
+	claqr5_                         
+
+claqsb_ 	size = 0
+	claqsb_                         
+
+claqsp_ 	size = 0
+	claqsp_                         
+
+claqsy_ 	size = 0
+	claqsy_                         
+
+clar1v_ 	size = 0
+	clar1v_                         
+
+clar2v_ 	size = 0
+	clar2v_                         
+
+clarcm_ 	size = 0
+	clarcm_                         
+
+clarf_  	size = 0
+	clarf_                          
+
+clarfb_ 	size = 0
+	clarfb_                         
+
+clarfg_ 	size = 0
+	clarfg_                         
+
+clarfgp_	size = 0
+	clarfgp_                        
+
+clarft_ 	size = 0
+	clarft_                         
+
+clarfx_ 	size = 0
+	clarfx_                         
+
+clarfy_ 	size = 0
+	clarfy_                         
+
+clargv_ 	size = 0
+	clargv_                         
+
+clarnv_ 	size = 0
+	clarnv_                         
+
+clarrv_ 	size = 0
+	clarrv_                         
+
+clartg_ 	size = 0
+	clartg_                         
+
+clartv_ 	size = 0
+	clartv_                         
+
+clarz_  	size = 0
+	clarz_                          
+
+clarzb_ 	size = 0
+	clarzb_                         
+
+clarzt_ 	size = 0
+	clarzt_                         
+
+clascl_ 	size = 0
+	clascl_                         
+
+claset_ 	size = 0
+	claset_                         
+
+clasr_  	size = 0
+	clasr_                          
+
+classq_ 	size = 0
+	classq_                         
+
+claswlq_	size = 0
+	claswlq_                        
+
+claswp_ 	size = 0
+	claswp_                         
+
+clasyf_ 	size = 0
+	clasyf_                         
+
+clasyf_aa_	size = 0
+	clasyf_aa_                      
+
+clasyf_rk_	size = 0
+	clasyf_rk_                      
+
+clasyf_rook_	size = 0
+	clasyf_rook_                    
+
+clatbs_ 	size = 0
+	clatbs_                         
+
+clatdf_ 	size = 0
+	clatdf_                         
+
+clatps_ 	size = 0
+	clatps_                         
+
+clatrd_ 	size = 0
+	clatrd_                         
+
+clatrs_ 	size = 0
+	clatrs_                         
+
+clatrz_ 	size = 0
+	clatrz_                         
+
+clatsqr_	size = 0
+	clatsqr_                        
+
+clauu2_ 	size = 0
+	clauu2_                         
+
+clauum_ 	size = 0
+	clauum_                         
+
+cpbcon_ 	size = 0
+	cpbcon_                         
+
+cpbequ_ 	size = 0
+	cpbequ_                         
+
+cpbrfs_ 	size = 0
+	cpbrfs_                         
+
+cpbstf_ 	size = 0
+	cpbstf_                         
+
+cpbsv_  	size = 0
+	cpbsv_                          
+
+cpbsvx_ 	size = 0
+	cpbsvx_                         
+
+cpbtf2_ 	size = 0
+	cpbtf2_                         
+
+cpbtrf_ 	size = 0
+	cpbtrf_                         
+
+cpbtrs_ 	size = 0
+	cpbtrs_                         
+
+cpftrf_ 	size = 0
+	cpftrf_                         
+
+cpftri_ 	size = 0
+	cpftri_                         
+
+cpftrs_ 	size = 0
+	cpftrs_                         
+
+cpocon_ 	size = 0
+	cpocon_                         
+
+cpoequ_ 	size = 0
+	cpoequ_                         
+
+cpoequb_	size = 0
+	cpoequb_                        
+
+cporfs_ 	size = 0
+	cporfs_                         
+
+cposv_  	size = 0
+	cposv_                          
+
+cposvx_ 	size = 0
+	cposvx_                         
+
+cpotf2_ 	size = 0
+	cpotf2_                         
+
+cpotrf2_	size = 0
+	cpotrf2_                        
+
+cpotrf_ 	size = 0
+	cpotrf_                         
+
+cpotri_ 	size = 0
+	cpotri_                         
+
+cpotrs_ 	size = 0
+	cpotrs_                         
+
+cppcon_ 	size = 0
+	cppcon_                         
+
+cppequ_ 	size = 0
+	cppequ_                         
+
+cpprfs_ 	size = 0
+	cpprfs_                         
+
+cppsv_  	size = 0
+	cppsv_                          
+
+cppsvx_ 	size = 0
+	cppsvx_                         
+
+cpptrf_ 	size = 0
+	cpptrf_                         
+
+cpptri_ 	size = 0
+	cpptri_                         
+
+cpptrs_ 	size = 0
+	cpptrs_                         
+
+cpstf2_ 	size = 0
+	cpstf2_                         
+
+cpstrf_ 	size = 0
+	cpstrf_                         
+
+cptcon_ 	size = 0
+	cptcon_                         
+
+cpteqr_ 	size = 0
+	cpteqr_                         
+
+cptrfs_ 	size = 0
+	cptrfs_                         
+
+cptsv_  	size = 0
+	cptsv_                          
+
+cptsvx_ 	size = 0
+	cptsvx_                         
+
+cpttrf_ 	size = 0
+	cpttrf_                         
+
+cpttrs_ 	size = 0
+	cpttrs_                         
+
+cptts2_ 	size = 0
+	cptts2_                         
+
+crot_   	size = 0
+	crot_                           
+
+cspcon_ 	size = 0
+	cspcon_                         
+
+cspmv_  	size = 0
+	cspmv_                          
+
+cspr_   	size = 0
+	cspr_                           
+
+csprfs_ 	size = 0
+	csprfs_                         
+
+cspsv_  	size = 0
+	cspsv_                          
+
+cspsvx_ 	size = 0
+	cspsvx_                         
+
+csptrf_ 	size = 0
+	csptrf_                         
+
+csptri_ 	size = 0
+	csptri_                         
+
+csptrs_ 	size = 0
+	csptrs_                         
+
+csrscl_ 	size = 0
+	csrscl_                         
+
+cstedc_ 	size = 0
+	cstedc_                         
+
+cstegr_ 	size = 0
+	cstegr_                         
+
+cstein_ 	size = 0
+	cstein_                         
+
+cstemr_ 	size = 0
+	cstemr_                         
+
+csteqr_ 	size = 0
+	csteqr_                         
+
+csycon_ 	size = 0
+	csycon_                         
+
+csycon_3_	size = 0
+	csycon_3_                       
+
+csycon_rook_	size = 0
+	csycon_rook_                    
+
+csyconv_	size = 0
+	csyconv_                        
+
+csyconvf_	size = 0
+	csyconvf_                       
+
+csyconvf_rook_	size = 0
+	csyconvf_rook_                  
+
+csyequb_	size = 0
+	csyequb_                        
+
+csymv_  	size = 0
+	csymv_                          
+
+csyr_   	size = 0
+	csyr_                           
+
+csyrfs_ 	size = 0
+	csyrfs_                         
+
+csysv_  	size = 0
+	csysv_                          
+
+csysv_aa_	size = 0
+	csysv_aa_                       
+
+csysv_aa_2stage_	size = 0
+	csysv_aa_2stage_                
+
+csysv_rk_	size = 0
+	csysv_rk_                       
+
+csysv_rook_	size = 0
+	csysv_rook_                     
+
+csysvx_ 	size = 0
+	csysvx_                         
+
+csyswapr_	size = 0
+	csyswapr_                       
+
+csytf2_ 	size = 0
+	csytf2_                         
+
+csytf2_rk_	size = 0
+	csytf2_rk_                      
+
+csytf2_rook_	size = 0
+	csytf2_rook_                    
+
+csytrf_ 	size = 0
+	csytrf_                         
+
+csytrf_aa_	size = 0
+	csytrf_aa_                      
+
+csytrf_aa_2stage_	size = 0
+	csytrf_aa_2stage_               
+
+csytrf_rk_	size = 0
+	csytrf_rk_                      
+
+csytrf_rook_	size = 0
+	csytrf_rook_                    
+
+csytri2_	size = 0
+	csytri2_                        
+
+csytri2x_	size = 0
+	csytri2x_                       
+
+csytri_ 	size = 0
+	csytri_                         
+
+csytri_3_	size = 0
+	csytri_3_                       
+
+csytri_3x_	size = 0
+	csytri_3x_                      
+
+csytri_rook_	size = 0
+	csytri_rook_                    
+
+csytrs2_	size = 0
+	csytrs2_                        
+
+csytrs_ 	size = 0
+	csytrs_                         
+
+csytrs_3_	size = 0
+	csytrs_3_                       
+
+csytrs_aa_	size = 0
+	csytrs_aa_                      
+
+csytrs_aa_2stage_	size = 0
+	csytrs_aa_2stage_               
+
+csytrs_rook_	size = 0
+	csytrs_rook_                    
+
+ctbcon_ 	size = 0
+	ctbcon_                         
+
+ctbrfs_ 	size = 0
+	ctbrfs_                         
+
+ctbtrs_ 	size = 0
+	ctbtrs_                         
+
+ctfsm_  	size = 0
+	ctfsm_                          
+
+ctftri_ 	size = 0
+	ctftri_                         
+
+ctfttp_ 	size = 0
+	ctfttp_                         
+
+ctfttr_ 	size = 0
+	ctfttr_                         
+
+ctgevc_ 	size = 0
+	ctgevc_                         
+
+ctgex2_ 	size = 0
+	ctgex2_                         
+
+ctgexc_ 	size = 0
+	ctgexc_                         
+
+ctgsen_ 	size = 0
+	ctgsen_                         
+
+ctgsja_ 	size = 0
+	ctgsja_                         
+
+ctgsna_ 	size = 0
+	ctgsna_                         
+
+ctgsy2_ 	size = 0
+	ctgsy2_                         
+
+ctgsyl_ 	size = 0
+	ctgsyl_                         
+
+ctpcon_ 	size = 0
+	ctpcon_                         
+
+ctplqt2_	size = 0
+	ctplqt2_                        
+
+ctplqt_ 	size = 0
+	ctplqt_                         
+
+ctpmlqt_	size = 0
+	ctpmlqt_                        
+
+ctpmqrt_	size = 0
+	ctpmqrt_                        
+
+ctpqrt2_	size = 0
+	ctpqrt2_                        
+
+ctpqrt_ 	size = 0
+	ctpqrt_                         
+
+ctprfb_ 	size = 0
+	ctprfb_                         
+
+ctprfs_ 	size = 0
+	ctprfs_                         
+
+ctptri_ 	size = 0
+	ctptri_                         
+
+ctptrs_ 	size = 0
+	ctptrs_                         
+
+ctpttf_ 	size = 0
+	ctpttf_                         
+
+ctpttr_ 	size = 0
+	ctpttr_                         
+
+ctrcon_ 	size = 0
+	ctrcon_                         
+
+ctrevc3_	size = 0
+	ctrevc3_                        
+
+ctrevc_ 	size = 0
+	ctrevc_                         
+
+ctrexc_ 	size = 0
+	ctrexc_                         
+
+ctrrfs_ 	size = 0
+	ctrrfs_                         
+
+ctrsen_ 	size = 0
+	ctrsen_                         
+
+ctrsna_ 	size = 0
+	ctrsna_                         
+
+ctrsyl_ 	size = 0
+	ctrsyl_                         
+
+ctrti2_ 	size = 0
+	ctrti2_                         
+
+ctrtri_ 	size = 0
+	ctrtri_                         
+
+ctrtrs_ 	size = 0
+	ctrtrs_                         
+
+ctrttf_ 	size = 0
+	ctrttf_                         
+
+ctrttp_ 	size = 0
+	ctrttp_                         
+
+ctzrzf_ 	size = 0
+	ctzrzf_                         
+
+cunbdb1_	size = 0
+	cunbdb1_                        
+
+cunbdb2_	size = 0
+	cunbdb2_                        
+
+cunbdb3_	size = 0
+	cunbdb3_                        
+
+cunbdb4_	size = 0
+	cunbdb4_                        
+
+cunbdb5_	size = 0
+	cunbdb5_                        
+
+cunbdb6_	size = 0
+	cunbdb6_                        
+
+cunbdb_ 	size = 0
+	cunbdb_                         
+
+cuncsd2by1_	size = 0
+	cuncsd2by1_                     
+
+cuncsd_ 	size = 0
+	cuncsd_                         
+
+cung2l_ 	size = 0
+	cung2l_                         
+
+cung2r_ 	size = 0
+	cung2r_                         
+
+cungbr_ 	size = 0
+	cungbr_                         
+
+cunghr_ 	size = 0
+	cunghr_                         
+
+cungl2_ 	size = 0
+	cungl2_                         
+
+cunglq_ 	size = 0
+	cunglq_                         
+
+cungql_ 	size = 0
+	cungql_                         
+
+cungqr_ 	size = 0
+	cungqr_                         
+
+cungr2_ 	size = 0
+	cungr2_                         
+
+cungrq_ 	size = 0
+	cungrq_                         
+
+cungtr_ 	size = 0
+	cungtr_                         
+
+cunm22_ 	size = 0
+	cunm22_                         
+
+cunm2l_ 	size = 0
+	cunm2l_                         
+
+cunm2r_ 	size = 0
+	cunm2r_                         
+
+cunmbr_ 	size = 0
+	cunmbr_                         
+
+cunmhr_ 	size = 0
+	cunmhr_                         
+
+cunml2_ 	size = 0
+	cunml2_                         
+
+cunmlq_ 	size = 0
+	cunmlq_                         
+
+cunmql_ 	size = 0
+	cunmql_                         
+
+cunmqr_ 	size = 0
+	cunmqr_                         
+
+cunmr2_ 	size = 0
+	cunmr2_                         
+
+cunmr3_ 	size = 0
+	cunmr3_                         
+
+cunmrq_ 	size = 0
+	cunmrq_                         
+
+cunmrz_ 	size = 0
+	cunmrz_                         
+
+cunmtr_ 	size = 0
+	cunmtr_                         
+
+cupgtr_ 	size = 0
+	cupgtr_                         
+
+cupmtr_ 	size = 0
+	cupmtr_                         
+
+dbbcsd_ 	size = 0
+	dbbcsd_                         
+
+dbdsdc_ 	size = 0
+	dbdsdc_                         
+
+dbdsqr_ 	size = 0
+	dbdsqr_                         
+
+dbdsvdx_	size = 0
+	dbdsvdx_                        
+
+ddisna_ 	size = 0
+	ddisna_                         
+
+dgbbrd_ 	size = 0
+	dgbbrd_                         
+
+dgbcon_ 	size = 0
+	dgbcon_                         
+
+dgbequ_ 	size = 0
+	dgbequ_                         
+
+dgbequb_	size = 0
+	dgbequb_                        
+
+dgbrfs_ 	size = 0
+	dgbrfs_                         
+
+dgbsv_  	size = 0
+	dgbsv_                          
+
+dgbsvx_ 	size = 0
+	dgbsvx_                         
+
+dgbtf2_ 	size = 0
+	dgbtf2_                         
+
+dgbtrf_ 	size = 0
+	dgbtrf_                         
+
+dgbtrs_ 	size = 0
+	dgbtrs_                         
+
+dgebak_ 	size = 0
+	dgebak_                         
+
+dgebal_ 	size = 0
+	dgebal_                         
+
+dgebd2_ 	size = 0
+	dgebd2_                         
+
+dgebrd_ 	size = 0
+	dgebrd_                         
+
+dgecon_ 	size = 0
+	dgecon_                         
+
+dgeequ_ 	size = 0
+	dgeequ_                         
+
+dgeequb_	size = 0
+	dgeequb_                        
+
+dgees_  	size = 0
+	dgees_                          
+
+dgeesx_ 	size = 0
+	dgeesx_                         
+
+dgeev_  	size = 0
+	dgeev_                          
+
+dgeevx_ 	size = 0
+	dgeevx_                         
+
+dgehd2_ 	size = 0
+	dgehd2_                         
+
+dgehrd_ 	size = 0
+	dgehrd_                         
+
+dgejsv_ 	size = 0
+	dgejsv_                         
+
+dgelq2_ 	size = 0
+	dgelq2_                         
+
+dgelq_  	size = 0
+	dgelq_                          
+
+dgelqf_ 	size = 0
+	dgelqf_                         
+
+dgelqt3_	size = 0
+	dgelqt3_                        
+
+dgelqt_ 	size = 0
+	dgelqt_                         
+
+dgels_  	size = 0
+	dgels_                          
+
+dgelsd_ 	size = 0
+	dgelsd_                         
+
+dgelss_ 	size = 0
+	dgelss_                         
+
+dgelsy_ 	size = 0
+	dgelsy_                         
+
+dgemlq_ 	size = 0
+	dgemlq_                         
+
+dgemlqt_	size = 0
+	dgemlqt_                        
+
+dgemqr_ 	size = 0
+	dgemqr_                         
+
+dgemqrt_	size = 0
+	dgemqrt_                        
+
+dgeql2_ 	size = 0
+	dgeql2_                         
+
+dgeqlf_ 	size = 0
+	dgeqlf_                         
+
+dgeqp3_ 	size = 0
+	dgeqp3_                         
+
+dgeqr2_ 	size = 0
+	dgeqr2_                         
+
+dgeqr2p_	size = 0
+	dgeqr2p_                        
+
+dgeqr_  	size = 0
+	dgeqr_                          
+
+dgeqrf_ 	size = 0
+	dgeqrf_                         
+
+dgeqrfp_	size = 0
+	dgeqrfp_                        
+
+dgeqrt2_	size = 0
+	dgeqrt2_                        
+
+dgeqrt3_	size = 0
+	dgeqrt3_                        
+
+dgeqrt_ 	size = 0
+	dgeqrt_                         
+
+dgerfs_ 	size = 0
+	dgerfs_                         
+
+dgerq2_ 	size = 0
+	dgerq2_                         
+
+dgerqf_ 	size = 0
+	dgerqf_                         
+
+dgesc2_ 	size = 0
+	dgesc2_                         
+
+dgesdd_ 	size = 0
+	dgesdd_                         
+
+dgesv_  	size = 0
+	dgesv_                          
+
+dgesvd_ 	size = 0
+	dgesvd_                         
+
+dgesvdx_	size = 0
+	dgesvdx_                        
+
+dgesvj_ 	size = 0
+	dgesvj_                         
+
+dgesvx_ 	size = 0
+	dgesvx_                         
+
+dgetc2_ 	size = 0
+	dgetc2_                         
+
+dgetf2_ 	size = 0
+	dgetf2_                         
+
+dgetrf2_	size = 0
+	dgetrf2_                        
+
+dgetrf_ 	size = 0
+	dgetrf_                         
+
+dgetri_ 	size = 0
+	dgetri_                         
+
+dgetrs_ 	size = 0
+	dgetrs_                         
+
+dgetsls_	size = 0
+	dgetsls_                        
+
+dggbak_ 	size = 0
+	dggbak_                         
+
+dggbal_ 	size = 0
+	dggbal_                         
+
+dgges3_ 	size = 0
+	dgges3_                         
+
+dgges_  	size = 0
+	dgges_                          
+
+dggesx_ 	size = 0
+	dggesx_                         
+
+dggev3_ 	size = 0
+	dggev3_                         
+
+dggev_  	size = 0
+	dggev_                          
+
+dggevx_ 	size = 0
+	dggevx_                         
+
+dggglm_ 	size = 0
+	dggglm_                         
+
+dgghd3_ 	size = 0
+	dgghd3_                         
+
+dgghrd_ 	size = 0
+	dgghrd_                         
+
+dgglse_ 	size = 0
+	dgglse_                         
+
+dggqrf_ 	size = 0
+	dggqrf_                         
+
+dggrqf_ 	size = 0
+	dggrqf_                         
+
+dggsvd3_	size = 0
+	dggsvd3_                        
+
+dggsvp3_	size = 0
+	dggsvp3_                        
+
+dgsvj0_ 	size = 0
+	dgsvj0_                         
+
+dgsvj1_ 	size = 0
+	dgsvj1_                         
+
+dgtcon_ 	size = 0
+	dgtcon_                         
+
+dgtrfs_ 	size = 0
+	dgtrfs_                         
+
+dgtsv_  	size = 0
+	dgtsv_                          
+
+dgtsvx_ 	size = 0
+	dgtsvx_                         
+
+dgttrf_ 	size = 0
+	dgttrf_                         
+
+dgttrs_ 	size = 0
+	dgttrs_                         
+
+dgtts2_ 	size = 0
+	dgtts2_                         
+
+dhgeqz_ 	size = 0
+	dhgeqz_                         
+
+dhsein_ 	size = 0
+	dhsein_                         
+
+dhseqr_ 	size = 0
+	dhseqr_                         
+
+disnan_ 	size = 0
+	disnan_                         
+
+dlabad_ 	size = 0
+	dlabad_                         
+
+dlabrd_ 	size = 0
+	dlabrd_                         
+
+dlacn2_ 	size = 0
+	dlacn2_                         
+
+dlacon_ 	size = 0
+	dlacon_                         
+
+dlacpy_ 	size = 0
+	dlacpy_                         
+
+dladiv1_	size = 0
+	dladiv1_                        
+
+dladiv2_	size = 0
+	dladiv2_                        
+
+dladiv_ 	size = 0
+	dladiv_                         
+
+dlae2_  	size = 0
+	dlae2_                          
+
+dlaebz_ 	size = 0
+	dlaebz_                         
+
+dlaed0_ 	size = 0
+	dlaed0_                         
+
+dlaed1_ 	size = 0
+	dlaed1_                         
+
+dlaed2_ 	size = 0
+	dlaed2_                         
+
+dlaed3_ 	size = 0
+	dlaed3_                         
+
+dlaed4_ 	size = 0
+	dlaed4_                         
+
+dlaed5_ 	size = 0
+	dlaed5_                         
+
+dlaed6_ 	size = 0
+	dlaed6_                         
+
+dlaed7_ 	size = 0
+	dlaed7_                         
+
+dlaed8_ 	size = 0
+	dlaed8_                         
+
+dlaed9_ 	size = 0
+	dlaed9_                         
+
+dlaeda_ 	size = 0
+	dlaeda_                         
+
+dlaein_ 	size = 0
+	dlaein_                         
+
+dlaev2_ 	size = 0
+	dlaev2_                         
+
+dlaexc_ 	size = 0
+	dlaexc_                         
+
+dlag2_  	size = 0
+	dlag2_                          
+
+dlag2s_ 	size = 0
+	dlag2s_                         
+
+dlags2_ 	size = 0
+	dlags2_                         
+
+dlagtf_ 	size = 0
+	dlagtf_                         
+
+dlagtm_ 	size = 0
+	dlagtm_                         
+
+dlagts_ 	size = 0
+	dlagts_                         
+
+dlagv2_ 	size = 0
+	dlagv2_                         
+
+dlahqr_ 	size = 0
+	dlahqr_                         
+
+dlahr2_ 	size = 0
+	dlahr2_                         
+
+dlaic1_ 	size = 0
+	dlaic1_                         
+
+dlaisnan_	size = 0
+	dlaisnan_                       
+
+dlaln2_ 	size = 0
+	dlaln2_                         
+
+dlals0_ 	size = 0
+	dlals0_                         
+
+dlalsa_ 	size = 0
+	dlalsa_                         
+
+dlalsd_ 	size = 0
+	dlalsd_                         
+
+dlamc3_ 	size = 0
+	dlamc3_                         
+
+dlamch_ 	size = 0
+	dlamch_                         
+
+dlamrg_ 	size = 0
+	dlamrg_                         
+
+dlamswlq_	size = 0
+	dlamswlq_                       
+
+dlamtsqr_	size = 0
+	dlamtsqr_                       
+
+dlaneg_ 	size = 0
+	dlaneg_                         
+
+dlangb_ 	size = 0
+	dlangb_                         
+
+dlange_ 	size = 0
+	dlange_                         
+
+dlangt_ 	size = 0
+	dlangt_                         
+
+dlanhs_ 	size = 0
+	dlanhs_                         
+
+dlansb_ 	size = 0
+	dlansb_                         
+
+dlansf_ 	size = 0
+	dlansf_                         
+
+dlansp_ 	size = 0
+	dlansp_                         
+
+dlanst_ 	size = 0
+	dlanst_                         
+
+dlansy_ 	size = 0
+	dlansy_                         
+
+dlantb_ 	size = 0
+	dlantb_                         
+
+dlantp_ 	size = 0
+	dlantp_                         
+
+dlantr_ 	size = 0
+	dlantr_                         
+
+dlanv2_ 	size = 0
+	dlanv2_                         
+
+dlapll_ 	size = 0
+	dlapll_                         
+
+dlapmr_ 	size = 0
+	dlapmr_                         
+
+dlapmt_ 	size = 0
+	dlapmt_                         
+
+dlapy2_ 	size = 0
+	dlapy2_                         
+
+dlapy3_ 	size = 0
+	dlapy3_                         
+
+dlaqgb_ 	size = 0
+	dlaqgb_                         
+
+dlaqge_ 	size = 0
+	dlaqge_                         
+
+dlaqp2_ 	size = 0
+	dlaqp2_                         
+
+dlaqps_ 	size = 0
+	dlaqps_                         
+
+dlaqr0_ 	size = 0
+	dlaqr0_                         
+
+dlaqr1_ 	size = 0
+	dlaqr1_                         
+
+dlaqr2_ 	size = 0
+	dlaqr2_                         
+
+dlaqr3_ 	size = 0
+	dlaqr3_                         
+
+dlaqr4_ 	size = 0
+	dlaqr4_                         
+
+dlaqr5_ 	size = 0
+	dlaqr5_                         
+
+dlaqsb_ 	size = 0
+	dlaqsb_                         
+
+dlaqsp_ 	size = 0
+	dlaqsp_                         
+
+dlaqsy_ 	size = 0
+	dlaqsy_                         
+
+dlaqtr_ 	size = 0
+	dlaqtr_                         
+
+dlar1v_ 	size = 0
+	dlar1v_                         
+
+dlar2v_ 	size = 0
+	dlar2v_                         
+
+dlarf_  	size = 0
+	dlarf_                          
+
+dlarfb_ 	size = 0
+	dlarfb_                         
+
+dlarfg_ 	size = 0
+	dlarfg_                         
+
+dlarfgp_	size = 0
+	dlarfgp_                        
+
+dlarft_ 	size = 0
+	dlarft_                         
+
+dlarfx_ 	size = 0
+	dlarfx_                         
+
+dlarfy_ 	size = 0
+	dlarfy_                         
+
+dlargv_ 	size = 0
+	dlargv_                         
+
+dlarnv_ 	size = 0
+	dlarnv_                         
+
+dlarra_ 	size = 0
+	dlarra_                         
+
+dlarrb_ 	size = 0
+	dlarrb_                         
+
+dlarrc_ 	size = 0
+	dlarrc_                         
+
+dlarrd_ 	size = 0
+	dlarrd_                         
+
+dlarre_ 	size = 0
+	dlarre_                         
+
+dlarrf_ 	size = 0
+	dlarrf_                         
+
+dlarrj_ 	size = 0
+	dlarrj_                         
+
+dlarrk_ 	size = 0
+	dlarrk_                         
+
+dlarrr_ 	size = 0
+	dlarrr_                         
+
+dlarrv_ 	size = 0
+	dlarrv_                         
+
+dlartg_ 	size = 0
+	dlartg_                         
+
+dlartgp_	size = 0
+	dlartgp_                        
+
+dlartgs_	size = 0
+	dlartgs_                        
+
+dlartv_ 	size = 0
+	dlartv_                         
+
+dlaruv_ 	size = 0
+	dlaruv_                         
+
+dlarz_  	size = 0
+	dlarz_                          
+
+dlarzb_ 	size = 0
+	dlarzb_                         
+
+dlarzt_ 	size = 0
+	dlarzt_                         
+
+dlas2_  	size = 0
+	dlas2_                          
+
+dlascl_ 	size = 0
+	dlascl_                         
+
+dlasd0_ 	size = 0
+	dlasd0_                         
+
+dlasd1_ 	size = 0
+	dlasd1_                         
+
+dlasd2_ 	size = 0
+	dlasd2_                         
+
+dlasd3_ 	size = 0
+	dlasd3_                         
+
+dlasd4_ 	size = 0
+	dlasd4_                         
+
+dlasd5_ 	size = 0
+	dlasd5_                         
+
+dlasd6_ 	size = 0
+	dlasd6_                         
+
+dlasd7_ 	size = 0
+	dlasd7_                         
+
+dlasd8_ 	size = 0
+	dlasd8_                         
+
+dlasda_ 	size = 0
+	dlasda_                         
+
+dlasdq_ 	size = 0
+	dlasdq_                         
+
+dlasdt_ 	size = 0
+	dlasdt_                         
+
+dlaset_ 	size = 0
+	dlaset_                         
+
+dlasq1_ 	size = 0
+	dlasq1_                         
+
+dlasq2_ 	size = 0
+	dlasq2_                         
+
+dlasq3_ 	size = 0
+	dlasq3_                         
+
+dlasq4_ 	size = 0
+	dlasq4_                         
+
+dlasq5_ 	size = 0
+	dlasq5_                         
+
+dlasq6_ 	size = 0
+	dlasq6_                         
+
+dlasr_  	size = 0
+	dlasr_                          
+
+dlasrt_ 	size = 0
+	dlasrt_                         
+
+dlassq_ 	size = 0
+	dlassq_                         
+
+dlasv2_ 	size = 0
+	dlasv2_                         
+
+dlaswlq_	size = 0
+	dlaswlq_                        
+
+dlaswp_ 	size = 0
+	dlaswp_                         
+
+dlasy2_ 	size = 0
+	dlasy2_                         
+
+dlasyf_ 	size = 0
+	dlasyf_                         
+
+dlasyf_aa_	size = 0
+	dlasyf_aa_                      
+
+dlasyf_rk_	size = 0
+	dlasyf_rk_                      
+
+dlasyf_rook_	size = 0
+	dlasyf_rook_                    
+
+dlat2s_ 	size = 0
+	dlat2s_                         
+
+dlatbs_ 	size = 0
+	dlatbs_                         
+
+dlatdf_ 	size = 0
+	dlatdf_                         
+
+dlatps_ 	size = 0
+	dlatps_                         
+
+dlatrd_ 	size = 0
+	dlatrd_                         
+
+dlatrs_ 	size = 0
+	dlatrs_                         
+
+dlatrz_ 	size = 0
+	dlatrz_                         
+
+dlatsqr_	size = 0
+	dlatsqr_                        
+
+dlauu2_ 	size = 0
+	dlauu2_                         
+
+dlauum_ 	size = 0
+	dlauum_                         
+
+dopgtr_ 	size = 0
+	dopgtr_                         
+
+dopmtr_ 	size = 0
+	dopmtr_                         
+
+dorbdb1_	size = 0
+	dorbdb1_                        
+
+dorbdb2_	size = 0
+	dorbdb2_                        
+
+dorbdb3_	size = 0
+	dorbdb3_                        
+
+dorbdb4_	size = 0
+	dorbdb4_                        
+
+dorbdb5_	size = 0
+	dorbdb5_                        
+
+dorbdb6_	size = 0
+	dorbdb6_                        
+
+dorbdb_ 	size = 0
+	dorbdb_                         
+
+dorcsd2by1_	size = 0
+	dorcsd2by1_                     
+
+dorcsd_ 	size = 0
+	dorcsd_                         
+
+dorg2l_ 	size = 0
+	dorg2l_                         
+
+dorg2r_ 	size = 0
+	dorg2r_                         
+
+dorgbr_ 	size = 0
+	dorgbr_                         
+
+dorghr_ 	size = 0
+	dorghr_                         
+
+dorgl2_ 	size = 0
+	dorgl2_                         
+
+dorglq_ 	size = 0
+	dorglq_                         
+
+dorgql_ 	size = 0
+	dorgql_                         
+
+dorgqr_ 	size = 0
+	dorgqr_                         
+
+dorgr2_ 	size = 0
+	dorgr2_                         
+
+dorgrq_ 	size = 0
+	dorgrq_                         
+
+dorgtr_ 	size = 0
+	dorgtr_                         
+
+dorm22_ 	size = 0
+	dorm22_                         
+
+dorm2l_ 	size = 0
+	dorm2l_                         
+
+dorm2r_ 	size = 0
+	dorm2r_                         
+
+dormbr_ 	size = 0
+	dormbr_                         
+
+dormhr_ 	size = 0
+	dormhr_                         
+
+dorml2_ 	size = 0
+	dorml2_                         
+
+dormlq_ 	size = 0
+	dormlq_                         
+
+dormql_ 	size = 0
+	dormql_                         
+
+dormqr_ 	size = 0
+	dormqr_                         
+
+dormr2_ 	size = 0
+	dormr2_                         
+
+dormr3_ 	size = 0
+	dormr3_                         
+
+dormrq_ 	size = 0
+	dormrq_                         
+
+dormrz_ 	size = 0
+	dormrz_                         
+
+dormtr_ 	size = 0
+	dormtr_                         
+
+dpbcon_ 	size = 0
+	dpbcon_                         
+
+dpbequ_ 	size = 0
+	dpbequ_                         
+
+dpbrfs_ 	size = 0
+	dpbrfs_                         
+
+dpbstf_ 	size = 0
+	dpbstf_                         
+
+dpbsv_  	size = 0
+	dpbsv_                          
+
+dpbsvx_ 	size = 0
+	dpbsvx_                         
+
+dpbtf2_ 	size = 0
+	dpbtf2_                         
+
+dpbtrf_ 	size = 0
+	dpbtrf_                         
+
+dpbtrs_ 	size = 0
+	dpbtrs_                         
+
+dpftrf_ 	size = 0
+	dpftrf_                         
+
+dpftri_ 	size = 0
+	dpftri_                         
+
+dpftrs_ 	size = 0
+	dpftrs_                         
+
+dpocon_ 	size = 0
+	dpocon_                         
+
+dpoequ_ 	size = 0
+	dpoequ_                         
+
+dpoequb_	size = 0
+	dpoequb_                        
+
+dporfs_ 	size = 0
+	dporfs_                         
+
+dposv_  	size = 0
+	dposv_                          
+
+dposvx_ 	size = 0
+	dposvx_                         
+
+dpotf2_ 	size = 0
+	dpotf2_                         
+
+dpotrf2_	size = 0
+	dpotrf2_                        
+
+dpotrf_ 	size = 0
+	dpotrf_                         
+
+dpotri_ 	size = 0
+	dpotri_                         
+
+dpotrs_ 	size = 0
+	dpotrs_                         
+
+dppcon_ 	size = 0
+	dppcon_                         
+
+dppequ_ 	size = 0
+	dppequ_                         
+
+dpprfs_ 	size = 0
+	dpprfs_                         
+
+dppsv_  	size = 0
+	dppsv_                          
+
+dppsvx_ 	size = 0
+	dppsvx_                         
+
+dpptrf_ 	size = 0
+	dpptrf_                         
+
+dpptri_ 	size = 0
+	dpptri_                         
+
+dpptrs_ 	size = 0
+	dpptrs_                         
+
+dpstf2_ 	size = 0
+	dpstf2_                         
+
+dpstrf_ 	size = 0
+	dpstrf_                         
+
+dptcon_ 	size = 0
+	dptcon_                         
+
+dpteqr_ 	size = 0
+	dpteqr_                         
+
+dptrfs_ 	size = 0
+	dptrfs_                         
+
+dptsv_  	size = 0
+	dptsv_                          
+
+dptsvx_ 	size = 0
+	dptsvx_                         
+
+dpttrf_ 	size = 0
+	dpttrf_                         
+
+dpttrs_ 	size = 0
+	dpttrs_                         
+
+dptts2_ 	size = 0
+	dptts2_                         
+
+drscl_  	size = 0
+	drscl_                          
+
+dsb2st_kernels_	size = 0
+	dsb2st_kernels_                 
+
+dsbev_  	size = 0
+	dsbev_                          
+
+dsbev_2stage_	size = 0
+	dsbev_2stage_                   
+
+dsbevd_ 	size = 0
+	dsbevd_                         
+
+dsbevd_2stage_	size = 0
+	dsbevd_2stage_                  
+
+dsbevx_ 	size = 0
+	dsbevx_                         
+
+dsbevx_2stage_	size = 0
+	dsbevx_2stage_                  
+
+dsbgst_ 	size = 0
+	dsbgst_                         
+
+dsbgv_  	size = 0
+	dsbgv_                          
+
+dsbgvd_ 	size = 0
+	dsbgvd_                         
+
+dsbgvx_ 	size = 0
+	dsbgvx_                         
+
+dsbtrd_ 	size = 0
+	dsbtrd_                         
+
+dsecnd_ 	size = 0
+	dsecnd_                         
+
+dsfrk_  	size = 0
+	dsfrk_                          
+
+dsgesv_ 	size = 0
+	dsgesv_                         
+
+dspcon_ 	size = 0
+	dspcon_                         
+
+dspev_  	size = 0
+	dspev_                          
+
+dspevd_ 	size = 0
+	dspevd_                         
+
+dspevx_ 	size = 0
+	dspevx_                         
+
+dspgst_ 	size = 0
+	dspgst_                         
+
+dspgv_  	size = 0
+	dspgv_                          
+
+dspgvd_ 	size = 0
+	dspgvd_                         
+
+dspgvx_ 	size = 0
+	dspgvx_                         
+
+dsposv_ 	size = 0
+	dsposv_                         
+
+dsprfs_ 	size = 0
+	dsprfs_                         
+
+dspsv_  	size = 0
+	dspsv_                          
+
+dspsvx_ 	size = 0
+	dspsvx_                         
+
+dsptrd_ 	size = 0
+	dsptrd_                         
+
+dsptrf_ 	size = 0
+	dsptrf_                         
+
+dsptri_ 	size = 0
+	dsptri_                         
+
+dsptrs_ 	size = 0
+	dsptrs_                         
+
+dstebz_ 	size = 0
+	dstebz_                         
+
+dstedc_ 	size = 0
+	dstedc_                         
+
+dstegr_ 	size = 0
+	dstegr_                         
+
+dstein_ 	size = 0
+	dstein_                         
+
+dstemr_ 	size = 0
+	dstemr_                         
+
+dsteqr_ 	size = 0
+	dsteqr_                         
+
+dsterf_ 	size = 0
+	dsterf_                         
+
+dstev_  	size = 0
+	dstev_                          
+
+dstevd_ 	size = 0
+	dstevd_                         
+
+dstevr_ 	size = 0
+	dstevr_                         
+
+dstevx_ 	size = 0
+	dstevx_                         
+
+dsycon_ 	size = 0
+	dsycon_                         
+
+dsycon_3_	size = 0
+	dsycon_3_                       
+
+dsycon_rook_	size = 0
+	dsycon_rook_                    
+
+dsyconv_	size = 0
+	dsyconv_                        
+
+dsyconvf_	size = 0
+	dsyconvf_                       
+
+dsyconvf_rook_	size = 0
+	dsyconvf_rook_                  
+
+dsyequb_	size = 0
+	dsyequb_                        
+
+dsyev_  	size = 0
+	dsyev_                          
+
+dsyev_2stage_	size = 0
+	dsyev_2stage_                   
+
+dsyevd_ 	size = 0
+	dsyevd_                         
+
+dsyevd_2stage_	size = 0
+	dsyevd_2stage_                  
+
+dsyevr_ 	size = 0
+	dsyevr_                         
+
+dsyevr_2stage_	size = 0
+	dsyevr_2stage_                  
+
+dsyevx_ 	size = 0
+	dsyevx_                         
+
+dsyevx_2stage_	size = 0
+	dsyevx_2stage_                  
+
+dsygs2_ 	size = 0
+	dsygs2_                         
+
+dsygst_ 	size = 0
+	dsygst_                         
+
+dsygv_  	size = 0
+	dsygv_                          
+
+dsygv_2stage_	size = 0
+	dsygv_2stage_                   
+
+dsygvd_ 	size = 0
+	dsygvd_                         
+
+dsygvx_ 	size = 0
+	dsygvx_                         
+
+dsyrfs_ 	size = 0
+	dsyrfs_                         
+
+dsysv_  	size = 0
+	dsysv_                          
+
+dsysv_aa_	size = 0
+	dsysv_aa_                       
+
+dsysv_aa_2stage_	size = 0
+	dsysv_aa_2stage_                
+
+dsysv_rk_	size = 0
+	dsysv_rk_                       
+
+dsysv_rook_	size = 0
+	dsysv_rook_                     
+
+dsysvx_ 	size = 0
+	dsysvx_                         
+
+dsyswapr_	size = 0
+	dsyswapr_                       
+
+dsytd2_ 	size = 0
+	dsytd2_                         
+
+dsytf2_ 	size = 0
+	dsytf2_                         
+
+dsytf2_rk_	size = 0
+	dsytf2_rk_                      
+
+dsytf2_rook_	size = 0
+	dsytf2_rook_                    
+
+dsytrd_ 	size = 0
+	dsytrd_                         
+
+dsytrd_2stage_	size = 0
+	dsytrd_2stage_                  
+
+dsytrd_sb2st_	size = 0
+	dsytrd_sb2st_                   
+
+dsytrd_sy2sb_	size = 0
+	dsytrd_sy2sb_                   
+
+dsytrf_ 	size = 0
+	dsytrf_                         
+
+dsytrf_aa_	size = 0
+	dsytrf_aa_                      
+
+dsytrf_aa_2stage_	size = 0
+	dsytrf_aa_2stage_               
+
+dsytrf_rk_	size = 0
+	dsytrf_rk_                      
+
+dsytrf_rook_	size = 0
+	dsytrf_rook_                    
+
+dsytri2_	size = 0
+	dsytri2_                        
+
+dsytri2x_	size = 0
+	dsytri2x_                       
+
+dsytri_ 	size = 0
+	dsytri_                         
+
+dsytri_3_	size = 0
+	dsytri_3_                       
+
+dsytri_3x_	size = 0
+	dsytri_3x_                      
+
+dsytri_rook_	size = 0
+	dsytri_rook_                    
+
+dsytrs2_	size = 0
+	dsytrs2_                        
+
+dsytrs_ 	size = 0
+	dsytrs_                         
+
+dsytrs_3_	size = 0
+	dsytrs_3_                       
+
+dsytrs_aa_	size = 0
+	dsytrs_aa_                      
+
+dsytrs_aa_2stage_	size = 0
+	dsytrs_aa_2stage_               
+
+dsytrs_rook_	size = 0
+	dsytrs_rook_                    
+
+dtbcon_ 	size = 0
+	dtbcon_                         
+
+dtbrfs_ 	size = 0
+	dtbrfs_                         
+
+dtbtrs_ 	size = 0
+	dtbtrs_                         
+
+dtfsm_  	size = 0
+	dtfsm_                          
+
+dtftri_ 	size = 0
+	dtftri_                         
+
+dtfttp_ 	size = 0
+	dtfttp_                         
+
+dtfttr_ 	size = 0
+	dtfttr_                         
+
+dtgevc_ 	size = 0
+	dtgevc_                         
+
+dtgex2_ 	size = 0
+	dtgex2_                         
+
+dtgexc_ 	size = 0
+	dtgexc_                         
+
+dtgsen_ 	size = 0
+	dtgsen_                         
+
+dtgsja_ 	size = 0
+	dtgsja_                         
+
+dtgsna_ 	size = 0
+	dtgsna_                         
+
+dtgsy2_ 	size = 0
+	dtgsy2_                         
+
+dtgsyl_ 	size = 0
+	dtgsyl_                         
+
+dtpcon_ 	size = 0
+	dtpcon_                         
+
+dtplqt2_	size = 0
+	dtplqt2_                        
+
+dtplqt_ 	size = 0
+	dtplqt_                         
+
+dtpmlqt_	size = 0
+	dtpmlqt_                        
+
+dtpmqrt_	size = 0
+	dtpmqrt_                        
+
+dtpqrt2_	size = 0
+	dtpqrt2_                        
+
+dtpqrt_ 	size = 0
+	dtpqrt_                         
+
+dtprfb_ 	size = 0
+	dtprfb_                         
+
+dtprfs_ 	size = 0
+	dtprfs_                         
+
+dtptri_ 	size = 0
+	dtptri_                         
+
+dtptrs_ 	size = 0
+	dtptrs_                         
+
+dtpttf_ 	size = 0
+	dtpttf_                         
+
+dtpttr_ 	size = 0
+	dtpttr_                         
+
+dtrcon_ 	size = 0
+	dtrcon_                         
+
+dtrevc3_	size = 0
+	dtrevc3_                        
+
+dtrevc_ 	size = 0
+	dtrevc_                         
+
+dtrexc_ 	size = 0
+	dtrexc_                         
+
+dtrrfs_ 	size = 0
+	dtrrfs_                         
+
+dtrsen_ 	size = 0
+	dtrsen_                         
+
+dtrsna_ 	size = 0
+	dtrsna_                         
+
+dtrsyl_ 	size = 0
+	dtrsyl_                         
+
+dtrti2_ 	size = 0
+	dtrti2_                         
+
+dtrtri_ 	size = 0
+	dtrtri_                         
+
+dtrtrs_ 	size = 0
+	dtrtrs_                         
+
+dtrttf_ 	size = 0
+	dtrttf_                         
+
+dtrttp_ 	size = 0
+	dtrttp_                         
+
+dtzrzf_ 	size = 0
+	dtzrzf_                         
+
+dzsum1_ 	size = 0
+	dzsum1_                         
+
+icmax1_ 	size = 0
+	icmax1_                         
+
+ieeeck_ 	size = 0
+	ieeeck_                         
+
+ilaclc_ 	size = 0
+	ilaclc_                         
+
+ilaclr_ 	size = 0
+	ilaclr_                         
+
+iladiag_	size = 0
+	iladiag_                        
+
+iladlc_ 	size = 0
+	iladlc_                         
+
+iladlr_ 	size = 0
+	iladlr_                         
+
+ilaenv2stage_	size = 0
+	ilaenv2stage_                   
+
+ilaenv_ 	size = 0
+	ilaenv_                         
+
+ilaprec_	size = 0
+	ilaprec_                        
+
+ilaslc_ 	size = 0
+	ilaslc_                         
+
+ilaslr_ 	size = 0
+	ilaslr_                         
+
+ilatrans_	size = 0
+	ilatrans_                       
+
+ilauplo_	size = 0
+	ilauplo_                        
+
+ilaver_ 	size = 0
+	ilaver_                         
+
+ilazlc_ 	size = 0
+	ilazlc_                         
+
+ilazlr_ 	size = 0
+	ilazlr_                         
+
+iparam2stage_	size = 0
+	iparam2stage_                   
+
+iparmq_ 	size = 0
+	iparmq_                         
+
+izmax1_ 	size = 0
+	izmax1_                         
+
+lsame_  	size = 0
+	lsame_                          
+
+lsamen_ 	size = 0
+	lsamen_                         
+
+sbbcsd_ 	size = 0
+	sbbcsd_                         
+
+sbdsdc_ 	size = 0
+	sbdsdc_                         
+
+sbdsqr_ 	size = 0
+	sbdsqr_                         
+
+sbdsvdx_	size = 0
+	sbdsvdx_                        
+
+scsum1_ 	size = 0
+	scsum1_                         
+
+sdisna_ 	size = 0
+	sdisna_                         
+
+second_ 	size = 0
+	second_                         
+
+sgbbrd_ 	size = 0
+	sgbbrd_                         
+
+sgbcon_ 	size = 0
+	sgbcon_                         
+
+sgbequ_ 	size = 0
+	sgbequ_                         
+
+sgbequb_	size = 0
+	sgbequb_                        
+
+sgbrfs_ 	size = 0
+	sgbrfs_                         
+
+sgbsv_  	size = 0
+	sgbsv_                          
+
+sgbsvx_ 	size = 0
+	sgbsvx_                         
+
+sgbtf2_ 	size = 0
+	sgbtf2_                         
+
+sgbtrf_ 	size = 0
+	sgbtrf_                         
+
+sgbtrs_ 	size = 0
+	sgbtrs_                         
+
+sgebak_ 	size = 0
+	sgebak_                         
+
+sgebal_ 	size = 0
+	sgebal_                         
+
+sgebd2_ 	size = 0
+	sgebd2_                         
+
+sgebrd_ 	size = 0
+	sgebrd_                         
+
+sgecon_ 	size = 0
+	sgecon_                         
+
+sgeequ_ 	size = 0
+	sgeequ_                         
+
+sgeequb_	size = 0
+	sgeequb_                        
+
+sgees_  	size = 0
+	sgees_                          
+
+sgeesx_ 	size = 0
+	sgeesx_                         
+
+sgeev_  	size = 0
+	sgeev_                          
+
+sgeevx_ 	size = 0
+	sgeevx_                         
+
+sgehd2_ 	size = 0
+	sgehd2_                         
+
+sgehrd_ 	size = 0
+	sgehrd_                         
+
+sgejsv_ 	size = 0
+	sgejsv_                         
+
+sgelq2_ 	size = 0
+	sgelq2_                         
+
+sgelq_  	size = 0
+	sgelq_                          
+
+sgelqf_ 	size = 0
+	sgelqf_                         
+
+sgelqt3_	size = 0
+	sgelqt3_                        
+
+sgelqt_ 	size = 0
+	sgelqt_                         
+
+sgels_  	size = 0
+	sgels_                          
+
+sgelsd_ 	size = 0
+	sgelsd_                         
+
+sgelss_ 	size = 0
+	sgelss_                         
+
+sgelsy_ 	size = 0
+	sgelsy_                         
+
+sgemlq_ 	size = 0
+	sgemlq_                         
+
+sgemlqt_	size = 0
+	sgemlqt_                        
+
+sgemqr_ 	size = 0
+	sgemqr_                         
+
+sgemqrt_	size = 0
+	sgemqrt_                        
+
+sgeql2_ 	size = 0
+	sgeql2_                         
+
+sgeqlf_ 	size = 0
+	sgeqlf_                         
+
+sgeqp3_ 	size = 0
+	sgeqp3_                         
+
+sgeqr2_ 	size = 0
+	sgeqr2_                         
+
+sgeqr2p_	size = 0
+	sgeqr2p_                        
+
+sgeqr_  	size = 0
+	sgeqr_                          
+
+sgeqrf_ 	size = 0
+	sgeqrf_                         
+
+sgeqrfp_	size = 0
+	sgeqrfp_                        
+
+sgeqrt2_	size = 0
+	sgeqrt2_                        
+
+sgeqrt3_	size = 0
+	sgeqrt3_                        
+
+sgeqrt_ 	size = 0
+	sgeqrt_                         
+
+sgerfs_ 	size = 0
+	sgerfs_                         
+
+sgerq2_ 	size = 0
+	sgerq2_                         
+
+sgerqf_ 	size = 0
+	sgerqf_                         
+
+sgesc2_ 	size = 0
+	sgesc2_                         
+
+sgesdd_ 	size = 0
+	sgesdd_                         
+
+sgesv_  	size = 0
+	sgesv_                          
+
+sgesvd_ 	size = 0
+	sgesvd_                         
+
+sgesvdx_	size = 0
+	sgesvdx_                        
+
+sgesvj_ 	size = 0
+	sgesvj_                         
+
+sgesvx_ 	size = 0
+	sgesvx_                         
+
+sgetc2_ 	size = 0
+	sgetc2_                         
+
+sgetf2_ 	size = 0
+	sgetf2_                         
+
+sgetrf2_	size = 0
+	sgetrf2_                        
+
+sgetrf_ 	size = 0
+	sgetrf_                         
+
+sgetri_ 	size = 0
+	sgetri_                         
+
+sgetrs_ 	size = 0
+	sgetrs_                         
+
+sgetsls_	size = 0
+	sgetsls_                        
+
+sggbak_ 	size = 0
+	sggbak_                         
+
+sggbal_ 	size = 0
+	sggbal_                         
+
+sgges3_ 	size = 0
+	sgges3_                         
+
+sgges_  	size = 0
+	sgges_                          
+
+sggesx_ 	size = 0
+	sggesx_                         
+
+sggev3_ 	size = 0
+	sggev3_                         
+
+sggev_  	size = 0
+	sggev_                          
+
+sggevx_ 	size = 0
+	sggevx_                         
+
+sggglm_ 	size = 0
+	sggglm_                         
+
+sgghd3_ 	size = 0
+	sgghd3_                         
+
+sgghrd_ 	size = 0
+	sgghrd_                         
+
+sgglse_ 	size = 0
+	sgglse_                         
+
+sggqrf_ 	size = 0
+	sggqrf_                         
+
+sggrqf_ 	size = 0
+	sggrqf_                         
+
+sggsvd3_	size = 0
+	sggsvd3_                        
+
+sggsvp3_	size = 0
+	sggsvp3_                        
+
+sgsvj0_ 	size = 0
+	sgsvj0_                         
+
+sgsvj1_ 	size = 0
+	sgsvj1_                         
+
+sgtcon_ 	size = 0
+	sgtcon_                         
+
+sgtrfs_ 	size = 0
+	sgtrfs_                         
+
+sgtsv_  	size = 0
+	sgtsv_                          
+
+sgtsvx_ 	size = 0
+	sgtsvx_                         
+
+sgttrf_ 	size = 0
+	sgttrf_                         
+
+sgttrs_ 	size = 0
+	sgttrs_                         
+
+sgtts2_ 	size = 0
+	sgtts2_                         
+
+shgeqz_ 	size = 0
+	shgeqz_                         
+
+shsein_ 	size = 0
+	shsein_                         
+
+shseqr_ 	size = 0
+	shseqr_                         
+
+sisnan_ 	size = 0
+	sisnan_                         
+
+slabad_ 	size = 0
+	slabad_                         
+
+slabrd_ 	size = 0
+	slabrd_                         
+
+slacn2_ 	size = 0
+	slacn2_                         
+
+slacon_ 	size = 0
+	slacon_                         
+
+slacpy_ 	size = 0
+	slacpy_                         
+
+sladiv1_	size = 0
+	sladiv1_                        
+
+sladiv2_	size = 0
+	sladiv2_                        
+
+sladiv_ 	size = 0
+	sladiv_                         
+
+slae2_  	size = 0
+	slae2_                          
+
+slaebz_ 	size = 0
+	slaebz_                         
+
+slaed0_ 	size = 0
+	slaed0_                         
+
+slaed1_ 	size = 0
+	slaed1_                         
+
+slaed2_ 	size = 0
+	slaed2_                         
+
+slaed3_ 	size = 0
+	slaed3_                         
+
+slaed4_ 	size = 0
+	slaed4_                         
+
+slaed5_ 	size = 0
+	slaed5_                         
+
+slaed6_ 	size = 0
+	slaed6_                         
+
+slaed7_ 	size = 0
+	slaed7_                         
+
+slaed8_ 	size = 0
+	slaed8_                         
+
+slaed9_ 	size = 0
+	slaed9_                         
+
+slaeda_ 	size = 0
+	slaeda_                         
+
+slaein_ 	size = 0
+	slaein_                         
+
+slaev2_ 	size = 0
+	slaev2_                         
+
+slaexc_ 	size = 0
+	slaexc_                         
+
+slag2_  	size = 0
+	slag2_                          
+
+slag2d_ 	size = 0
+	slag2d_                         
+
+slags2_ 	size = 0
+	slags2_                         
+
+slagtf_ 	size = 0
+	slagtf_                         
+
+slagtm_ 	size = 0
+	slagtm_                         
+
+slagts_ 	size = 0
+	slagts_                         
+
+slagv2_ 	size = 0
+	slagv2_                         
+
+slahqr_ 	size = 0
+	slahqr_                         
+
+slahr2_ 	size = 0
+	slahr2_                         
+
+slaic1_ 	size = 0
+	slaic1_                         
+
+slaisnan_	size = 0
+	slaisnan_                       
+
+slaln2_ 	size = 0
+	slaln2_                         
+
+slals0_ 	size = 0
+	slals0_                         
+
+slalsa_ 	size = 0
+	slalsa_                         
+
+slalsd_ 	size = 0
+	slalsd_                         
+
+slamc3_ 	size = 0
+	slamc3_                         
+
+slamch_ 	size = 0
+	slamch_                         
+
+slamrg_ 	size = 0
+	slamrg_                         
+
+slamswlq_	size = 0
+	slamswlq_                       
+
+slamtsqr_	size = 0
+	slamtsqr_                       
+
+slaneg_ 	size = 0
+	slaneg_                         
+
+slangb_ 	size = 0
+	slangb_                         
+
+slange_ 	size = 0
+	slange_                         
+
+slangt_ 	size = 0
+	slangt_                         
+
+slanhs_ 	size = 0
+	slanhs_                         
+
+slansb_ 	size = 0
+	slansb_                         
+
+slansf_ 	size = 0
+	slansf_                         
+
+slansp_ 	size = 0
+	slansp_                         
+
+slanst_ 	size = 0
+	slanst_                         
+
+slansy_ 	size = 0
+	slansy_                         
+
+slantb_ 	size = 0
+	slantb_                         
+
+slantp_ 	size = 0
+	slantp_                         
+
+slantr_ 	size = 0
+	slantr_                         
+
+slanv2_ 	size = 0
+	slanv2_                         
+
+slapll_ 	size = 0
+	slapll_                         
+
+slapmr_ 	size = 0
+	slapmr_                         
+
+slapmt_ 	size = 0
+	slapmt_                         
+
+slapy2_ 	size = 0
+	slapy2_                         
+
+slapy3_ 	size = 0
+	slapy3_                         
+
+slaqgb_ 	size = 0
+	slaqgb_                         
+
+slaqge_ 	size = 0
+	slaqge_                         
+
+slaqp2_ 	size = 0
+	slaqp2_                         
+
+slaqps_ 	size = 0
+	slaqps_                         
+
+slaqr0_ 	size = 0
+	slaqr0_                         
+
+slaqr1_ 	size = 0
+	slaqr1_                         
+
+slaqr2_ 	size = 0
+	slaqr2_                         
+
+slaqr3_ 	size = 0
+	slaqr3_                         
+
+slaqr4_ 	size = 0
+	slaqr4_                         
+
+slaqr5_ 	size = 0
+	slaqr5_                         
+
+slaqsb_ 	size = 0
+	slaqsb_                         
+
+slaqsp_ 	size = 0
+	slaqsp_                         
+
+slaqsy_ 	size = 0
+	slaqsy_                         
+
+slaqtr_ 	size = 0
+	slaqtr_                         
+
+slar1v_ 	size = 0
+	slar1v_                         
+
+slar2v_ 	size = 0
+	slar2v_                         
+
+slarf_  	size = 0
+	slarf_                          
+
+slarfb_ 	size = 0
+	slarfb_                         
+
+slarfg_ 	size = 0
+	slarfg_                         
+
+slarfgp_	size = 0
+	slarfgp_                        
+
+slarft_ 	size = 0
+	slarft_                         
+
+slarfx_ 	size = 0
+	slarfx_                         
+
+slarfy_ 	size = 0
+	slarfy_                         
+
+slargv_ 	size = 0
+	slargv_                         
+
+slarnv_ 	size = 0
+	slarnv_                         
+
+slarra_ 	size = 0
+	slarra_                         
+
+slarrb_ 	size = 0
+	slarrb_                         
+
+slarrc_ 	size = 0
+	slarrc_                         
+
+slarrd_ 	size = 0
+	slarrd_                         
+
+slarre_ 	size = 0
+	slarre_                         
+
+slarrf_ 	size = 0
+	slarrf_                         
+
+slarrj_ 	size = 0
+	slarrj_                         
+
+slarrk_ 	size = 0
+	slarrk_                         
+
+slarrr_ 	size = 0
+	slarrr_                         
+
+slarrv_ 	size = 0
+	slarrv_                         
+
+slartg_ 	size = 0
+	slartg_                         
+
+slartgp_	size = 0
+	slartgp_                        
+
+slartgs_	size = 0
+	slartgs_                        
+
+slartv_ 	size = 0
+	slartv_                         
+
+slaruv_ 	size = 0
+	slaruv_                         
+
+slarz_  	size = 0
+	slarz_                          
+
+slarzb_ 	size = 0
+	slarzb_                         
+
+slarzt_ 	size = 0
+	slarzt_                         
+
+slas2_  	size = 0
+	slas2_                          
+
+slascl_ 	size = 0
+	slascl_                         
+
+slasd0_ 	size = 0
+	slasd0_                         
+
+slasd1_ 	size = 0
+	slasd1_                         
+
+slasd2_ 	size = 0
+	slasd2_                         
+
+slasd3_ 	size = 0
+	slasd3_                         
+
+slasd4_ 	size = 0
+	slasd4_                         
+
+slasd5_ 	size = 0
+	slasd5_                         
+
+slasd6_ 	size = 0
+	slasd6_                         
+
+slasd7_ 	size = 0
+	slasd7_                         
+
+slasd8_ 	size = 0
+	slasd8_                         
+
+slasda_ 	size = 0
+	slasda_                         
+
+slasdq_ 	size = 0
+	slasdq_                         
+
+slasdt_ 	size = 0
+	slasdt_                         
+
+slaset_ 	size = 0
+	slaset_                         
+
+slasq1_ 	size = 0
+	slasq1_                         
+
+slasq2_ 	size = 0
+	slasq2_                         
+
+slasq3_ 	size = 0
+	slasq3_                         
+
+slasq4_ 	size = 0
+	slasq4_                         
+
+slasq5_ 	size = 0
+	slasq5_                         
+
+slasq6_ 	size = 0
+	slasq6_                         
+
+slasr_  	size = 0
+	slasr_                          
+
+slasrt_ 	size = 0
+	slasrt_                         
+
+slassq_ 	size = 0
+	slassq_                         
+
+slasv2_ 	size = 0
+	slasv2_                         
+
+slaswlq_	size = 0
+	slaswlq_                        
+
+slaswp_ 	size = 0
+	slaswp_                         
+
+slasy2_ 	size = 0
+	slasy2_                         
+
+slasyf_ 	size = 0
+	slasyf_                         
+
+slasyf_aa_	size = 0
+	slasyf_aa_                      
+
+slasyf_rk_	size = 0
+	slasyf_rk_                      
+
+slasyf_rook_	size = 0
+	slasyf_rook_                    
+
+slatbs_ 	size = 0
+	slatbs_                         
+
+slatdf_ 	size = 0
+	slatdf_                         
+
+slatps_ 	size = 0
+	slatps_                         
+
+slatrd_ 	size = 0
+	slatrd_                         
+
+slatrs_ 	size = 0
+	slatrs_                         
+
+slatrz_ 	size = 0
+	slatrz_                         
+
+slatsqr_	size = 0
+	slatsqr_                        
+
+slauu2_ 	size = 0
+	slauu2_                         
+
+slauum_ 	size = 0
+	slauum_                         
+
+sopgtr_ 	size = 0
+	sopgtr_                         
+
+sopmtr_ 	size = 0
+	sopmtr_                         
+
+sorbdb1_	size = 0
+	sorbdb1_                        
+
+sorbdb2_	size = 0
+	sorbdb2_                        
+
+sorbdb3_	size = 0
+	sorbdb3_                        
+
+sorbdb4_	size = 0
+	sorbdb4_                        
+
+sorbdb5_	size = 0
+	sorbdb5_                        
+
+sorbdb6_	size = 0
+	sorbdb6_                        
+
+sorbdb_ 	size = 0
+	sorbdb_                         
+
+sorcsd2by1_	size = 0
+	sorcsd2by1_                     
+
+sorcsd_ 	size = 0
+	sorcsd_                         
+
+sorg2l_ 	size = 0
+	sorg2l_                         
+
+sorg2r_ 	size = 0
+	sorg2r_                         
+
+sorgbr_ 	size = 0
+	sorgbr_                         
+
+sorghr_ 	size = 0
+	sorghr_                         
+
+sorgl2_ 	size = 0
+	sorgl2_                         
+
+sorglq_ 	size = 0
+	sorglq_                         
+
+sorgql_ 	size = 0
+	sorgql_                         
+
+sorgqr_ 	size = 0
+	sorgqr_                         
+
+sorgr2_ 	size = 0
+	sorgr2_                         
+
+sorgrq_ 	size = 0
+	sorgrq_                         
+
+sorgtr_ 	size = 0
+	sorgtr_                         
+
+sorm22_ 	size = 0
+	sorm22_                         
+
+sorm2l_ 	size = 0
+	sorm2l_                         
+
+sorm2r_ 	size = 0
+	sorm2r_                         
+
+sormbr_ 	size = 0
+	sormbr_                         
+
+sormhr_ 	size = 0
+	sormhr_                         
+
+sorml2_ 	size = 0
+	sorml2_                         
+
+sormlq_ 	size = 0
+	sormlq_                         
+
+sormql_ 	size = 0
+	sormql_                         
+
+sormqr_ 	size = 0
+	sormqr_                         
+
+sormr2_ 	size = 0
+	sormr2_                         
+
+sormr3_ 	size = 0
+	sormr3_                         
+
+sormrq_ 	size = 0
+	sormrq_                         
+
+sormrz_ 	size = 0
+	sormrz_                         
+
+sormtr_ 	size = 0
+	sormtr_                         
+
+spbcon_ 	size = 0
+	spbcon_                         
+
+spbequ_ 	size = 0
+	spbequ_                         
+
+spbrfs_ 	size = 0
+	spbrfs_                         
+
+spbstf_ 	size = 0
+	spbstf_                         
+
+spbsv_  	size = 0
+	spbsv_                          
+
+spbsvx_ 	size = 0
+	spbsvx_                         
+
+spbtf2_ 	size = 0
+	spbtf2_                         
+
+spbtrf_ 	size = 0
+	spbtrf_                         
+
+spbtrs_ 	size = 0
+	spbtrs_                         
+
+spftrf_ 	size = 0
+	spftrf_                         
+
+spftri_ 	size = 0
+	spftri_                         
+
+spftrs_ 	size = 0
+	spftrs_                         
+
+spocon_ 	size = 0
+	spocon_                         
+
+spoequ_ 	size = 0
+	spoequ_                         
+
+spoequb_	size = 0
+	spoequb_                        
+
+sporfs_ 	size = 0
+	sporfs_                         
+
+sposv_  	size = 0
+	sposv_                          
+
+sposvx_ 	size = 0
+	sposvx_                         
+
+spotf2_ 	size = 0
+	spotf2_                         
+
+spotrf2_	size = 0
+	spotrf2_                        
+
+spotrf_ 	size = 0
+	spotrf_                         
+
+spotri_ 	size = 0
+	spotri_                         
+
+spotrs_ 	size = 0
+	spotrs_                         
+
+sppcon_ 	size = 0
+	sppcon_                         
+
+sppequ_ 	size = 0
+	sppequ_                         
+
+spprfs_ 	size = 0
+	spprfs_                         
+
+sppsv_  	size = 0
+	sppsv_                          
+
+sppsvx_ 	size = 0
+	sppsvx_                         
+
+spptrf_ 	size = 0
+	spptrf_                         
+
+spptri_ 	size = 0
+	spptri_                         
+
+spptrs_ 	size = 0
+	spptrs_                         
+
+spstf2_ 	size = 0
+	spstf2_                         
+
+spstrf_ 	size = 0
+	spstrf_                         
+
+sptcon_ 	size = 0
+	sptcon_                         
+
+spteqr_ 	size = 0
+	spteqr_                         
+
+sptrfs_ 	size = 0
+	sptrfs_                         
+
+sptsv_  	size = 0
+	sptsv_                          
+
+sptsvx_ 	size = 0
+	sptsvx_                         
+
+spttrf_ 	size = 0
+	spttrf_                         
+
+spttrs_ 	size = 0
+	spttrs_                         
+
+sptts2_ 	size = 0
+	sptts2_                         
+
+srscl_  	size = 0
+	srscl_                          
+
+ssb2st_kernels_	size = 0
+	ssb2st_kernels_                 
+
+ssbev_  	size = 0
+	ssbev_                          
+
+ssbev_2stage_	size = 0
+	ssbev_2stage_                   
+
+ssbevd_ 	size = 0
+	ssbevd_                         
+
+ssbevd_2stage_	size = 0
+	ssbevd_2stage_                  
+
+ssbevx_ 	size = 0
+	ssbevx_                         
+
+ssbevx_2stage_	size = 0
+	ssbevx_2stage_                  
+
+ssbgst_ 	size = 0
+	ssbgst_                         
+
+ssbgv_  	size = 0
+	ssbgv_                          
+
+ssbgvd_ 	size = 0
+	ssbgvd_                         
+
+ssbgvx_ 	size = 0
+	ssbgvx_                         
+
+ssbtrd_ 	size = 0
+	ssbtrd_                         
+
+ssfrk_  	size = 0
+	ssfrk_                          
+
+sspcon_ 	size = 0
+	sspcon_                         
+
+sspev_  	size = 0
+	sspev_                          
+
+sspevd_ 	size = 0
+	sspevd_                         
+
+sspevx_ 	size = 0
+	sspevx_                         
+
+sspgst_ 	size = 0
+	sspgst_                         
+
+sspgv_  	size = 0
+	sspgv_                          
+
+sspgvd_ 	size = 0
+	sspgvd_                         
+
+sspgvx_ 	size = 0
+	sspgvx_                         
+
+ssprfs_ 	size = 0
+	ssprfs_                         
+
+sspsv_  	size = 0
+	sspsv_                          
+
+sspsvx_ 	size = 0
+	sspsvx_                         
+
+ssptrd_ 	size = 0
+	ssptrd_                         
+
+ssptrf_ 	size = 0
+	ssptrf_                         
+
+ssptri_ 	size = 0
+	ssptri_                         
+
+ssptrs_ 	size = 0
+	ssptrs_                         
+
+sstebz_ 	size = 0
+	sstebz_                         
+
+sstedc_ 	size = 0
+	sstedc_                         
+
+sstegr_ 	size = 0
+	sstegr_                         
+
+sstein_ 	size = 0
+	sstein_                         
+
+sstemr_ 	size = 0
+	sstemr_                         
+
+ssteqr_ 	size = 0
+	ssteqr_                         
+
+ssterf_ 	size = 0
+	ssterf_                         
+
+sstev_  	size = 0
+	sstev_                          
+
+sstevd_ 	size = 0
+	sstevd_                         
+
+sstevr_ 	size = 0
+	sstevr_                         
+
+sstevx_ 	size = 0
+	sstevx_                         
+
+ssycon_ 	size = 0
+	ssycon_                         
+
+ssycon_3_	size = 0
+	ssycon_3_                       
+
+ssycon_rook_	size = 0
+	ssycon_rook_                    
+
+ssyconv_	size = 0
+	ssyconv_                        
+
+ssyconvf_	size = 0
+	ssyconvf_                       
+
+ssyconvf_rook_	size = 0
+	ssyconvf_rook_                  
+
+ssyequb_	size = 0
+	ssyequb_                        
+
+ssyev_  	size = 0
+	ssyev_                          
+
+ssyev_2stage_	size = 0
+	ssyev_2stage_                   
+
+ssyevd_ 	size = 0
+	ssyevd_                         
+
+ssyevd_2stage_	size = 0
+	ssyevd_2stage_                  
+
+ssyevr_ 	size = 0
+	ssyevr_                         
+
+ssyevr_2stage_	size = 0
+	ssyevr_2stage_                  
+
+ssyevx_ 	size = 0
+	ssyevx_                         
+
+ssyevx_2stage_	size = 0
+	ssyevx_2stage_                  
+
+ssygs2_ 	size = 0
+	ssygs2_                         
+
+ssygst_ 	size = 0
+	ssygst_                         
+
+ssygv_  	size = 0
+	ssygv_                          
+
+ssygv_2stage_	size = 0
+	ssygv_2stage_                   
+
+ssygvd_ 	size = 0
+	ssygvd_                         
+
+ssygvx_ 	size = 0
+	ssygvx_                         
+
+ssyrfs_ 	size = 0
+	ssyrfs_                         
+
+ssysv_  	size = 0
+	ssysv_                          
+
+ssysv_aa_	size = 0
+	ssysv_aa_                       
+
+ssysv_aa_2stage_	size = 0
+	ssysv_aa_2stage_                
+
+ssysv_rk_	size = 0
+	ssysv_rk_                       
+
+ssysv_rook_	size = 0
+	ssysv_rook_                     
+
+ssysvx_ 	size = 0
+	ssysvx_                         
+
+ssyswapr_	size = 0
+	ssyswapr_                       
+
+ssytd2_ 	size = 0
+	ssytd2_                         
+
+ssytf2_ 	size = 0
+	ssytf2_                         
+
+ssytf2_rk_	size = 0
+	ssytf2_rk_                      
+
+ssytf2_rook_	size = 0
+	ssytf2_rook_                    
+
+ssytrd_ 	size = 0
+	ssytrd_                         
+
+ssytrd_2stage_	size = 0
+	ssytrd_2stage_                  
+
+ssytrd_sb2st_	size = 0
+	ssytrd_sb2st_                   
+
+ssytrd_sy2sb_	size = 0
+	ssytrd_sy2sb_                   
+
+ssytrf_ 	size = 0
+	ssytrf_                         
+
+ssytrf_aa_	size = 0
+	ssytrf_aa_                      
+
+ssytrf_aa_2stage_	size = 0
+	ssytrf_aa_2stage_               
+
+ssytrf_rk_	size = 0
+	ssytrf_rk_                      
+
+ssytrf_rook_	size = 0
+	ssytrf_rook_                    
+
+ssytri2_	size = 0
+	ssytri2_                        
+
+ssytri2x_	size = 0
+	ssytri2x_                       
+
+ssytri_ 	size = 0
+	ssytri_                         
+
+ssytri_3_	size = 0
+	ssytri_3_                       
+
+ssytri_3x_	size = 0
+	ssytri_3x_                      
+
+ssytri_rook_	size = 0
+	ssytri_rook_                    
+
+ssytrs2_	size = 0
+	ssytrs2_                        
+
+ssytrs_ 	size = 0
+	ssytrs_                         
+
+ssytrs_3_	size = 0
+	ssytrs_3_                       
+
+ssytrs_aa_	size = 0
+	ssytrs_aa_                      
+
+ssytrs_aa_2stage_	size = 0
+	ssytrs_aa_2stage_               
+
+ssytrs_rook_	size = 0
+	ssytrs_rook_                    
+
+stbcon_ 	size = 0
+	stbcon_                         
+
+stbrfs_ 	size = 0
+	stbrfs_                         
+
+stbtrs_ 	size = 0
+	stbtrs_                         
+
+stfsm_  	size = 0
+	stfsm_                          
+
+stftri_ 	size = 0
+	stftri_                         
+
+stfttp_ 	size = 0
+	stfttp_                         
+
+stfttr_ 	size = 0
+	stfttr_                         
+
+stgevc_ 	size = 0
+	stgevc_                         
+
+stgex2_ 	size = 0
+	stgex2_                         
+
+stgexc_ 	size = 0
+	stgexc_                         
+
+stgsen_ 	size = 0
+	stgsen_                         
+
+stgsja_ 	size = 0
+	stgsja_                         
+
+stgsna_ 	size = 0
+	stgsna_                         
+
+stgsy2_ 	size = 0
+	stgsy2_                         
+
+stgsyl_ 	size = 0
+	stgsyl_                         
+
+stpcon_ 	size = 0
+	stpcon_                         
+
+stplqt2_	size = 0
+	stplqt2_                        
+
+stplqt_ 	size = 0
+	stplqt_                         
+
+stpmlqt_	size = 0
+	stpmlqt_                        
+
+stpmqrt_	size = 0
+	stpmqrt_                        
+
+stpqrt2_	size = 0
+	stpqrt2_                        
+
+stpqrt_ 	size = 0
+	stpqrt_                         
+
+stprfb_ 	size = 0
+	stprfb_                         
+
+stprfs_ 	size = 0
+	stprfs_                         
+
+stptri_ 	size = 0
+	stptri_                         
+
+stptrs_ 	size = 0
+	stptrs_                         
+
+stpttf_ 	size = 0
+	stpttf_                         
+
+stpttr_ 	size = 0
+	stpttr_                         
+
+strcon_ 	size = 0
+	strcon_                         
+
+strevc3_	size = 0
+	strevc3_                        
+
+strevc_ 	size = 0
+	strevc_                         
+
+strexc_ 	size = 0
+	strexc_                         
+
+strrfs_ 	size = 0
+	strrfs_                         
+
+strsen_ 	size = 0
+	strsen_                         
+
+strsna_ 	size = 0
+	strsna_                         
+
+strsyl_ 	size = 0
+	strsyl_                         
+
+strti2_ 	size = 0
+	strti2_                         
+
+strtri_ 	size = 0
+	strtri_                         
+
+strtrs_ 	size = 0
+	strtrs_                         
+
+strttf_ 	size = 0
+	strttf_                         
+
+strttp_ 	size = 0
+	strttp_                         
+
+stzrzf_ 	size = 0
+	stzrzf_                         
+
+xerbla_ 	size = 0
+	xerbla_                         
+
+xerbla_array_	size = 0
+	xerbla_array_                   
+
+zbbcsd_ 	size = 0
+	zbbcsd_                         
+
+zbdsqr_ 	size = 0
+	zbdsqr_                         
+
+zcgesv_ 	size = 0
+	zcgesv_                         
+
+zcposv_ 	size = 0
+	zcposv_                         
+
+zdrscl_ 	size = 0
+	zdrscl_                         
+
+zgbbrd_ 	size = 0
+	zgbbrd_                         
+
+zgbcon_ 	size = 0
+	zgbcon_                         
+
+zgbequ_ 	size = 0
+	zgbequ_                         
+
+zgbequb_	size = 0
+	zgbequb_                        
+
+zgbrfs_ 	size = 0
+	zgbrfs_                         
+
+zgbsv_  	size = 0
+	zgbsv_                          
+
+zgbsvx_ 	size = 0
+	zgbsvx_                         
+
+zgbtf2_ 	size = 0
+	zgbtf2_                         
+
+zgbtrf_ 	size = 0
+	zgbtrf_                         
+
+zgbtrs_ 	size = 0
+	zgbtrs_                         
+
+zgebak_ 	size = 0
+	zgebak_                         
+
+zgebal_ 	size = 0
+	zgebal_                         
+
+zgebd2_ 	size = 0
+	zgebd2_                         
+
+zgebrd_ 	size = 0
+	zgebrd_                         
+
+zgecon_ 	size = 0
+	zgecon_                         
+
+zgeequ_ 	size = 0
+	zgeequ_                         
+
+zgeequb_	size = 0
+	zgeequb_                        
+
+zgees_  	size = 0
+	zgees_                          
+
+zgeesx_ 	size = 0
+	zgeesx_                         
+
+zgeev_  	size = 0
+	zgeev_                          
+
+zgeevx_ 	size = 0
+	zgeevx_                         
+
+zgehd2_ 	size = 0
+	zgehd2_                         
+
+zgehrd_ 	size = 0
+	zgehrd_                         
+
+zgejsv_ 	size = 0
+	zgejsv_                         
+
+zgelq2_ 	size = 0
+	zgelq2_                         
+
+zgelq_  	size = 0
+	zgelq_                          
+
+zgelqf_ 	size = 0
+	zgelqf_                         
+
+zgelqt3_	size = 0
+	zgelqt3_                        
+
+zgelqt_ 	size = 0
+	zgelqt_                         
+
+zgels_  	size = 0
+	zgels_                          
+
+zgelsd_ 	size = 0
+	zgelsd_                         
+
+zgelss_ 	size = 0
+	zgelss_                         
+
+zgelsy_ 	size = 0
+	zgelsy_                         
+
+zgemlq_ 	size = 0
+	zgemlq_                         
+
+zgemlqt_	size = 0
+	zgemlqt_                        
+
+zgemqr_ 	size = 0
+	zgemqr_                         
+
+zgemqrt_	size = 0
+	zgemqrt_                        
+
+zgeql2_ 	size = 0
+	zgeql2_                         
+
+zgeqlf_ 	size = 0
+	zgeqlf_                         
+
+zgeqp3_ 	size = 0
+	zgeqp3_                         
+
+zgeqr2_ 	size = 0
+	zgeqr2_                         
+
+zgeqr2p_	size = 0
+	zgeqr2p_                        
+
+zgeqr_  	size = 0
+	zgeqr_                          
+
+zgeqrf_ 	size = 0
+	zgeqrf_                         
+
+zgeqrfp_	size = 0
+	zgeqrfp_                        
+
+zgeqrt2_	size = 0
+	zgeqrt2_                        
+
+zgeqrt3_	size = 0
+	zgeqrt3_                        
+
+zgeqrt_ 	size = 0
+	zgeqrt_                         
+
+zgerfs_ 	size = 0
+	zgerfs_                         
+
+zgerq2_ 	size = 0
+	zgerq2_                         
+
+zgerqf_ 	size = 0
+	zgerqf_                         
+
+zgesc2_ 	size = 0
+	zgesc2_                         
+
+zgesdd_ 	size = 0
+	zgesdd_                         
+
+zgesv_  	size = 0
+	zgesv_                          
+
+zgesvd_ 	size = 0
+	zgesvd_                         
+
+zgesvdx_	size = 0
+	zgesvdx_                        
+
+zgesvj_ 	size = 0
+	zgesvj_                         
+
+zgesvx_ 	size = 0
+	zgesvx_                         
+
+zgetc2_ 	size = 0
+	zgetc2_                         
+
+zgetf2_ 	size = 0
+	zgetf2_                         
+
+zgetrf2_	size = 0
+	zgetrf2_                        
+
+zgetrf_ 	size = 0
+	zgetrf_                         
+
+zgetri_ 	size = 0
+	zgetri_                         
+
+zgetrs_ 	size = 0
+	zgetrs_                         
+
+zgetsls_	size = 0
+	zgetsls_                        
+
+zggbak_ 	size = 0
+	zggbak_                         
+
+zggbal_ 	size = 0
+	zggbal_                         
+
+zgges3_ 	size = 0
+	zgges3_                         
+
+zgges_  	size = 0
+	zgges_                          
+
+zggesx_ 	size = 0
+	zggesx_                         
+
+zggev3_ 	size = 0
+	zggev3_                         
+
+zggev_  	size = 0
+	zggev_                          
+
+zggevx_ 	size = 0
+	zggevx_                         
+
+zggglm_ 	size = 0
+	zggglm_                         
+
+zgghd3_ 	size = 0
+	zgghd3_                         
+
+zgghrd_ 	size = 0
+	zgghrd_                         
+
+zgglse_ 	size = 0
+	zgglse_                         
+
+zggqrf_ 	size = 0
+	zggqrf_                         
+
+zggrqf_ 	size = 0
+	zggrqf_                         
+
+zggsvd3_	size = 0
+	zggsvd3_                        
+
+zggsvp3_	size = 0
+	zggsvp3_                        
+
+zgsvj0_ 	size = 0
+	zgsvj0_                         
+
+zgsvj1_ 	size = 0
+	zgsvj1_                         
+
+zgtcon_ 	size = 0
+	zgtcon_                         
+
+zgtrfs_ 	size = 0
+	zgtrfs_                         
+
+zgtsv_  	size = 0
+	zgtsv_                          
+
+zgtsvx_ 	size = 0
+	zgtsvx_                         
+
+zgttrf_ 	size = 0
+	zgttrf_                         
+
+zgttrs_ 	size = 0
+	zgttrs_                         
+
+zgtts2_ 	size = 0
+	zgtts2_                         
+
+zhb2st_kernels_	size = 0
+	zhb2st_kernels_                 
+
+zhbev_  	size = 0
+	zhbev_                          
+
+zhbev_2stage_	size = 0
+	zhbev_2stage_                   
+
+zhbevd_ 	size = 0
+	zhbevd_                         
+
+zhbevd_2stage_	size = 0
+	zhbevd_2stage_                  
+
+zhbevx_ 	size = 0
+	zhbevx_                         
+
+zhbevx_2stage_	size = 0
+	zhbevx_2stage_                  
+
+zhbgst_ 	size = 0
+	zhbgst_                         
+
+zhbgv_  	size = 0
+	zhbgv_                          
+
+zhbgvd_ 	size = 0
+	zhbgvd_                         
+
+zhbgvx_ 	size = 0
+	zhbgvx_                         
+
+zhbtrd_ 	size = 0
+	zhbtrd_                         
+
+zhecon_ 	size = 0
+	zhecon_                         
+
+zhecon_3_	size = 0
+	zhecon_3_                       
+
+zhecon_rook_	size = 0
+	zhecon_rook_                    
+
+zheequb_	size = 0
+	zheequb_                        
+
+zheev_  	size = 0
+	zheev_                          
+
+zheev_2stage_	size = 0
+	zheev_2stage_                   
+
+zheevd_ 	size = 0
+	zheevd_                         
+
+zheevd_2stage_	size = 0
+	zheevd_2stage_                  
+
+zheevr_ 	size = 0
+	zheevr_                         
+
+zheevr_2stage_	size = 0
+	zheevr_2stage_                  
+
+zheevx_ 	size = 0
+	zheevx_                         
+
+zheevx_2stage_	size = 0
+	zheevx_2stage_                  
+
+zhegs2_ 	size = 0
+	zhegs2_                         
+
+zhegst_ 	size = 0
+	zhegst_                         
+
+zhegv_  	size = 0
+	zhegv_                          
+
+zhegv_2stage_	size = 0
+	zhegv_2stage_                   
+
+zhegvd_ 	size = 0
+	zhegvd_                         
+
+zhegvx_ 	size = 0
+	zhegvx_                         
+
+zherfs_ 	size = 0
+	zherfs_                         
+
+zhesv_  	size = 0
+	zhesv_                          
+
+zhesv_aa_	size = 0
+	zhesv_aa_                       
+
+zhesv_aa_2stage_	size = 0
+	zhesv_aa_2stage_                
+
+zhesv_rk_	size = 0
+	zhesv_rk_                       
+
+zhesv_rook_	size = 0
+	zhesv_rook_                     
+
+zhesvx_ 	size = 0
+	zhesvx_                         
+
+zheswapr_	size = 0
+	zheswapr_                       
+
+zhetd2_ 	size = 0
+	zhetd2_                         
+
+zhetf2_ 	size = 0
+	zhetf2_                         
+
+zhetf2_rk_	size = 0
+	zhetf2_rk_                      
+
+zhetf2_rook_	size = 0
+	zhetf2_rook_                    
+
+zhetrd_ 	size = 0
+	zhetrd_                         
+
+zhetrd_2stage_	size = 0
+	zhetrd_2stage_                  
+
+zhetrd_hb2st_	size = 0
+	zhetrd_hb2st_                   
+
+zhetrd_he2hb_	size = 0
+	zhetrd_he2hb_                   
+
+zhetrf_ 	size = 0
+	zhetrf_                         
+
+zhetrf_aa_	size = 0
+	zhetrf_aa_                      
+
+zhetrf_aa_2stage_	size = 0
+	zhetrf_aa_2stage_               
+
+zhetrf_rk_	size = 0
+	zhetrf_rk_                      
+
+zhetrf_rook_	size = 0
+	zhetrf_rook_                    
+
+zhetri2_	size = 0
+	zhetri2_                        
+
+zhetri2x_	size = 0
+	zhetri2x_                       
+
+zhetri_ 	size = 0
+	zhetri_                         
+
+zhetri_3_	size = 0
+	zhetri_3_                       
+
+zhetri_3x_	size = 0
+	zhetri_3x_                      
+
+zhetri_rook_	size = 0
+	zhetri_rook_                    
+
+zhetrs2_	size = 0
+	zhetrs2_                        
+
+zhetrs_ 	size = 0
+	zhetrs_                         
+
+zhetrs_3_	size = 0
+	zhetrs_3_                       
+
+zhetrs_aa_	size = 0
+	zhetrs_aa_                      
+
+zhetrs_aa_2stage_	size = 0
+	zhetrs_aa_2stage_               
+
+zhetrs_rook_	size = 0
+	zhetrs_rook_                    
+
+zhfrk_  	size = 0
+	zhfrk_                          
+
+zhgeqz_ 	size = 0
+	zhgeqz_                         
+
+zhpcon_ 	size = 0
+	zhpcon_                         
+
+zhpev_  	size = 0
+	zhpev_                          
+
+zhpevd_ 	size = 0
+	zhpevd_                         
+
+zhpevx_ 	size = 0
+	zhpevx_                         
+
+zhpgst_ 	size = 0
+	zhpgst_                         
+
+zhpgv_  	size = 0
+	zhpgv_                          
+
+zhpgvd_ 	size = 0
+	zhpgvd_                         
+
+zhpgvx_ 	size = 0
+	zhpgvx_                         
+
+zhprfs_ 	size = 0
+	zhprfs_                         
+
+zhpsv_  	size = 0
+	zhpsv_                          
+
+zhpsvx_ 	size = 0
+	zhpsvx_                         
+
+zhptrd_ 	size = 0
+	zhptrd_                         
+
+zhptrf_ 	size = 0
+	zhptrf_                         
+
+zhptri_ 	size = 0
+	zhptri_                         
+
+zhptrs_ 	size = 0
+	zhptrs_                         
+
+zhsein_ 	size = 0
+	zhsein_                         
+
+zhseqr_ 	size = 0
+	zhseqr_                         
+
+zlabrd_ 	size = 0
+	zlabrd_                         
+
+zlacgv_ 	size = 0
+	zlacgv_                         
+
+zlacn2_ 	size = 0
+	zlacn2_                         
+
+zlacon_ 	size = 0
+	zlacon_                         
+
+zlacp2_ 	size = 0
+	zlacp2_                         
+
+zlacpy_ 	size = 0
+	zlacpy_                         
+
+zlacrm_ 	size = 0
+	zlacrm_                         
+
+zlacrt_ 	size = 0
+	zlacrt_                         
+
+zladiv_ 	size = 0
+	zladiv_                         
+
+zlaed0_ 	size = 0
+	zlaed0_                         
+
+zlaed7_ 	size = 0
+	zlaed7_                         
+
+zlaed8_ 	size = 0
+	zlaed8_                         
+
+zlaein_ 	size = 0
+	zlaein_                         
+
+zlaesy_ 	size = 0
+	zlaesy_                         
+
+zlaev2_ 	size = 0
+	zlaev2_                         
+
+zlag2c_ 	size = 0
+	zlag2c_                         
+
+zlags2_ 	size = 0
+	zlags2_                         
+
+zlagtm_ 	size = 0
+	zlagtm_                         
+
+zlahef_ 	size = 0
+	zlahef_                         
+
+zlahef_aa_	size = 0
+	zlahef_aa_                      
+
+zlahef_rk_	size = 0
+	zlahef_rk_                      
+
+zlahef_rook_	size = 0
+	zlahef_rook_                    
+
+zlahqr_ 	size = 0
+	zlahqr_                         
+
+zlahr2_ 	size = 0
+	zlahr2_                         
+
+zlaic1_ 	size = 0
+	zlaic1_                         
+
+zlals0_ 	size = 0
+	zlals0_                         
+
+zlalsa_ 	size = 0
+	zlalsa_                         
+
+zlalsd_ 	size = 0
+	zlalsd_                         
+
+zlamswlq_	size = 0
+	zlamswlq_                       
+
+zlamtsqr_	size = 0
+	zlamtsqr_                       
+
+zlangb_ 	size = 0
+	zlangb_                         
+
+zlange_ 	size = 0
+	zlange_                         
+
+zlangt_ 	size = 0
+	zlangt_                         
+
+zlanhb_ 	size = 0
+	zlanhb_                         
+
+zlanhe_ 	size = 0
+	zlanhe_                         
+
+zlanhf_ 	size = 0
+	zlanhf_                         
+
+zlanhp_ 	size = 0
+	zlanhp_                         
+
+zlanhs_ 	size = 0
+	zlanhs_                         
+
+zlanht_ 	size = 0
+	zlanht_                         
+
+zlansb_ 	size = 0
+	zlansb_                         
+
+zlansp_ 	size = 0
+	zlansp_                         
+
+zlansy_ 	size = 0
+	zlansy_                         
+
+zlantb_ 	size = 0
+	zlantb_                         
+
+zlantp_ 	size = 0
+	zlantp_                         
+
+zlantr_ 	size = 0
+	zlantr_                         
+
+zlapll_ 	size = 0
+	zlapll_                         
+
+zlapmr_ 	size = 0
+	zlapmr_                         
+
+zlapmt_ 	size = 0
+	zlapmt_                         
+
+zlaqgb_ 	size = 0
+	zlaqgb_                         
+
+zlaqge_ 	size = 0
+	zlaqge_                         
+
+zlaqhb_ 	size = 0
+	zlaqhb_                         
+
+zlaqhe_ 	size = 0
+	zlaqhe_                         
+
+zlaqhp_ 	size = 0
+	zlaqhp_                         
+
+zlaqp2_ 	size = 0
+	zlaqp2_                         
+
+zlaqps_ 	size = 0
+	zlaqps_                         
+
+zlaqr0_ 	size = 0
+	zlaqr0_                         
+
+zlaqr1_ 	size = 0
+	zlaqr1_                         
+
+zlaqr2_ 	size = 0
+	zlaqr2_                         
+
+zlaqr3_ 	size = 0
+	zlaqr3_                         
+
+zlaqr4_ 	size = 0
+	zlaqr4_                         
+
+zlaqr5_ 	size = 0
+	zlaqr5_                         
+
+zlaqsb_ 	size = 0
+	zlaqsb_                         
+
+zlaqsp_ 	size = 0
+	zlaqsp_                         
+
+zlaqsy_ 	size = 0
+	zlaqsy_                         
+
+zlar1v_ 	size = 0
+	zlar1v_                         
+
+zlar2v_ 	size = 0
+	zlar2v_                         
+
+zlarcm_ 	size = 0
+	zlarcm_                         
+
+zlarf_  	size = 0
+	zlarf_                          
+
+zlarfb_ 	size = 0
+	zlarfb_                         
+
+zlarfg_ 	size = 0
+	zlarfg_                         
+
+zlarfgp_	size = 0
+	zlarfgp_                        
+
+zlarft_ 	size = 0
+	zlarft_                         
+
+zlarfx_ 	size = 0
+	zlarfx_                         
+
+zlarfy_ 	size = 0
+	zlarfy_                         
+
+zlargv_ 	size = 0
+	zlargv_                         
+
+zlarnv_ 	size = 0
+	zlarnv_                         
+
+zlarrv_ 	size = 0
+	zlarrv_                         
+
+zlartg_ 	size = 0
+	zlartg_                         
+
+zlartv_ 	size = 0
+	zlartv_                         
+
+zlarz_  	size = 0
+	zlarz_                          
+
+zlarzb_ 	size = 0
+	zlarzb_                         
+
+zlarzt_ 	size = 0
+	zlarzt_                         
+
+zlascl_ 	size = 0
+	zlascl_                         
+
+zlaset_ 	size = 0
+	zlaset_                         
+
+zlasr_  	size = 0
+	zlasr_                          
+
+zlassq_ 	size = 0
+	zlassq_                         
+
+zlaswlq_	size = 0
+	zlaswlq_                        
+
+zlaswp_ 	size = 0
+	zlaswp_                         
+
+zlasyf_ 	size = 0
+	zlasyf_                         
+
+zlasyf_aa_	size = 0
+	zlasyf_aa_                      
+
+zlasyf_rk_	size = 0
+	zlasyf_rk_                      
+
+zlasyf_rook_	size = 0
+	zlasyf_rook_                    
+
+zlat2c_ 	size = 0
+	zlat2c_                         
+
+zlatbs_ 	size = 0
+	zlatbs_                         
+
+zlatdf_ 	size = 0
+	zlatdf_                         
+
+zlatps_ 	size = 0
+	zlatps_                         
+
+zlatrd_ 	size = 0
+	zlatrd_                         
+
+zlatrs_ 	size = 0
+	zlatrs_                         
+
+zlatrz_ 	size = 0
+	zlatrz_                         
+
+zlatsqr_	size = 0
+	zlatsqr_                        
+
+zlauu2_ 	size = 0
+	zlauu2_                         
+
+zlauum_ 	size = 0
+	zlauum_                         
+
+zpbcon_ 	size = 0
+	zpbcon_                         
+
+zpbequ_ 	size = 0
+	zpbequ_                         
+
+zpbrfs_ 	size = 0
+	zpbrfs_                         
+
+zpbstf_ 	size = 0
+	zpbstf_                         
+
+zpbsv_  	size = 0
+	zpbsv_                          
+
+zpbsvx_ 	size = 0
+	zpbsvx_                         
+
+zpbtf2_ 	size = 0
+	zpbtf2_                         
+
+zpbtrf_ 	size = 0
+	zpbtrf_                         
+
+zpbtrs_ 	size = 0
+	zpbtrs_                         
+
+zpftrf_ 	size = 0
+	zpftrf_                         
+
+zpftri_ 	size = 0
+	zpftri_                         
+
+zpftrs_ 	size = 0
+	zpftrs_                         
+
+zpocon_ 	size = 0
+	zpocon_                         
+
+zpoequ_ 	size = 0
+	zpoequ_                         
+
+zpoequb_	size = 0
+	zpoequb_                        
+
+zporfs_ 	size = 0
+	zporfs_                         
+
+zposv_  	size = 0
+	zposv_                          
+
+zposvx_ 	size = 0
+	zposvx_                         
+
+zpotf2_ 	size = 0
+	zpotf2_                         
+
+zpotrf2_	size = 0
+	zpotrf2_                        
+
+zpotrf_ 	size = 0
+	zpotrf_                         
+
+zpotri_ 	size = 0
+	zpotri_                         
+
+zpotrs_ 	size = 0
+	zpotrs_                         
+
+zppcon_ 	size = 0
+	zppcon_                         
+
+zppequ_ 	size = 0
+	zppequ_                         
+
+zpprfs_ 	size = 0
+	zpprfs_                         
+
+zppsv_  	size = 0
+	zppsv_                          
+
+zppsvx_ 	size = 0
+	zppsvx_                         
+
+zpptrf_ 	size = 0
+	zpptrf_                         
+
+zpptri_ 	size = 0
+	zpptri_                         
+
+zpptrs_ 	size = 0
+	zpptrs_                         
+
+zpstf2_ 	size = 0
+	zpstf2_                         
+
+zpstrf_ 	size = 0
+	zpstrf_                         
+
+zptcon_ 	size = 0
+	zptcon_                         
+
+zpteqr_ 	size = 0
+	zpteqr_                         
+
+zptrfs_ 	size = 0
+	zptrfs_                         
+
+zptsv_  	size = 0
+	zptsv_                          
+
+zptsvx_ 	size = 0
+	zptsvx_                         
+
+zpttrf_ 	size = 0
+	zpttrf_                         
+
+zpttrs_ 	size = 0
+	zpttrs_                         
+
+zptts2_ 	size = 0
+	zptts2_                         
+
+zrot_   	size = 0
+	zrot_                           
+
+zspcon_ 	size = 0
+	zspcon_                         
+
+zspmv_  	size = 0
+	zspmv_                          
+
+zspr_   	size = 0
+	zspr_                           
+
+zsprfs_ 	size = 0
+	zsprfs_                         
+
+zspsv_  	size = 0
+	zspsv_                          
+
+zspsvx_ 	size = 0
+	zspsvx_                         
+
+zsptrf_ 	size = 0
+	zsptrf_                         
+
+zsptri_ 	size = 0
+	zsptri_                         
+
+zsptrs_ 	size = 0
+	zsptrs_                         
+
+zstedc_ 	size = 0
+	zstedc_                         
+
+zstegr_ 	size = 0
+	zstegr_                         
+
+zstein_ 	size = 0
+	zstein_                         
+
+zstemr_ 	size = 0
+	zstemr_                         
+
+zsteqr_ 	size = 0
+	zsteqr_                         
+
+zsycon_ 	size = 0
+	zsycon_                         
+
+zsycon_3_	size = 0
+	zsycon_3_                       
+
+zsycon_rook_	size = 0
+	zsycon_rook_                    
+
+zsyconv_	size = 0
+	zsyconv_                        
+
+zsyconvf_	size = 0
+	zsyconvf_                       
+
+zsyconvf_rook_	size = 0
+	zsyconvf_rook_                  
+
+zsyequb_	size = 0
+	zsyequb_                        
+
+zsymv_  	size = 0
+	zsymv_                          
+
+zsyr_   	size = 0
+	zsyr_                           
+
+zsyrfs_ 	size = 0
+	zsyrfs_                         
+
+zsysv_  	size = 0
+	zsysv_                          
+
+zsysv_aa_	size = 0
+	zsysv_aa_                       
+
+zsysv_aa_2stage_	size = 0
+	zsysv_aa_2stage_                
+
+zsysv_rk_	size = 0
+	zsysv_rk_                       
+
+zsysv_rook_	size = 0
+	zsysv_rook_                     
+
+zsysvx_ 	size = 0
+	zsysvx_                         
+
+zsyswapr_	size = 0
+	zsyswapr_                       
+
+zsytf2_ 	size = 0
+	zsytf2_                         
+
+zsytf2_rk_	size = 0
+	zsytf2_rk_                      
+
+zsytf2_rook_	size = 0
+	zsytf2_rook_                    
+
+zsytrf_ 	size = 0
+	zsytrf_                         
+
+zsytrf_aa_	size = 0
+	zsytrf_aa_                      
+
+zsytrf_aa_2stage_	size = 0
+	zsytrf_aa_2stage_               
+
+zsytrf_rk_	size = 0
+	zsytrf_rk_                      
+
+zsytrf_rook_	size = 0
+	zsytrf_rook_                    
+
+zsytri2_	size = 0
+	zsytri2_                        
+
+zsytri2x_	size = 0
+	zsytri2x_                       
+
+zsytri_ 	size = 0
+	zsytri_                         
+
+zsytri_3_	size = 0
+	zsytri_3_                       
+
+zsytri_3x_	size = 0
+	zsytri_3x_                      
+
+zsytri_rook_	size = 0
+	zsytri_rook_                    
+
+zsytrs2_	size = 0
+	zsytrs2_                        
+
+zsytrs_ 	size = 0
+	zsytrs_                         
+
+zsytrs_3_	size = 0
+	zsytrs_3_                       
+
+zsytrs_aa_	size = 0
+	zsytrs_aa_                      
+
+zsytrs_aa_2stage_	size = 0
+	zsytrs_aa_2stage_               
+
+zsytrs_rook_	size = 0
+	zsytrs_rook_                    
+
+ztbcon_ 	size = 0
+	ztbcon_                         
+
+ztbrfs_ 	size = 0
+	ztbrfs_                         
+
+ztbtrs_ 	size = 0
+	ztbtrs_                         
+
+ztfsm_  	size = 0
+	ztfsm_                          
+
+ztftri_ 	size = 0
+	ztftri_                         
+
+ztfttp_ 	size = 0
+	ztfttp_                         
+
+ztfttr_ 	size = 0
+	ztfttr_                         
+
+ztgevc_ 	size = 0
+	ztgevc_                         
+
+ztgex2_ 	size = 0
+	ztgex2_                         
+
+ztgexc_ 	size = 0
+	ztgexc_                         
+
+ztgsen_ 	size = 0
+	ztgsen_                         
+
+ztgsja_ 	size = 0
+	ztgsja_                         
+
+ztgsna_ 	size = 0
+	ztgsna_                         
+
+ztgsy2_ 	size = 0
+	ztgsy2_                         
+
+ztgsyl_ 	size = 0
+	ztgsyl_                         
+
+ztpcon_ 	size = 0
+	ztpcon_                         
+
+ztplqt2_	size = 0
+	ztplqt2_                        
+
+ztplqt_ 	size = 0
+	ztplqt_                         
+
+ztpmlqt_	size = 0
+	ztpmlqt_                        
+
+ztpmqrt_	size = 0
+	ztpmqrt_                        
+
+ztpqrt2_	size = 0
+	ztpqrt2_                        
+
+ztpqrt_ 	size = 0
+	ztpqrt_                         
+
+ztprfb_ 	size = 0
+	ztprfb_                         
+
+ztprfs_ 	size = 0
+	ztprfs_                         
+
+ztptri_ 	size = 0
+	ztptri_                         
+
+ztptrs_ 	size = 0
+	ztptrs_                         
+
+ztpttf_ 	size = 0
+	ztpttf_                         
+
+ztpttr_ 	size = 0
+	ztpttr_                         
+
+ztrcon_ 	size = 0
+	ztrcon_                         
+
+ztrevc3_	size = 0
+	ztrevc3_                        
+
+ztrevc_ 	size = 0
+	ztrevc_                         
+
+ztrexc_ 	size = 0
+	ztrexc_                         
+
+ztrrfs_ 	size = 0
+	ztrrfs_                         
+
+ztrsen_ 	size = 0
+	ztrsen_                         
+
+ztrsna_ 	size = 0
+	ztrsna_                         
+
+ztrsyl_ 	size = 0
+	ztrsyl_                         
+
+ztrti2_ 	size = 0
+	ztrti2_                         
+
+ztrtri_ 	size = 0
+	ztrtri_                         
+
+ztrtrs_ 	size = 0
+	ztrtrs_                         
+
+ztrttf_ 	size = 0
+	ztrttf_                         
+
+ztrttp_ 	size = 0
+	ztrttp_                         
+
+ztzrzf_ 	size = 0
+	ztzrzf_                         
+
+zunbdb1_	size = 0
+	zunbdb1_                        
+
+zunbdb2_	size = 0
+	zunbdb2_                        
+
+zunbdb3_	size = 0
+	zunbdb3_                        
+
+zunbdb4_	size = 0
+	zunbdb4_                        
+
+zunbdb5_	size = 0
+	zunbdb5_                        
+
+zunbdb6_	size = 0
+	zunbdb6_                        
+
+zunbdb_ 	size = 0
+	zunbdb_                         
+
+zuncsd2by1_	size = 0
+	zuncsd2by1_                     
+
+zuncsd_ 	size = 0
+	zuncsd_                         
+
+zung2l_ 	size = 0
+	zung2l_                         
+
+zung2r_ 	size = 0
+	zung2r_                         
+
+zungbr_ 	size = 0
+	zungbr_                         
+
+zunghr_ 	size = 0
+	zunghr_                         
+
+zungl2_ 	size = 0
+	zungl2_                         
+
+zunglq_ 	size = 0
+	zunglq_                         
+
+zungql_ 	size = 0
+	zungql_                         
+
+zungqr_ 	size = 0
+	zungqr_                         
+
+zungr2_ 	size = 0
+	zungr2_                         
+
+zungrq_ 	size = 0
+	zungrq_                         
+
+zungtr_ 	size = 0
+	zungtr_                         
+
+zunm22_ 	size = 0
+	zunm22_                         
+
+zunm2l_ 	size = 0
+	zunm2l_                         
+
+zunm2r_ 	size = 0
+	zunm2r_                         
+
+zunmbr_ 	size = 0
+	zunmbr_                         
+
+zunmhr_ 	size = 0
+	zunmhr_                         
+
+zunml2_ 	size = 0
+	zunml2_                         
+
+zunmlq_ 	size = 0
+	zunmlq_                         
+
+zunmql_ 	size = 0
+	zunmql_                         
+
+zunmqr_ 	size = 0
+	zunmqr_                         
+
+zunmr2_ 	size = 0
+	zunmr2_                         
+
+zunmr3_ 	size = 0
+	zunmr3_                         
+
+zunmrq_ 	size = 0
+	zunmrq_                         
+
+zunmrz_ 	size = 0
+	zunmrz_                         
+
+zunmtr_ 	size = 0
+	zunmtr_                         
+
+zupgtr_ 	size = 0
+	zupgtr_                         
+
+zupmtr_ 	size = 0
+	zupmtr_                         

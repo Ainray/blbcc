@@ -40,10 +40,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0\INSTALL
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build\INSTALL
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL
 
 # Include any dependencies generated for this target.
 !include CMakeFiles\testieee.dir\depend.make
@@ -55,17 +55,17 @@ CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build\INSTALL
 !include CMakeFiles\testieee.dir\flags.make
 
 CMakeFiles\testieee.dir\tstiee.f.obj: CMakeFiles\testieee.dir\flags.make
-CMakeFiles\testieee.dir\tstiee.f.obj: K:\trial\lapack-3.8.0\INSTALL\tstiee.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/testieee.dir/tstiee.f.obj"
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c K:\trial\lapack-3.8.0\INSTALL\tstiee.f -o CMakeFiles\testieee.dir\tstiee.f.obj
+CMakeFiles\testieee.dir\tstiee.f.obj: I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\tstiee.f
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/testieee.dir/tstiee.f.obj"
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\tstiee.f -o CMakeFiles\testieee.dir\tstiee.f.obj
 
 CMakeFiles\testieee.dir\tstiee.f.i: cmake_force
 	@echo Preprocessing Fortran source to CMakeFiles/testieee.dir/tstiee.f.i
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E K:\trial\lapack-3.8.0\INSTALL\tstiee.f > CMakeFiles\testieee.dir\tstiee.f.i
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\tstiee.f > CMakeFiles\testieee.dir\tstiee.f.i
 
 CMakeFiles\testieee.dir\tstiee.f.s: cmake_force
 	@echo Compiling Fortran source to assembly CMakeFiles/testieee.dir/tstiee.f.s
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S K:\trial\lapack-3.8.0\INSTALL\tstiee.f -o CMakeFiles\testieee.dir\tstiee.f.s
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\tstiee.f -o CMakeFiles\testieee.dir\tstiee.f.s
 
 # Object files for target testieee
 testieee_OBJECTS = \
@@ -77,7 +77,7 @@ testieee_EXTERNAL_OBJECTS =
 testieee.exe: CMakeFiles\testieee.dir\tstiee.f.obj
 testieee.exe: CMakeFiles\testieee.dir\build.make
 testieee.exe: CMakeFiles\testieee.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking Fortran executable testieee.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking Fortran executable testieee.exe"
 	"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\testieee.dir/objects.a
 	C:\MinGW\bin\ar.exe cr CMakeFiles\testieee.dir/objects.a @CMakeFiles\testieee.dir\objects1.rsp
 	C:\MinGW\bin\gfortran.exe    -Wl,--whole-archive CMakeFiles\testieee.dir/objects.a -Wl,--no-whole-archive  -o testieee.exe -Wl,--out-implib,libtestieee.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
@@ -92,6 +92,6 @@ CMakeFiles\testieee.dir\clean:
 .PHONY : CMakeFiles\testieee.dir\clean
 
 CMakeFiles\testieee.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Borland Makefiles" K:\trial\lapack-3.8.0\INSTALL K:\trial\lapack-3.8.0\INSTALL K:\trial\lapack-3.8.0\build\INSTALL K:\trial\lapack-3.8.0\build\INSTALL K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles\testieee.dir\DependInfo.cmake
+	$(CMAKE_COMMAND) -E cmake_depends "Borland Makefiles" I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles\testieee.dir\DependInfo.cmake
 .PHONY : CMakeFiles\testieee.dir\depend
 

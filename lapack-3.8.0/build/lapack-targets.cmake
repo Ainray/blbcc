@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget blas lapack)
+foreach(_expectedTarget blas lapack cblas lapacke)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -47,18 +47,46 @@ add_library(blas SHARED IMPORTED)
 # Create imported target lapack
 add_library(lapack SHARED IMPORTED)
 
+# Create imported target cblas
+add_library(cblas SHARED IMPORTED)
+
+set_target_properties(cblas PROPERTIES
+  INTERFACE_INCLUDE_DIRECTORIES "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/CBLAS/src/../include"
+)
+
+# Create imported target lapacke
+add_library(lapacke SHARED IMPORTED)
+
+set_target_properties(lapacke PROPERTIES
+  INTERFACE_INCLUDE_DIRECTORIES "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/LAPACKE/../include"
+)
+
 # Import target "blas" for configuration "Release"
 set_property(TARGET blas APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(blas PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "K:/trial/lapack-3.8.0/build/lib/libblas.dll.a"
-  IMPORTED_LOCATION_RELEASE "K:/trial/lapack-3.8.0/build/bin/libblas.dll"
+  IMPORTED_IMPLIB_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lib/libblas${CMAKE_IMPORT_LIBRARY_SUFFIX}"
+  IMPORTED_LOCATION_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/bin/libblas.dll"
   )
 
 # Import target "lapack" for configuration "Release"
 set_property(TARGET lapack APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(lapack PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "K:/trial/lapack-3.8.0/build/lib/liblapack.dll.a"
-  IMPORTED_LOCATION_RELEASE "K:/trial/lapack-3.8.0/build/bin/liblapack.dll"
+  IMPORTED_IMPLIB_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lib/liblapack${CMAKE_IMPORT_LIBRARY_SUFFIX}"
+  IMPORTED_LOCATION_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/bin/liblapack.dll"
+  )
+
+# Import target "cblas" for configuration "Release"
+set_property(TARGET cblas APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(cblas PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lib/libcblas${CMAKE_IMPORT_LIBRARY_SUFFIX}"
+  IMPORTED_LOCATION_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/bin/libcblas.dll"
+  )
+
+# Import target "lapacke" for configuration "Release"
+set_property(TARGET lapacke APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
+set_target_properties(lapacke PROPERTIES
+  IMPORTED_IMPLIB_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lib/liblapacke${CMAKE_IMPORT_LIBRARY_SUFFIX}"
+  IMPORTED_LOCATION_RELEASE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/bin/liblapacke.dll"
   )
 
 # This file does not depend on other imported targets which have

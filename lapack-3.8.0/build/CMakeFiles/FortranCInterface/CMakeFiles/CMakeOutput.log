@@ -1,0 +1,19 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
+Change Dir: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/FortranCInterface/CMakeFiles/CMakeTmp
+
+Run Build Command(s):make cmTC_0085c\fast && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+	make -f CMakeFiles\cmTC_0085c.dir\build.make -l -o  CMakeFiles\cmTC_0085c.dir\build
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+Building C object CMakeFiles/cmTC_0085c.dir/src.c.obj
+	C:\MinGW\bin\gcc.exe   -DC_SUPPORTS_DOLLAR -o CMakeFiles\cmTC_0085c.dir\src.c.obj -c I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles\FortranCInterface\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_0085c.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0085c.dir/objects.a
+	C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_0085c.dir/objects.a @CMakeFiles\cmTC_0085c.dir\objects1.rsp
+	C:\MinGW\bin\gcc.exe -DC_SUPPORTS_DOLLAR -Wl,--whole-archive CMakeFiles\cmTC_0085c.dir/objects.a -Wl,--no-whole-archive -o cmTC_0085c.exe -Wl,--out-implib,libcmTC_0085c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0085c.dir\linklibs.rsp
+
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+

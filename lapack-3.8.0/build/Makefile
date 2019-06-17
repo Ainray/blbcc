@@ -45,10 +45,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ package\fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake K:/trial/lapack-3.8.0/build/CPackSourceConfig.cmake
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -156,9 +156,9 @@ install\strip\fast: preinstall\fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles K:\trial\lapack-3.8.0\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,6 +200,19 @@ blas\fast:
 .PHONY : blas\fast
 
 #=============================================================================
+# Target rules for targets named cblas
+
+# Build rule for target.
+cblas: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) cblas
+.PHONY : cblas
+
+# fast build rule for target.
+cblas\fast:
+	$(MAKE) -f CBLAS\src\CMakeFiles\cblas.dir\build.make -$(MAKEFLAGS) CBLAS\src\CMakeFiles\cblas.dir\build
+.PHONY : cblas\fast
+
+#=============================================================================
 # Target rules for targets named lapack
 
 # Build rule for target.
@@ -211,6 +224,19 @@ lapack: cmake_check_build_system
 lapack\fast:
 	$(MAKE) -f SRC\CMakeFiles\lapack.dir\build.make -$(MAKEFLAGS) SRC\CMakeFiles\lapack.dir\build
 .PHONY : lapack\fast
+
+#=============================================================================
+# Target rules for targets named lapacke
+
+# Build rule for target.
+lapacke: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) lapacke
+.PHONY : lapacke
+
+# fast build rule for target.
+lapacke\fast:
+	$(MAKE) -f LAPACKE\CMakeFiles\lapacke.dir\build.make -$(MAKEFLAGS) LAPACKE\CMakeFiles\lapacke.dir\build
+.PHONY : lapacke\fast
 
 # Help Target
 help:
@@ -228,7 +254,9 @@ help:
 	@echo ... list_install_components
 	@echo ... install/strip
 	@echo ... blas
+	@echo ... cblas
 	@echo ... lapack
+	@echo ... lapacke
 .PHONY : help
 
 

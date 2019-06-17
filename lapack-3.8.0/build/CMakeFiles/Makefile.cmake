@@ -30,8 +30,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/FindPythonInterp.cmake"
+  "C:/Program Files/CMake/share/cmake-3.15/Modules/FortranCInterface.cmake"
+  "C:/Program Files/CMake/share/cmake-3.15/Modules/FortranCInterface/Detect.cmake"
+  "C:/Program Files/CMake/share/cmake-3.15/Modules/FortranCInterface/Input.cmake.in"
+  "C:/Program Files/CMake/share/cmake-3.15/Modules/FortranCInterface/Macro.h.in"
+  "C:/Program Files/CMake/share/cmake-3.15/Modules/FortranCInterface/Output.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/GNUInstallDirs.cmake"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake"
+  "C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/GNUtoMS_lib.bat.in"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-GNU-Fortran-ABI.cmake"
@@ -45,6 +51,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../BLAS/CMakeLists.txt"
   "../BLAS/SRC/CMakeLists.txt"
   "../BLAS/blas.pc.in"
+  "../CBLAS/CMakeLists.txt"
+  "../CBLAS/cblas.pc.in"
+  "../CBLAS/cmake/cblas-config-build.cmake.in"
+  "../CBLAS/cmake/cblas-config-install.cmake.in"
+  "../CBLAS/cmake/cblas-config-version.cmake.in"
+  "../CBLAS/include/CMakeLists.txt"
+  "../CBLAS/src/CMakeLists.txt"
   "../CMAKE/CheckLAPACKCompilerFlags.cmake"
   "../CMAKE/CheckTimeFunction.cmake"
   "../CMAKE/PreventInBuildInstalls.cmake"
@@ -53,11 +66,20 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMAKE/lapack-config-install.cmake.in"
   "../CMakeLists.txt"
   "../CTestCustom.cmake.in"
+  "../LAPACKE/CMakeLists.txt"
+  "../LAPACKE/cmake/lapacke-config-build.cmake.in"
+  "../LAPACKE/cmake/lapacke-config-install.cmake.in"
+  "../LAPACKE/cmake/lapacke-config-version.cmake.in"
+  "../LAPACKE/include/CMakeLists.txt"
+  "../LAPACKE/lapacke.pc.in"
+  "../LAPACKE/src/CMakeLists.txt"
+  "../LAPACKE/utils/CMakeLists.txt"
   "../SRC/CMakeLists.txt"
   "CMakeFiles/3.15.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.0-rc1/CMakeFortranCompiler.cmake"
   "CMakeFiles/3.15.0-rc1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.15.0-rc1/CMakeSystem.cmake"
+  "CMakeFiles/FortranCInterface/Output.cmake"
   "../lapack.pc.in"
   )
 
@@ -69,6 +91,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/CMakeGNUtoMS_lib.bat"
   "CTestCustom.cmake"
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
@@ -79,11 +102,20 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "BLAS/CMakeFiles/CMakeDirectoryInformation.cmake"
   "BLAS/SRC/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "CBLAS/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "CBLAS/include/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "CBLAS/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SRC/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LAPACKE/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LAPACKE/include/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LAPACKE/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LAPACKE/utils/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "BLAS/SRC/CMakeFiles/blas.dir/DependInfo.cmake"
+  "CBLAS/src/CMakeFiles/cblas.dir/DependInfo.cmake"
   "SRC/CMakeFiles/lapack.dir/DependInfo.cmake"
+  "LAPACKE/CMakeFiles/lapacke.dir/DependInfo.cmake"
   )

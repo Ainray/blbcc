@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_Fortran
-  "K:/trial/lapack-3.8.0/INSTALL/second_INT_ETIME.f" "K:/trial/lapack-3.8.0/build/INSTALL/CMakeFiles/secondtst_INT_ETIME.dir/second_INT_ETIME.f.obj"
-  "K:/trial/lapack-3.8.0/INSTALL/secondtst.f" "K:/trial/lapack-3.8.0/build/INSTALL/CMakeFiles/secondtst_INT_ETIME.dir/secondtst.f.obj"
+  "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/INSTALL/second_INT_ETIME.f" "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/INSTALL/CMakeFiles/secondtst_INT_ETIME.dir/second_INT_ETIME.f.obj"
+  "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/INSTALL/secondtst.f" "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/INSTALL/CMakeFiles/secondtst_INT_ETIME.dir/secondtst.f.obj"
   )
 set(CMAKE_Fortran_COMPILER_ID "GNU")
 set(CMAKE_Fortran_SUBMODULE_SEP "@")

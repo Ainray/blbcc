@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D X:\LAPACKE_BCB_examples\build_bcb && "C:\Program Files\CMake\bin\cmake.exe" -SX:\LAPACKE_BCB_examples -BX:\LAPACKE_BCB_examples\build_bcb"
+  COMMAND = cmd.exe /C "cd /D I:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples\build_bcb && "C:\Program Files\CMake\bin\cmake.exe" -SI:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples -BI:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples\build_bcb"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_example_DGESV_rowmajor: phony || CMakeFi
 
 build CMakeFiles\example_DGESV_rowmajor.dir\src\example_DGESV_rowmajor.cpp.obj: CXX_COMPILER__example_DGESV_rowmajor ..\src\example_DGESV_rowmajor.cpp || cmake_object_order_depends_target_example_DGESV_rowmajor
   DEP_FILE = CMakeFiles\example_DGESV_rowmajor.dir\src\example_DGESV_rowmajor.cpp.obj.d
-  FLAGS = -DADD_ -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -vu -Od -v
+  FLAGS = -DADD_ -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -ps -Od -v
   INCLUDES = -I..\include -I"C:\Program Files (x86)\Embarcadero\Studio\20.0\include\windows\crtl" -I"C:\Program Files (x86)\Embarcadero\Studio\20.0\include\windows\sdk" -I"C:\Program Files (x86)\Embarcadero\Studio\20.0\include\windows\rtl" -I"C:\Program Files (x86)\Embarcadero\Studio\20.0\include\dinkumware64"
   OBJECT_DIR = CMakeFiles\example_DGESV_rowmajor.dir
   OBJECT_FILE_DIR = CMakeFiles\example_DGESV_rowmajor.dir\src
@@ -66,10 +66,10 @@ build CMakeFiles\example_DGESV_rowmajor.dir\src\example_DGESV_rowmajor.cpp.obj: 
 # Link the executable release\example_DGESV_rowmajor.exe
 
 build release\example_DGESV_rowmajor.exe: CXX_EXECUTABLE_LINKER__example_DGESV_rowmajor CMakeFiles\example_DGESV_rowmajor.dir\src\example_DGESV_rowmajor.cpp.obj
-  FLAGS = -DADD_ -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -vu -Od -v
+  FLAGS = -DADD_ -DHAVE_LAPACK_CONFIG_H -DLAPACK_COMPLEX_STRUCTURE -ps -Od -v
   LINK_FLAGS = -tM -lS:1048576 -lSc:4098 -lH:1048576 -lHc:8192 -v -tC
   LINK_LIBRARIES = liblapacke_rad.lib liblapack_rad.lib libblas_rad.lib import32.lib
-  LINK_PATH = -LX:\LAPACKE_BCB_examples\lib
+  LINK_PATH = -LI:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples\lib_lapack3.8.0
   OBJECT_DIR = CMakeFiles\example_DGESV_rowmajor.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -83,7 +83,7 @@ build release\example_DGESV_rowmajor.exe: CXX_EXECUTABLE_LINKER__example_DGESV_r
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D X:\LAPACKE_BCB_examples\build_bcb && "C:\Program Files\CMake\bin\cmake-gui.exe" -SX:\LAPACKE_BCB_examples -BX:\LAPACKE_BCB_examples\build_bcb"
+  COMMAND = cmd.exe /C "cd /D I:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples\build_bcb && "C:\Program Files\CMake\bin\cmake-gui.exe" -SI:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples -BI:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples\build_bcb"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1

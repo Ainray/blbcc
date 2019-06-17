@@ -1,4 +1,4 @@
-# Install script for directory: K:/trial/lapack-3.8.0/BLAS
+# Install script for directory: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/BLAS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,12 +33,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "K:/trial/lapack-3.8.0/build/BLAS/blas.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/BLAS/blas.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("K:/trial/lapack-3.8.0/build/BLAS/SRC/cmake_install.cmake")
+  include("I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/BLAS/SRC/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: K:/trial/lapack-3.8.0/SRC
+# Install script for directory: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/SRC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,11 +33,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "K:/trial/lapack-3.8.0/build/lib/liblapack.dll.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES
+    "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lib/liblapack.dll.a"
+    "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lib/liblapack.lib"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "K:/trial/lapack-3.8.0/build/bin/liblapack.dll")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/bin/liblapack.dll")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/liblapack.dll" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/liblapack.dll")
     if(CMAKE_INSTALL_DO_STRIP)

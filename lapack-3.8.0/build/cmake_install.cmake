@@ -1,4 +1,4 @@
-# Install script for directory: K:/trial/lapack-3.8.0
+# Install script for directory: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -36,7 +36,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0/lapack-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0/lapack-targets.cmake"
-         "K:/trial/lapack-3.8.0/build/CMakeFiles/Export/lib/cmake/lapack-3.8.0/lapack-targets.cmake")
+         "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/Export/lib/cmake/lapack-3.8.0/lapack-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0/lapack-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -45,27 +45,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0" TYPE FILE FILES "K:/trial/lapack-3.8.0/build/CMakeFiles/Export/lib/cmake/lapack-3.8.0/lapack-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0" TYPE FILE FILES "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/Export/lib/cmake/lapack-3.8.0/lapack-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0" TYPE FILE FILES "K:/trial/lapack-3.8.0/build/CMakeFiles/Export/lib/cmake/lapack-3.8.0/lapack-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0" TYPE FILE FILES "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/Export/lib/cmake/lapack-3.8.0/lapack-targets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "K:/trial/lapack-3.8.0/build/lapack.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lapack.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/lapack-3.8.0" TYPE FILE FILES
-    "K:/trial/lapack-3.8.0/build/CMakeFiles/lapack-config.cmake"
-    "K:/trial/lapack-3.8.0/build/lapack-config-version.cmake"
+    "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/lapack-config.cmake"
+    "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lapack-config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("K:/trial/lapack-3.8.0/build/BLAS/cmake_install.cmake")
-  include("K:/trial/lapack-3.8.0/build/SRC/cmake_install.cmake")
+  include("I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/BLAS/cmake_install.cmake")
+  include("I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CBLAS/cmake_install.cmake")
+  include("I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/SRC/cmake_install.cmake")
+  include("I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/LAPACKE/cmake_install.cmake")
 
 endif()
 
@@ -77,5 +79,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "K:/trial/lapack-3.8.0/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

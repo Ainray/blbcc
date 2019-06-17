@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "../bin/liblapack.dll.manifest"
   "../bin/liblapack.pdb"
   "../lib/liblapack.dll.a"
+  "../lib/liblapack.lib"
   "CMakeFiles/lapack.dir/__/INSTALL/dlamch.f.obj"
   "CMakeFiles/lapack.dir/__/INSTALL/dsecnd_INT_ETIME.f.obj"
   "CMakeFiles/lapack.dir/__/INSTALL/ilaver.f.obj"

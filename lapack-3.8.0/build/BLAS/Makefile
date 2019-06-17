@@ -45,10 +45,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -56,9 +56,9 @@ CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
-	cd K:\trial\lapack-3.8.0\build\BLAS
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
 .PHONY : package
 
 # Special rule for the target package
@@ -69,9 +69,9 @@ package\fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd K:\trial\lapack-3.8.0\build
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake K:/trial/lapack-3.8.0/build/CPackSourceConfig.cmake
-	cd K:\trial\lapack-3.8.0\build\BLAS
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CPackSourceConfig.cmake
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -160,18 +160,18 @@ install\strip\fast: preinstall\fast
 
 # The main all target
 all: cmake_check_build_system
-	cd K:\trial\lapack-3.8.0\build
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles K:\trial\lapack-3.8.0\build\BLAS\CMakeFiles\progress.marks
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\all
-	cd K:\trial\lapack-3.8.0\build\BLAS
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles 0
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\clean
-	cd K:\trial\lapack-3.8.0\build\BLAS
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
 .PHONY : clean
 
 # The main clean target
@@ -181,23 +181,23 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\preinstall
-	cd K:\trial\lapack-3.8.0\build\BLAS
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\preinstall
-	cd K:\trial\lapack-3.8.0\build\BLAS
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd K:\trial\lapack-3.8.0\build\BLAS
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
 .PHONY : depend
 
 # Help Target
@@ -226,8 +226,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd K:\trial\lapack-3.8.0\build\BLAS
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS
 .PHONY : cmake_check_build_system
 

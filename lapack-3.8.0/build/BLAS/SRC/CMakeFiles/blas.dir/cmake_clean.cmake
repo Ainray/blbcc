@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "../../bin/libblas.dll.manifest"
   "../../bin/libblas.pdb"
   "../../lib/libblas.dll.a"
+  "../../lib/libblas.lib"
   "CMakeFiles/blas.dir/caxpy.f.obj"
   "CMakeFiles/blas.dir/ccopy.f.obj"
   "CMakeFiles/blas.dir/cdotc.f.obj"

@@ -1,2 +1,3 @@
 # ninja log v5
-21	422	5824327279161580	CMakeFiles/example_DGESV_rowmajor.dir/src/example_DGESV_rowmajor.cpp.obj	a9b1e108ccda6d94
+20	400	5824846090528514	CMakeFiles/example_DGESV_rowmajor.dir/src/example_DGESV_rowmajor.cpp.obj	4be202fe4ca1f2f2
+531	2329	5824846109448406	release/example_DGESV_rowmajor.exe	57291ccff91355e9

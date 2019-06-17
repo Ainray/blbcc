@@ -49,7 +49,7 @@ rule CXX_EXECUTABLE_LINKER__example_DGESV_rowmajor
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" -SX:\LAPACKE_BCB_examples -BX:\LAPACKE_BCB_examples\build_bcb
+  command = "C:\Program Files\CMake\bin\cmake.exe" -SI:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples -BI:\LinuxPrj\21-github\blbcb\trial\LAPACKE_BCB_examples\build_bcb
   description = Re-running CMake...
   generator = 1
 

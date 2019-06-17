@@ -40,10 +40,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0\INSTALL
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build\INSTALL
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL
 
 # Include any dependencies generated for this target.
 !include CMakeFiles\secondtst_INT_CPU_TIME.dir\depend.make
@@ -55,30 +55,30 @@ CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build\INSTALL
 !include CMakeFiles\secondtst_INT_CPU_TIME.dir\flags.make
 
 CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.obj: CMakeFiles\secondtst_INT_CPU_TIME.dir\flags.make
-CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.obj: K:\trial\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/second_INT_CPU_TIME.f.obj"
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c K:\trial\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.obj
+CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.obj: I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/second_INT_CPU_TIME.f.obj"
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.obj
 
 CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.i: cmake_force
 	@echo Preprocessing Fortran source to CMakeFiles/secondtst_INT_CPU_TIME.dir/second_INT_CPU_TIME.f.i
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E K:\trial\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f > CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.i
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f > CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.i
 
 CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.s: cmake_force
 	@echo Compiling Fortran source to assembly CMakeFiles/secondtst_INT_CPU_TIME.dir/second_INT_CPU_TIME.f.s
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S K:\trial\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.s
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_INT_CPU_TIME.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU_TIME.f.s
 
 CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.obj: CMakeFiles\secondtst_INT_CPU_TIME.dir\flags.make
-CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.obj: K:\trial\lapack-3.8.0\INSTALL\secondtst.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/secondtst.f.obj"
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c K:\trial\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.obj
+CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.obj: I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/secondtst.f.obj"
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.obj
 
 CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.i: cmake_force
 	@echo Preprocessing Fortran source to CMakeFiles/secondtst_INT_CPU_TIME.dir/secondtst.f.i
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E K:\trial\lapack-3.8.0\INSTALL\secondtst.f > CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.i
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f > CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.i
 
 CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.s: cmake_force
 	@echo Compiling Fortran source to assembly CMakeFiles/secondtst_INT_CPU_TIME.dir/secondtst.f.s
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S K:\trial\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.s
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.s
 
 # Object files for target secondtst_INT_CPU_TIME
 secondtst_INT_CPU_TIME_OBJECTS = \
@@ -92,7 +92,7 @@ secondtst_INT_CPU_TIME.exe: CMakeFiles\secondtst_INT_CPU_TIME.dir\second_INT_CPU
 secondtst_INT_CPU_TIME.exe: CMakeFiles\secondtst_INT_CPU_TIME.dir\secondtst.f.obj
 secondtst_INT_CPU_TIME.exe: CMakeFiles\secondtst_INT_CPU_TIME.dir\build.make
 secondtst_INT_CPU_TIME.exe: CMakeFiles\secondtst_INT_CPU_TIME.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking Fortran executable secondtst_INT_CPU_TIME.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking Fortran executable secondtst_INT_CPU_TIME.exe"
 	"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\secondtst_INT_CPU_TIME.dir/objects.a
 	C:\MinGW\bin\ar.exe cr CMakeFiles\secondtst_INT_CPU_TIME.dir/objects.a @CMakeFiles\secondtst_INT_CPU_TIME.dir\objects1.rsp
 	C:\MinGW\bin\gfortran.exe    -Wl,--whole-archive CMakeFiles\secondtst_INT_CPU_TIME.dir/objects.a -Wl,--no-whole-archive  -o secondtst_INT_CPU_TIME.exe -Wl,--out-implib,libsecondtst_INT_CPU_TIME.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
@@ -107,6 +107,6 @@ CMakeFiles\secondtst_INT_CPU_TIME.dir\clean:
 .PHONY : CMakeFiles\secondtst_INT_CPU_TIME.dir\clean
 
 CMakeFiles\secondtst_INT_CPU_TIME.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Borland Makefiles" K:\trial\lapack-3.8.0\INSTALL K:\trial\lapack-3.8.0\INSTALL K:\trial\lapack-3.8.0\build\INSTALL K:\trial\lapack-3.8.0\build\INSTALL K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles\secondtst_INT_CPU_TIME.dir\DependInfo.cmake
+	$(CMAKE_COMMAND) -E cmake_depends "Borland Makefiles" I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles\secondtst_INT_CPU_TIME.dir\DependInfo.cmake
 .PHONY : CMakeFiles\secondtst_INT_CPU_TIME.dir\depend
 

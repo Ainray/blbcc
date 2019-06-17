@@ -1,5 +1,5 @@
 Fortran EXT_ETIME does not exist. 
- Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+ Change Dir: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/INSTALL
 
 Run Build Command(s):make secondtst_EXT_ETIME && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
 MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
@@ -23,7 +23,7 @@ collect2.exe: error: ld returned 1 exit status
 
  
 Fortran EXT_ETIME_ does not exist. 
- Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+ Change Dir: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/INSTALL
 
 Run Build Command(s):make secondtst_EXT_ETIME_ && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
 MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
@@ -47,7 +47,7 @@ collect2.exe: error: ld returned 1 exit status
 
  
 Fortran EXT_ETIME does not exist. 
- Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+ Change Dir: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/INSTALL
 
 Run Build Command(s):make secondtst_EXT_ETIME && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
 MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
@@ -68,7 +68,7 @@ collect2.exe: error: ld returned 1 exit status
 
  
 Fortran EXT_ETIME_ does not exist. 
- Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+ Change Dir: I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/INSTALL
 
 Run Build Command(s):make secondtst_EXT_ETIME_ && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
 MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.

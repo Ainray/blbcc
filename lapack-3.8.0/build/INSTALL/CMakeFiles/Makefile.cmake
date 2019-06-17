@@ -26,10 +26,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.15/Modules/Platform/WindowsPaths.cmake"
-  "K:/trial/lapack-3.8.0/INSTALL/CMakeLists.txt"
-  "K:/trial/lapack-3.8.0/build/CMakeFiles/3.15.0-rc1/CMakeFortranCompiler.cmake"
-  "K:/trial/lapack-3.8.0/build/CMakeFiles/3.15.0-rc1/CMakeRCCompiler.cmake"
-  "K:/trial/lapack-3.8.0/build/CMakeFiles/3.15.0-rc1/CMakeSystem.cmake"
+  "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/INSTALL/CMakeLists.txt"
+  "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/3.15.0-rc1/CMakeFortranCompiler.cmake"
+  "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/3.15.0-rc1/CMakeRCCompiler.cmake"
+  "I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CMakeFiles/3.15.0-rc1/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:

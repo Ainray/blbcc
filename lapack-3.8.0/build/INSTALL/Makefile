@@ -45,10 +45,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0\INSTALL
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build\INSTALL
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,9 +77,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

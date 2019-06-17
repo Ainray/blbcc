@@ -45,29 +45,35 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: BLAS\all
+all: CBLAS\all
 all: SRC\all
+all: LAPACKE\all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: BLAS\clean
+clean: CBLAS\clean
 clean: SRC\clean
+clean: LAPACKE\clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
 preinstall: BLAS\preinstall
+preinstall: CBLAS\preinstall
 preinstall: SRC\preinstall
+preinstall: LAPACKE\preinstall
 
 .PHONY : preinstall
 
@@ -114,14 +120,14 @@ BLAS\SRC\preinstall: NUL
 BLAS\SRC\CMakeFiles\blas.dir\all:
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\depend
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target blas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles --progress-num=1,2,3 "Built target blas"
 .PHONY : BLAS\SRC\CMakeFiles\blas.dir\all
 
 # Build rule for subdir invocation for target.
 BLAS\SRC\CMakeFiles\blas.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 0
 .PHONY : BLAS\SRC\CMakeFiles\blas.dir\rule
 
 # Convenience name for target.
@@ -133,6 +139,90 @@ blas: BLAS\SRC\CMakeFiles\blas.dir\rule
 BLAS\SRC\CMakeFiles\blas.dir\clean:
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\clean
 .PHONY : BLAS\SRC\CMakeFiles\blas.dir\clean
+
+#=============================================================================
+# Directory level rules for directory CBLAS
+
+# Recursive "all" directory target.
+CBLAS\all: CBLAS\include\all
+CBLAS\all: CBLAS\src\all
+
+.PHONY : CBLAS\all
+
+# Recursive "clean" directory target.
+CBLAS\clean: CBLAS\include\clean
+CBLAS\clean: CBLAS\src\clean
+
+.PHONY : CBLAS\clean
+
+# Recursive "preinstall" directory target.
+CBLAS\preinstall: CBLAS\include\preinstall
+CBLAS\preinstall: CBLAS\src\preinstall
+
+.PHONY : CBLAS\preinstall
+
+#=============================================================================
+# Directory level rules for directory CBLAS\include
+
+# Recursive "all" directory target.
+CBLAS\include\all: NUL
+
+.PHONY : CBLAS\include\all
+
+# Recursive "clean" directory target.
+CBLAS\include\clean: NUL
+
+.PHONY : CBLAS\include\clean
+
+# Recursive "preinstall" directory target.
+CBLAS\include\preinstall: NUL
+
+.PHONY : CBLAS\include\preinstall
+
+#=============================================================================
+# Directory level rules for directory CBLAS\src
+
+# Recursive "all" directory target.
+CBLAS\src\all: CBLAS\src\CMakeFiles\cblas.dir\all
+
+.PHONY : CBLAS\src\all
+
+# Recursive "clean" directory target.
+CBLAS\src\clean: CBLAS\src\CMakeFiles\cblas.dir\clean
+
+.PHONY : CBLAS\src\clean
+
+# Recursive "preinstall" directory target.
+CBLAS\src\preinstall: NUL
+
+.PHONY : CBLAS\src\preinstall
+
+#=============================================================================
+# Target rules for target CBLAS/src/CMakeFiles/cblas.dir
+
+# All Build rule for target.
+CBLAS\src\CMakeFiles\cblas.dir\all: BLAS\SRC\CMakeFiles\blas.dir\all
+	$(MAKE) -f CBLAS\src\CMakeFiles\cblas.dir\build.make -$(MAKEFLAGS) CBLAS\src\CMakeFiles\cblas.dir\depend
+	$(MAKE) -f CBLAS\src\CMakeFiles\cblas.dir\build.make -$(MAKEFLAGS) CBLAS\src\CMakeFiles\cblas.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles --progress-num=4,5,6 "Built target cblas"
+.PHONY : CBLAS\src\CMakeFiles\cblas.dir\all
+
+# Build rule for subdir invocation for target.
+CBLAS\src\CMakeFiles\cblas.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 6
+	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) CBLAS\src\CMakeFiles\cblas.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 0
+.PHONY : CBLAS\src\CMakeFiles\cblas.dir\rule
+
+# Convenience name for target.
+cblas: CBLAS\src\CMakeFiles\cblas.dir\rule
+
+.PHONY : cblas
+
+# clean rule for target.
+CBLAS\src\CMakeFiles\cblas.dir\clean:
+	$(MAKE) -f CBLAS\src\CMakeFiles\cblas.dir\build.make -$(MAKEFLAGS) CBLAS\src\CMakeFiles\cblas.dir\clean
+.PHONY : CBLAS\src\CMakeFiles\cblas.dir\clean
 
 #=============================================================================
 # Directory level rules for directory SRC
@@ -159,14 +249,14 @@ SRC\preinstall: NUL
 SRC\CMakeFiles\lapack.dir\all: BLAS\SRC\CMakeFiles\blas.dir\all
 	$(MAKE) -f SRC\CMakeFiles\lapack.dir\build.make -$(MAKEFLAGS) SRC\CMakeFiles\lapack.dir\depend
 	$(MAKE) -f SRC\CMakeFiles\lapack.dir\build.make -$(MAKEFLAGS) SRC\CMakeFiles\lapack.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target lapack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46 "Built target lapack"
 .PHONY : SRC\CMakeFiles\lapack.dir\all
 
 # Build rule for subdir invocation for target.
 SRC\CMakeFiles\lapack.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 43
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) SRC\CMakeFiles\lapack.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 0
 .PHONY : SRC\CMakeFiles\lapack.dir\rule
 
 # Convenience name for target.
@@ -178,6 +268,113 @@ lapack: SRC\CMakeFiles\lapack.dir\rule
 SRC\CMakeFiles\lapack.dir\clean:
 	$(MAKE) -f SRC\CMakeFiles\lapack.dir\build.make -$(MAKEFLAGS) SRC\CMakeFiles\lapack.dir\clean
 .PHONY : SRC\CMakeFiles\lapack.dir\clean
+
+#=============================================================================
+# Directory level rules for directory LAPACKE
+
+# Recursive "all" directory target.
+LAPACKE\all: LAPACKE\CMakeFiles\lapacke.dir\all
+LAPACKE\all: LAPACKE\include\all
+LAPACKE\all: LAPACKE\src\all
+LAPACKE\all: LAPACKE\utils\all
+
+.PHONY : LAPACKE\all
+
+# Recursive "clean" directory target.
+LAPACKE\clean: LAPACKE\CMakeFiles\lapacke.dir\clean
+LAPACKE\clean: LAPACKE\include\clean
+LAPACKE\clean: LAPACKE\src\clean
+LAPACKE\clean: LAPACKE\utils\clean
+
+.PHONY : LAPACKE\clean
+
+# Recursive "preinstall" directory target.
+LAPACKE\preinstall: LAPACKE\include\preinstall
+LAPACKE\preinstall: LAPACKE\src\preinstall
+LAPACKE\preinstall: LAPACKE\utils\preinstall
+
+.PHONY : LAPACKE\preinstall
+
+#=============================================================================
+# Target rules for target LAPACKE/CMakeFiles/lapacke.dir
+
+# All Build rule for target.
+LAPACKE\CMakeFiles\lapacke.dir\all: SRC\CMakeFiles\lapack.dir\all
+	$(MAKE) -f LAPACKE\CMakeFiles\lapacke.dir\build.make -$(MAKEFLAGS) LAPACKE\CMakeFiles\lapacke.dir\depend
+	$(MAKE) -f LAPACKE\CMakeFiles\lapacke.dir\build.make -$(MAKEFLAGS) LAPACKE\CMakeFiles\lapacke.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target lapacke"
+.PHONY : LAPACKE\CMakeFiles\lapacke.dir\all
+
+# Build rule for subdir invocation for target.
+LAPACKE\CMakeFiles\lapacke.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 97
+	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) LAPACKE\CMakeFiles\lapacke.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 0
+.PHONY : LAPACKE\CMakeFiles\lapacke.dir\rule
+
+# Convenience name for target.
+lapacke: LAPACKE\CMakeFiles\lapacke.dir\rule
+
+.PHONY : lapacke
+
+# clean rule for target.
+LAPACKE\CMakeFiles\lapacke.dir\clean:
+	$(MAKE) -f LAPACKE\CMakeFiles\lapacke.dir\build.make -$(MAKEFLAGS) LAPACKE\CMakeFiles\lapacke.dir\clean
+.PHONY : LAPACKE\CMakeFiles\lapacke.dir\clean
+
+#=============================================================================
+# Directory level rules for directory LAPACKE\include
+
+# Recursive "all" directory target.
+LAPACKE\include\all: NUL
+
+.PHONY : LAPACKE\include\all
+
+# Recursive "clean" directory target.
+LAPACKE\include\clean: NUL
+
+.PHONY : LAPACKE\include\clean
+
+# Recursive "preinstall" directory target.
+LAPACKE\include\preinstall: NUL
+
+.PHONY : LAPACKE\include\preinstall
+
+#=============================================================================
+# Directory level rules for directory LAPACKE\src
+
+# Recursive "all" directory target.
+LAPACKE\src\all: NUL
+
+.PHONY : LAPACKE\src\all
+
+# Recursive "clean" directory target.
+LAPACKE\src\clean: NUL
+
+.PHONY : LAPACKE\src\clean
+
+# Recursive "preinstall" directory target.
+LAPACKE\src\preinstall: NUL
+
+.PHONY : LAPACKE\src\preinstall
+
+#=============================================================================
+# Directory level rules for directory LAPACKE\utils
+
+# Recursive "all" directory target.
+LAPACKE\utils\all: NUL
+
+.PHONY : LAPACKE\utils\all
+
+# Recursive "clean" directory target.
+LAPACKE\utils\clean: NUL
+
+.PHONY : LAPACKE\utils\clean
+
+# Recursive "preinstall" directory target.
+LAPACKE\utils\preinstall: NUL
+
+.PHONY : LAPACKE\utils\preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

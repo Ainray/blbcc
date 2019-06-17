@@ -45,10 +45,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -56,9 +56,9 @@ CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : package
 
 # Special rule for the target package
@@ -69,9 +69,9 @@ package\fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd K:\trial\lapack-3.8.0\build
-	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake K:/trial/lapack-3.8.0/build/CPackSourceConfig.cmake
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/CPackSourceConfig.cmake
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -160,18 +160,18 @@ install\strip\fast: preinstall\fast
 
 # The main all target
 all: cmake_check_build_system
-	cd K:\trial\lapack-3.8.0\build
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles K:\trial\lapack-3.8.0\build\BLAS\SRC\CMakeFiles\progress.marks
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\SRC\all
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\trial\lapack-3.8.0\build\CMakeFiles 0
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\SRC\clean
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : clean
 
 # The main clean target
@@ -181,30 +181,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\SRC\preinstall
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\SRC\preinstall
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : depend
 
 # Convenience name for target.
 BLAS\SRC\CMakeFiles\blas.dir\rule:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f CMakeFiles\Makefile2 -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\rule
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : BLAS\SRC\CMakeFiles\blas.dir\rule
 
 # Convenience name for target.
@@ -214,9 +214,9 @@ blas: BLAS\SRC\CMakeFiles\blas.dir\rule
 
 # fast build rule for target.
 blas\fast:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\build
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : blas\fast
 
 caxpy.obj: caxpy.f.obj
@@ -225,9 +225,9 @@ caxpy.obj: caxpy.f.obj
 
 # target to build an object file
 caxpy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\caxpy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : caxpy.f.obj
 
 caxpy.i: caxpy.f.i
@@ -236,9 +236,9 @@ caxpy.i: caxpy.f.i
 
 # target to preprocess a source file
 caxpy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\caxpy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : caxpy.f.i
 
 caxpy.s: caxpy.f.s
@@ -247,9 +247,9 @@ caxpy.s: caxpy.f.s
 
 # target to generate assembly for a file
 caxpy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\caxpy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : caxpy.f.s
 
 ccopy.obj: ccopy.f.obj
@@ -258,9 +258,9 @@ ccopy.obj: ccopy.f.obj
 
 # target to build an object file
 ccopy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ccopy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ccopy.f.obj
 
 ccopy.i: ccopy.f.i
@@ -269,9 +269,9 @@ ccopy.i: ccopy.f.i
 
 # target to preprocess a source file
 ccopy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ccopy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ccopy.f.i
 
 ccopy.s: ccopy.f.s
@@ -280,9 +280,9 @@ ccopy.s: ccopy.f.s
 
 # target to generate assembly for a file
 ccopy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ccopy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ccopy.f.s
 
 cdotc.obj: cdotc.f.obj
@@ -291,9 +291,9 @@ cdotc.obj: cdotc.f.obj
 
 # target to build an object file
 cdotc.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cdotc.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cdotc.f.obj
 
 cdotc.i: cdotc.f.i
@@ -302,9 +302,9 @@ cdotc.i: cdotc.f.i
 
 # target to preprocess a source file
 cdotc.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cdotc.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cdotc.f.i
 
 cdotc.s: cdotc.f.s
@@ -313,9 +313,9 @@ cdotc.s: cdotc.f.s
 
 # target to generate assembly for a file
 cdotc.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cdotc.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cdotc.f.s
 
 cdotu.obj: cdotu.f.obj
@@ -324,9 +324,9 @@ cdotu.obj: cdotu.f.obj
 
 # target to build an object file
 cdotu.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cdotu.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cdotu.f.obj
 
 cdotu.i: cdotu.f.i
@@ -335,9 +335,9 @@ cdotu.i: cdotu.f.i
 
 # target to preprocess a source file
 cdotu.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cdotu.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cdotu.f.i
 
 cdotu.s: cdotu.f.s
@@ -346,9 +346,9 @@ cdotu.s: cdotu.f.s
 
 # target to generate assembly for a file
 cdotu.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cdotu.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cdotu.f.s
 
 cgbmv.obj: cgbmv.f.obj
@@ -357,9 +357,9 @@ cgbmv.obj: cgbmv.f.obj
 
 # target to build an object file
 cgbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgbmv.f.obj
 
 cgbmv.i: cgbmv.f.i
@@ -368,9 +368,9 @@ cgbmv.i: cgbmv.f.i
 
 # target to preprocess a source file
 cgbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgbmv.f.i
 
 cgbmv.s: cgbmv.f.s
@@ -379,9 +379,9 @@ cgbmv.s: cgbmv.f.s
 
 # target to generate assembly for a file
 cgbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgbmv.f.s
 
 cgemm.obj: cgemm.f.obj
@@ -390,9 +390,9 @@ cgemm.obj: cgemm.f.obj
 
 # target to build an object file
 cgemm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgemm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgemm.f.obj
 
 cgemm.i: cgemm.f.i
@@ -401,9 +401,9 @@ cgemm.i: cgemm.f.i
 
 # target to preprocess a source file
 cgemm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgemm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgemm.f.i
 
 cgemm.s: cgemm.f.s
@@ -412,9 +412,9 @@ cgemm.s: cgemm.f.s
 
 # target to generate assembly for a file
 cgemm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgemm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgemm.f.s
 
 cgemv.obj: cgemv.f.obj
@@ -423,9 +423,9 @@ cgemv.obj: cgemv.f.obj
 
 # target to build an object file
 cgemv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgemv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgemv.f.obj
 
 cgemv.i: cgemv.f.i
@@ -434,9 +434,9 @@ cgemv.i: cgemv.f.i
 
 # target to preprocess a source file
 cgemv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgemv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgemv.f.i
 
 cgemv.s: cgemv.f.s
@@ -445,9 +445,9 @@ cgemv.s: cgemv.f.s
 
 # target to generate assembly for a file
 cgemv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgemv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgemv.f.s
 
 cgerc.obj: cgerc.f.obj
@@ -456,9 +456,9 @@ cgerc.obj: cgerc.f.obj
 
 # target to build an object file
 cgerc.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgerc.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgerc.f.obj
 
 cgerc.i: cgerc.f.i
@@ -467,9 +467,9 @@ cgerc.i: cgerc.f.i
 
 # target to preprocess a source file
 cgerc.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgerc.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgerc.f.i
 
 cgerc.s: cgerc.f.s
@@ -478,9 +478,9 @@ cgerc.s: cgerc.f.s
 
 # target to generate assembly for a file
 cgerc.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgerc.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgerc.f.s
 
 cgeru.obj: cgeru.f.obj
@@ -489,9 +489,9 @@ cgeru.obj: cgeru.f.obj
 
 # target to build an object file
 cgeru.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgeru.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgeru.f.obj
 
 cgeru.i: cgeru.f.i
@@ -500,9 +500,9 @@ cgeru.i: cgeru.f.i
 
 # target to preprocess a source file
 cgeru.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgeru.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgeru.f.i
 
 cgeru.s: cgeru.f.s
@@ -511,9 +511,9 @@ cgeru.s: cgeru.f.s
 
 # target to generate assembly for a file
 cgeru.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cgeru.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cgeru.f.s
 
 chbmv.obj: chbmv.f.obj
@@ -522,9 +522,9 @@ chbmv.obj: chbmv.f.obj
 
 # target to build an object file
 chbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chbmv.f.obj
 
 chbmv.i: chbmv.f.i
@@ -533,9 +533,9 @@ chbmv.i: chbmv.f.i
 
 # target to preprocess a source file
 chbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chbmv.f.i
 
 chbmv.s: chbmv.f.s
@@ -544,9 +544,9 @@ chbmv.s: chbmv.f.s
 
 # target to generate assembly for a file
 chbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chbmv.f.s
 
 chemm.obj: chemm.f.obj
@@ -555,9 +555,9 @@ chemm.obj: chemm.f.obj
 
 # target to build an object file
 chemm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chemm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chemm.f.obj
 
 chemm.i: chemm.f.i
@@ -566,9 +566,9 @@ chemm.i: chemm.f.i
 
 # target to preprocess a source file
 chemm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chemm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chemm.f.i
 
 chemm.s: chemm.f.s
@@ -577,9 +577,9 @@ chemm.s: chemm.f.s
 
 # target to generate assembly for a file
 chemm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chemm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chemm.f.s
 
 chemv.obj: chemv.f.obj
@@ -588,9 +588,9 @@ chemv.obj: chemv.f.obj
 
 # target to build an object file
 chemv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chemv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chemv.f.obj
 
 chemv.i: chemv.f.i
@@ -599,9 +599,9 @@ chemv.i: chemv.f.i
 
 # target to preprocess a source file
 chemv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chemv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chemv.f.i
 
 chemv.s: chemv.f.s
@@ -610,9 +610,9 @@ chemv.s: chemv.f.s
 
 # target to generate assembly for a file
 chemv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chemv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chemv.f.s
 
 cher.obj: cher.f.obj
@@ -621,9 +621,9 @@ cher.obj: cher.f.obj
 
 # target to build an object file
 cher.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher.f.obj
 
 cher.i: cher.f.i
@@ -632,9 +632,9 @@ cher.i: cher.f.i
 
 # target to preprocess a source file
 cher.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher.f.i
 
 cher.s: cher.f.s
@@ -643,9 +643,9 @@ cher.s: cher.f.s
 
 # target to generate assembly for a file
 cher.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher.f.s
 
 cher2.obj: cher2.f.obj
@@ -654,9 +654,9 @@ cher2.obj: cher2.f.obj
 
 # target to build an object file
 cher2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher2.f.obj
 
 cher2.i: cher2.f.i
@@ -665,9 +665,9 @@ cher2.i: cher2.f.i
 
 # target to preprocess a source file
 cher2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher2.f.i
 
 cher2.s: cher2.f.s
@@ -676,9 +676,9 @@ cher2.s: cher2.f.s
 
 # target to generate assembly for a file
 cher2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher2.f.s
 
 cher2k.obj: cher2k.f.obj
@@ -687,9 +687,9 @@ cher2k.obj: cher2k.f.obj
 
 # target to build an object file
 cher2k.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher2k.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher2k.f.obj
 
 cher2k.i: cher2k.f.i
@@ -698,9 +698,9 @@ cher2k.i: cher2k.f.i
 
 # target to preprocess a source file
 cher2k.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher2k.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher2k.f.i
 
 cher2k.s: cher2k.f.s
@@ -709,9 +709,9 @@ cher2k.s: cher2k.f.s
 
 # target to generate assembly for a file
 cher2k.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cher2k.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cher2k.f.s
 
 cherk.obj: cherk.f.obj
@@ -720,9 +720,9 @@ cherk.obj: cherk.f.obj
 
 # target to build an object file
 cherk.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cherk.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cherk.f.obj
 
 cherk.i: cherk.f.i
@@ -731,9 +731,9 @@ cherk.i: cherk.f.i
 
 # target to preprocess a source file
 cherk.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cherk.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cherk.f.i
 
 cherk.s: cherk.f.s
@@ -742,9 +742,9 @@ cherk.s: cherk.f.s
 
 # target to generate assembly for a file
 cherk.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cherk.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cherk.f.s
 
 chpmv.obj: chpmv.f.obj
@@ -753,9 +753,9 @@ chpmv.obj: chpmv.f.obj
 
 # target to build an object file
 chpmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpmv.f.obj
 
 chpmv.i: chpmv.f.i
@@ -764,9 +764,9 @@ chpmv.i: chpmv.f.i
 
 # target to preprocess a source file
 chpmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpmv.f.i
 
 chpmv.s: chpmv.f.s
@@ -775,9 +775,9 @@ chpmv.s: chpmv.f.s
 
 # target to generate assembly for a file
 chpmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpmv.f.s
 
 chpr.obj: chpr.f.obj
@@ -786,9 +786,9 @@ chpr.obj: chpr.f.obj
 
 # target to build an object file
 chpr.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpr.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpr.f.obj
 
 chpr.i: chpr.f.i
@@ -797,9 +797,9 @@ chpr.i: chpr.f.i
 
 # target to preprocess a source file
 chpr.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpr.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpr.f.i
 
 chpr.s: chpr.f.s
@@ -808,9 +808,9 @@ chpr.s: chpr.f.s
 
 # target to generate assembly for a file
 chpr.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpr.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpr.f.s
 
 chpr2.obj: chpr2.f.obj
@@ -819,9 +819,9 @@ chpr2.obj: chpr2.f.obj
 
 # target to build an object file
 chpr2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpr2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpr2.f.obj
 
 chpr2.i: chpr2.f.i
@@ -830,9 +830,9 @@ chpr2.i: chpr2.f.i
 
 # target to preprocess a source file
 chpr2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpr2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpr2.f.i
 
 chpr2.s: chpr2.f.s
@@ -841,9 +841,9 @@ chpr2.s: chpr2.f.s
 
 # target to generate assembly for a file
 chpr2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\chpr2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : chpr2.f.s
 
 crotg.obj: crotg.f.obj
@@ -852,9 +852,9 @@ crotg.obj: crotg.f.obj
 
 # target to build an object file
 crotg.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\crotg.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : crotg.f.obj
 
 crotg.i: crotg.f.i
@@ -863,9 +863,9 @@ crotg.i: crotg.f.i
 
 # target to preprocess a source file
 crotg.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\crotg.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : crotg.f.i
 
 crotg.s: crotg.f.s
@@ -874,9 +874,9 @@ crotg.s: crotg.f.s
 
 # target to generate assembly for a file
 crotg.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\crotg.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : crotg.f.s
 
 cscal.obj: cscal.f.obj
@@ -885,9 +885,9 @@ cscal.obj: cscal.f.obj
 
 # target to build an object file
 cscal.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cscal.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cscal.f.obj
 
 cscal.i: cscal.f.i
@@ -896,9 +896,9 @@ cscal.i: cscal.f.i
 
 # target to preprocess a source file
 cscal.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cscal.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cscal.f.i
 
 cscal.s: cscal.f.s
@@ -907,9 +907,9 @@ cscal.s: cscal.f.s
 
 # target to generate assembly for a file
 cscal.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cscal.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cscal.f.s
 
 csrot.obj: csrot.f.obj
@@ -918,9 +918,9 @@ csrot.obj: csrot.f.obj
 
 # target to build an object file
 csrot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csrot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csrot.f.obj
 
 csrot.i: csrot.f.i
@@ -929,9 +929,9 @@ csrot.i: csrot.f.i
 
 # target to preprocess a source file
 csrot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csrot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csrot.f.i
 
 csrot.s: csrot.f.s
@@ -940,9 +940,9 @@ csrot.s: csrot.f.s
 
 # target to generate assembly for a file
 csrot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csrot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csrot.f.s
 
 csscal.obj: csscal.f.obj
@@ -951,9 +951,9 @@ csscal.obj: csscal.f.obj
 
 # target to build an object file
 csscal.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csscal.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csscal.f.obj
 
 csscal.i: csscal.f.i
@@ -962,9 +962,9 @@ csscal.i: csscal.f.i
 
 # target to preprocess a source file
 csscal.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csscal.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csscal.f.i
 
 csscal.s: csscal.f.s
@@ -973,9 +973,9 @@ csscal.s: csscal.f.s
 
 # target to generate assembly for a file
 csscal.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csscal.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csscal.f.s
 
 cswap.obj: cswap.f.obj
@@ -984,9 +984,9 @@ cswap.obj: cswap.f.obj
 
 # target to build an object file
 cswap.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cswap.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cswap.f.obj
 
 cswap.i: cswap.f.i
@@ -995,9 +995,9 @@ cswap.i: cswap.f.i
 
 # target to preprocess a source file
 cswap.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cswap.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cswap.f.i
 
 cswap.s: cswap.f.s
@@ -1006,9 +1006,9 @@ cswap.s: cswap.f.s
 
 # target to generate assembly for a file
 cswap.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\cswap.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cswap.f.s
 
 csymm.obj: csymm.f.obj
@@ -1017,9 +1017,9 @@ csymm.obj: csymm.f.obj
 
 # target to build an object file
 csymm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csymm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csymm.f.obj
 
 csymm.i: csymm.f.i
@@ -1028,9 +1028,9 @@ csymm.i: csymm.f.i
 
 # target to preprocess a source file
 csymm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csymm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csymm.f.i
 
 csymm.s: csymm.f.s
@@ -1039,9 +1039,9 @@ csymm.s: csymm.f.s
 
 # target to generate assembly for a file
 csymm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csymm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csymm.f.s
 
 csyr2k.obj: csyr2k.f.obj
@@ -1050,9 +1050,9 @@ csyr2k.obj: csyr2k.f.obj
 
 # target to build an object file
 csyr2k.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csyr2k.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csyr2k.f.obj
 
 csyr2k.i: csyr2k.f.i
@@ -1061,9 +1061,9 @@ csyr2k.i: csyr2k.f.i
 
 # target to preprocess a source file
 csyr2k.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csyr2k.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csyr2k.f.i
 
 csyr2k.s: csyr2k.f.s
@@ -1072,9 +1072,9 @@ csyr2k.s: csyr2k.f.s
 
 # target to generate assembly for a file
 csyr2k.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csyr2k.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csyr2k.f.s
 
 csyrk.obj: csyrk.f.obj
@@ -1083,9 +1083,9 @@ csyrk.obj: csyrk.f.obj
 
 # target to build an object file
 csyrk.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csyrk.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csyrk.f.obj
 
 csyrk.i: csyrk.f.i
@@ -1094,9 +1094,9 @@ csyrk.i: csyrk.f.i
 
 # target to preprocess a source file
 csyrk.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csyrk.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csyrk.f.i
 
 csyrk.s: csyrk.f.s
@@ -1105,9 +1105,9 @@ csyrk.s: csyrk.f.s
 
 # target to generate assembly for a file
 csyrk.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\csyrk.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : csyrk.f.s
 
 ctbmv.obj: ctbmv.f.obj
@@ -1116,9 +1116,9 @@ ctbmv.obj: ctbmv.f.obj
 
 # target to build an object file
 ctbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctbmv.f.obj
 
 ctbmv.i: ctbmv.f.i
@@ -1127,9 +1127,9 @@ ctbmv.i: ctbmv.f.i
 
 # target to preprocess a source file
 ctbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctbmv.f.i
 
 ctbmv.s: ctbmv.f.s
@@ -1138,9 +1138,9 @@ ctbmv.s: ctbmv.f.s
 
 # target to generate assembly for a file
 ctbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctbmv.f.s
 
 ctbsv.obj: ctbsv.f.obj
@@ -1149,9 +1149,9 @@ ctbsv.obj: ctbsv.f.obj
 
 # target to build an object file
 ctbsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctbsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctbsv.f.obj
 
 ctbsv.i: ctbsv.f.i
@@ -1160,9 +1160,9 @@ ctbsv.i: ctbsv.f.i
 
 # target to preprocess a source file
 ctbsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctbsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctbsv.f.i
 
 ctbsv.s: ctbsv.f.s
@@ -1171,9 +1171,9 @@ ctbsv.s: ctbsv.f.s
 
 # target to generate assembly for a file
 ctbsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctbsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctbsv.f.s
 
 ctpmv.obj: ctpmv.f.obj
@@ -1182,9 +1182,9 @@ ctpmv.obj: ctpmv.f.obj
 
 # target to build an object file
 ctpmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctpmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctpmv.f.obj
 
 ctpmv.i: ctpmv.f.i
@@ -1193,9 +1193,9 @@ ctpmv.i: ctpmv.f.i
 
 # target to preprocess a source file
 ctpmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctpmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctpmv.f.i
 
 ctpmv.s: ctpmv.f.s
@@ -1204,9 +1204,9 @@ ctpmv.s: ctpmv.f.s
 
 # target to generate assembly for a file
 ctpmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctpmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctpmv.f.s
 
 ctpsv.obj: ctpsv.f.obj
@@ -1215,9 +1215,9 @@ ctpsv.obj: ctpsv.f.obj
 
 # target to build an object file
 ctpsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctpsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctpsv.f.obj
 
 ctpsv.i: ctpsv.f.i
@@ -1226,9 +1226,9 @@ ctpsv.i: ctpsv.f.i
 
 # target to preprocess a source file
 ctpsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctpsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctpsv.f.i
 
 ctpsv.s: ctpsv.f.s
@@ -1237,9 +1237,9 @@ ctpsv.s: ctpsv.f.s
 
 # target to generate assembly for a file
 ctpsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctpsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctpsv.f.s
 
 ctrmm.obj: ctrmm.f.obj
@@ -1248,9 +1248,9 @@ ctrmm.obj: ctrmm.f.obj
 
 # target to build an object file
 ctrmm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrmm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrmm.f.obj
 
 ctrmm.i: ctrmm.f.i
@@ -1259,9 +1259,9 @@ ctrmm.i: ctrmm.f.i
 
 # target to preprocess a source file
 ctrmm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrmm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrmm.f.i
 
 ctrmm.s: ctrmm.f.s
@@ -1270,9 +1270,9 @@ ctrmm.s: ctrmm.f.s
 
 # target to generate assembly for a file
 ctrmm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrmm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrmm.f.s
 
 ctrmv.obj: ctrmv.f.obj
@@ -1281,9 +1281,9 @@ ctrmv.obj: ctrmv.f.obj
 
 # target to build an object file
 ctrmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrmv.f.obj
 
 ctrmv.i: ctrmv.f.i
@@ -1292,9 +1292,9 @@ ctrmv.i: ctrmv.f.i
 
 # target to preprocess a source file
 ctrmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrmv.f.i
 
 ctrmv.s: ctrmv.f.s
@@ -1303,9 +1303,9 @@ ctrmv.s: ctrmv.f.s
 
 # target to generate assembly for a file
 ctrmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrmv.f.s
 
 ctrsm.obj: ctrsm.f.obj
@@ -1314,9 +1314,9 @@ ctrsm.obj: ctrsm.f.obj
 
 # target to build an object file
 ctrsm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrsm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrsm.f.obj
 
 ctrsm.i: ctrsm.f.i
@@ -1325,9 +1325,9 @@ ctrsm.i: ctrsm.f.i
 
 # target to preprocess a source file
 ctrsm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrsm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrsm.f.i
 
 ctrsm.s: ctrsm.f.s
@@ -1336,9 +1336,9 @@ ctrsm.s: ctrsm.f.s
 
 # target to generate assembly for a file
 ctrsm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrsm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrsm.f.s
 
 ctrsv.obj: ctrsv.f.obj
@@ -1347,9 +1347,9 @@ ctrsv.obj: ctrsv.f.obj
 
 # target to build an object file
 ctrsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrsv.f.obj
 
 ctrsv.i: ctrsv.f.i
@@ -1358,9 +1358,9 @@ ctrsv.i: ctrsv.f.i
 
 # target to preprocess a source file
 ctrsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrsv.f.i
 
 ctrsv.s: ctrsv.f.s
@@ -1369,9 +1369,9 @@ ctrsv.s: ctrsv.f.s
 
 # target to generate assembly for a file
 ctrsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ctrsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ctrsv.f.s
 
 dasum.obj: dasum.f.obj
@@ -1380,9 +1380,9 @@ dasum.obj: dasum.f.obj
 
 # target to build an object file
 dasum.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dasum.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dasum.f.obj
 
 dasum.i: dasum.f.i
@@ -1391,9 +1391,9 @@ dasum.i: dasum.f.i
 
 # target to preprocess a source file
 dasum.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dasum.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dasum.f.i
 
 dasum.s: dasum.f.s
@@ -1402,9 +1402,9 @@ dasum.s: dasum.f.s
 
 # target to generate assembly for a file
 dasum.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dasum.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dasum.f.s
 
 daxpy.obj: daxpy.f.obj
@@ -1413,9 +1413,9 @@ daxpy.obj: daxpy.f.obj
 
 # target to build an object file
 daxpy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\daxpy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : daxpy.f.obj
 
 daxpy.i: daxpy.f.i
@@ -1424,9 +1424,9 @@ daxpy.i: daxpy.f.i
 
 # target to preprocess a source file
 daxpy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\daxpy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : daxpy.f.i
 
 daxpy.s: daxpy.f.s
@@ -1435,9 +1435,9 @@ daxpy.s: daxpy.f.s
 
 # target to generate assembly for a file
 daxpy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\daxpy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : daxpy.f.s
 
 dcabs1.obj: dcabs1.f.obj
@@ -1446,9 +1446,9 @@ dcabs1.obj: dcabs1.f.obj
 
 # target to build an object file
 dcabs1.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dcabs1.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dcabs1.f.obj
 
 dcabs1.i: dcabs1.f.i
@@ -1457,9 +1457,9 @@ dcabs1.i: dcabs1.f.i
 
 # target to preprocess a source file
 dcabs1.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dcabs1.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dcabs1.f.i
 
 dcabs1.s: dcabs1.f.s
@@ -1468,9 +1468,9 @@ dcabs1.s: dcabs1.f.s
 
 # target to generate assembly for a file
 dcabs1.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dcabs1.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dcabs1.f.s
 
 dcopy.obj: dcopy.f.obj
@@ -1479,9 +1479,9 @@ dcopy.obj: dcopy.f.obj
 
 # target to build an object file
 dcopy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dcopy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dcopy.f.obj
 
 dcopy.i: dcopy.f.i
@@ -1490,9 +1490,9 @@ dcopy.i: dcopy.f.i
 
 # target to preprocess a source file
 dcopy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dcopy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dcopy.f.i
 
 dcopy.s: dcopy.f.s
@@ -1501,9 +1501,9 @@ dcopy.s: dcopy.f.s
 
 # target to generate assembly for a file
 dcopy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dcopy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dcopy.f.s
 
 ddot.obj: ddot.f.obj
@@ -1512,9 +1512,9 @@ ddot.obj: ddot.f.obj
 
 # target to build an object file
 ddot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ddot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ddot.f.obj
 
 ddot.i: ddot.f.i
@@ -1523,9 +1523,9 @@ ddot.i: ddot.f.i
 
 # target to preprocess a source file
 ddot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ddot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ddot.f.i
 
 ddot.s: ddot.f.s
@@ -1534,9 +1534,9 @@ ddot.s: ddot.f.s
 
 # target to generate assembly for a file
 ddot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ddot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ddot.f.s
 
 dgbmv.obj: dgbmv.f.obj
@@ -1545,9 +1545,9 @@ dgbmv.obj: dgbmv.f.obj
 
 # target to build an object file
 dgbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgbmv.f.obj
 
 dgbmv.i: dgbmv.f.i
@@ -1556,9 +1556,9 @@ dgbmv.i: dgbmv.f.i
 
 # target to preprocess a source file
 dgbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgbmv.f.i
 
 dgbmv.s: dgbmv.f.s
@@ -1567,9 +1567,9 @@ dgbmv.s: dgbmv.f.s
 
 # target to generate assembly for a file
 dgbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgbmv.f.s
 
 dgemm.obj: dgemm.f.obj
@@ -1578,9 +1578,9 @@ dgemm.obj: dgemm.f.obj
 
 # target to build an object file
 dgemm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgemm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgemm.f.obj
 
 dgemm.i: dgemm.f.i
@@ -1589,9 +1589,9 @@ dgemm.i: dgemm.f.i
 
 # target to preprocess a source file
 dgemm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgemm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgemm.f.i
 
 dgemm.s: dgemm.f.s
@@ -1600,9 +1600,9 @@ dgemm.s: dgemm.f.s
 
 # target to generate assembly for a file
 dgemm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgemm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgemm.f.s
 
 dgemv.obj: dgemv.f.obj
@@ -1611,9 +1611,9 @@ dgemv.obj: dgemv.f.obj
 
 # target to build an object file
 dgemv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgemv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgemv.f.obj
 
 dgemv.i: dgemv.f.i
@@ -1622,9 +1622,9 @@ dgemv.i: dgemv.f.i
 
 # target to preprocess a source file
 dgemv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgemv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgemv.f.i
 
 dgemv.s: dgemv.f.s
@@ -1633,9 +1633,9 @@ dgemv.s: dgemv.f.s
 
 # target to generate assembly for a file
 dgemv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dgemv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dgemv.f.s
 
 dger.obj: dger.f.obj
@@ -1644,9 +1644,9 @@ dger.obj: dger.f.obj
 
 # target to build an object file
 dger.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dger.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dger.f.obj
 
 dger.i: dger.f.i
@@ -1655,9 +1655,9 @@ dger.i: dger.f.i
 
 # target to preprocess a source file
 dger.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dger.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dger.f.i
 
 dger.s: dger.f.s
@@ -1666,9 +1666,9 @@ dger.s: dger.f.s
 
 # target to generate assembly for a file
 dger.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dger.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dger.f.s
 
 dnrm2.obj: dnrm2.f.obj
@@ -1677,9 +1677,9 @@ dnrm2.obj: dnrm2.f.obj
 
 # target to build an object file
 dnrm2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dnrm2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dnrm2.f.obj
 
 dnrm2.i: dnrm2.f.i
@@ -1688,9 +1688,9 @@ dnrm2.i: dnrm2.f.i
 
 # target to preprocess a source file
 dnrm2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dnrm2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dnrm2.f.i
 
 dnrm2.s: dnrm2.f.s
@@ -1699,9 +1699,9 @@ dnrm2.s: dnrm2.f.s
 
 # target to generate assembly for a file
 dnrm2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dnrm2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dnrm2.f.s
 
 drot.obj: drot.f.obj
@@ -1710,9 +1710,9 @@ drot.obj: drot.f.obj
 
 # target to build an object file
 drot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drot.f.obj
 
 drot.i: drot.f.i
@@ -1721,9 +1721,9 @@ drot.i: drot.f.i
 
 # target to preprocess a source file
 drot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drot.f.i
 
 drot.s: drot.f.s
@@ -1732,9 +1732,9 @@ drot.s: drot.f.s
 
 # target to generate assembly for a file
 drot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drot.f.s
 
 drotg.obj: drotg.f.obj
@@ -1743,9 +1743,9 @@ drotg.obj: drotg.f.obj
 
 # target to build an object file
 drotg.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotg.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotg.f.obj
 
 drotg.i: drotg.f.i
@@ -1754,9 +1754,9 @@ drotg.i: drotg.f.i
 
 # target to preprocess a source file
 drotg.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotg.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotg.f.i
 
 drotg.s: drotg.f.s
@@ -1765,9 +1765,9 @@ drotg.s: drotg.f.s
 
 # target to generate assembly for a file
 drotg.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotg.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotg.f.s
 
 drotm.obj: drotm.f.obj
@@ -1776,9 +1776,9 @@ drotm.obj: drotm.f.obj
 
 # target to build an object file
 drotm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotm.f.obj
 
 drotm.i: drotm.f.i
@@ -1787,9 +1787,9 @@ drotm.i: drotm.f.i
 
 # target to preprocess a source file
 drotm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotm.f.i
 
 drotm.s: drotm.f.s
@@ -1798,9 +1798,9 @@ drotm.s: drotm.f.s
 
 # target to generate assembly for a file
 drotm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotm.f.s
 
 drotmg.obj: drotmg.f.obj
@@ -1809,9 +1809,9 @@ drotmg.obj: drotmg.f.obj
 
 # target to build an object file
 drotmg.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotmg.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotmg.f.obj
 
 drotmg.i: drotmg.f.i
@@ -1820,9 +1820,9 @@ drotmg.i: drotmg.f.i
 
 # target to preprocess a source file
 drotmg.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotmg.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotmg.f.i
 
 drotmg.s: drotmg.f.s
@@ -1831,9 +1831,9 @@ drotmg.s: drotmg.f.s
 
 # target to generate assembly for a file
 drotmg.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\drotmg.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : drotmg.f.s
 
 dsbmv.obj: dsbmv.f.obj
@@ -1842,9 +1842,9 @@ dsbmv.obj: dsbmv.f.obj
 
 # target to build an object file
 dsbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsbmv.f.obj
 
 dsbmv.i: dsbmv.f.i
@@ -1853,9 +1853,9 @@ dsbmv.i: dsbmv.f.i
 
 # target to preprocess a source file
 dsbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsbmv.f.i
 
 dsbmv.s: dsbmv.f.s
@@ -1864,9 +1864,9 @@ dsbmv.s: dsbmv.f.s
 
 # target to generate assembly for a file
 dsbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsbmv.f.s
 
 dscal.obj: dscal.f.obj
@@ -1875,9 +1875,9 @@ dscal.obj: dscal.f.obj
 
 # target to build an object file
 dscal.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dscal.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dscal.f.obj
 
 dscal.i: dscal.f.i
@@ -1886,9 +1886,9 @@ dscal.i: dscal.f.i
 
 # target to preprocess a source file
 dscal.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dscal.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dscal.f.i
 
 dscal.s: dscal.f.s
@@ -1897,9 +1897,9 @@ dscal.s: dscal.f.s
 
 # target to generate assembly for a file
 dscal.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dscal.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dscal.f.s
 
 dsdot.obj: dsdot.f.obj
@@ -1908,9 +1908,9 @@ dsdot.obj: dsdot.f.obj
 
 # target to build an object file
 dsdot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsdot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsdot.f.obj
 
 dsdot.i: dsdot.f.i
@@ -1919,9 +1919,9 @@ dsdot.i: dsdot.f.i
 
 # target to preprocess a source file
 dsdot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsdot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsdot.f.i
 
 dsdot.s: dsdot.f.s
@@ -1930,9 +1930,9 @@ dsdot.s: dsdot.f.s
 
 # target to generate assembly for a file
 dsdot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsdot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsdot.f.s
 
 dspmv.obj: dspmv.f.obj
@@ -1941,9 +1941,9 @@ dspmv.obj: dspmv.f.obj
 
 # target to build an object file
 dspmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspmv.f.obj
 
 dspmv.i: dspmv.f.i
@@ -1952,9 +1952,9 @@ dspmv.i: dspmv.f.i
 
 # target to preprocess a source file
 dspmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspmv.f.i
 
 dspmv.s: dspmv.f.s
@@ -1963,9 +1963,9 @@ dspmv.s: dspmv.f.s
 
 # target to generate assembly for a file
 dspmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspmv.f.s
 
 dspr.obj: dspr.f.obj
@@ -1974,9 +1974,9 @@ dspr.obj: dspr.f.obj
 
 # target to build an object file
 dspr.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspr.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspr.f.obj
 
 dspr.i: dspr.f.i
@@ -1985,9 +1985,9 @@ dspr.i: dspr.f.i
 
 # target to preprocess a source file
 dspr.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspr.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspr.f.i
 
 dspr.s: dspr.f.s
@@ -1996,9 +1996,9 @@ dspr.s: dspr.f.s
 
 # target to generate assembly for a file
 dspr.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspr.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspr.f.s
 
 dspr2.obj: dspr2.f.obj
@@ -2007,9 +2007,9 @@ dspr2.obj: dspr2.f.obj
 
 # target to build an object file
 dspr2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspr2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspr2.f.obj
 
 dspr2.i: dspr2.f.i
@@ -2018,9 +2018,9 @@ dspr2.i: dspr2.f.i
 
 # target to preprocess a source file
 dspr2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspr2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspr2.f.i
 
 dspr2.s: dspr2.f.s
@@ -2029,9 +2029,9 @@ dspr2.s: dspr2.f.s
 
 # target to generate assembly for a file
 dspr2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dspr2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dspr2.f.s
 
 dswap.obj: dswap.f.obj
@@ -2040,9 +2040,9 @@ dswap.obj: dswap.f.obj
 
 # target to build an object file
 dswap.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dswap.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dswap.f.obj
 
 dswap.i: dswap.f.i
@@ -2051,9 +2051,9 @@ dswap.i: dswap.f.i
 
 # target to preprocess a source file
 dswap.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dswap.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dswap.f.i
 
 dswap.s: dswap.f.s
@@ -2062,9 +2062,9 @@ dswap.s: dswap.f.s
 
 # target to generate assembly for a file
 dswap.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dswap.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dswap.f.s
 
 dsymm.obj: dsymm.f.obj
@@ -2073,9 +2073,9 @@ dsymm.obj: dsymm.f.obj
 
 # target to build an object file
 dsymm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsymm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsymm.f.obj
 
 dsymm.i: dsymm.f.i
@@ -2084,9 +2084,9 @@ dsymm.i: dsymm.f.i
 
 # target to preprocess a source file
 dsymm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsymm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsymm.f.i
 
 dsymm.s: dsymm.f.s
@@ -2095,9 +2095,9 @@ dsymm.s: dsymm.f.s
 
 # target to generate assembly for a file
 dsymm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsymm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsymm.f.s
 
 dsymv.obj: dsymv.f.obj
@@ -2106,9 +2106,9 @@ dsymv.obj: dsymv.f.obj
 
 # target to build an object file
 dsymv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsymv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsymv.f.obj
 
 dsymv.i: dsymv.f.i
@@ -2117,9 +2117,9 @@ dsymv.i: dsymv.f.i
 
 # target to preprocess a source file
 dsymv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsymv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsymv.f.i
 
 dsymv.s: dsymv.f.s
@@ -2128,9 +2128,9 @@ dsymv.s: dsymv.f.s
 
 # target to generate assembly for a file
 dsymv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsymv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsymv.f.s
 
 dsyr.obj: dsyr.f.obj
@@ -2139,9 +2139,9 @@ dsyr.obj: dsyr.f.obj
 
 # target to build an object file
 dsyr.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr.f.obj
 
 dsyr.i: dsyr.f.i
@@ -2150,9 +2150,9 @@ dsyr.i: dsyr.f.i
 
 # target to preprocess a source file
 dsyr.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr.f.i
 
 dsyr.s: dsyr.f.s
@@ -2161,9 +2161,9 @@ dsyr.s: dsyr.f.s
 
 # target to generate assembly for a file
 dsyr.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr.f.s
 
 dsyr2.obj: dsyr2.f.obj
@@ -2172,9 +2172,9 @@ dsyr2.obj: dsyr2.f.obj
 
 # target to build an object file
 dsyr2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr2.f.obj
 
 dsyr2.i: dsyr2.f.i
@@ -2183,9 +2183,9 @@ dsyr2.i: dsyr2.f.i
 
 # target to preprocess a source file
 dsyr2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr2.f.i
 
 dsyr2.s: dsyr2.f.s
@@ -2194,9 +2194,9 @@ dsyr2.s: dsyr2.f.s
 
 # target to generate assembly for a file
 dsyr2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr2.f.s
 
 dsyr2k.obj: dsyr2k.f.obj
@@ -2205,9 +2205,9 @@ dsyr2k.obj: dsyr2k.f.obj
 
 # target to build an object file
 dsyr2k.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr2k.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr2k.f.obj
 
 dsyr2k.i: dsyr2k.f.i
@@ -2216,9 +2216,9 @@ dsyr2k.i: dsyr2k.f.i
 
 # target to preprocess a source file
 dsyr2k.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr2k.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr2k.f.i
 
 dsyr2k.s: dsyr2k.f.s
@@ -2227,9 +2227,9 @@ dsyr2k.s: dsyr2k.f.s
 
 # target to generate assembly for a file
 dsyr2k.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyr2k.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyr2k.f.s
 
 dsyrk.obj: dsyrk.f.obj
@@ -2238,9 +2238,9 @@ dsyrk.obj: dsyrk.f.obj
 
 # target to build an object file
 dsyrk.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyrk.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyrk.f.obj
 
 dsyrk.i: dsyrk.f.i
@@ -2249,9 +2249,9 @@ dsyrk.i: dsyrk.f.i
 
 # target to preprocess a source file
 dsyrk.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyrk.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyrk.f.i
 
 dsyrk.s: dsyrk.f.s
@@ -2260,9 +2260,9 @@ dsyrk.s: dsyrk.f.s
 
 # target to generate assembly for a file
 dsyrk.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dsyrk.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dsyrk.f.s
 
 dtbmv.obj: dtbmv.f.obj
@@ -2271,9 +2271,9 @@ dtbmv.obj: dtbmv.f.obj
 
 # target to build an object file
 dtbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtbmv.f.obj
 
 dtbmv.i: dtbmv.f.i
@@ -2282,9 +2282,9 @@ dtbmv.i: dtbmv.f.i
 
 # target to preprocess a source file
 dtbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtbmv.f.i
 
 dtbmv.s: dtbmv.f.s
@@ -2293,9 +2293,9 @@ dtbmv.s: dtbmv.f.s
 
 # target to generate assembly for a file
 dtbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtbmv.f.s
 
 dtbsv.obj: dtbsv.f.obj
@@ -2304,9 +2304,9 @@ dtbsv.obj: dtbsv.f.obj
 
 # target to build an object file
 dtbsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtbsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtbsv.f.obj
 
 dtbsv.i: dtbsv.f.i
@@ -2315,9 +2315,9 @@ dtbsv.i: dtbsv.f.i
 
 # target to preprocess a source file
 dtbsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtbsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtbsv.f.i
 
 dtbsv.s: dtbsv.f.s
@@ -2326,9 +2326,9 @@ dtbsv.s: dtbsv.f.s
 
 # target to generate assembly for a file
 dtbsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtbsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtbsv.f.s
 
 dtpmv.obj: dtpmv.f.obj
@@ -2337,9 +2337,9 @@ dtpmv.obj: dtpmv.f.obj
 
 # target to build an object file
 dtpmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtpmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtpmv.f.obj
 
 dtpmv.i: dtpmv.f.i
@@ -2348,9 +2348,9 @@ dtpmv.i: dtpmv.f.i
 
 # target to preprocess a source file
 dtpmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtpmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtpmv.f.i
 
 dtpmv.s: dtpmv.f.s
@@ -2359,9 +2359,9 @@ dtpmv.s: dtpmv.f.s
 
 # target to generate assembly for a file
 dtpmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtpmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtpmv.f.s
 
 dtpsv.obj: dtpsv.f.obj
@@ -2370,9 +2370,9 @@ dtpsv.obj: dtpsv.f.obj
 
 # target to build an object file
 dtpsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtpsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtpsv.f.obj
 
 dtpsv.i: dtpsv.f.i
@@ -2381,9 +2381,9 @@ dtpsv.i: dtpsv.f.i
 
 # target to preprocess a source file
 dtpsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtpsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtpsv.f.i
 
 dtpsv.s: dtpsv.f.s
@@ -2392,9 +2392,9 @@ dtpsv.s: dtpsv.f.s
 
 # target to generate assembly for a file
 dtpsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtpsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtpsv.f.s
 
 dtrmm.obj: dtrmm.f.obj
@@ -2403,9 +2403,9 @@ dtrmm.obj: dtrmm.f.obj
 
 # target to build an object file
 dtrmm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrmm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrmm.f.obj
 
 dtrmm.i: dtrmm.f.i
@@ -2414,9 +2414,9 @@ dtrmm.i: dtrmm.f.i
 
 # target to preprocess a source file
 dtrmm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrmm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrmm.f.i
 
 dtrmm.s: dtrmm.f.s
@@ -2425,9 +2425,9 @@ dtrmm.s: dtrmm.f.s
 
 # target to generate assembly for a file
 dtrmm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrmm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrmm.f.s
 
 dtrmv.obj: dtrmv.f.obj
@@ -2436,9 +2436,9 @@ dtrmv.obj: dtrmv.f.obj
 
 # target to build an object file
 dtrmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrmv.f.obj
 
 dtrmv.i: dtrmv.f.i
@@ -2447,9 +2447,9 @@ dtrmv.i: dtrmv.f.i
 
 # target to preprocess a source file
 dtrmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrmv.f.i
 
 dtrmv.s: dtrmv.f.s
@@ -2458,9 +2458,9 @@ dtrmv.s: dtrmv.f.s
 
 # target to generate assembly for a file
 dtrmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrmv.f.s
 
 dtrsm.obj: dtrsm.f.obj
@@ -2469,9 +2469,9 @@ dtrsm.obj: dtrsm.f.obj
 
 # target to build an object file
 dtrsm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrsm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrsm.f.obj
 
 dtrsm.i: dtrsm.f.i
@@ -2480,9 +2480,9 @@ dtrsm.i: dtrsm.f.i
 
 # target to preprocess a source file
 dtrsm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrsm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrsm.f.i
 
 dtrsm.s: dtrsm.f.s
@@ -2491,9 +2491,9 @@ dtrsm.s: dtrsm.f.s
 
 # target to generate assembly for a file
 dtrsm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrsm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrsm.f.s
 
 dtrsv.obj: dtrsv.f.obj
@@ -2502,9 +2502,9 @@ dtrsv.obj: dtrsv.f.obj
 
 # target to build an object file
 dtrsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrsv.f.obj
 
 dtrsv.i: dtrsv.f.i
@@ -2513,9 +2513,9 @@ dtrsv.i: dtrsv.f.i
 
 # target to preprocess a source file
 dtrsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrsv.f.i
 
 dtrsv.s: dtrsv.f.s
@@ -2524,9 +2524,9 @@ dtrsv.s: dtrsv.f.s
 
 # target to generate assembly for a file
 dtrsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dtrsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dtrsv.f.s
 
 dzasum.obj: dzasum.f.obj
@@ -2535,9 +2535,9 @@ dzasum.obj: dzasum.f.obj
 
 # target to build an object file
 dzasum.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dzasum.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dzasum.f.obj
 
 dzasum.i: dzasum.f.i
@@ -2546,9 +2546,9 @@ dzasum.i: dzasum.f.i
 
 # target to preprocess a source file
 dzasum.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dzasum.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dzasum.f.i
 
 dzasum.s: dzasum.f.s
@@ -2557,9 +2557,9 @@ dzasum.s: dzasum.f.s
 
 # target to generate assembly for a file
 dzasum.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dzasum.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dzasum.f.s
 
 dznrm2.obj: dznrm2.f.obj
@@ -2568,9 +2568,9 @@ dznrm2.obj: dznrm2.f.obj
 
 # target to build an object file
 dznrm2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dznrm2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dznrm2.f.obj
 
 dznrm2.i: dznrm2.f.i
@@ -2579,9 +2579,9 @@ dznrm2.i: dznrm2.f.i
 
 # target to preprocess a source file
 dznrm2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dznrm2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dznrm2.f.i
 
 dznrm2.s: dznrm2.f.s
@@ -2590,9 +2590,9 @@ dznrm2.s: dznrm2.f.s
 
 # target to generate assembly for a file
 dznrm2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\dznrm2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : dznrm2.f.s
 
 icamax.obj: icamax.f.obj
@@ -2601,9 +2601,9 @@ icamax.obj: icamax.f.obj
 
 # target to build an object file
 icamax.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\icamax.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : icamax.f.obj
 
 icamax.i: icamax.f.i
@@ -2612,9 +2612,9 @@ icamax.i: icamax.f.i
 
 # target to preprocess a source file
 icamax.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\icamax.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : icamax.f.i
 
 icamax.s: icamax.f.s
@@ -2623,9 +2623,9 @@ icamax.s: icamax.f.s
 
 # target to generate assembly for a file
 icamax.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\icamax.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : icamax.f.s
 
 idamax.obj: idamax.f.obj
@@ -2634,9 +2634,9 @@ idamax.obj: idamax.f.obj
 
 # target to build an object file
 idamax.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\idamax.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : idamax.f.obj
 
 idamax.i: idamax.f.i
@@ -2645,9 +2645,9 @@ idamax.i: idamax.f.i
 
 # target to preprocess a source file
 idamax.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\idamax.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : idamax.f.i
 
 idamax.s: idamax.f.s
@@ -2656,9 +2656,9 @@ idamax.s: idamax.f.s
 
 # target to generate assembly for a file
 idamax.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\idamax.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : idamax.f.s
 
 isamax.obj: isamax.f.obj
@@ -2667,9 +2667,9 @@ isamax.obj: isamax.f.obj
 
 # target to build an object file
 isamax.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\isamax.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : isamax.f.obj
 
 isamax.i: isamax.f.i
@@ -2678,9 +2678,9 @@ isamax.i: isamax.f.i
 
 # target to preprocess a source file
 isamax.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\isamax.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : isamax.f.i
 
 isamax.s: isamax.f.s
@@ -2689,9 +2689,9 @@ isamax.s: isamax.f.s
 
 # target to generate assembly for a file
 isamax.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\isamax.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : isamax.f.s
 
 izamax.obj: izamax.f.obj
@@ -2700,9 +2700,9 @@ izamax.obj: izamax.f.obj
 
 # target to build an object file
 izamax.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\izamax.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : izamax.f.obj
 
 izamax.i: izamax.f.i
@@ -2711,9 +2711,9 @@ izamax.i: izamax.f.i
 
 # target to preprocess a source file
 izamax.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\izamax.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : izamax.f.i
 
 izamax.s: izamax.f.s
@@ -2722,9 +2722,9 @@ izamax.s: izamax.f.s
 
 # target to generate assembly for a file
 izamax.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\izamax.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : izamax.f.s
 
 lsame.obj: lsame.f.obj
@@ -2733,9 +2733,9 @@ lsame.obj: lsame.f.obj
 
 # target to build an object file
 lsame.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\lsame.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : lsame.f.obj
 
 lsame.i: lsame.f.i
@@ -2744,9 +2744,9 @@ lsame.i: lsame.f.i
 
 # target to preprocess a source file
 lsame.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\lsame.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : lsame.f.i
 
 lsame.s: lsame.f.s
@@ -2755,9 +2755,9 @@ lsame.s: lsame.f.s
 
 # target to generate assembly for a file
 lsame.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\lsame.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : lsame.f.s
 
 sasum.obj: sasum.f.obj
@@ -2766,9 +2766,9 @@ sasum.obj: sasum.f.obj
 
 # target to build an object file
 sasum.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sasum.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sasum.f.obj
 
 sasum.i: sasum.f.i
@@ -2777,9 +2777,9 @@ sasum.i: sasum.f.i
 
 # target to preprocess a source file
 sasum.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sasum.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sasum.f.i
 
 sasum.s: sasum.f.s
@@ -2788,9 +2788,9 @@ sasum.s: sasum.f.s
 
 # target to generate assembly for a file
 sasum.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sasum.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sasum.f.s
 
 saxpy.obj: saxpy.f.obj
@@ -2799,9 +2799,9 @@ saxpy.obj: saxpy.f.obj
 
 # target to build an object file
 saxpy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\saxpy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : saxpy.f.obj
 
 saxpy.i: saxpy.f.i
@@ -2810,9 +2810,9 @@ saxpy.i: saxpy.f.i
 
 # target to preprocess a source file
 saxpy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\saxpy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : saxpy.f.i
 
 saxpy.s: saxpy.f.s
@@ -2821,9 +2821,9 @@ saxpy.s: saxpy.f.s
 
 # target to generate assembly for a file
 saxpy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\saxpy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : saxpy.f.s
 
 scabs1.obj: scabs1.f.obj
@@ -2832,9 +2832,9 @@ scabs1.obj: scabs1.f.obj
 
 # target to build an object file
 scabs1.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scabs1.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scabs1.f.obj
 
 scabs1.i: scabs1.f.i
@@ -2843,9 +2843,9 @@ scabs1.i: scabs1.f.i
 
 # target to preprocess a source file
 scabs1.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scabs1.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scabs1.f.i
 
 scabs1.s: scabs1.f.s
@@ -2854,9 +2854,9 @@ scabs1.s: scabs1.f.s
 
 # target to generate assembly for a file
 scabs1.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scabs1.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scabs1.f.s
 
 scasum.obj: scasum.f.obj
@@ -2865,9 +2865,9 @@ scasum.obj: scasum.f.obj
 
 # target to build an object file
 scasum.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scasum.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scasum.f.obj
 
 scasum.i: scasum.f.i
@@ -2876,9 +2876,9 @@ scasum.i: scasum.f.i
 
 # target to preprocess a source file
 scasum.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scasum.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scasum.f.i
 
 scasum.s: scasum.f.s
@@ -2887,9 +2887,9 @@ scasum.s: scasum.f.s
 
 # target to generate assembly for a file
 scasum.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scasum.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scasum.f.s
 
 scnrm2.obj: scnrm2.f.obj
@@ -2898,9 +2898,9 @@ scnrm2.obj: scnrm2.f.obj
 
 # target to build an object file
 scnrm2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scnrm2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scnrm2.f.obj
 
 scnrm2.i: scnrm2.f.i
@@ -2909,9 +2909,9 @@ scnrm2.i: scnrm2.f.i
 
 # target to preprocess a source file
 scnrm2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scnrm2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scnrm2.f.i
 
 scnrm2.s: scnrm2.f.s
@@ -2920,9 +2920,9 @@ scnrm2.s: scnrm2.f.s
 
 # target to generate assembly for a file
 scnrm2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scnrm2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scnrm2.f.s
 
 scopy.obj: scopy.f.obj
@@ -2931,9 +2931,9 @@ scopy.obj: scopy.f.obj
 
 # target to build an object file
 scopy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scopy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scopy.f.obj
 
 scopy.i: scopy.f.i
@@ -2942,9 +2942,9 @@ scopy.i: scopy.f.i
 
 # target to preprocess a source file
 scopy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scopy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scopy.f.i
 
 scopy.s: scopy.f.s
@@ -2953,9 +2953,9 @@ scopy.s: scopy.f.s
 
 # target to generate assembly for a file
 scopy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\scopy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : scopy.f.s
 
 sdot.obj: sdot.f.obj
@@ -2964,9 +2964,9 @@ sdot.obj: sdot.f.obj
 
 # target to build an object file
 sdot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sdot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sdot.f.obj
 
 sdot.i: sdot.f.i
@@ -2975,9 +2975,9 @@ sdot.i: sdot.f.i
 
 # target to preprocess a source file
 sdot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sdot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sdot.f.i
 
 sdot.s: sdot.f.s
@@ -2986,9 +2986,9 @@ sdot.s: sdot.f.s
 
 # target to generate assembly for a file
 sdot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sdot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sdot.f.s
 
 sdsdot.obj: sdsdot.f.obj
@@ -2997,9 +2997,9 @@ sdsdot.obj: sdsdot.f.obj
 
 # target to build an object file
 sdsdot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sdsdot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sdsdot.f.obj
 
 sdsdot.i: sdsdot.f.i
@@ -3008,9 +3008,9 @@ sdsdot.i: sdsdot.f.i
 
 # target to preprocess a source file
 sdsdot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sdsdot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sdsdot.f.i
 
 sdsdot.s: sdsdot.f.s
@@ -3019,9 +3019,9 @@ sdsdot.s: sdsdot.f.s
 
 # target to generate assembly for a file
 sdsdot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sdsdot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sdsdot.f.s
 
 sgbmv.obj: sgbmv.f.obj
@@ -3030,9 +3030,9 @@ sgbmv.obj: sgbmv.f.obj
 
 # target to build an object file
 sgbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgbmv.f.obj
 
 sgbmv.i: sgbmv.f.i
@@ -3041,9 +3041,9 @@ sgbmv.i: sgbmv.f.i
 
 # target to preprocess a source file
 sgbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgbmv.f.i
 
 sgbmv.s: sgbmv.f.s
@@ -3052,9 +3052,9 @@ sgbmv.s: sgbmv.f.s
 
 # target to generate assembly for a file
 sgbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgbmv.f.s
 
 sgemm.obj: sgemm.f.obj
@@ -3063,9 +3063,9 @@ sgemm.obj: sgemm.f.obj
 
 # target to build an object file
 sgemm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgemm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgemm.f.obj
 
 sgemm.i: sgemm.f.i
@@ -3074,9 +3074,9 @@ sgemm.i: sgemm.f.i
 
 # target to preprocess a source file
 sgemm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgemm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgemm.f.i
 
 sgemm.s: sgemm.f.s
@@ -3085,9 +3085,9 @@ sgemm.s: sgemm.f.s
 
 # target to generate assembly for a file
 sgemm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgemm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgemm.f.s
 
 sgemv.obj: sgemv.f.obj
@@ -3096,9 +3096,9 @@ sgemv.obj: sgemv.f.obj
 
 # target to build an object file
 sgemv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgemv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgemv.f.obj
 
 sgemv.i: sgemv.f.i
@@ -3107,9 +3107,9 @@ sgemv.i: sgemv.f.i
 
 # target to preprocess a source file
 sgemv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgemv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgemv.f.i
 
 sgemv.s: sgemv.f.s
@@ -3118,9 +3118,9 @@ sgemv.s: sgemv.f.s
 
 # target to generate assembly for a file
 sgemv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sgemv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sgemv.f.s
 
 sger.obj: sger.f.obj
@@ -3129,9 +3129,9 @@ sger.obj: sger.f.obj
 
 # target to build an object file
 sger.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sger.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sger.f.obj
 
 sger.i: sger.f.i
@@ -3140,9 +3140,9 @@ sger.i: sger.f.i
 
 # target to preprocess a source file
 sger.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sger.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sger.f.i
 
 sger.s: sger.f.s
@@ -3151,9 +3151,9 @@ sger.s: sger.f.s
 
 # target to generate assembly for a file
 sger.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sger.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sger.f.s
 
 snrm2.obj: snrm2.f.obj
@@ -3162,9 +3162,9 @@ snrm2.obj: snrm2.f.obj
 
 # target to build an object file
 snrm2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\snrm2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : snrm2.f.obj
 
 snrm2.i: snrm2.f.i
@@ -3173,9 +3173,9 @@ snrm2.i: snrm2.f.i
 
 # target to preprocess a source file
 snrm2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\snrm2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : snrm2.f.i
 
 snrm2.s: snrm2.f.s
@@ -3184,9 +3184,9 @@ snrm2.s: snrm2.f.s
 
 # target to generate assembly for a file
 snrm2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\snrm2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : snrm2.f.s
 
 srot.obj: srot.f.obj
@@ -3195,9 +3195,9 @@ srot.obj: srot.f.obj
 
 # target to build an object file
 srot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srot.f.obj
 
 srot.i: srot.f.i
@@ -3206,9 +3206,9 @@ srot.i: srot.f.i
 
 # target to preprocess a source file
 srot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srot.f.i
 
 srot.s: srot.f.s
@@ -3217,9 +3217,9 @@ srot.s: srot.f.s
 
 # target to generate assembly for a file
 srot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srot.f.s
 
 srotg.obj: srotg.f.obj
@@ -3228,9 +3228,9 @@ srotg.obj: srotg.f.obj
 
 # target to build an object file
 srotg.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotg.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotg.f.obj
 
 srotg.i: srotg.f.i
@@ -3239,9 +3239,9 @@ srotg.i: srotg.f.i
 
 # target to preprocess a source file
 srotg.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotg.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotg.f.i
 
 srotg.s: srotg.f.s
@@ -3250,9 +3250,9 @@ srotg.s: srotg.f.s
 
 # target to generate assembly for a file
 srotg.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotg.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotg.f.s
 
 srotm.obj: srotm.f.obj
@@ -3261,9 +3261,9 @@ srotm.obj: srotm.f.obj
 
 # target to build an object file
 srotm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotm.f.obj
 
 srotm.i: srotm.f.i
@@ -3272,9 +3272,9 @@ srotm.i: srotm.f.i
 
 # target to preprocess a source file
 srotm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotm.f.i
 
 srotm.s: srotm.f.s
@@ -3283,9 +3283,9 @@ srotm.s: srotm.f.s
 
 # target to generate assembly for a file
 srotm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotm.f.s
 
 srotmg.obj: srotmg.f.obj
@@ -3294,9 +3294,9 @@ srotmg.obj: srotmg.f.obj
 
 # target to build an object file
 srotmg.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotmg.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotmg.f.obj
 
 srotmg.i: srotmg.f.i
@@ -3305,9 +3305,9 @@ srotmg.i: srotmg.f.i
 
 # target to preprocess a source file
 srotmg.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotmg.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotmg.f.i
 
 srotmg.s: srotmg.f.s
@@ -3316,9 +3316,9 @@ srotmg.s: srotmg.f.s
 
 # target to generate assembly for a file
 srotmg.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\srotmg.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : srotmg.f.s
 
 ssbmv.obj: ssbmv.f.obj
@@ -3327,9 +3327,9 @@ ssbmv.obj: ssbmv.f.obj
 
 # target to build an object file
 ssbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssbmv.f.obj
 
 ssbmv.i: ssbmv.f.i
@@ -3338,9 +3338,9 @@ ssbmv.i: ssbmv.f.i
 
 # target to preprocess a source file
 ssbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssbmv.f.i
 
 ssbmv.s: ssbmv.f.s
@@ -3349,9 +3349,9 @@ ssbmv.s: ssbmv.f.s
 
 # target to generate assembly for a file
 ssbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssbmv.f.s
 
 sscal.obj: sscal.f.obj
@@ -3360,9 +3360,9 @@ sscal.obj: sscal.f.obj
 
 # target to build an object file
 sscal.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sscal.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sscal.f.obj
 
 sscal.i: sscal.f.i
@@ -3371,9 +3371,9 @@ sscal.i: sscal.f.i
 
 # target to preprocess a source file
 sscal.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sscal.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sscal.f.i
 
 sscal.s: sscal.f.s
@@ -3382,9 +3382,9 @@ sscal.s: sscal.f.s
 
 # target to generate assembly for a file
 sscal.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sscal.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sscal.f.s
 
 sspmv.obj: sspmv.f.obj
@@ -3393,9 +3393,9 @@ sspmv.obj: sspmv.f.obj
 
 # target to build an object file
 sspmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspmv.f.obj
 
 sspmv.i: sspmv.f.i
@@ -3404,9 +3404,9 @@ sspmv.i: sspmv.f.i
 
 # target to preprocess a source file
 sspmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspmv.f.i
 
 sspmv.s: sspmv.f.s
@@ -3415,9 +3415,9 @@ sspmv.s: sspmv.f.s
 
 # target to generate assembly for a file
 sspmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspmv.f.s
 
 sspr.obj: sspr.f.obj
@@ -3426,9 +3426,9 @@ sspr.obj: sspr.f.obj
 
 # target to build an object file
 sspr.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspr.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspr.f.obj
 
 sspr.i: sspr.f.i
@@ -3437,9 +3437,9 @@ sspr.i: sspr.f.i
 
 # target to preprocess a source file
 sspr.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspr.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspr.f.i
 
 sspr.s: sspr.f.s
@@ -3448,9 +3448,9 @@ sspr.s: sspr.f.s
 
 # target to generate assembly for a file
 sspr.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspr.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspr.f.s
 
 sspr2.obj: sspr2.f.obj
@@ -3459,9 +3459,9 @@ sspr2.obj: sspr2.f.obj
 
 # target to build an object file
 sspr2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspr2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspr2.f.obj
 
 sspr2.i: sspr2.f.i
@@ -3470,9 +3470,9 @@ sspr2.i: sspr2.f.i
 
 # target to preprocess a source file
 sspr2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspr2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspr2.f.i
 
 sspr2.s: sspr2.f.s
@@ -3481,9 +3481,9 @@ sspr2.s: sspr2.f.s
 
 # target to generate assembly for a file
 sspr2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sspr2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sspr2.f.s
 
 sswap.obj: sswap.f.obj
@@ -3492,9 +3492,9 @@ sswap.obj: sswap.f.obj
 
 # target to build an object file
 sswap.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sswap.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sswap.f.obj
 
 sswap.i: sswap.f.i
@@ -3503,9 +3503,9 @@ sswap.i: sswap.f.i
 
 # target to preprocess a source file
 sswap.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sswap.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sswap.f.i
 
 sswap.s: sswap.f.s
@@ -3514,9 +3514,9 @@ sswap.s: sswap.f.s
 
 # target to generate assembly for a file
 sswap.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\sswap.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : sswap.f.s
 
 ssymm.obj: ssymm.f.obj
@@ -3525,9 +3525,9 @@ ssymm.obj: ssymm.f.obj
 
 # target to build an object file
 ssymm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssymm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssymm.f.obj
 
 ssymm.i: ssymm.f.i
@@ -3536,9 +3536,9 @@ ssymm.i: ssymm.f.i
 
 # target to preprocess a source file
 ssymm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssymm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssymm.f.i
 
 ssymm.s: ssymm.f.s
@@ -3547,9 +3547,9 @@ ssymm.s: ssymm.f.s
 
 # target to generate assembly for a file
 ssymm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssymm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssymm.f.s
 
 ssymv.obj: ssymv.f.obj
@@ -3558,9 +3558,9 @@ ssymv.obj: ssymv.f.obj
 
 # target to build an object file
 ssymv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssymv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssymv.f.obj
 
 ssymv.i: ssymv.f.i
@@ -3569,9 +3569,9 @@ ssymv.i: ssymv.f.i
 
 # target to preprocess a source file
 ssymv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssymv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssymv.f.i
 
 ssymv.s: ssymv.f.s
@@ -3580,9 +3580,9 @@ ssymv.s: ssymv.f.s
 
 # target to generate assembly for a file
 ssymv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssymv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssymv.f.s
 
 ssyr.obj: ssyr.f.obj
@@ -3591,9 +3591,9 @@ ssyr.obj: ssyr.f.obj
 
 # target to build an object file
 ssyr.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr.f.obj
 
 ssyr.i: ssyr.f.i
@@ -3602,9 +3602,9 @@ ssyr.i: ssyr.f.i
 
 # target to preprocess a source file
 ssyr.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr.f.i
 
 ssyr.s: ssyr.f.s
@@ -3613,9 +3613,9 @@ ssyr.s: ssyr.f.s
 
 # target to generate assembly for a file
 ssyr.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr.f.s
 
 ssyr2.obj: ssyr2.f.obj
@@ -3624,9 +3624,9 @@ ssyr2.obj: ssyr2.f.obj
 
 # target to build an object file
 ssyr2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr2.f.obj
 
 ssyr2.i: ssyr2.f.i
@@ -3635,9 +3635,9 @@ ssyr2.i: ssyr2.f.i
 
 # target to preprocess a source file
 ssyr2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr2.f.i
 
 ssyr2.s: ssyr2.f.s
@@ -3646,9 +3646,9 @@ ssyr2.s: ssyr2.f.s
 
 # target to generate assembly for a file
 ssyr2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr2.f.s
 
 ssyr2k.obj: ssyr2k.f.obj
@@ -3657,9 +3657,9 @@ ssyr2k.obj: ssyr2k.f.obj
 
 # target to build an object file
 ssyr2k.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr2k.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr2k.f.obj
 
 ssyr2k.i: ssyr2k.f.i
@@ -3668,9 +3668,9 @@ ssyr2k.i: ssyr2k.f.i
 
 # target to preprocess a source file
 ssyr2k.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr2k.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr2k.f.i
 
 ssyr2k.s: ssyr2k.f.s
@@ -3679,9 +3679,9 @@ ssyr2k.s: ssyr2k.f.s
 
 # target to generate assembly for a file
 ssyr2k.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyr2k.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyr2k.f.s
 
 ssyrk.obj: ssyrk.f.obj
@@ -3690,9 +3690,9 @@ ssyrk.obj: ssyrk.f.obj
 
 # target to build an object file
 ssyrk.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyrk.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyrk.f.obj
 
 ssyrk.i: ssyrk.f.i
@@ -3701,9 +3701,9 @@ ssyrk.i: ssyrk.f.i
 
 # target to preprocess a source file
 ssyrk.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyrk.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyrk.f.i
 
 ssyrk.s: ssyrk.f.s
@@ -3712,9 +3712,9 @@ ssyrk.s: ssyrk.f.s
 
 # target to generate assembly for a file
 ssyrk.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ssyrk.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ssyrk.f.s
 
 stbmv.obj: stbmv.f.obj
@@ -3723,9 +3723,9 @@ stbmv.obj: stbmv.f.obj
 
 # target to build an object file
 stbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stbmv.f.obj
 
 stbmv.i: stbmv.f.i
@@ -3734,9 +3734,9 @@ stbmv.i: stbmv.f.i
 
 # target to preprocess a source file
 stbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stbmv.f.i
 
 stbmv.s: stbmv.f.s
@@ -3745,9 +3745,9 @@ stbmv.s: stbmv.f.s
 
 # target to generate assembly for a file
 stbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stbmv.f.s
 
 stbsv.obj: stbsv.f.obj
@@ -3756,9 +3756,9 @@ stbsv.obj: stbsv.f.obj
 
 # target to build an object file
 stbsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stbsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stbsv.f.obj
 
 stbsv.i: stbsv.f.i
@@ -3767,9 +3767,9 @@ stbsv.i: stbsv.f.i
 
 # target to preprocess a source file
 stbsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stbsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stbsv.f.i
 
 stbsv.s: stbsv.f.s
@@ -3778,9 +3778,9 @@ stbsv.s: stbsv.f.s
 
 # target to generate assembly for a file
 stbsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stbsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stbsv.f.s
 
 stpmv.obj: stpmv.f.obj
@@ -3789,9 +3789,9 @@ stpmv.obj: stpmv.f.obj
 
 # target to build an object file
 stpmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stpmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stpmv.f.obj
 
 stpmv.i: stpmv.f.i
@@ -3800,9 +3800,9 @@ stpmv.i: stpmv.f.i
 
 # target to preprocess a source file
 stpmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stpmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stpmv.f.i
 
 stpmv.s: stpmv.f.s
@@ -3811,9 +3811,9 @@ stpmv.s: stpmv.f.s
 
 # target to generate assembly for a file
 stpmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stpmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stpmv.f.s
 
 stpsv.obj: stpsv.f.obj
@@ -3822,9 +3822,9 @@ stpsv.obj: stpsv.f.obj
 
 # target to build an object file
 stpsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stpsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stpsv.f.obj
 
 stpsv.i: stpsv.f.i
@@ -3833,9 +3833,9 @@ stpsv.i: stpsv.f.i
 
 # target to preprocess a source file
 stpsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stpsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stpsv.f.i
 
 stpsv.s: stpsv.f.s
@@ -3844,9 +3844,9 @@ stpsv.s: stpsv.f.s
 
 # target to generate assembly for a file
 stpsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\stpsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : stpsv.f.s
 
 strmm.obj: strmm.f.obj
@@ -3855,9 +3855,9 @@ strmm.obj: strmm.f.obj
 
 # target to build an object file
 strmm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strmm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strmm.f.obj
 
 strmm.i: strmm.f.i
@@ -3866,9 +3866,9 @@ strmm.i: strmm.f.i
 
 # target to preprocess a source file
 strmm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strmm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strmm.f.i
 
 strmm.s: strmm.f.s
@@ -3877,9 +3877,9 @@ strmm.s: strmm.f.s
 
 # target to generate assembly for a file
 strmm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strmm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strmm.f.s
 
 strmv.obj: strmv.f.obj
@@ -3888,9 +3888,9 @@ strmv.obj: strmv.f.obj
 
 # target to build an object file
 strmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strmv.f.obj
 
 strmv.i: strmv.f.i
@@ -3899,9 +3899,9 @@ strmv.i: strmv.f.i
 
 # target to preprocess a source file
 strmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strmv.f.i
 
 strmv.s: strmv.f.s
@@ -3910,9 +3910,9 @@ strmv.s: strmv.f.s
 
 # target to generate assembly for a file
 strmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strmv.f.s
 
 strsm.obj: strsm.f.obj
@@ -3921,9 +3921,9 @@ strsm.obj: strsm.f.obj
 
 # target to build an object file
 strsm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strsm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strsm.f.obj
 
 strsm.i: strsm.f.i
@@ -3932,9 +3932,9 @@ strsm.i: strsm.f.i
 
 # target to preprocess a source file
 strsm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strsm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strsm.f.i
 
 strsm.s: strsm.f.s
@@ -3943,9 +3943,9 @@ strsm.s: strsm.f.s
 
 # target to generate assembly for a file
 strsm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strsm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strsm.f.s
 
 strsv.obj: strsv.f.obj
@@ -3954,9 +3954,9 @@ strsv.obj: strsv.f.obj
 
 # target to build an object file
 strsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strsv.f.obj
 
 strsv.i: strsv.f.i
@@ -3965,9 +3965,9 @@ strsv.i: strsv.f.i
 
 # target to preprocess a source file
 strsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strsv.f.i
 
 strsv.s: strsv.f.s
@@ -3976,9 +3976,9 @@ strsv.s: strsv.f.s
 
 # target to generate assembly for a file
 strsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\strsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : strsv.f.s
 
 xerbla.obj: xerbla.f.obj
@@ -3987,9 +3987,9 @@ xerbla.obj: xerbla.f.obj
 
 # target to build an object file
 xerbla.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\xerbla.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : xerbla.f.obj
 
 xerbla.i: xerbla.f.i
@@ -3998,9 +3998,9 @@ xerbla.i: xerbla.f.i
 
 # target to preprocess a source file
 xerbla.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\xerbla.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : xerbla.f.i
 
 xerbla.s: xerbla.f.s
@@ -4009,9 +4009,9 @@ xerbla.s: xerbla.f.s
 
 # target to generate assembly for a file
 xerbla.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\xerbla.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : xerbla.f.s
 
 xerbla_array.obj: xerbla_array.f.obj
@@ -4020,9 +4020,9 @@ xerbla_array.obj: xerbla_array.f.obj
 
 # target to build an object file
 xerbla_array.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\xerbla_array.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : xerbla_array.f.obj
 
 xerbla_array.i: xerbla_array.f.i
@@ -4031,9 +4031,9 @@ xerbla_array.i: xerbla_array.f.i
 
 # target to preprocess a source file
 xerbla_array.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\xerbla_array.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : xerbla_array.f.i
 
 xerbla_array.s: xerbla_array.f.s
@@ -4042,9 +4042,9 @@ xerbla_array.s: xerbla_array.f.s
 
 # target to generate assembly for a file
 xerbla_array.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\xerbla_array.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : xerbla_array.f.s
 
 zaxpy.obj: zaxpy.f.obj
@@ -4053,9 +4053,9 @@ zaxpy.obj: zaxpy.f.obj
 
 # target to build an object file
 zaxpy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zaxpy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zaxpy.f.obj
 
 zaxpy.i: zaxpy.f.i
@@ -4064,9 +4064,9 @@ zaxpy.i: zaxpy.f.i
 
 # target to preprocess a source file
 zaxpy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zaxpy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zaxpy.f.i
 
 zaxpy.s: zaxpy.f.s
@@ -4075,9 +4075,9 @@ zaxpy.s: zaxpy.f.s
 
 # target to generate assembly for a file
 zaxpy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zaxpy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zaxpy.f.s
 
 zcopy.obj: zcopy.f.obj
@@ -4086,9 +4086,9 @@ zcopy.obj: zcopy.f.obj
 
 # target to build an object file
 zcopy.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zcopy.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zcopy.f.obj
 
 zcopy.i: zcopy.f.i
@@ -4097,9 +4097,9 @@ zcopy.i: zcopy.f.i
 
 # target to preprocess a source file
 zcopy.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zcopy.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zcopy.f.i
 
 zcopy.s: zcopy.f.s
@@ -4108,9 +4108,9 @@ zcopy.s: zcopy.f.s
 
 # target to generate assembly for a file
 zcopy.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zcopy.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zcopy.f.s
 
 zdotc.obj: zdotc.f.obj
@@ -4119,9 +4119,9 @@ zdotc.obj: zdotc.f.obj
 
 # target to build an object file
 zdotc.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdotc.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdotc.f.obj
 
 zdotc.i: zdotc.f.i
@@ -4130,9 +4130,9 @@ zdotc.i: zdotc.f.i
 
 # target to preprocess a source file
 zdotc.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdotc.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdotc.f.i
 
 zdotc.s: zdotc.f.s
@@ -4141,9 +4141,9 @@ zdotc.s: zdotc.f.s
 
 # target to generate assembly for a file
 zdotc.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdotc.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdotc.f.s
 
 zdotu.obj: zdotu.f.obj
@@ -4152,9 +4152,9 @@ zdotu.obj: zdotu.f.obj
 
 # target to build an object file
 zdotu.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdotu.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdotu.f.obj
 
 zdotu.i: zdotu.f.i
@@ -4163,9 +4163,9 @@ zdotu.i: zdotu.f.i
 
 # target to preprocess a source file
 zdotu.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdotu.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdotu.f.i
 
 zdotu.s: zdotu.f.s
@@ -4174,9 +4174,9 @@ zdotu.s: zdotu.f.s
 
 # target to generate assembly for a file
 zdotu.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdotu.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdotu.f.s
 
 zdrot.obj: zdrot.f.obj
@@ -4185,9 +4185,9 @@ zdrot.obj: zdrot.f.obj
 
 # target to build an object file
 zdrot.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdrot.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdrot.f.obj
 
 zdrot.i: zdrot.f.i
@@ -4196,9 +4196,9 @@ zdrot.i: zdrot.f.i
 
 # target to preprocess a source file
 zdrot.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdrot.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdrot.f.i
 
 zdrot.s: zdrot.f.s
@@ -4207,9 +4207,9 @@ zdrot.s: zdrot.f.s
 
 # target to generate assembly for a file
 zdrot.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdrot.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdrot.f.s
 
 zdscal.obj: zdscal.f.obj
@@ -4218,9 +4218,9 @@ zdscal.obj: zdscal.f.obj
 
 # target to build an object file
 zdscal.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdscal.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdscal.f.obj
 
 zdscal.i: zdscal.f.i
@@ -4229,9 +4229,9 @@ zdscal.i: zdscal.f.i
 
 # target to preprocess a source file
 zdscal.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdscal.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdscal.f.i
 
 zdscal.s: zdscal.f.s
@@ -4240,9 +4240,9 @@ zdscal.s: zdscal.f.s
 
 # target to generate assembly for a file
 zdscal.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zdscal.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zdscal.f.s
 
 zgbmv.obj: zgbmv.f.obj
@@ -4251,9 +4251,9 @@ zgbmv.obj: zgbmv.f.obj
 
 # target to build an object file
 zgbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgbmv.f.obj
 
 zgbmv.i: zgbmv.f.i
@@ -4262,9 +4262,9 @@ zgbmv.i: zgbmv.f.i
 
 # target to preprocess a source file
 zgbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgbmv.f.i
 
 zgbmv.s: zgbmv.f.s
@@ -4273,9 +4273,9 @@ zgbmv.s: zgbmv.f.s
 
 # target to generate assembly for a file
 zgbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgbmv.f.s
 
 zgemm.obj: zgemm.f.obj
@@ -4284,9 +4284,9 @@ zgemm.obj: zgemm.f.obj
 
 # target to build an object file
 zgemm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgemm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgemm.f.obj
 
 zgemm.i: zgemm.f.i
@@ -4295,9 +4295,9 @@ zgemm.i: zgemm.f.i
 
 # target to preprocess a source file
 zgemm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgemm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgemm.f.i
 
 zgemm.s: zgemm.f.s
@@ -4306,9 +4306,9 @@ zgemm.s: zgemm.f.s
 
 # target to generate assembly for a file
 zgemm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgemm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgemm.f.s
 
 zgemv.obj: zgemv.f.obj
@@ -4317,9 +4317,9 @@ zgemv.obj: zgemv.f.obj
 
 # target to build an object file
 zgemv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgemv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgemv.f.obj
 
 zgemv.i: zgemv.f.i
@@ -4328,9 +4328,9 @@ zgemv.i: zgemv.f.i
 
 # target to preprocess a source file
 zgemv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgemv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgemv.f.i
 
 zgemv.s: zgemv.f.s
@@ -4339,9 +4339,9 @@ zgemv.s: zgemv.f.s
 
 # target to generate assembly for a file
 zgemv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgemv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgemv.f.s
 
 zgerc.obj: zgerc.f.obj
@@ -4350,9 +4350,9 @@ zgerc.obj: zgerc.f.obj
 
 # target to build an object file
 zgerc.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgerc.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgerc.f.obj
 
 zgerc.i: zgerc.f.i
@@ -4361,9 +4361,9 @@ zgerc.i: zgerc.f.i
 
 # target to preprocess a source file
 zgerc.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgerc.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgerc.f.i
 
 zgerc.s: zgerc.f.s
@@ -4372,9 +4372,9 @@ zgerc.s: zgerc.f.s
 
 # target to generate assembly for a file
 zgerc.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgerc.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgerc.f.s
 
 zgeru.obj: zgeru.f.obj
@@ -4383,9 +4383,9 @@ zgeru.obj: zgeru.f.obj
 
 # target to build an object file
 zgeru.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgeru.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgeru.f.obj
 
 zgeru.i: zgeru.f.i
@@ -4394,9 +4394,9 @@ zgeru.i: zgeru.f.i
 
 # target to preprocess a source file
 zgeru.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgeru.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgeru.f.i
 
 zgeru.s: zgeru.f.s
@@ -4405,9 +4405,9 @@ zgeru.s: zgeru.f.s
 
 # target to generate assembly for a file
 zgeru.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zgeru.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zgeru.f.s
 
 zhbmv.obj: zhbmv.f.obj
@@ -4416,9 +4416,9 @@ zhbmv.obj: zhbmv.f.obj
 
 # target to build an object file
 zhbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhbmv.f.obj
 
 zhbmv.i: zhbmv.f.i
@@ -4427,9 +4427,9 @@ zhbmv.i: zhbmv.f.i
 
 # target to preprocess a source file
 zhbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhbmv.f.i
 
 zhbmv.s: zhbmv.f.s
@@ -4438,9 +4438,9 @@ zhbmv.s: zhbmv.f.s
 
 # target to generate assembly for a file
 zhbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhbmv.f.s
 
 zhemm.obj: zhemm.f.obj
@@ -4449,9 +4449,9 @@ zhemm.obj: zhemm.f.obj
 
 # target to build an object file
 zhemm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhemm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhemm.f.obj
 
 zhemm.i: zhemm.f.i
@@ -4460,9 +4460,9 @@ zhemm.i: zhemm.f.i
 
 # target to preprocess a source file
 zhemm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhemm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhemm.f.i
 
 zhemm.s: zhemm.f.s
@@ -4471,9 +4471,9 @@ zhemm.s: zhemm.f.s
 
 # target to generate assembly for a file
 zhemm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhemm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhemm.f.s
 
 zhemv.obj: zhemv.f.obj
@@ -4482,9 +4482,9 @@ zhemv.obj: zhemv.f.obj
 
 # target to build an object file
 zhemv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhemv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhemv.f.obj
 
 zhemv.i: zhemv.f.i
@@ -4493,9 +4493,9 @@ zhemv.i: zhemv.f.i
 
 # target to preprocess a source file
 zhemv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhemv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhemv.f.i
 
 zhemv.s: zhemv.f.s
@@ -4504,9 +4504,9 @@ zhemv.s: zhemv.f.s
 
 # target to generate assembly for a file
 zhemv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhemv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhemv.f.s
 
 zher.obj: zher.f.obj
@@ -4515,9 +4515,9 @@ zher.obj: zher.f.obj
 
 # target to build an object file
 zher.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher.f.obj
 
 zher.i: zher.f.i
@@ -4526,9 +4526,9 @@ zher.i: zher.f.i
 
 # target to preprocess a source file
 zher.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher.f.i
 
 zher.s: zher.f.s
@@ -4537,9 +4537,9 @@ zher.s: zher.f.s
 
 # target to generate assembly for a file
 zher.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher.f.s
 
 zher2.obj: zher2.f.obj
@@ -4548,9 +4548,9 @@ zher2.obj: zher2.f.obj
 
 # target to build an object file
 zher2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher2.f.obj
 
 zher2.i: zher2.f.i
@@ -4559,9 +4559,9 @@ zher2.i: zher2.f.i
 
 # target to preprocess a source file
 zher2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher2.f.i
 
 zher2.s: zher2.f.s
@@ -4570,9 +4570,9 @@ zher2.s: zher2.f.s
 
 # target to generate assembly for a file
 zher2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher2.f.s
 
 zher2k.obj: zher2k.f.obj
@@ -4581,9 +4581,9 @@ zher2k.obj: zher2k.f.obj
 
 # target to build an object file
 zher2k.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher2k.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher2k.f.obj
 
 zher2k.i: zher2k.f.i
@@ -4592,9 +4592,9 @@ zher2k.i: zher2k.f.i
 
 # target to preprocess a source file
 zher2k.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher2k.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher2k.f.i
 
 zher2k.s: zher2k.f.s
@@ -4603,9 +4603,9 @@ zher2k.s: zher2k.f.s
 
 # target to generate assembly for a file
 zher2k.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zher2k.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zher2k.f.s
 
 zherk.obj: zherk.f.obj
@@ -4614,9 +4614,9 @@ zherk.obj: zherk.f.obj
 
 # target to build an object file
 zherk.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zherk.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zherk.f.obj
 
 zherk.i: zherk.f.i
@@ -4625,9 +4625,9 @@ zherk.i: zherk.f.i
 
 # target to preprocess a source file
 zherk.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zherk.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zherk.f.i
 
 zherk.s: zherk.f.s
@@ -4636,9 +4636,9 @@ zherk.s: zherk.f.s
 
 # target to generate assembly for a file
 zherk.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zherk.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zherk.f.s
 
 zhpmv.obj: zhpmv.f.obj
@@ -4647,9 +4647,9 @@ zhpmv.obj: zhpmv.f.obj
 
 # target to build an object file
 zhpmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpmv.f.obj
 
 zhpmv.i: zhpmv.f.i
@@ -4658,9 +4658,9 @@ zhpmv.i: zhpmv.f.i
 
 # target to preprocess a source file
 zhpmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpmv.f.i
 
 zhpmv.s: zhpmv.f.s
@@ -4669,9 +4669,9 @@ zhpmv.s: zhpmv.f.s
 
 # target to generate assembly for a file
 zhpmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpmv.f.s
 
 zhpr.obj: zhpr.f.obj
@@ -4680,9 +4680,9 @@ zhpr.obj: zhpr.f.obj
 
 # target to build an object file
 zhpr.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpr.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpr.f.obj
 
 zhpr.i: zhpr.f.i
@@ -4691,9 +4691,9 @@ zhpr.i: zhpr.f.i
 
 # target to preprocess a source file
 zhpr.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpr.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpr.f.i
 
 zhpr.s: zhpr.f.s
@@ -4702,9 +4702,9 @@ zhpr.s: zhpr.f.s
 
 # target to generate assembly for a file
 zhpr.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpr.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpr.f.s
 
 zhpr2.obj: zhpr2.f.obj
@@ -4713,9 +4713,9 @@ zhpr2.obj: zhpr2.f.obj
 
 # target to build an object file
 zhpr2.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpr2.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpr2.f.obj
 
 zhpr2.i: zhpr2.f.i
@@ -4724,9 +4724,9 @@ zhpr2.i: zhpr2.f.i
 
 # target to preprocess a source file
 zhpr2.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpr2.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpr2.f.i
 
 zhpr2.s: zhpr2.f.s
@@ -4735,9 +4735,9 @@ zhpr2.s: zhpr2.f.s
 
 # target to generate assembly for a file
 zhpr2.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zhpr2.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zhpr2.f.s
 
 zrotg.obj: zrotg.f.obj
@@ -4746,9 +4746,9 @@ zrotg.obj: zrotg.f.obj
 
 # target to build an object file
 zrotg.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zrotg.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zrotg.f.obj
 
 zrotg.i: zrotg.f.i
@@ -4757,9 +4757,9 @@ zrotg.i: zrotg.f.i
 
 # target to preprocess a source file
 zrotg.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zrotg.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zrotg.f.i
 
 zrotg.s: zrotg.f.s
@@ -4768,9 +4768,9 @@ zrotg.s: zrotg.f.s
 
 # target to generate assembly for a file
 zrotg.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zrotg.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zrotg.f.s
 
 zscal.obj: zscal.f.obj
@@ -4779,9 +4779,9 @@ zscal.obj: zscal.f.obj
 
 # target to build an object file
 zscal.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zscal.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zscal.f.obj
 
 zscal.i: zscal.f.i
@@ -4790,9 +4790,9 @@ zscal.i: zscal.f.i
 
 # target to preprocess a source file
 zscal.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zscal.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zscal.f.i
 
 zscal.s: zscal.f.s
@@ -4801,9 +4801,9 @@ zscal.s: zscal.f.s
 
 # target to generate assembly for a file
 zscal.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zscal.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zscal.f.s
 
 zswap.obj: zswap.f.obj
@@ -4812,9 +4812,9 @@ zswap.obj: zswap.f.obj
 
 # target to build an object file
 zswap.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zswap.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zswap.f.obj
 
 zswap.i: zswap.f.i
@@ -4823,9 +4823,9 @@ zswap.i: zswap.f.i
 
 # target to preprocess a source file
 zswap.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zswap.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zswap.f.i
 
 zswap.s: zswap.f.s
@@ -4834,9 +4834,9 @@ zswap.s: zswap.f.s
 
 # target to generate assembly for a file
 zswap.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zswap.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zswap.f.s
 
 zsymm.obj: zsymm.f.obj
@@ -4845,9 +4845,9 @@ zsymm.obj: zsymm.f.obj
 
 # target to build an object file
 zsymm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsymm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsymm.f.obj
 
 zsymm.i: zsymm.f.i
@@ -4856,9 +4856,9 @@ zsymm.i: zsymm.f.i
 
 # target to preprocess a source file
 zsymm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsymm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsymm.f.i
 
 zsymm.s: zsymm.f.s
@@ -4867,9 +4867,9 @@ zsymm.s: zsymm.f.s
 
 # target to generate assembly for a file
 zsymm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsymm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsymm.f.s
 
 zsyr2k.obj: zsyr2k.f.obj
@@ -4878,9 +4878,9 @@ zsyr2k.obj: zsyr2k.f.obj
 
 # target to build an object file
 zsyr2k.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsyr2k.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsyr2k.f.obj
 
 zsyr2k.i: zsyr2k.f.i
@@ -4889,9 +4889,9 @@ zsyr2k.i: zsyr2k.f.i
 
 # target to preprocess a source file
 zsyr2k.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsyr2k.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsyr2k.f.i
 
 zsyr2k.s: zsyr2k.f.s
@@ -4900,9 +4900,9 @@ zsyr2k.s: zsyr2k.f.s
 
 # target to generate assembly for a file
 zsyr2k.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsyr2k.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsyr2k.f.s
 
 zsyrk.obj: zsyrk.f.obj
@@ -4911,9 +4911,9 @@ zsyrk.obj: zsyrk.f.obj
 
 # target to build an object file
 zsyrk.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsyrk.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsyrk.f.obj
 
 zsyrk.i: zsyrk.f.i
@@ -4922,9 +4922,9 @@ zsyrk.i: zsyrk.f.i
 
 # target to preprocess a source file
 zsyrk.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsyrk.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsyrk.f.i
 
 zsyrk.s: zsyrk.f.s
@@ -4933,9 +4933,9 @@ zsyrk.s: zsyrk.f.s
 
 # target to generate assembly for a file
 zsyrk.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\zsyrk.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : zsyrk.f.s
 
 ztbmv.obj: ztbmv.f.obj
@@ -4944,9 +4944,9 @@ ztbmv.obj: ztbmv.f.obj
 
 # target to build an object file
 ztbmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztbmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztbmv.f.obj
 
 ztbmv.i: ztbmv.f.i
@@ -4955,9 +4955,9 @@ ztbmv.i: ztbmv.f.i
 
 # target to preprocess a source file
 ztbmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztbmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztbmv.f.i
 
 ztbmv.s: ztbmv.f.s
@@ -4966,9 +4966,9 @@ ztbmv.s: ztbmv.f.s
 
 # target to generate assembly for a file
 ztbmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztbmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztbmv.f.s
 
 ztbsv.obj: ztbsv.f.obj
@@ -4977,9 +4977,9 @@ ztbsv.obj: ztbsv.f.obj
 
 # target to build an object file
 ztbsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztbsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztbsv.f.obj
 
 ztbsv.i: ztbsv.f.i
@@ -4988,9 +4988,9 @@ ztbsv.i: ztbsv.f.i
 
 # target to preprocess a source file
 ztbsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztbsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztbsv.f.i
 
 ztbsv.s: ztbsv.f.s
@@ -4999,9 +4999,9 @@ ztbsv.s: ztbsv.f.s
 
 # target to generate assembly for a file
 ztbsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztbsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztbsv.f.s
 
 ztpmv.obj: ztpmv.f.obj
@@ -5010,9 +5010,9 @@ ztpmv.obj: ztpmv.f.obj
 
 # target to build an object file
 ztpmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztpmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztpmv.f.obj
 
 ztpmv.i: ztpmv.f.i
@@ -5021,9 +5021,9 @@ ztpmv.i: ztpmv.f.i
 
 # target to preprocess a source file
 ztpmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztpmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztpmv.f.i
 
 ztpmv.s: ztpmv.f.s
@@ -5032,9 +5032,9 @@ ztpmv.s: ztpmv.f.s
 
 # target to generate assembly for a file
 ztpmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztpmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztpmv.f.s
 
 ztpsv.obj: ztpsv.f.obj
@@ -5043,9 +5043,9 @@ ztpsv.obj: ztpsv.f.obj
 
 # target to build an object file
 ztpsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztpsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztpsv.f.obj
 
 ztpsv.i: ztpsv.f.i
@@ -5054,9 +5054,9 @@ ztpsv.i: ztpsv.f.i
 
 # target to preprocess a source file
 ztpsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztpsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztpsv.f.i
 
 ztpsv.s: ztpsv.f.s
@@ -5065,9 +5065,9 @@ ztpsv.s: ztpsv.f.s
 
 # target to generate assembly for a file
 ztpsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztpsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztpsv.f.s
 
 ztrmm.obj: ztrmm.f.obj
@@ -5076,9 +5076,9 @@ ztrmm.obj: ztrmm.f.obj
 
 # target to build an object file
 ztrmm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrmm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrmm.f.obj
 
 ztrmm.i: ztrmm.f.i
@@ -5087,9 +5087,9 @@ ztrmm.i: ztrmm.f.i
 
 # target to preprocess a source file
 ztrmm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrmm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrmm.f.i
 
 ztrmm.s: ztrmm.f.s
@@ -5098,9 +5098,9 @@ ztrmm.s: ztrmm.f.s
 
 # target to generate assembly for a file
 ztrmm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrmm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrmm.f.s
 
 ztrmv.obj: ztrmv.f.obj
@@ -5109,9 +5109,9 @@ ztrmv.obj: ztrmv.f.obj
 
 # target to build an object file
 ztrmv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrmv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrmv.f.obj
 
 ztrmv.i: ztrmv.f.i
@@ -5120,9 +5120,9 @@ ztrmv.i: ztrmv.f.i
 
 # target to preprocess a source file
 ztrmv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrmv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrmv.f.i
 
 ztrmv.s: ztrmv.f.s
@@ -5131,9 +5131,9 @@ ztrmv.s: ztrmv.f.s
 
 # target to generate assembly for a file
 ztrmv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrmv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrmv.f.s
 
 ztrsm.obj: ztrsm.f.obj
@@ -5142,9 +5142,9 @@ ztrsm.obj: ztrsm.f.obj
 
 # target to build an object file
 ztrsm.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrsm.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrsm.f.obj
 
 ztrsm.i: ztrsm.f.i
@@ -5153,9 +5153,9 @@ ztrsm.i: ztrsm.f.i
 
 # target to preprocess a source file
 ztrsm.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrsm.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrsm.f.i
 
 ztrsm.s: ztrsm.f.s
@@ -5164,9 +5164,9 @@ ztrsm.s: ztrsm.f.s
 
 # target to generate assembly for a file
 ztrsm.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrsm.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrsm.f.s
 
 ztrsv.obj: ztrsv.f.obj
@@ -5175,9 +5175,9 @@ ztrsv.obj: ztrsv.f.obj
 
 # target to build an object file
 ztrsv.f.obj:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrsv.f.obj
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrsv.f.obj
 
 ztrsv.i: ztrsv.f.i
@@ -5186,9 +5186,9 @@ ztrsv.i: ztrsv.f.i
 
 # target to preprocess a source file
 ztrsv.f.i:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrsv.f.i
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrsv.f.i
 
 ztrsv.s: ztrsv.f.s
@@ -5197,9 +5197,9 @@ ztrsv.s: ztrsv.f.s
 
 # target to generate assembly for a file
 ztrsv.f.s:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(MAKE) -f BLAS\SRC\CMakeFiles\blas.dir\build.make -$(MAKEFLAGS) BLAS\SRC\CMakeFiles\blas.dir\ztrsv.f.s
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : ztrsv.f.s
 
 # Help Target
@@ -5682,8 +5682,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd K:\trial\lapack-3.8.0\build
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd K:\trial\lapack-3.8.0\build\BLAS\SRC
+	cd I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\BLAS\SRC
 .PHONY : cmake_check_build_system
 

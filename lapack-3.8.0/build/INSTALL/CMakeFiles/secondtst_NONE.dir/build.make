@@ -40,10 +40,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\trial\lapack-3.8.0\INSTALL
+CMAKE_SOURCE_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build\INSTALL
+CMAKE_BINARY_DIR = I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL
 
 # Include any dependencies generated for this target.
 !include CMakeFiles\secondtst_NONE.dir\depend.make
@@ -55,30 +55,30 @@ CMAKE_BINARY_DIR = K:\trial\lapack-3.8.0\build\INSTALL
 !include CMakeFiles\secondtst_NONE.dir\flags.make
 
 CMakeFiles\secondtst_NONE.dir\second_NONE.f.obj: CMakeFiles\secondtst_NONE.dir\flags.make
-CMakeFiles\secondtst_NONE.dir\second_NONE.f.obj: K:\trial\lapack-3.8.0\INSTALL\second_NONE.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/secondtst_NONE.dir/second_NONE.f.obj"
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c K:\trial\lapack-3.8.0\INSTALL\second_NONE.f -o CMakeFiles\secondtst_NONE.dir\second_NONE.f.obj
+CMakeFiles\secondtst_NONE.dir\second_NONE.f.obj: I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_NONE.f
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Fortran object CMakeFiles/secondtst_NONE.dir/second_NONE.f.obj"
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_NONE.f -o CMakeFiles\secondtst_NONE.dir\second_NONE.f.obj
 
 CMakeFiles\secondtst_NONE.dir\second_NONE.f.i: cmake_force
 	@echo Preprocessing Fortran source to CMakeFiles/secondtst_NONE.dir/second_NONE.f.i
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E K:\trial\lapack-3.8.0\INSTALL\second_NONE.f > CMakeFiles\secondtst_NONE.dir\second_NONE.f.i
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_NONE.f > CMakeFiles\secondtst_NONE.dir\second_NONE.f.i
 
 CMakeFiles\secondtst_NONE.dir\second_NONE.f.s: cmake_force
 	@echo Compiling Fortran source to assembly CMakeFiles/secondtst_NONE.dir/second_NONE.f.s
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S K:\trial\lapack-3.8.0\INSTALL\second_NONE.f -o CMakeFiles\secondtst_NONE.dir\second_NONE.f.s
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\second_NONE.f -o CMakeFiles\secondtst_NONE.dir\second_NONE.f.s
 
 CMakeFiles\secondtst_NONE.dir\secondtst.f.obj: CMakeFiles\secondtst_NONE.dir\flags.make
-CMakeFiles\secondtst_NONE.dir\secondtst.f.obj: K:\trial\lapack-3.8.0\INSTALL\secondtst.f
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/secondtst_NONE.dir/secondtst.f.obj"
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c K:\trial\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_NONE.dir\secondtst.f.obj
+CMakeFiles\secondtst_NONE.dir\secondtst.f.obj: I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building Fortran object CMakeFiles/secondtst_NONE.dir/secondtst.f.obj"
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_NONE.dir\secondtst.f.obj
 
 CMakeFiles\secondtst_NONE.dir\secondtst.f.i: cmake_force
 	@echo Preprocessing Fortran source to CMakeFiles/secondtst_NONE.dir/secondtst.f.i
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E K:\trial\lapack-3.8.0\INSTALL\secondtst.f > CMakeFiles\secondtst_NONE.dir\secondtst.f.i
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f > CMakeFiles\secondtst_NONE.dir\secondtst.f.i
 
 CMakeFiles\secondtst_NONE.dir\secondtst.f.s: cmake_force
 	@echo Compiling Fortran source to assembly CMakeFiles/secondtst_NONE.dir/secondtst.f.s
-	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S K:\trial\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_NONE.dir\secondtst.f.s
+	C:\MinGW\bin\gfortran.exe $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL\secondtst.f -o CMakeFiles\secondtst_NONE.dir\secondtst.f.s
 
 # Object files for target secondtst_NONE
 secondtst_NONE_OBJECTS = \
@@ -92,7 +92,7 @@ secondtst_NONE.exe: CMakeFiles\secondtst_NONE.dir\second_NONE.f.obj
 secondtst_NONE.exe: CMakeFiles\secondtst_NONE.dir\secondtst.f.obj
 secondtst_NONE.exe: CMakeFiles\secondtst_NONE.dir\build.make
 secondtst_NONE.exe: CMakeFiles\secondtst_NONE.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking Fortran executable secondtst_NONE.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking Fortran executable secondtst_NONE.exe"
 	"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\secondtst_NONE.dir/objects.a
 	C:\MinGW\bin\ar.exe cr CMakeFiles\secondtst_NONE.dir/objects.a @CMakeFiles\secondtst_NONE.dir\objects1.rsp
 	C:\MinGW\bin\gfortran.exe    -Wl,--whole-archive CMakeFiles\secondtst_NONE.dir/objects.a -Wl,--no-whole-archive  -o secondtst_NONE.exe -Wl,--out-implib,libsecondtst_NONE.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
@@ -107,6 +107,6 @@ CMakeFiles\secondtst_NONE.dir\clean:
 .PHONY : CMakeFiles\secondtst_NONE.dir\clean
 
 CMakeFiles\secondtst_NONE.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Borland Makefiles" K:\trial\lapack-3.8.0\INSTALL K:\trial\lapack-3.8.0\INSTALL K:\trial\lapack-3.8.0\build\INSTALL K:\trial\lapack-3.8.0\build\INSTALL K:\trial\lapack-3.8.0\build\INSTALL\CMakeFiles\secondtst_NONE.dir\DependInfo.cmake
+	$(CMAKE_COMMAND) -E cmake_depends "Borland Makefiles" I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL I:\LinuxPrj\21-github\blbcb\lapack-3.8.0\build\INSTALL\CMakeFiles\secondtst_NONE.dir\DependInfo.cmake
 .PHONY : CMakeFiles\secondtst_NONE.dir\depend
 

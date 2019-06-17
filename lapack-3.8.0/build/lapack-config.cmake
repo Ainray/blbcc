@@ -1,7 +1,7 @@
 # Load lapack targets from the build tree if necessary.
 set(_LAPACK_TARGET "blas")
 if(_LAPACK_TARGET AND NOT TARGET "${_LAPACK_TARGET}")
-  include("K:/trial/lapack-3.8.0/build/lapack-targets.cmake")
+  include("I:/LinuxPrj/21-github/blbcb/lapack-3.8.0/build/lapack-targets.cmake")
 endif()
 unset(_LAPACK_TARGET)
 
