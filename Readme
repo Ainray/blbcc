@@ -1,0 +1,65 @@
+    This Project aims to build LAPACK or its family(e.g. LACPACKE, LAPACK++) with Builder C++.
+    I have trial a little, however all failed. Some one is expected to work this problem out,
+which does means a lot for BCB fans.
+
+    Following gives what i tried:
+        File System:
+            .
+            ├── lib
+            │   ├── blas_dll_win32.lib
+            │   ├── blas_dll_win32_rad.lib
+            │   ├── BLASd_win32.lib
+            │   ├── BLASd_win32_rad.lib
+            │   ├── BLASd_win64.lib
+            │   ├── BLAS_win32.lib
+            │   ├── BLAS_win64.lib
+            │   ├── lapack_dll_win32.lib
+            │   ├── lapack_dll_win32_rad.lib
+            │   ├── LAPACKd_win32.lib
+            │   ├── LAPACKd_win32_rad.lib
+            │   ├── LAPACKd_win64.lib
+            │   ├── LAPACK_win32.lib
+            │   ├── LAPACK_win64.lib
+            │   ├── LIBBLAS.DLL
+            │   ├── libgcc_s_sjlj-1.dll
+            │   ├── libgfortran-3.dll
+            │   ├── libgfortran-3-X86.dll
+            │   └── LIBLAPACK.DLL
+            │   ├── lapacke
+            │   │   ├── libblas.dll │   │   ├── libblas.lib
+            │   │   ├── libblas_rad.lib
+            │   │   ├── liblapack.dll
+            │   │   ├── liblapacke.dll
+            │   │   ├── liblapacke.lib
+            │   │   ├── liblapacke_rad.lib
+            │   │   ├── liblapack.lib
+            │   │   └── liblapack_rad.lib
+            ├── tool
+            │   ├── bcc
+            │   │   ├── coff2omf.exe
+            │   │   ├── impdef.exe
+            │   │   ├── implib.exe
+            │   │   ├── tdump64.exe
+            │   │   ├── tdump.exe
+            │   │   ├── tlib64.exe
+            │   │   └── tlib.exe
+            │   ├── objconv
+            │   │   ├── changelog.txt
+            │   │   ├── extras.zip
+            │   │   ├── objconv.exe
+            │   │   └── objconv-instructions.pdf
+            │   ├── objconv.exe
+            │   ├── objconv_linux
+            │   └── objectconv.zip
+            └── trial
+                ├── LAPACKE_BCB_examples
+                └── LAPACKE_VS_examples
+        Files in ./lib are download from "LAPACK in windows(http://icl.cs.utk.edu/lapack-for-windows/lapack/#libraries)"
+        Files in ./tool are tools to convert object or library files format: objconv
+and other tools from Builder C++ (10.3) installation ("bin directory in the installation directory").           
+        Trial directory gives an "LAPACKE" example Downdoad from "LAPACK in windows(http://icl.cs.utk.edu/lapack-for-windows/lapack/#libraries)"
+It has "CMakeLists.txt" and "build.sh" I used. The corresponding "VS" solution is also given which succeed to be built.
+        I also try method given by Howe (http://bcbjournal.org/articles/vol4/0012/Using_Visual_C_DLLs_with_CBuilder.htm).
+
+
+        
