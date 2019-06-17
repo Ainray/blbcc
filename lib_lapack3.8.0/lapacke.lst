@@ -1,0 +1,7450 @@
+Publics by module
+
+LAPACKE_c_nancheck	size = 0
+	LAPACKE_c_nancheck              
+
+LAPACKE_cbbcsd	size = 0
+	LAPACKE_cbbcsd                  
+
+LAPACKE_cbbcsd_work	size = 0
+	LAPACKE_cbbcsd_work             
+
+LAPACKE_cbdsqr	size = 0
+	LAPACKE_cbdsqr                  
+
+LAPACKE_cbdsqr_work	size = 0
+	LAPACKE_cbdsqr_work             
+
+LAPACKE_cgb_nancheck	size = 0
+	LAPACKE_cgb_nancheck            
+
+LAPACKE_cgb_trans	size = 0
+	LAPACKE_cgb_trans               
+
+LAPACKE_cgbbrd	size = 0
+	LAPACKE_cgbbrd                  
+
+LAPACKE_cgbbrd_work	size = 0
+	LAPACKE_cgbbrd_work             
+
+LAPACKE_cgbcon	size = 0
+	LAPACKE_cgbcon                  
+
+LAPACKE_cgbcon_work	size = 0
+	LAPACKE_cgbcon_work             
+
+LAPACKE_cgbequ	size = 0
+	LAPACKE_cgbequ                  
+
+LAPACKE_cgbequ_work	size = 0
+	LAPACKE_cgbequ_work             
+
+LAPACKE_cgbequb	size = 0
+	LAPACKE_cgbequb                 
+
+LAPACKE_cgbequb_work	size = 0
+	LAPACKE_cgbequb_work            
+
+LAPACKE_cgbrfs	size = 0
+	LAPACKE_cgbrfs                  
+
+LAPACKE_cgbrfs_work	size = 0
+	LAPACKE_cgbrfs_work             
+
+LAPACKE_cgbsv	size = 0
+	LAPACKE_cgbsv                   
+
+LAPACKE_cgbsv_work	size = 0
+	LAPACKE_cgbsv_work              
+
+LAPACKE_cgbsvx	size = 0
+	LAPACKE_cgbsvx                  
+
+LAPACKE_cgbsvx_work	size = 0
+	LAPACKE_cgbsvx_work             
+
+LAPACKE_cgbtrf	size = 0
+	LAPACKE_cgbtrf                  
+
+LAPACKE_cgbtrf_work	size = 0
+	LAPACKE_cgbtrf_work             
+
+LAPACKE_cgbtrs	size = 0
+	LAPACKE_cgbtrs                  
+
+LAPACKE_cgbtrs_work	size = 0
+	LAPACKE_cgbtrs_work             
+
+LAPACKE_cge_nancheck	size = 0
+	LAPACKE_cge_nancheck            
+
+LAPACKE_cge_trans	size = 0
+	LAPACKE_cge_trans               
+
+LAPACKE_cgebak	size = 0
+	LAPACKE_cgebak                  
+
+LAPACKE_cgebak_work	size = 0
+	LAPACKE_cgebak_work             
+
+LAPACKE_cgebal	size = 0
+	LAPACKE_cgebal                  
+
+LAPACKE_cgebal_work	size = 0
+	LAPACKE_cgebal_work             
+
+LAPACKE_cgebrd	size = 0
+	LAPACKE_cgebrd                  
+
+LAPACKE_cgebrd_work	size = 0
+	LAPACKE_cgebrd_work             
+
+LAPACKE_cgecon	size = 0
+	LAPACKE_cgecon                  
+
+LAPACKE_cgecon_work	size = 0
+	LAPACKE_cgecon_work             
+
+LAPACKE_cgeequ	size = 0
+	LAPACKE_cgeequ                  
+
+LAPACKE_cgeequ_work	size = 0
+	LAPACKE_cgeequ_work             
+
+LAPACKE_cgeequb	size = 0
+	LAPACKE_cgeequb                 
+
+LAPACKE_cgeequb_work	size = 0
+	LAPACKE_cgeequb_work            
+
+LAPACKE_cgees	size = 0
+	LAPACKE_cgees                   
+
+LAPACKE_cgees_work	size = 0
+	LAPACKE_cgees_work              
+
+LAPACKE_cgeesx	size = 0
+	LAPACKE_cgeesx                  
+
+LAPACKE_cgeesx_work	size = 0
+	LAPACKE_cgeesx_work             
+
+LAPACKE_cgeev	size = 0
+	LAPACKE_cgeev                   
+
+LAPACKE_cgeev_work	size = 0
+	LAPACKE_cgeev_work              
+
+LAPACKE_cgeevx	size = 0
+	LAPACKE_cgeevx                  
+
+LAPACKE_cgeevx_work	size = 0
+	LAPACKE_cgeevx_work             
+
+LAPACKE_cgehrd	size = 0
+	LAPACKE_cgehrd                  
+
+LAPACKE_cgehrd_work	size = 0
+	LAPACKE_cgehrd_work             
+
+LAPACKE_cgejsv	size = 0
+	LAPACKE_cgejsv                  
+
+LAPACKE_cgejsv_work	size = 0
+	LAPACKE_cgejsv_work             
+
+LAPACKE_cgelq	size = 0
+	LAPACKE_cgelq                   
+
+LAPACKE_cgelq2	size = 0
+	LAPACKE_cgelq2                  
+
+LAPACKE_cgelq2_work	size = 0
+	LAPACKE_cgelq2_work             
+
+LAPACKE_cgelq_work	size = 0
+	LAPACKE_cgelq_work              
+
+LAPACKE_cgelqf	size = 0
+	LAPACKE_cgelqf                  
+
+LAPACKE_cgelqf_work	size = 0
+	LAPACKE_cgelqf_work             
+
+LAPACKE_cgels	size = 0
+	LAPACKE_cgels                   
+
+LAPACKE_cgels_work	size = 0
+	LAPACKE_cgels_work              
+
+LAPACKE_cgelsd	size = 0
+	LAPACKE_cgelsd                  
+
+LAPACKE_cgelsd_work	size = 0
+	LAPACKE_cgelsd_work             
+
+LAPACKE_cgelss	size = 0
+	LAPACKE_cgelss                  
+
+LAPACKE_cgelss_work	size = 0
+	LAPACKE_cgelss_work             
+
+LAPACKE_cgelsy	size = 0
+	LAPACKE_cgelsy                  
+
+LAPACKE_cgelsy_work	size = 0
+	LAPACKE_cgelsy_work             
+
+LAPACKE_cgemlq	size = 0
+	LAPACKE_cgemlq                  
+
+LAPACKE_cgemlq_work	size = 0
+	LAPACKE_cgemlq_work             
+
+LAPACKE_cgemqr	size = 0
+	LAPACKE_cgemqr                  
+
+LAPACKE_cgemqr_work	size = 0
+	LAPACKE_cgemqr_work             
+
+LAPACKE_cgemqrt	size = 0
+	LAPACKE_cgemqrt                 
+
+LAPACKE_cgemqrt_work	size = 0
+	LAPACKE_cgemqrt_work            
+
+LAPACKE_cgeqlf	size = 0
+	LAPACKE_cgeqlf                  
+
+LAPACKE_cgeqlf_work	size = 0
+	LAPACKE_cgeqlf_work             
+
+LAPACKE_cgeqp3	size = 0
+	LAPACKE_cgeqp3                  
+
+LAPACKE_cgeqp3_work	size = 0
+	LAPACKE_cgeqp3_work             
+
+LAPACKE_cgeqr	size = 0
+	LAPACKE_cgeqr                   
+
+LAPACKE_cgeqr2	size = 0
+	LAPACKE_cgeqr2                  
+
+LAPACKE_cgeqr2_work	size = 0
+	LAPACKE_cgeqr2_work             
+
+LAPACKE_cgeqr_work	size = 0
+	LAPACKE_cgeqr_work              
+
+LAPACKE_cgeqrf	size = 0
+	LAPACKE_cgeqrf                  
+
+LAPACKE_cgeqrf_work	size = 0
+	LAPACKE_cgeqrf_work             
+
+LAPACKE_cgeqrfp	size = 0
+	LAPACKE_cgeqrfp                 
+
+LAPACKE_cgeqrfp_work	size = 0
+	LAPACKE_cgeqrfp_work            
+
+LAPACKE_cgeqrt	size = 0
+	LAPACKE_cgeqrt                  
+
+LAPACKE_cgeqrt2	size = 0
+	LAPACKE_cgeqrt2                 
+
+LAPACKE_cgeqrt2_work	size = 0
+	LAPACKE_cgeqrt2_work            
+
+LAPACKE_cgeqrt3	size = 0
+	LAPACKE_cgeqrt3                 
+
+LAPACKE_cgeqrt3_work	size = 0
+	LAPACKE_cgeqrt3_work            
+
+LAPACKE_cgeqrt_work	size = 0
+	LAPACKE_cgeqrt_work             
+
+LAPACKE_cgerfs	size = 0
+	LAPACKE_cgerfs                  
+
+LAPACKE_cgerfs_work	size = 0
+	LAPACKE_cgerfs_work             
+
+LAPACKE_cgerqf	size = 0
+	LAPACKE_cgerqf                  
+
+LAPACKE_cgerqf_work	size = 0
+	LAPACKE_cgerqf_work             
+
+LAPACKE_cgesdd	size = 0
+	LAPACKE_cgesdd                  
+
+LAPACKE_cgesdd_work	size = 0
+	LAPACKE_cgesdd_work             
+
+LAPACKE_cgesv	size = 0
+	LAPACKE_cgesv                   
+
+LAPACKE_cgesv_work	size = 0
+	LAPACKE_cgesv_work              
+
+LAPACKE_cgesvd	size = 0
+	LAPACKE_cgesvd                  
+
+LAPACKE_cgesvd_work	size = 0
+	LAPACKE_cgesvd_work             
+
+LAPACKE_cgesvdx	size = 0
+	LAPACKE_cgesvdx                 
+
+LAPACKE_cgesvdx_work	size = 0
+	LAPACKE_cgesvdx_work            
+
+LAPACKE_cgesvj	size = 0
+	LAPACKE_cgesvj                  
+
+LAPACKE_cgesvj_work	size = 0
+	LAPACKE_cgesvj_work             
+
+LAPACKE_cgesvx	size = 0
+	LAPACKE_cgesvx                  
+
+LAPACKE_cgesvx_work	size = 0
+	LAPACKE_cgesvx_work             
+
+LAPACKE_cgetf2	size = 0
+	LAPACKE_cgetf2                  
+
+LAPACKE_cgetf2_work	size = 0
+	LAPACKE_cgetf2_work             
+
+LAPACKE_cgetrf	size = 0
+	LAPACKE_cgetrf                  
+
+LAPACKE_cgetrf2	size = 0
+	LAPACKE_cgetrf2                 
+
+LAPACKE_cgetrf2_work	size = 0
+	LAPACKE_cgetrf2_work            
+
+LAPACKE_cgetrf_work	size = 0
+	LAPACKE_cgetrf_work             
+
+LAPACKE_cgetri	size = 0
+	LAPACKE_cgetri                  
+
+LAPACKE_cgetri_work	size = 0
+	LAPACKE_cgetri_work             
+
+LAPACKE_cgetrs	size = 0
+	LAPACKE_cgetrs                  
+
+LAPACKE_cgetrs_work	size = 0
+	LAPACKE_cgetrs_work             
+
+LAPACKE_cgetsls	size = 0
+	LAPACKE_cgetsls                 
+
+LAPACKE_cgetsls_work	size = 0
+	LAPACKE_cgetsls_work            
+
+LAPACKE_cgg_nancheck	size = 0
+	LAPACKE_cgg_nancheck            
+
+LAPACKE_cgg_trans	size = 0
+	LAPACKE_cgg_trans               
+
+LAPACKE_cggbak	size = 0
+	LAPACKE_cggbak                  
+
+LAPACKE_cggbak_work	size = 0
+	LAPACKE_cggbak_work             
+
+LAPACKE_cggbal	size = 0
+	LAPACKE_cggbal                  
+
+LAPACKE_cggbal_work	size = 0
+	LAPACKE_cggbal_work             
+
+LAPACKE_cgges	size = 0
+	LAPACKE_cgges                   
+
+LAPACKE_cgges3	size = 0
+	LAPACKE_cgges3                  
+
+LAPACKE_cgges3_work	size = 0
+	LAPACKE_cgges3_work             
+
+LAPACKE_cgges_work	size = 0
+	LAPACKE_cgges_work              
+
+LAPACKE_cggesx	size = 0
+	LAPACKE_cggesx                  
+
+LAPACKE_cggesx_work	size = 0
+	LAPACKE_cggesx_work             
+
+LAPACKE_cggev	size = 0
+	LAPACKE_cggev                   
+
+LAPACKE_cggev3	size = 0
+	LAPACKE_cggev3                  
+
+LAPACKE_cggev3_work	size = 0
+	LAPACKE_cggev3_work             
+
+LAPACKE_cggev_work	size = 0
+	LAPACKE_cggev_work              
+
+LAPACKE_cggevx	size = 0
+	LAPACKE_cggevx                  
+
+LAPACKE_cggevx_work	size = 0
+	LAPACKE_cggevx_work             
+
+LAPACKE_cggglm	size = 0
+	LAPACKE_cggglm                  
+
+LAPACKE_cggglm_work	size = 0
+	LAPACKE_cggglm_work             
+
+LAPACKE_cgghd3	size = 0
+	LAPACKE_cgghd3                  
+
+LAPACKE_cgghd3_work	size = 0
+	LAPACKE_cgghd3_work             
+
+LAPACKE_cgghrd	size = 0
+	LAPACKE_cgghrd                  
+
+LAPACKE_cgghrd_work	size = 0
+	LAPACKE_cgghrd_work             
+
+LAPACKE_cgglse	size = 0
+	LAPACKE_cgglse                  
+
+LAPACKE_cgglse_work	size = 0
+	LAPACKE_cgglse_work             
+
+LAPACKE_cggqrf	size = 0
+	LAPACKE_cggqrf                  
+
+LAPACKE_cggqrf_work	size = 0
+	LAPACKE_cggqrf_work             
+
+LAPACKE_cggrqf	size = 0
+	LAPACKE_cggrqf                  
+
+LAPACKE_cggrqf_work	size = 0
+	LAPACKE_cggrqf_work             
+
+LAPACKE_cggsvd3	size = 0
+	LAPACKE_cggsvd3                 
+
+LAPACKE_cggsvd3_work	size = 0
+	LAPACKE_cggsvd3_work            
+
+LAPACKE_cggsvp3	size = 0
+	LAPACKE_cggsvp3                 
+
+LAPACKE_cggsvp3_work	size = 0
+	LAPACKE_cggsvp3_work            
+
+LAPACKE_cgt_nancheck	size = 0
+	LAPACKE_cgt_nancheck            
+
+LAPACKE_cgtcon	size = 0
+	LAPACKE_cgtcon                  
+
+LAPACKE_cgtcon_work	size = 0
+	LAPACKE_cgtcon_work             
+
+LAPACKE_cgtrfs	size = 0
+	LAPACKE_cgtrfs                  
+
+LAPACKE_cgtrfs_work	size = 0
+	LAPACKE_cgtrfs_work             
+
+LAPACKE_cgtsv	size = 0
+	LAPACKE_cgtsv                   
+
+LAPACKE_cgtsv_work	size = 0
+	LAPACKE_cgtsv_work              
+
+LAPACKE_cgtsvx	size = 0
+	LAPACKE_cgtsvx                  
+
+LAPACKE_cgtsvx_work	size = 0
+	LAPACKE_cgtsvx_work             
+
+LAPACKE_cgttrf	size = 0
+	LAPACKE_cgttrf                  
+
+LAPACKE_cgttrf_work	size = 0
+	LAPACKE_cgttrf_work             
+
+LAPACKE_cgttrs	size = 0
+	LAPACKE_cgttrs                  
+
+LAPACKE_cgttrs_work	size = 0
+	LAPACKE_cgttrs_work             
+
+LAPACKE_chb_nancheck	size = 0
+	LAPACKE_chb_nancheck            
+
+LAPACKE_chb_trans	size = 0
+	LAPACKE_chb_trans               
+
+LAPACKE_chbev	size = 0
+	LAPACKE_chbev                   
+
+LAPACKE_chbev_2stage	size = 0
+	LAPACKE_chbev_2stage            
+
+LAPACKE_chbev_2stage_work	size = 0
+	LAPACKE_chbev_2stage_work       
+
+LAPACKE_chbev_work	size = 0
+	LAPACKE_chbev_work              
+
+LAPACKE_chbevd	size = 0
+	LAPACKE_chbevd                  
+
+LAPACKE_chbevd_2stage	size = 0
+	LAPACKE_chbevd_2stage           
+
+LAPACKE_chbevd_2stage_work	size = 0
+	LAPACKE_chbevd_2stage_work      
+
+LAPACKE_chbevd_work	size = 0
+	LAPACKE_chbevd_work             
+
+LAPACKE_chbevx	size = 0
+	LAPACKE_chbevx                  
+
+LAPACKE_chbevx_2stage	size = 0
+	LAPACKE_chbevx_2stage           
+
+LAPACKE_chbevx_2stage_work	size = 0
+	LAPACKE_chbevx_2stage_work      
+
+LAPACKE_chbevx_work	size = 0
+	LAPACKE_chbevx_work             
+
+LAPACKE_chbgst	size = 0
+	LAPACKE_chbgst                  
+
+LAPACKE_chbgst_work	size = 0
+	LAPACKE_chbgst_work             
+
+LAPACKE_chbgv	size = 0
+	LAPACKE_chbgv                   
+
+LAPACKE_chbgv_work	size = 0
+	LAPACKE_chbgv_work              
+
+LAPACKE_chbgvd	size = 0
+	LAPACKE_chbgvd                  
+
+LAPACKE_chbgvd_work	size = 0
+	LAPACKE_chbgvd_work             
+
+LAPACKE_chbgvx	size = 0
+	LAPACKE_chbgvx                  
+
+LAPACKE_chbgvx_work	size = 0
+	LAPACKE_chbgvx_work             
+
+LAPACKE_chbtrd	size = 0
+	LAPACKE_chbtrd                  
+
+LAPACKE_chbtrd_work	size = 0
+	LAPACKE_chbtrd_work             
+
+LAPACKE_che_nancheck	size = 0
+	LAPACKE_che_nancheck            
+
+LAPACKE_che_trans	size = 0
+	LAPACKE_che_trans               
+
+LAPACKE_checon	size = 0
+	LAPACKE_checon                  
+
+LAPACKE_checon_3	size = 0
+	LAPACKE_checon_3                
+
+LAPACKE_checon_3_work	size = 0
+	LAPACKE_checon_3_work           
+
+LAPACKE_checon_work	size = 0
+	LAPACKE_checon_work             
+
+LAPACKE_cheequb	size = 0
+	LAPACKE_cheequb                 
+
+LAPACKE_cheequb_work	size = 0
+	LAPACKE_cheequb_work            
+
+LAPACKE_cheev	size = 0
+	LAPACKE_cheev                   
+
+LAPACKE_cheev_2stage	size = 0
+	LAPACKE_cheev_2stage            
+
+LAPACKE_cheev_2stage_work	size = 0
+	LAPACKE_cheev_2stage_work       
+
+LAPACKE_cheev_work	size = 0
+	LAPACKE_cheev_work              
+
+LAPACKE_cheevd	size = 0
+	LAPACKE_cheevd                  
+
+LAPACKE_cheevd_2stage	size = 0
+	LAPACKE_cheevd_2stage           
+
+LAPACKE_cheevd_2stage_work	size = 0
+	LAPACKE_cheevd_2stage_work      
+
+LAPACKE_cheevd_work	size = 0
+	LAPACKE_cheevd_work             
+
+LAPACKE_cheevr	size = 0
+	LAPACKE_cheevr                  
+
+LAPACKE_cheevr_2stage	size = 0
+	LAPACKE_cheevr_2stage           
+
+LAPACKE_cheevr_2stage_work	size = 0
+	LAPACKE_cheevr_2stage_work      
+
+LAPACKE_cheevr_work	size = 0
+	LAPACKE_cheevr_work             
+
+LAPACKE_cheevx	size = 0
+	LAPACKE_cheevx                  
+
+LAPACKE_cheevx_2stage	size = 0
+	LAPACKE_cheevx_2stage           
+
+LAPACKE_cheevx_2stage_work	size = 0
+	LAPACKE_cheevx_2stage_work      
+
+LAPACKE_cheevx_work	size = 0
+	LAPACKE_cheevx_work             
+
+LAPACKE_chegst	size = 0
+	LAPACKE_chegst                  
+
+LAPACKE_chegst_work	size = 0
+	LAPACKE_chegst_work             
+
+LAPACKE_chegv	size = 0
+	LAPACKE_chegv                   
+
+LAPACKE_chegv_2stage	size = 0
+	LAPACKE_chegv_2stage            
+
+LAPACKE_chegv_2stage_work	size = 0
+	LAPACKE_chegv_2stage_work       
+
+LAPACKE_chegv_work	size = 0
+	LAPACKE_chegv_work              
+
+LAPACKE_chegvd	size = 0
+	LAPACKE_chegvd                  
+
+LAPACKE_chegvd_work	size = 0
+	LAPACKE_chegvd_work             
+
+LAPACKE_chegvx	size = 0
+	LAPACKE_chegvx                  
+
+LAPACKE_chegvx_work	size = 0
+	LAPACKE_chegvx_work             
+
+LAPACKE_cherfs	size = 0
+	LAPACKE_cherfs                  
+
+LAPACKE_cherfs_work	size = 0
+	LAPACKE_cherfs_work             
+
+LAPACKE_chesv	size = 0
+	LAPACKE_chesv                   
+
+LAPACKE_chesv_aa	size = 0
+	LAPACKE_chesv_aa                
+
+LAPACKE_chesv_aa_2stage	size = 0
+	LAPACKE_chesv_aa_2stage         
+
+LAPACKE_chesv_aa_2stage_work	size = 0
+	LAPACKE_chesv_aa_2stage_work    
+
+LAPACKE_chesv_aa_work	size = 0
+	LAPACKE_chesv_aa_work           
+
+LAPACKE_chesv_rk	size = 0
+	LAPACKE_chesv_rk                
+
+LAPACKE_chesv_rk_work	size = 0
+	LAPACKE_chesv_rk_work           
+
+LAPACKE_chesv_work	size = 0
+	LAPACKE_chesv_work              
+
+LAPACKE_chesvx	size = 0
+	LAPACKE_chesvx                  
+
+LAPACKE_chesvx_work	size = 0
+	LAPACKE_chesvx_work             
+
+LAPACKE_cheswapr	size = 0
+	LAPACKE_cheswapr                
+
+LAPACKE_cheswapr_work	size = 0
+	LAPACKE_cheswapr_work           
+
+LAPACKE_chetrd	size = 0
+	LAPACKE_chetrd                  
+
+LAPACKE_chetrd_work	size = 0
+	LAPACKE_chetrd_work             
+
+LAPACKE_chetrf	size = 0
+	LAPACKE_chetrf                  
+
+LAPACKE_chetrf_aa	size = 0
+	LAPACKE_chetrf_aa               
+
+LAPACKE_chetrf_aa_2stage	size = 0
+	LAPACKE_chetrf_aa_2stage        
+
+LAPACKE_chetrf_aa_2stage_work	size = 0
+	LAPACKE_chetrf_aa_2stage_work   
+
+LAPACKE_chetrf_aa_work	size = 0
+	LAPACKE_chetrf_aa_work          
+
+LAPACKE_chetrf_rk	size = 0
+	LAPACKE_chetrf_rk               
+
+LAPACKE_chetrf_rk_work	size = 0
+	LAPACKE_chetrf_rk_work          
+
+LAPACKE_chetrf_rook	size = 0
+	LAPACKE_chetrf_rook             
+
+LAPACKE_chetrf_rook_work	size = 0
+	LAPACKE_chetrf_rook_work        
+
+LAPACKE_chetrf_work	size = 0
+	LAPACKE_chetrf_work             
+
+LAPACKE_chetri	size = 0
+	LAPACKE_chetri                  
+
+LAPACKE_chetri2	size = 0
+	LAPACKE_chetri2                 
+
+LAPACKE_chetri2_work	size = 0
+	LAPACKE_chetri2_work            
+
+LAPACKE_chetri2x	size = 0
+	LAPACKE_chetri2x                
+
+LAPACKE_chetri2x_work	size = 0
+	LAPACKE_chetri2x_work           
+
+LAPACKE_chetri_3	size = 0
+	LAPACKE_chetri_3                
+
+LAPACKE_chetri_3_work	size = 0
+	LAPACKE_chetri_3_work           
+
+LAPACKE_chetri_work	size = 0
+	LAPACKE_chetri_work             
+
+LAPACKE_chetrs	size = 0
+	LAPACKE_chetrs                  
+
+LAPACKE_chetrs2	size = 0
+	LAPACKE_chetrs2                 
+
+LAPACKE_chetrs2_work	size = 0
+	LAPACKE_chetrs2_work            
+
+LAPACKE_chetrs_3	size = 0
+	LAPACKE_chetrs_3                
+
+LAPACKE_chetrs_3_work	size = 0
+	LAPACKE_chetrs_3_work           
+
+LAPACKE_chetrs_aa	size = 0
+	LAPACKE_chetrs_aa               
+
+LAPACKE_chetrs_aa_2stage	size = 0
+	LAPACKE_chetrs_aa_2stage        
+
+LAPACKE_chetrs_aa_2stage_work	size = 0
+	LAPACKE_chetrs_aa_2stage_work   
+
+LAPACKE_chetrs_aa_work	size = 0
+	LAPACKE_chetrs_aa_work          
+
+LAPACKE_chetrs_rook	size = 0
+	LAPACKE_chetrs_rook             
+
+LAPACKE_chetrs_rook_work	size = 0
+	LAPACKE_chetrs_rook_work        
+
+LAPACKE_chetrs_work	size = 0
+	LAPACKE_chetrs_work             
+
+LAPACKE_chfrk	size = 0
+	LAPACKE_chfrk                   
+
+LAPACKE_chfrk_work	size = 0
+	LAPACKE_chfrk_work              
+
+LAPACKE_chgeqz	size = 0
+	LAPACKE_chgeqz                  
+
+LAPACKE_chgeqz_work	size = 0
+	LAPACKE_chgeqz_work             
+
+LAPACKE_chp_nancheck	size = 0
+	LAPACKE_chp_nancheck            
+
+LAPACKE_chp_trans	size = 0
+	LAPACKE_chp_trans               
+
+LAPACKE_chpcon	size = 0
+	LAPACKE_chpcon                  
+
+LAPACKE_chpcon_work	size = 0
+	LAPACKE_chpcon_work             
+
+LAPACKE_chpev	size = 0
+	LAPACKE_chpev                   
+
+LAPACKE_chpev_work	size = 0
+	LAPACKE_chpev_work              
+
+LAPACKE_chpevd	size = 0
+	LAPACKE_chpevd                  
+
+LAPACKE_chpevd_work	size = 0
+	LAPACKE_chpevd_work             
+
+LAPACKE_chpevx	size = 0
+	LAPACKE_chpevx                  
+
+LAPACKE_chpevx_work	size = 0
+	LAPACKE_chpevx_work             
+
+LAPACKE_chpgst	size = 0
+	LAPACKE_chpgst                  
+
+LAPACKE_chpgst_work	size = 0
+	LAPACKE_chpgst_work             
+
+LAPACKE_chpgv	size = 0
+	LAPACKE_chpgv                   
+
+LAPACKE_chpgv_work	size = 0
+	LAPACKE_chpgv_work              
+
+LAPACKE_chpgvd	size = 0
+	LAPACKE_chpgvd                  
+
+LAPACKE_chpgvd_work	size = 0
+	LAPACKE_chpgvd_work             
+
+LAPACKE_chpgvx	size = 0
+	LAPACKE_chpgvx                  
+
+LAPACKE_chpgvx_work	size = 0
+	LAPACKE_chpgvx_work             
+
+LAPACKE_chprfs	size = 0
+	LAPACKE_chprfs                  
+
+LAPACKE_chprfs_work	size = 0
+	LAPACKE_chprfs_work             
+
+LAPACKE_chpsv	size = 0
+	LAPACKE_chpsv                   
+
+LAPACKE_chpsv_work	size = 0
+	LAPACKE_chpsv_work              
+
+LAPACKE_chpsvx	size = 0
+	LAPACKE_chpsvx                  
+
+LAPACKE_chpsvx_work	size = 0
+	LAPACKE_chpsvx_work             
+
+LAPACKE_chptrd	size = 0
+	LAPACKE_chptrd                  
+
+LAPACKE_chptrd_work	size = 0
+	LAPACKE_chptrd_work             
+
+LAPACKE_chptrf	size = 0
+	LAPACKE_chptrf                  
+
+LAPACKE_chptrf_work	size = 0
+	LAPACKE_chptrf_work             
+
+LAPACKE_chptri	size = 0
+	LAPACKE_chptri                  
+
+LAPACKE_chptri_work	size = 0
+	LAPACKE_chptri_work             
+
+LAPACKE_chptrs	size = 0
+	LAPACKE_chptrs                  
+
+LAPACKE_chptrs_work	size = 0
+	LAPACKE_chptrs_work             
+
+LAPACKE_chs_nancheck	size = 0
+	LAPACKE_chs_nancheck            
+
+LAPACKE_chs_trans	size = 0
+	LAPACKE_chs_trans               
+
+LAPACKE_chsein	size = 0
+	LAPACKE_chsein                  
+
+LAPACKE_chsein_work	size = 0
+	LAPACKE_chsein_work             
+
+LAPACKE_chseqr	size = 0
+	LAPACKE_chseqr                  
+
+LAPACKE_chseqr_work	size = 0
+	LAPACKE_chseqr_work             
+
+LAPACKE_clacgv	size = 0
+	LAPACKE_clacgv                  
+
+LAPACKE_clacgv_work	size = 0
+	LAPACKE_clacgv_work             
+
+LAPACKE_clacn2	size = 0
+	LAPACKE_clacn2                  
+
+LAPACKE_clacn2_work	size = 0
+	LAPACKE_clacn2_work             
+
+LAPACKE_clacp2	size = 0
+	LAPACKE_clacp2                  
+
+LAPACKE_clacp2_work	size = 0
+	LAPACKE_clacp2_work             
+
+LAPACKE_clacpy	size = 0
+	LAPACKE_clacpy                  
+
+LAPACKE_clacpy_work	size = 0
+	LAPACKE_clacpy_work             
+
+LAPACKE_clacrm	size = 0
+	LAPACKE_clacrm                  
+
+LAPACKE_clacrm_work	size = 0
+	LAPACKE_clacrm_work             
+
+LAPACKE_clag2z	size = 0
+	LAPACKE_clag2z                  
+
+LAPACKE_clag2z_work	size = 0
+	LAPACKE_clag2z_work             
+
+LAPACKE_clange	size = 0
+	LAPACKE_clange                  
+
+LAPACKE_clange_work	size = 0
+	LAPACKE_clange_work             
+
+LAPACKE_clanhe	size = 0
+	LAPACKE_clanhe                  
+
+LAPACKE_clanhe_work	size = 0
+	LAPACKE_clanhe_work             
+
+LAPACKE_clansy	size = 0
+	LAPACKE_clansy                  
+
+LAPACKE_clansy_work	size = 0
+	LAPACKE_clansy_work             
+
+LAPACKE_clantr	size = 0
+	LAPACKE_clantr                  
+
+LAPACKE_clantr_work	size = 0
+	LAPACKE_clantr_work             
+
+LAPACKE_clapmr	size = 0
+	LAPACKE_clapmr                  
+
+LAPACKE_clapmr_work	size = 0
+	LAPACKE_clapmr_work             
+
+LAPACKE_clapmt	size = 0
+	LAPACKE_clapmt                  
+
+LAPACKE_clapmt_work	size = 0
+	LAPACKE_clapmt_work             
+
+LAPACKE_clarcm	size = 0
+	LAPACKE_clarcm                  
+
+LAPACKE_clarcm_work	size = 0
+	LAPACKE_clarcm_work             
+
+LAPACKE_clarfb	size = 0
+	LAPACKE_clarfb                  
+
+LAPACKE_clarfb_work	size = 0
+	LAPACKE_clarfb_work             
+
+LAPACKE_clarfg	size = 0
+	LAPACKE_clarfg                  
+
+LAPACKE_clarfg_work	size = 0
+	LAPACKE_clarfg_work             
+
+LAPACKE_clarft	size = 0
+	LAPACKE_clarft                  
+
+LAPACKE_clarft_work	size = 0
+	LAPACKE_clarft_work             
+
+LAPACKE_clarfx	size = 0
+	LAPACKE_clarfx                  
+
+LAPACKE_clarfx_work	size = 0
+	LAPACKE_clarfx_work             
+
+LAPACKE_clarnv	size = 0
+	LAPACKE_clarnv                  
+
+LAPACKE_clarnv_work	size = 0
+	LAPACKE_clarnv_work             
+
+LAPACKE_clascl	size = 0
+	LAPACKE_clascl                  
+
+LAPACKE_clascl_work	size = 0
+	LAPACKE_clascl_work             
+
+LAPACKE_claset	size = 0
+	LAPACKE_claset                  
+
+LAPACKE_claset_work	size = 0
+	LAPACKE_claset_work             
+
+LAPACKE_classq	size = 0
+	LAPACKE_classq                  
+
+LAPACKE_classq_work	size = 0
+	LAPACKE_classq_work             
+
+LAPACKE_claswp	size = 0
+	LAPACKE_claswp                  
+
+LAPACKE_claswp_work	size = 0
+	LAPACKE_claswp_work             
+
+LAPACKE_clauum	size = 0
+	LAPACKE_clauum                  
+
+LAPACKE_clauum_work	size = 0
+	LAPACKE_clauum_work             
+
+LAPACKE_cpb_nancheck	size = 0
+	LAPACKE_cpb_nancheck            
+
+LAPACKE_cpb_trans	size = 0
+	LAPACKE_cpb_trans               
+
+LAPACKE_cpbcon	size = 0
+	LAPACKE_cpbcon                  
+
+LAPACKE_cpbcon_work	size = 0
+	LAPACKE_cpbcon_work             
+
+LAPACKE_cpbequ	size = 0
+	LAPACKE_cpbequ                  
+
+LAPACKE_cpbequ_work	size = 0
+	LAPACKE_cpbequ_work             
+
+LAPACKE_cpbrfs	size = 0
+	LAPACKE_cpbrfs                  
+
+LAPACKE_cpbrfs_work	size = 0
+	LAPACKE_cpbrfs_work             
+
+LAPACKE_cpbstf	size = 0
+	LAPACKE_cpbstf                  
+
+LAPACKE_cpbstf_work	size = 0
+	LAPACKE_cpbstf_work             
+
+LAPACKE_cpbsv	size = 0
+	LAPACKE_cpbsv                   
+
+LAPACKE_cpbsv_work	size = 0
+	LAPACKE_cpbsv_work              
+
+LAPACKE_cpbsvx	size = 0
+	LAPACKE_cpbsvx                  
+
+LAPACKE_cpbsvx_work	size = 0
+	LAPACKE_cpbsvx_work             
+
+LAPACKE_cpbtrf	size = 0
+	LAPACKE_cpbtrf                  
+
+LAPACKE_cpbtrf_work	size = 0
+	LAPACKE_cpbtrf_work             
+
+LAPACKE_cpbtrs	size = 0
+	LAPACKE_cpbtrs                  
+
+LAPACKE_cpbtrs_work	size = 0
+	LAPACKE_cpbtrs_work             
+
+LAPACKE_cpf_nancheck	size = 0
+	LAPACKE_cpf_nancheck            
+
+LAPACKE_cpf_trans	size = 0
+	LAPACKE_cpf_trans               
+
+LAPACKE_cpftrf	size = 0
+	LAPACKE_cpftrf                  
+
+LAPACKE_cpftrf_work	size = 0
+	LAPACKE_cpftrf_work             
+
+LAPACKE_cpftri	size = 0
+	LAPACKE_cpftri                  
+
+LAPACKE_cpftri_work	size = 0
+	LAPACKE_cpftri_work             
+
+LAPACKE_cpftrs	size = 0
+	LAPACKE_cpftrs                  
+
+LAPACKE_cpftrs_work	size = 0
+	LAPACKE_cpftrs_work             
+
+LAPACKE_cpo_nancheck	size = 0
+	LAPACKE_cpo_nancheck            
+
+LAPACKE_cpo_trans	size = 0
+	LAPACKE_cpo_trans               
+
+LAPACKE_cpocon	size = 0
+	LAPACKE_cpocon                  
+
+LAPACKE_cpocon_work	size = 0
+	LAPACKE_cpocon_work             
+
+LAPACKE_cpoequ	size = 0
+	LAPACKE_cpoequ                  
+
+LAPACKE_cpoequ_work	size = 0
+	LAPACKE_cpoequ_work             
+
+LAPACKE_cpoequb	size = 0
+	LAPACKE_cpoequb                 
+
+LAPACKE_cpoequb_work	size = 0
+	LAPACKE_cpoequb_work            
+
+LAPACKE_cporfs	size = 0
+	LAPACKE_cporfs                  
+
+LAPACKE_cporfs_work	size = 0
+	LAPACKE_cporfs_work             
+
+LAPACKE_cposv	size = 0
+	LAPACKE_cposv                   
+
+LAPACKE_cposv_work	size = 0
+	LAPACKE_cposv_work              
+
+LAPACKE_cposvx	size = 0
+	LAPACKE_cposvx                  
+
+LAPACKE_cposvx_work	size = 0
+	LAPACKE_cposvx_work             
+
+LAPACKE_cpotrf	size = 0
+	LAPACKE_cpotrf                  
+
+LAPACKE_cpotrf2	size = 0
+	LAPACKE_cpotrf2                 
+
+LAPACKE_cpotrf2_work	size = 0
+	LAPACKE_cpotrf2_work            
+
+LAPACKE_cpotrf_work	size = 0
+	LAPACKE_cpotrf_work             
+
+LAPACKE_cpotri	size = 0
+	LAPACKE_cpotri                  
+
+LAPACKE_cpotri_work	size = 0
+	LAPACKE_cpotri_work             
+
+LAPACKE_cpotrs	size = 0
+	LAPACKE_cpotrs                  
+
+LAPACKE_cpotrs_work	size = 0
+	LAPACKE_cpotrs_work             
+
+LAPACKE_cpp_nancheck	size = 0
+	LAPACKE_cpp_nancheck            
+
+LAPACKE_cpp_trans	size = 0
+	LAPACKE_cpp_trans               
+
+LAPACKE_cppcon	size = 0
+	LAPACKE_cppcon                  
+
+LAPACKE_cppcon_work	size = 0
+	LAPACKE_cppcon_work             
+
+LAPACKE_cppequ	size = 0
+	LAPACKE_cppequ                  
+
+LAPACKE_cppequ_work	size = 0
+	LAPACKE_cppequ_work             
+
+LAPACKE_cpprfs	size = 0
+	LAPACKE_cpprfs                  
+
+LAPACKE_cpprfs_work	size = 0
+	LAPACKE_cpprfs_work             
+
+LAPACKE_cppsv	size = 0
+	LAPACKE_cppsv                   
+
+LAPACKE_cppsv_work	size = 0
+	LAPACKE_cppsv_work              
+
+LAPACKE_cppsvx	size = 0
+	LAPACKE_cppsvx                  
+
+LAPACKE_cppsvx_work	size = 0
+	LAPACKE_cppsvx_work             
+
+LAPACKE_cpptrf	size = 0
+	LAPACKE_cpptrf                  
+
+LAPACKE_cpptrf_work	size = 0
+	LAPACKE_cpptrf_work             
+
+LAPACKE_cpptri	size = 0
+	LAPACKE_cpptri                  
+
+LAPACKE_cpptri_work	size = 0
+	LAPACKE_cpptri_work             
+
+LAPACKE_cpptrs	size = 0
+	LAPACKE_cpptrs                  
+
+LAPACKE_cpptrs_work	size = 0
+	LAPACKE_cpptrs_work             
+
+LAPACKE_cpstrf	size = 0
+	LAPACKE_cpstrf                  
+
+LAPACKE_cpstrf_work	size = 0
+	LAPACKE_cpstrf_work             
+
+LAPACKE_cpt_nancheck	size = 0
+	LAPACKE_cpt_nancheck            
+
+LAPACKE_cptcon	size = 0
+	LAPACKE_cptcon                  
+
+LAPACKE_cptcon_work	size = 0
+	LAPACKE_cptcon_work             
+
+LAPACKE_cpteqr	size = 0
+	LAPACKE_cpteqr                  
+
+LAPACKE_cpteqr_work	size = 0
+	LAPACKE_cpteqr_work             
+
+LAPACKE_cptrfs	size = 0
+	LAPACKE_cptrfs                  
+
+LAPACKE_cptrfs_work	size = 0
+	LAPACKE_cptrfs_work             
+
+LAPACKE_cptsv	size = 0
+	LAPACKE_cptsv                   
+
+LAPACKE_cptsv_work	size = 0
+	LAPACKE_cptsv_work              
+
+LAPACKE_cptsvx	size = 0
+	LAPACKE_cptsvx                  
+
+LAPACKE_cptsvx_work	size = 0
+	LAPACKE_cptsvx_work             
+
+LAPACKE_cpttrf	size = 0
+	LAPACKE_cpttrf                  
+
+LAPACKE_cpttrf_work	size = 0
+	LAPACKE_cpttrf_work             
+
+LAPACKE_cpttrs	size = 0
+	LAPACKE_cpttrs                  
+
+LAPACKE_cpttrs_work	size = 0
+	LAPACKE_cpttrs_work             
+
+LAPACKE_csp_nancheck	size = 0
+	LAPACKE_csp_nancheck            
+
+LAPACKE_csp_trans	size = 0
+	LAPACKE_csp_trans               
+
+LAPACKE_cspcon	size = 0
+	LAPACKE_cspcon                  
+
+LAPACKE_cspcon_work	size = 0
+	LAPACKE_cspcon_work             
+
+LAPACKE_csprfs	size = 0
+	LAPACKE_csprfs                  
+
+LAPACKE_csprfs_work	size = 0
+	LAPACKE_csprfs_work             
+
+LAPACKE_cspsv	size = 0
+	LAPACKE_cspsv                   
+
+LAPACKE_cspsv_work	size = 0
+	LAPACKE_cspsv_work              
+
+LAPACKE_cspsvx	size = 0
+	LAPACKE_cspsvx                  
+
+LAPACKE_cspsvx_work	size = 0
+	LAPACKE_cspsvx_work             
+
+LAPACKE_csptrf	size = 0
+	LAPACKE_csptrf                  
+
+LAPACKE_csptrf_work	size = 0
+	LAPACKE_csptrf_work             
+
+LAPACKE_csptri	size = 0
+	LAPACKE_csptri                  
+
+LAPACKE_csptri_work	size = 0
+	LAPACKE_csptri_work             
+
+LAPACKE_csptrs	size = 0
+	LAPACKE_csptrs                  
+
+LAPACKE_csptrs_work	size = 0
+	LAPACKE_csptrs_work             
+
+LAPACKE_cst_nancheck	size = 0
+	LAPACKE_cst_nancheck            
+
+LAPACKE_cstedc	size = 0
+	LAPACKE_cstedc                  
+
+LAPACKE_cstedc_work	size = 0
+	LAPACKE_cstedc_work             
+
+LAPACKE_cstegr	size = 0
+	LAPACKE_cstegr                  
+
+LAPACKE_cstegr_work	size = 0
+	LAPACKE_cstegr_work             
+
+LAPACKE_cstein	size = 0
+	LAPACKE_cstein                  
+
+LAPACKE_cstein_work	size = 0
+	LAPACKE_cstein_work             
+
+LAPACKE_cstemr	size = 0
+	LAPACKE_cstemr                  
+
+LAPACKE_cstemr_work	size = 0
+	LAPACKE_cstemr_work             
+
+LAPACKE_csteqr	size = 0
+	LAPACKE_csteqr                  
+
+LAPACKE_csteqr_work	size = 0
+	LAPACKE_csteqr_work             
+
+LAPACKE_csy_nancheck	size = 0
+	LAPACKE_csy_nancheck            
+
+LAPACKE_csy_trans	size = 0
+	LAPACKE_csy_trans               
+
+LAPACKE_csycon	size = 0
+	LAPACKE_csycon                  
+
+LAPACKE_csycon_3	size = 0
+	LAPACKE_csycon_3                
+
+LAPACKE_csycon_3_work	size = 0
+	LAPACKE_csycon_3_work           
+
+LAPACKE_csycon_work	size = 0
+	LAPACKE_csycon_work             
+
+LAPACKE_csyconv	size = 0
+	LAPACKE_csyconv                 
+
+LAPACKE_csyconv_work	size = 0
+	LAPACKE_csyconv_work            
+
+LAPACKE_csyequb	size = 0
+	LAPACKE_csyequb                 
+
+LAPACKE_csyequb_work	size = 0
+	LAPACKE_csyequb_work            
+
+LAPACKE_csyr	size = 0
+	LAPACKE_csyr                    
+
+LAPACKE_csyr_work	size = 0
+	LAPACKE_csyr_work               
+
+LAPACKE_csyrfs	size = 0
+	LAPACKE_csyrfs                  
+
+LAPACKE_csyrfs_work	size = 0
+	LAPACKE_csyrfs_work             
+
+LAPACKE_csysv	size = 0
+	LAPACKE_csysv                   
+
+LAPACKE_csysv_aa	size = 0
+	LAPACKE_csysv_aa                
+
+LAPACKE_csysv_aa_2stage	size = 0
+	LAPACKE_csysv_aa_2stage         
+
+LAPACKE_csysv_aa_2stage_work	size = 0
+	LAPACKE_csysv_aa_2stage_work    
+
+LAPACKE_csysv_aa_work	size = 0
+	LAPACKE_csysv_aa_work           
+
+LAPACKE_csysv_rk	size = 0
+	LAPACKE_csysv_rk                
+
+LAPACKE_csysv_rk_work	size = 0
+	LAPACKE_csysv_rk_work           
+
+LAPACKE_csysv_rook	size = 0
+	LAPACKE_csysv_rook              
+
+LAPACKE_csysv_rook_work	size = 0
+	LAPACKE_csysv_rook_work         
+
+LAPACKE_csysv_work	size = 0
+	LAPACKE_csysv_work              
+
+LAPACKE_csysvx	size = 0
+	LAPACKE_csysvx                  
+
+LAPACKE_csysvx_work	size = 0
+	LAPACKE_csysvx_work             
+
+LAPACKE_csyswapr	size = 0
+	LAPACKE_csyswapr                
+
+LAPACKE_csyswapr_work	size = 0
+	LAPACKE_csyswapr_work           
+
+LAPACKE_csytrf	size = 0
+	LAPACKE_csytrf                  
+
+LAPACKE_csytrf_aa	size = 0
+	LAPACKE_csytrf_aa               
+
+LAPACKE_csytrf_aa_2stage	size = 0
+	LAPACKE_csytrf_aa_2stage        
+
+LAPACKE_csytrf_aa_2stage_work	size = 0
+	LAPACKE_csytrf_aa_2stage_work   
+
+LAPACKE_csytrf_aa_work	size = 0
+	LAPACKE_csytrf_aa_work          
+
+LAPACKE_csytrf_rk	size = 0
+	LAPACKE_csytrf_rk               
+
+LAPACKE_csytrf_rk_work	size = 0
+	LAPACKE_csytrf_rk_work          
+
+LAPACKE_csytrf_rook	size = 0
+	LAPACKE_csytrf_rook             
+
+LAPACKE_csytrf_rook_work	size = 0
+	LAPACKE_csytrf_rook_work        
+
+LAPACKE_csytrf_work	size = 0
+	LAPACKE_csytrf_work             
+
+LAPACKE_csytri	size = 0
+	LAPACKE_csytri                  
+
+LAPACKE_csytri2	size = 0
+	LAPACKE_csytri2                 
+
+LAPACKE_csytri2_work	size = 0
+	LAPACKE_csytri2_work            
+
+LAPACKE_csytri2x	size = 0
+	LAPACKE_csytri2x                
+
+LAPACKE_csytri2x_work	size = 0
+	LAPACKE_csytri2x_work           
+
+LAPACKE_csytri_3	size = 0
+	LAPACKE_csytri_3                
+
+LAPACKE_csytri_3_work	size = 0
+	LAPACKE_csytri_3_work           
+
+LAPACKE_csytri_work	size = 0
+	LAPACKE_csytri_work             
+
+LAPACKE_csytrs	size = 0
+	LAPACKE_csytrs                  
+
+LAPACKE_csytrs2	size = 0
+	LAPACKE_csytrs2                 
+
+LAPACKE_csytrs2_work	size = 0
+	LAPACKE_csytrs2_work            
+
+LAPACKE_csytrs_3	size = 0
+	LAPACKE_csytrs_3                
+
+LAPACKE_csytrs_3_work	size = 0
+	LAPACKE_csytrs_3_work           
+
+LAPACKE_csytrs_aa	size = 0
+	LAPACKE_csytrs_aa               
+
+LAPACKE_csytrs_aa_2stage	size = 0
+	LAPACKE_csytrs_aa_2stage        
+
+LAPACKE_csytrs_aa_2stage_work	size = 0
+	LAPACKE_csytrs_aa_2stage_work   
+
+LAPACKE_csytrs_aa_work	size = 0
+	LAPACKE_csytrs_aa_work          
+
+LAPACKE_csytrs_rook	size = 0
+	LAPACKE_csytrs_rook             
+
+LAPACKE_csytrs_rook_work	size = 0
+	LAPACKE_csytrs_rook_work        
+
+LAPACKE_csytrs_work	size = 0
+	LAPACKE_csytrs_work             
+
+LAPACKE_ctb_nancheck	size = 0
+	LAPACKE_ctb_nancheck            
+
+LAPACKE_ctb_trans	size = 0
+	LAPACKE_ctb_trans               
+
+LAPACKE_ctbcon	size = 0
+	LAPACKE_ctbcon                  
+
+LAPACKE_ctbcon_work	size = 0
+	LAPACKE_ctbcon_work             
+
+LAPACKE_ctbrfs	size = 0
+	LAPACKE_ctbrfs                  
+
+LAPACKE_ctbrfs_work	size = 0
+	LAPACKE_ctbrfs_work             
+
+LAPACKE_ctbtrs	size = 0
+	LAPACKE_ctbtrs                  
+
+LAPACKE_ctbtrs_work	size = 0
+	LAPACKE_ctbtrs_work             
+
+LAPACKE_ctf_nancheck	size = 0
+	LAPACKE_ctf_nancheck            
+
+LAPACKE_ctf_trans	size = 0
+	LAPACKE_ctf_trans               
+
+LAPACKE_ctfsm	size = 0
+	LAPACKE_ctfsm                   
+
+LAPACKE_ctfsm_work	size = 0
+	LAPACKE_ctfsm_work              
+
+LAPACKE_ctftri	size = 0
+	LAPACKE_ctftri                  
+
+LAPACKE_ctftri_work	size = 0
+	LAPACKE_ctftri_work             
+
+LAPACKE_ctfttp	size = 0
+	LAPACKE_ctfttp                  
+
+LAPACKE_ctfttp_work	size = 0
+	LAPACKE_ctfttp_work             
+
+LAPACKE_ctfttr	size = 0
+	LAPACKE_ctfttr                  
+
+LAPACKE_ctfttr_work	size = 0
+	LAPACKE_ctfttr_work             
+
+LAPACKE_ctgevc	size = 0
+	LAPACKE_ctgevc                  
+
+LAPACKE_ctgevc_work	size = 0
+	LAPACKE_ctgevc_work             
+
+LAPACKE_ctgexc	size = 0
+	LAPACKE_ctgexc                  
+
+LAPACKE_ctgexc_work	size = 0
+	LAPACKE_ctgexc_work             
+
+LAPACKE_ctgsen	size = 0
+	LAPACKE_ctgsen                  
+
+LAPACKE_ctgsen_work	size = 0
+	LAPACKE_ctgsen_work             
+
+LAPACKE_ctgsja	size = 0
+	LAPACKE_ctgsja                  
+
+LAPACKE_ctgsja_work	size = 0
+	LAPACKE_ctgsja_work             
+
+LAPACKE_ctgsna	size = 0
+	LAPACKE_ctgsna                  
+
+LAPACKE_ctgsna_work	size = 0
+	LAPACKE_ctgsna_work             
+
+LAPACKE_ctgsyl	size = 0
+	LAPACKE_ctgsyl                  
+
+LAPACKE_ctgsyl_work	size = 0
+	LAPACKE_ctgsyl_work             
+
+LAPACKE_ctp_nancheck	size = 0
+	LAPACKE_ctp_nancheck            
+
+LAPACKE_ctp_trans	size = 0
+	LAPACKE_ctp_trans               
+
+LAPACKE_ctpcon	size = 0
+	LAPACKE_ctpcon                  
+
+LAPACKE_ctpcon_work	size = 0
+	LAPACKE_ctpcon_work             
+
+LAPACKE_ctpmqrt	size = 0
+	LAPACKE_ctpmqrt                 
+
+LAPACKE_ctpmqrt_work	size = 0
+	LAPACKE_ctpmqrt_work            
+
+LAPACKE_ctpqrt	size = 0
+	LAPACKE_ctpqrt                  
+
+LAPACKE_ctpqrt2	size = 0
+	LAPACKE_ctpqrt2                 
+
+LAPACKE_ctpqrt2_work	size = 0
+	LAPACKE_ctpqrt2_work            
+
+LAPACKE_ctpqrt_work	size = 0
+	LAPACKE_ctpqrt_work             
+
+LAPACKE_ctprfb	size = 0
+	LAPACKE_ctprfb                  
+
+LAPACKE_ctprfb_work	size = 0
+	LAPACKE_ctprfb_work             
+
+LAPACKE_ctprfs	size = 0
+	LAPACKE_ctprfs                  
+
+LAPACKE_ctprfs_work	size = 0
+	LAPACKE_ctprfs_work             
+
+LAPACKE_ctptri	size = 0
+	LAPACKE_ctptri                  
+
+LAPACKE_ctptri_work	size = 0
+	LAPACKE_ctptri_work             
+
+LAPACKE_ctptrs	size = 0
+	LAPACKE_ctptrs                  
+
+LAPACKE_ctptrs_work	size = 0
+	LAPACKE_ctptrs_work             
+
+LAPACKE_ctpttf	size = 0
+	LAPACKE_ctpttf                  
+
+LAPACKE_ctpttf_work	size = 0
+	LAPACKE_ctpttf_work             
+
+LAPACKE_ctpttr	size = 0
+	LAPACKE_ctpttr                  
+
+LAPACKE_ctpttr_work	size = 0
+	LAPACKE_ctpttr_work             
+
+LAPACKE_ctr_nancheck	size = 0
+	LAPACKE_ctr_nancheck            
+
+LAPACKE_ctr_trans	size = 0
+	LAPACKE_ctr_trans               
+
+LAPACKE_ctrcon	size = 0
+	LAPACKE_ctrcon                  
+
+LAPACKE_ctrcon_work	size = 0
+	LAPACKE_ctrcon_work             
+
+LAPACKE_ctrevc	size = 0
+	LAPACKE_ctrevc                  
+
+LAPACKE_ctrevc_work	size = 0
+	LAPACKE_ctrevc_work             
+
+LAPACKE_ctrexc	size = 0
+	LAPACKE_ctrexc                  
+
+LAPACKE_ctrexc_work	size = 0
+	LAPACKE_ctrexc_work             
+
+LAPACKE_ctrrfs	size = 0
+	LAPACKE_ctrrfs                  
+
+LAPACKE_ctrrfs_work	size = 0
+	LAPACKE_ctrrfs_work             
+
+LAPACKE_ctrsen	size = 0
+	LAPACKE_ctrsen                  
+
+LAPACKE_ctrsen_work	size = 0
+	LAPACKE_ctrsen_work             
+
+LAPACKE_ctrsna	size = 0
+	LAPACKE_ctrsna                  
+
+LAPACKE_ctrsna_work	size = 0
+	LAPACKE_ctrsna_work             
+
+LAPACKE_ctrsyl	size = 0
+	LAPACKE_ctrsyl                  
+
+LAPACKE_ctrsyl_work	size = 0
+	LAPACKE_ctrsyl_work             
+
+LAPACKE_ctrtri	size = 0
+	LAPACKE_ctrtri                  
+
+LAPACKE_ctrtri_work	size = 0
+	LAPACKE_ctrtri_work             
+
+LAPACKE_ctrtrs	size = 0
+	LAPACKE_ctrtrs                  
+
+LAPACKE_ctrtrs_work	size = 0
+	LAPACKE_ctrtrs_work             
+
+LAPACKE_ctrttf	size = 0
+	LAPACKE_ctrttf                  
+
+LAPACKE_ctrttf_work	size = 0
+	LAPACKE_ctrttf_work             
+
+LAPACKE_ctrttp	size = 0
+	LAPACKE_ctrttp                  
+
+LAPACKE_ctrttp_work	size = 0
+	LAPACKE_ctrttp_work             
+
+LAPACKE_ctzrzf	size = 0
+	LAPACKE_ctzrzf                  
+
+LAPACKE_ctzrzf_work	size = 0
+	LAPACKE_ctzrzf_work             
+
+LAPACKE_cunbdb	size = 0
+	LAPACKE_cunbdb                  
+
+LAPACKE_cunbdb_work	size = 0
+	LAPACKE_cunbdb_work             
+
+LAPACKE_cuncsd	size = 0
+	LAPACKE_cuncsd                  
+
+LAPACKE_cuncsd2by1	size = 0
+	LAPACKE_cuncsd2by1              
+
+LAPACKE_cuncsd2by1_work	size = 0
+	LAPACKE_cuncsd2by1_work         
+
+LAPACKE_cuncsd_work	size = 0
+	LAPACKE_cuncsd_work             
+
+LAPACKE_cungbr	size = 0
+	LAPACKE_cungbr                  
+
+LAPACKE_cungbr_work	size = 0
+	LAPACKE_cungbr_work             
+
+LAPACKE_cunghr	size = 0
+	LAPACKE_cunghr                  
+
+LAPACKE_cunghr_work	size = 0
+	LAPACKE_cunghr_work             
+
+LAPACKE_cunglq	size = 0
+	LAPACKE_cunglq                  
+
+LAPACKE_cunglq_work	size = 0
+	LAPACKE_cunglq_work             
+
+LAPACKE_cungql	size = 0
+	LAPACKE_cungql                  
+
+LAPACKE_cungql_work	size = 0
+	LAPACKE_cungql_work             
+
+LAPACKE_cungqr	size = 0
+	LAPACKE_cungqr                  
+
+LAPACKE_cungqr_work	size = 0
+	LAPACKE_cungqr_work             
+
+LAPACKE_cungrq	size = 0
+	LAPACKE_cungrq                  
+
+LAPACKE_cungrq_work	size = 0
+	LAPACKE_cungrq_work             
+
+LAPACKE_cungtr	size = 0
+	LAPACKE_cungtr                  
+
+LAPACKE_cungtr_work	size = 0
+	LAPACKE_cungtr_work             
+
+LAPACKE_cunmbr	size = 0
+	LAPACKE_cunmbr                  
+
+LAPACKE_cunmbr_work	size = 0
+	LAPACKE_cunmbr_work             
+
+LAPACKE_cunmhr	size = 0
+	LAPACKE_cunmhr                  
+
+LAPACKE_cunmhr_work	size = 0
+	LAPACKE_cunmhr_work             
+
+LAPACKE_cunmlq	size = 0
+	LAPACKE_cunmlq                  
+
+LAPACKE_cunmlq_work	size = 0
+	LAPACKE_cunmlq_work             
+
+LAPACKE_cunmql	size = 0
+	LAPACKE_cunmql                  
+
+LAPACKE_cunmql_work	size = 0
+	LAPACKE_cunmql_work             
+
+LAPACKE_cunmqr	size = 0
+	LAPACKE_cunmqr                  
+
+LAPACKE_cunmqr_work	size = 0
+	LAPACKE_cunmqr_work             
+
+LAPACKE_cunmrq	size = 0
+	LAPACKE_cunmrq                  
+
+LAPACKE_cunmrq_work	size = 0
+	LAPACKE_cunmrq_work             
+
+LAPACKE_cunmrz	size = 0
+	LAPACKE_cunmrz                  
+
+LAPACKE_cunmrz_work	size = 0
+	LAPACKE_cunmrz_work             
+
+LAPACKE_cunmtr	size = 0
+	LAPACKE_cunmtr                  
+
+LAPACKE_cunmtr_work	size = 0
+	LAPACKE_cunmtr_work             
+
+LAPACKE_cupgtr	size = 0
+	LAPACKE_cupgtr                  
+
+LAPACKE_cupgtr_work	size = 0
+	LAPACKE_cupgtr_work             
+
+LAPACKE_cupmtr	size = 0
+	LAPACKE_cupmtr                  
+
+LAPACKE_cupmtr_work	size = 0
+	LAPACKE_cupmtr_work             
+
+LAPACKE_d_nancheck	size = 0
+	LAPACKE_d_nancheck              
+
+LAPACKE_dbbcsd	size = 0
+	LAPACKE_dbbcsd                  
+
+LAPACKE_dbbcsd_work	size = 0
+	LAPACKE_dbbcsd_work             
+
+LAPACKE_dbdsdc	size = 0
+	LAPACKE_dbdsdc                  
+
+LAPACKE_dbdsdc_work	size = 0
+	LAPACKE_dbdsdc_work             
+
+LAPACKE_dbdsqr	size = 0
+	LAPACKE_dbdsqr                  
+
+LAPACKE_dbdsqr_work	size = 0
+	LAPACKE_dbdsqr_work             
+
+LAPACKE_dbdsvdx	size = 0
+	LAPACKE_dbdsvdx                 
+
+LAPACKE_dbdsvdx_work	size = 0
+	LAPACKE_dbdsvdx_work            
+
+LAPACKE_ddisna	size = 0
+	LAPACKE_ddisna                  
+
+LAPACKE_ddisna_work	size = 0
+	LAPACKE_ddisna_work             
+
+LAPACKE_dgb_nancheck	size = 0
+	LAPACKE_dgb_nancheck            
+
+LAPACKE_dgb_trans	size = 0
+	LAPACKE_dgb_trans               
+
+LAPACKE_dgbbrd	size = 0
+	LAPACKE_dgbbrd                  
+
+LAPACKE_dgbbrd_work	size = 0
+	LAPACKE_dgbbrd_work             
+
+LAPACKE_dgbcon	size = 0
+	LAPACKE_dgbcon                  
+
+LAPACKE_dgbcon_work	size = 0
+	LAPACKE_dgbcon_work             
+
+LAPACKE_dgbequ	size = 0
+	LAPACKE_dgbequ                  
+
+LAPACKE_dgbequ_work	size = 0
+	LAPACKE_dgbequ_work             
+
+LAPACKE_dgbequb	size = 0
+	LAPACKE_dgbequb                 
+
+LAPACKE_dgbequb_work	size = 0
+	LAPACKE_dgbequb_work            
+
+LAPACKE_dgbrfs	size = 0
+	LAPACKE_dgbrfs                  
+
+LAPACKE_dgbrfs_work	size = 0
+	LAPACKE_dgbrfs_work             
+
+LAPACKE_dgbsv	size = 0
+	LAPACKE_dgbsv                   
+
+LAPACKE_dgbsv_work	size = 0
+	LAPACKE_dgbsv_work              
+
+LAPACKE_dgbsvx	size = 0
+	LAPACKE_dgbsvx                  
+
+LAPACKE_dgbsvx_work	size = 0
+	LAPACKE_dgbsvx_work             
+
+LAPACKE_dgbtrf	size = 0
+	LAPACKE_dgbtrf                  
+
+LAPACKE_dgbtrf_work	size = 0
+	LAPACKE_dgbtrf_work             
+
+LAPACKE_dgbtrs	size = 0
+	LAPACKE_dgbtrs                  
+
+LAPACKE_dgbtrs_work	size = 0
+	LAPACKE_dgbtrs_work             
+
+LAPACKE_dge_nancheck	size = 0
+	LAPACKE_dge_nancheck            
+
+LAPACKE_dge_trans	size = 0
+	LAPACKE_dge_trans               
+
+LAPACKE_dgebak	size = 0
+	LAPACKE_dgebak                  
+
+LAPACKE_dgebak_work	size = 0
+	LAPACKE_dgebak_work             
+
+LAPACKE_dgebal	size = 0
+	LAPACKE_dgebal                  
+
+LAPACKE_dgebal_work	size = 0
+	LAPACKE_dgebal_work             
+
+LAPACKE_dgebrd	size = 0
+	LAPACKE_dgebrd                  
+
+LAPACKE_dgebrd_work	size = 0
+	LAPACKE_dgebrd_work             
+
+LAPACKE_dgecon	size = 0
+	LAPACKE_dgecon                  
+
+LAPACKE_dgecon_work	size = 0
+	LAPACKE_dgecon_work             
+
+LAPACKE_dgeequ	size = 0
+	LAPACKE_dgeequ                  
+
+LAPACKE_dgeequ_work	size = 0
+	LAPACKE_dgeequ_work             
+
+LAPACKE_dgeequb	size = 0
+	LAPACKE_dgeequb                 
+
+LAPACKE_dgeequb_work	size = 0
+	LAPACKE_dgeequb_work            
+
+LAPACKE_dgees	size = 0
+	LAPACKE_dgees                   
+
+LAPACKE_dgees_work	size = 0
+	LAPACKE_dgees_work              
+
+LAPACKE_dgeesx	size = 0
+	LAPACKE_dgeesx                  
+
+LAPACKE_dgeesx_work	size = 0
+	LAPACKE_dgeesx_work             
+
+LAPACKE_dgeev	size = 0
+	LAPACKE_dgeev                   
+
+LAPACKE_dgeev_work	size = 0
+	LAPACKE_dgeev_work              
+
+LAPACKE_dgeevx	size = 0
+	LAPACKE_dgeevx                  
+
+LAPACKE_dgeevx_work	size = 0
+	LAPACKE_dgeevx_work             
+
+LAPACKE_dgehrd	size = 0
+	LAPACKE_dgehrd                  
+
+LAPACKE_dgehrd_work	size = 0
+	LAPACKE_dgehrd_work             
+
+LAPACKE_dgejsv	size = 0
+	LAPACKE_dgejsv                  
+
+LAPACKE_dgejsv_work	size = 0
+	LAPACKE_dgejsv_work             
+
+LAPACKE_dgelq	size = 0
+	LAPACKE_dgelq                   
+
+LAPACKE_dgelq2	size = 0
+	LAPACKE_dgelq2                  
+
+LAPACKE_dgelq2_work	size = 0
+	LAPACKE_dgelq2_work             
+
+LAPACKE_dgelq_work	size = 0
+	LAPACKE_dgelq_work              
+
+LAPACKE_dgelqf	size = 0
+	LAPACKE_dgelqf                  
+
+LAPACKE_dgelqf_work	size = 0
+	LAPACKE_dgelqf_work             
+
+LAPACKE_dgels	size = 0
+	LAPACKE_dgels                   
+
+LAPACKE_dgels_work	size = 0
+	LAPACKE_dgels_work              
+
+LAPACKE_dgelsd	size = 0
+	LAPACKE_dgelsd                  
+
+LAPACKE_dgelsd_work	size = 0
+	LAPACKE_dgelsd_work             
+
+LAPACKE_dgelss	size = 0
+	LAPACKE_dgelss                  
+
+LAPACKE_dgelss_work	size = 0
+	LAPACKE_dgelss_work             
+
+LAPACKE_dgelsy	size = 0
+	LAPACKE_dgelsy                  
+
+LAPACKE_dgelsy_work	size = 0
+	LAPACKE_dgelsy_work             
+
+LAPACKE_dgemlq	size = 0
+	LAPACKE_dgemlq                  
+
+LAPACKE_dgemlq_work	size = 0
+	LAPACKE_dgemlq_work             
+
+LAPACKE_dgemqr	size = 0
+	LAPACKE_dgemqr                  
+
+LAPACKE_dgemqr_work	size = 0
+	LAPACKE_dgemqr_work             
+
+LAPACKE_dgemqrt	size = 0
+	LAPACKE_dgemqrt                 
+
+LAPACKE_dgemqrt_work	size = 0
+	LAPACKE_dgemqrt_work            
+
+LAPACKE_dgeqlf	size = 0
+	LAPACKE_dgeqlf                  
+
+LAPACKE_dgeqlf_work	size = 0
+	LAPACKE_dgeqlf_work             
+
+LAPACKE_dgeqp3	size = 0
+	LAPACKE_dgeqp3                  
+
+LAPACKE_dgeqp3_work	size = 0
+	LAPACKE_dgeqp3_work             
+
+LAPACKE_dgeqr	size = 0
+	LAPACKE_dgeqr                   
+
+LAPACKE_dgeqr2	size = 0
+	LAPACKE_dgeqr2                  
+
+LAPACKE_dgeqr2_work	size = 0
+	LAPACKE_dgeqr2_work             
+
+LAPACKE_dgeqr_work	size = 0
+	LAPACKE_dgeqr_work              
+
+LAPACKE_dgeqrf	size = 0
+	LAPACKE_dgeqrf                  
+
+LAPACKE_dgeqrf_work	size = 0
+	LAPACKE_dgeqrf_work             
+
+LAPACKE_dgeqrfp	size = 0
+	LAPACKE_dgeqrfp                 
+
+LAPACKE_dgeqrfp_work	size = 0
+	LAPACKE_dgeqrfp_work            
+
+LAPACKE_dgeqrt	size = 0
+	LAPACKE_dgeqrt                  
+
+LAPACKE_dgeqrt2	size = 0
+	LAPACKE_dgeqrt2                 
+
+LAPACKE_dgeqrt2_work	size = 0
+	LAPACKE_dgeqrt2_work            
+
+LAPACKE_dgeqrt3	size = 0
+	LAPACKE_dgeqrt3                 
+
+LAPACKE_dgeqrt3_work	size = 0
+	LAPACKE_dgeqrt3_work            
+
+LAPACKE_dgeqrt_work	size = 0
+	LAPACKE_dgeqrt_work             
+
+LAPACKE_dgerfs	size = 0
+	LAPACKE_dgerfs                  
+
+LAPACKE_dgerfs_work	size = 0
+	LAPACKE_dgerfs_work             
+
+LAPACKE_dgerqf	size = 0
+	LAPACKE_dgerqf                  
+
+LAPACKE_dgerqf_work	size = 0
+	LAPACKE_dgerqf_work             
+
+LAPACKE_dgesdd	size = 0
+	LAPACKE_dgesdd                  
+
+LAPACKE_dgesdd_work	size = 0
+	LAPACKE_dgesdd_work             
+
+LAPACKE_dgesv	size = 0
+	LAPACKE_dgesv                   
+
+LAPACKE_dgesv_work	size = 0
+	LAPACKE_dgesv_work              
+
+LAPACKE_dgesvd	size = 0
+	LAPACKE_dgesvd                  
+
+LAPACKE_dgesvd_work	size = 0
+	LAPACKE_dgesvd_work             
+
+LAPACKE_dgesvdx	size = 0
+	LAPACKE_dgesvdx                 
+
+LAPACKE_dgesvdx_work	size = 0
+	LAPACKE_dgesvdx_work            
+
+LAPACKE_dgesvj	size = 0
+	LAPACKE_dgesvj                  
+
+LAPACKE_dgesvj_work	size = 0
+	LAPACKE_dgesvj_work             
+
+LAPACKE_dgesvx	size = 0
+	LAPACKE_dgesvx                  
+
+LAPACKE_dgesvx_work	size = 0
+	LAPACKE_dgesvx_work             
+
+LAPACKE_dgetf2	size = 0
+	LAPACKE_dgetf2                  
+
+LAPACKE_dgetf2_work	size = 0
+	LAPACKE_dgetf2_work             
+
+LAPACKE_dgetrf	size = 0
+	LAPACKE_dgetrf                  
+
+LAPACKE_dgetrf2	size = 0
+	LAPACKE_dgetrf2                 
+
+LAPACKE_dgetrf2_work	size = 0
+	LAPACKE_dgetrf2_work            
+
+LAPACKE_dgetrf_work	size = 0
+	LAPACKE_dgetrf_work             
+
+LAPACKE_dgetri	size = 0
+	LAPACKE_dgetri                  
+
+LAPACKE_dgetri_work	size = 0
+	LAPACKE_dgetri_work             
+
+LAPACKE_dgetrs	size = 0
+	LAPACKE_dgetrs                  
+
+LAPACKE_dgetrs_work	size = 0
+	LAPACKE_dgetrs_work             
+
+LAPACKE_dgetsls	size = 0
+	LAPACKE_dgetsls                 
+
+LAPACKE_dgetsls_work	size = 0
+	LAPACKE_dgetsls_work            
+
+LAPACKE_dgg_nancheck	size = 0
+	LAPACKE_dgg_nancheck            
+
+LAPACKE_dgg_trans	size = 0
+	LAPACKE_dgg_trans               
+
+LAPACKE_dggbak	size = 0
+	LAPACKE_dggbak                  
+
+LAPACKE_dggbak_work	size = 0
+	LAPACKE_dggbak_work             
+
+LAPACKE_dggbal	size = 0
+	LAPACKE_dggbal                  
+
+LAPACKE_dggbal_work	size = 0
+	LAPACKE_dggbal_work             
+
+LAPACKE_dgges	size = 0
+	LAPACKE_dgges                   
+
+LAPACKE_dgges3	size = 0
+	LAPACKE_dgges3                  
+
+LAPACKE_dgges3_work	size = 0
+	LAPACKE_dgges3_work             
+
+LAPACKE_dgges_work	size = 0
+	LAPACKE_dgges_work              
+
+LAPACKE_dggesx	size = 0
+	LAPACKE_dggesx                  
+
+LAPACKE_dggesx_work	size = 0
+	LAPACKE_dggesx_work             
+
+LAPACKE_dggev	size = 0
+	LAPACKE_dggev                   
+
+LAPACKE_dggev3	size = 0
+	LAPACKE_dggev3                  
+
+LAPACKE_dggev3_work	size = 0
+	LAPACKE_dggev3_work             
+
+LAPACKE_dggev_work	size = 0
+	LAPACKE_dggev_work              
+
+LAPACKE_dggevx	size = 0
+	LAPACKE_dggevx                  
+
+LAPACKE_dggevx_work	size = 0
+	LAPACKE_dggevx_work             
+
+LAPACKE_dggglm	size = 0
+	LAPACKE_dggglm                  
+
+LAPACKE_dggglm_work	size = 0
+	LAPACKE_dggglm_work             
+
+LAPACKE_dgghd3	size = 0
+	LAPACKE_dgghd3                  
+
+LAPACKE_dgghd3_work	size = 0
+	LAPACKE_dgghd3_work             
+
+LAPACKE_dgghrd	size = 0
+	LAPACKE_dgghrd                  
+
+LAPACKE_dgghrd_work	size = 0
+	LAPACKE_dgghrd_work             
+
+LAPACKE_dgglse	size = 0
+	LAPACKE_dgglse                  
+
+LAPACKE_dgglse_work	size = 0
+	LAPACKE_dgglse_work             
+
+LAPACKE_dggqrf	size = 0
+	LAPACKE_dggqrf                  
+
+LAPACKE_dggqrf_work	size = 0
+	LAPACKE_dggqrf_work             
+
+LAPACKE_dggrqf	size = 0
+	LAPACKE_dggrqf                  
+
+LAPACKE_dggrqf_work	size = 0
+	LAPACKE_dggrqf_work             
+
+LAPACKE_dggsvd3	size = 0
+	LAPACKE_dggsvd3                 
+
+LAPACKE_dggsvd3_work	size = 0
+	LAPACKE_dggsvd3_work            
+
+LAPACKE_dggsvp3	size = 0
+	LAPACKE_dggsvp3                 
+
+LAPACKE_dggsvp3_work	size = 0
+	LAPACKE_dggsvp3_work            
+
+LAPACKE_dgt_nancheck	size = 0
+	LAPACKE_dgt_nancheck            
+
+LAPACKE_dgtcon	size = 0
+	LAPACKE_dgtcon                  
+
+LAPACKE_dgtcon_work	size = 0
+	LAPACKE_dgtcon_work             
+
+LAPACKE_dgtrfs	size = 0
+	LAPACKE_dgtrfs                  
+
+LAPACKE_dgtrfs_work	size = 0
+	LAPACKE_dgtrfs_work             
+
+LAPACKE_dgtsv	size = 0
+	LAPACKE_dgtsv                   
+
+LAPACKE_dgtsv_work	size = 0
+	LAPACKE_dgtsv_work              
+
+LAPACKE_dgtsvx	size = 0
+	LAPACKE_dgtsvx                  
+
+LAPACKE_dgtsvx_work	size = 0
+	LAPACKE_dgtsvx_work             
+
+LAPACKE_dgttrf	size = 0
+	LAPACKE_dgttrf                  
+
+LAPACKE_dgttrf_work	size = 0
+	LAPACKE_dgttrf_work             
+
+LAPACKE_dgttrs	size = 0
+	LAPACKE_dgttrs                  
+
+LAPACKE_dgttrs_work	size = 0
+	LAPACKE_dgttrs_work             
+
+LAPACKE_dhgeqz	size = 0
+	LAPACKE_dhgeqz                  
+
+LAPACKE_dhgeqz_work	size = 0
+	LAPACKE_dhgeqz_work             
+
+LAPACKE_dhs_nancheck	size = 0
+	LAPACKE_dhs_nancheck            
+
+LAPACKE_dhs_trans	size = 0
+	LAPACKE_dhs_trans               
+
+LAPACKE_dhsein	size = 0
+	LAPACKE_dhsein                  
+
+LAPACKE_dhsein_work	size = 0
+	LAPACKE_dhsein_work             
+
+LAPACKE_dhseqr	size = 0
+	LAPACKE_dhseqr                  
+
+LAPACKE_dhseqr_work	size = 0
+	LAPACKE_dhseqr_work             
+
+LAPACKE_dlacn2	size = 0
+	LAPACKE_dlacn2                  
+
+LAPACKE_dlacn2_work	size = 0
+	LAPACKE_dlacn2_work             
+
+LAPACKE_dlacpy	size = 0
+	LAPACKE_dlacpy                  
+
+LAPACKE_dlacpy_work	size = 0
+	LAPACKE_dlacpy_work             
+
+LAPACKE_dlag2s	size = 0
+	LAPACKE_dlag2s                  
+
+LAPACKE_dlag2s_work	size = 0
+	LAPACKE_dlag2s_work             
+
+LAPACKE_dlamch	size = 0
+	LAPACKE_dlamch                  
+
+LAPACKE_dlamch_work	size = 0
+	LAPACKE_dlamch_work             
+
+LAPACKE_dlange	size = 0
+	LAPACKE_dlange                  
+
+LAPACKE_dlange_work	size = 0
+	LAPACKE_dlange_work             
+
+LAPACKE_dlansy	size = 0
+	LAPACKE_dlansy                  
+
+LAPACKE_dlansy_work	size = 0
+	LAPACKE_dlansy_work             
+
+LAPACKE_dlantr	size = 0
+	LAPACKE_dlantr                  
+
+LAPACKE_dlantr_work	size = 0
+	LAPACKE_dlantr_work             
+
+LAPACKE_dlapmr	size = 0
+	LAPACKE_dlapmr                  
+
+LAPACKE_dlapmr_work	size = 0
+	LAPACKE_dlapmr_work             
+
+LAPACKE_dlapmt	size = 0
+	LAPACKE_dlapmt                  
+
+LAPACKE_dlapmt_work	size = 0
+	LAPACKE_dlapmt_work             
+
+LAPACKE_dlapy2	size = 0
+	LAPACKE_dlapy2                  
+
+LAPACKE_dlapy2_work	size = 0
+	LAPACKE_dlapy2_work             
+
+LAPACKE_dlapy3	size = 0
+	LAPACKE_dlapy3                  
+
+LAPACKE_dlapy3_work	size = 0
+	LAPACKE_dlapy3_work             
+
+LAPACKE_dlarfb	size = 0
+	LAPACKE_dlarfb                  
+
+LAPACKE_dlarfb_work	size = 0
+	LAPACKE_dlarfb_work             
+
+LAPACKE_dlarfg	size = 0
+	LAPACKE_dlarfg                  
+
+LAPACKE_dlarfg_work	size = 0
+	LAPACKE_dlarfg_work             
+
+LAPACKE_dlarft	size = 0
+	LAPACKE_dlarft                  
+
+LAPACKE_dlarft_work	size = 0
+	LAPACKE_dlarft_work             
+
+LAPACKE_dlarfx	size = 0
+	LAPACKE_dlarfx                  
+
+LAPACKE_dlarfx_work	size = 0
+	LAPACKE_dlarfx_work             
+
+LAPACKE_dlarnv	size = 0
+	LAPACKE_dlarnv                  
+
+LAPACKE_dlarnv_work	size = 0
+	LAPACKE_dlarnv_work             
+
+LAPACKE_dlartgp	size = 0
+	LAPACKE_dlartgp                 
+
+LAPACKE_dlartgp_work	size = 0
+	LAPACKE_dlartgp_work            
+
+LAPACKE_dlartgs	size = 0
+	LAPACKE_dlartgs                 
+
+LAPACKE_dlartgs_work	size = 0
+	LAPACKE_dlartgs_work            
+
+LAPACKE_dlascl	size = 0
+	LAPACKE_dlascl                  
+
+LAPACKE_dlascl_work	size = 0
+	LAPACKE_dlascl_work             
+
+LAPACKE_dlaset	size = 0
+	LAPACKE_dlaset                  
+
+LAPACKE_dlaset_work	size = 0
+	LAPACKE_dlaset_work             
+
+LAPACKE_dlasrt	size = 0
+	LAPACKE_dlasrt                  
+
+LAPACKE_dlasrt_work	size = 0
+	LAPACKE_dlasrt_work             
+
+LAPACKE_dlassq	size = 0
+	LAPACKE_dlassq                  
+
+LAPACKE_dlassq_work	size = 0
+	LAPACKE_dlassq_work             
+
+LAPACKE_dlaswp	size = 0
+	LAPACKE_dlaswp                  
+
+LAPACKE_dlaswp_work	size = 0
+	LAPACKE_dlaswp_work             
+
+LAPACKE_dlauum	size = 0
+	LAPACKE_dlauum                  
+
+LAPACKE_dlauum_work	size = 0
+	LAPACKE_dlauum_work             
+
+LAPACKE_dopgtr	size = 0
+	LAPACKE_dopgtr                  
+
+LAPACKE_dopgtr_work	size = 0
+	LAPACKE_dopgtr_work             
+
+LAPACKE_dopmtr	size = 0
+	LAPACKE_dopmtr                  
+
+LAPACKE_dopmtr_work	size = 0
+	LAPACKE_dopmtr_work             
+
+LAPACKE_dorbdb	size = 0
+	LAPACKE_dorbdb                  
+
+LAPACKE_dorbdb_work	size = 0
+	LAPACKE_dorbdb_work             
+
+LAPACKE_dorcsd	size = 0
+	LAPACKE_dorcsd                  
+
+LAPACKE_dorcsd2by1	size = 0
+	LAPACKE_dorcsd2by1              
+
+LAPACKE_dorcsd2by1_work	size = 0
+	LAPACKE_dorcsd2by1_work         
+
+LAPACKE_dorcsd_work	size = 0
+	LAPACKE_dorcsd_work             
+
+LAPACKE_dorgbr	size = 0
+	LAPACKE_dorgbr                  
+
+LAPACKE_dorgbr_work	size = 0
+	LAPACKE_dorgbr_work             
+
+LAPACKE_dorghr	size = 0
+	LAPACKE_dorghr                  
+
+LAPACKE_dorghr_work	size = 0
+	LAPACKE_dorghr_work             
+
+LAPACKE_dorglq	size = 0
+	LAPACKE_dorglq                  
+
+LAPACKE_dorglq_work	size = 0
+	LAPACKE_dorglq_work             
+
+LAPACKE_dorgql	size = 0
+	LAPACKE_dorgql                  
+
+LAPACKE_dorgql_work	size = 0
+	LAPACKE_dorgql_work             
+
+LAPACKE_dorgqr	size = 0
+	LAPACKE_dorgqr                  
+
+LAPACKE_dorgqr_work	size = 0
+	LAPACKE_dorgqr_work             
+
+LAPACKE_dorgrq	size = 0
+	LAPACKE_dorgrq                  
+
+LAPACKE_dorgrq_work	size = 0
+	LAPACKE_dorgrq_work             
+
+LAPACKE_dorgtr	size = 0
+	LAPACKE_dorgtr                  
+
+LAPACKE_dorgtr_work	size = 0
+	LAPACKE_dorgtr_work             
+
+LAPACKE_dormbr	size = 0
+	LAPACKE_dormbr                  
+
+LAPACKE_dormbr_work	size = 0
+	LAPACKE_dormbr_work             
+
+LAPACKE_dormhr	size = 0
+	LAPACKE_dormhr                  
+
+LAPACKE_dormhr_work	size = 0
+	LAPACKE_dormhr_work             
+
+LAPACKE_dormlq	size = 0
+	LAPACKE_dormlq                  
+
+LAPACKE_dormlq_work	size = 0
+	LAPACKE_dormlq_work             
+
+LAPACKE_dormql	size = 0
+	LAPACKE_dormql                  
+
+LAPACKE_dormql_work	size = 0
+	LAPACKE_dormql_work             
+
+LAPACKE_dormqr	size = 0
+	LAPACKE_dormqr                  
+
+LAPACKE_dormqr_work	size = 0
+	LAPACKE_dormqr_work             
+
+LAPACKE_dormrq	size = 0
+	LAPACKE_dormrq                  
+
+LAPACKE_dormrq_work	size = 0
+	LAPACKE_dormrq_work             
+
+LAPACKE_dormrz	size = 0
+	LAPACKE_dormrz                  
+
+LAPACKE_dormrz_work	size = 0
+	LAPACKE_dormrz_work             
+
+LAPACKE_dormtr	size = 0
+	LAPACKE_dormtr                  
+
+LAPACKE_dormtr_work	size = 0
+	LAPACKE_dormtr_work             
+
+LAPACKE_dpb_nancheck	size = 0
+	LAPACKE_dpb_nancheck            
+
+LAPACKE_dpb_trans	size = 0
+	LAPACKE_dpb_trans               
+
+LAPACKE_dpbcon	size = 0
+	LAPACKE_dpbcon                  
+
+LAPACKE_dpbcon_work	size = 0
+	LAPACKE_dpbcon_work             
+
+LAPACKE_dpbequ	size = 0
+	LAPACKE_dpbequ                  
+
+LAPACKE_dpbequ_work	size = 0
+	LAPACKE_dpbequ_work             
+
+LAPACKE_dpbrfs	size = 0
+	LAPACKE_dpbrfs                  
+
+LAPACKE_dpbrfs_work	size = 0
+	LAPACKE_dpbrfs_work             
+
+LAPACKE_dpbstf	size = 0
+	LAPACKE_dpbstf                  
+
+LAPACKE_dpbstf_work	size = 0
+	LAPACKE_dpbstf_work             
+
+LAPACKE_dpbsv	size = 0
+	LAPACKE_dpbsv                   
+
+LAPACKE_dpbsv_work	size = 0
+	LAPACKE_dpbsv_work              
+
+LAPACKE_dpbsvx	size = 0
+	LAPACKE_dpbsvx                  
+
+LAPACKE_dpbsvx_work	size = 0
+	LAPACKE_dpbsvx_work             
+
+LAPACKE_dpbtrf	size = 0
+	LAPACKE_dpbtrf                  
+
+LAPACKE_dpbtrf_work	size = 0
+	LAPACKE_dpbtrf_work             
+
+LAPACKE_dpbtrs	size = 0
+	LAPACKE_dpbtrs                  
+
+LAPACKE_dpbtrs_work	size = 0
+	LAPACKE_dpbtrs_work             
+
+LAPACKE_dpf_nancheck	size = 0
+	LAPACKE_dpf_nancheck            
+
+LAPACKE_dpf_trans	size = 0
+	LAPACKE_dpf_trans               
+
+LAPACKE_dpftrf	size = 0
+	LAPACKE_dpftrf                  
+
+LAPACKE_dpftrf_work	size = 0
+	LAPACKE_dpftrf_work             
+
+LAPACKE_dpftri	size = 0
+	LAPACKE_dpftri                  
+
+LAPACKE_dpftri_work	size = 0
+	LAPACKE_dpftri_work             
+
+LAPACKE_dpftrs	size = 0
+	LAPACKE_dpftrs                  
+
+LAPACKE_dpftrs_work	size = 0
+	LAPACKE_dpftrs_work             
+
+LAPACKE_dpo_nancheck	size = 0
+	LAPACKE_dpo_nancheck            
+
+LAPACKE_dpo_trans	size = 0
+	LAPACKE_dpo_trans               
+
+LAPACKE_dpocon	size = 0
+	LAPACKE_dpocon                  
+
+LAPACKE_dpocon_work	size = 0
+	LAPACKE_dpocon_work             
+
+LAPACKE_dpoequ	size = 0
+	LAPACKE_dpoequ                  
+
+LAPACKE_dpoequ_work	size = 0
+	LAPACKE_dpoequ_work             
+
+LAPACKE_dpoequb	size = 0
+	LAPACKE_dpoequb                 
+
+LAPACKE_dpoequb_work	size = 0
+	LAPACKE_dpoequb_work            
+
+LAPACKE_dporfs	size = 0
+	LAPACKE_dporfs                  
+
+LAPACKE_dporfs_work	size = 0
+	LAPACKE_dporfs_work             
+
+LAPACKE_dposv	size = 0
+	LAPACKE_dposv                   
+
+LAPACKE_dposv_work	size = 0
+	LAPACKE_dposv_work              
+
+LAPACKE_dposvx	size = 0
+	LAPACKE_dposvx                  
+
+LAPACKE_dposvx_work	size = 0
+	LAPACKE_dposvx_work             
+
+LAPACKE_dpotrf	size = 0
+	LAPACKE_dpotrf                  
+
+LAPACKE_dpotrf2	size = 0
+	LAPACKE_dpotrf2                 
+
+LAPACKE_dpotrf2_work	size = 0
+	LAPACKE_dpotrf2_work            
+
+LAPACKE_dpotrf_work	size = 0
+	LAPACKE_dpotrf_work             
+
+LAPACKE_dpotri	size = 0
+	LAPACKE_dpotri                  
+
+LAPACKE_dpotri_work	size = 0
+	LAPACKE_dpotri_work             
+
+LAPACKE_dpotrs	size = 0
+	LAPACKE_dpotrs                  
+
+LAPACKE_dpotrs_work	size = 0
+	LAPACKE_dpotrs_work             
+
+LAPACKE_dpp_nancheck	size = 0
+	LAPACKE_dpp_nancheck            
+
+LAPACKE_dpp_trans	size = 0
+	LAPACKE_dpp_trans               
+
+LAPACKE_dppcon	size = 0
+	LAPACKE_dppcon                  
+
+LAPACKE_dppcon_work	size = 0
+	LAPACKE_dppcon_work             
+
+LAPACKE_dppequ	size = 0
+	LAPACKE_dppequ                  
+
+LAPACKE_dppequ_work	size = 0
+	LAPACKE_dppequ_work             
+
+LAPACKE_dpprfs	size = 0
+	LAPACKE_dpprfs                  
+
+LAPACKE_dpprfs_work	size = 0
+	LAPACKE_dpprfs_work             
+
+LAPACKE_dppsv	size = 0
+	LAPACKE_dppsv                   
+
+LAPACKE_dppsv_work	size = 0
+	LAPACKE_dppsv_work              
+
+LAPACKE_dppsvx	size = 0
+	LAPACKE_dppsvx                  
+
+LAPACKE_dppsvx_work	size = 0
+	LAPACKE_dppsvx_work             
+
+LAPACKE_dpptrf	size = 0
+	LAPACKE_dpptrf                  
+
+LAPACKE_dpptrf_work	size = 0
+	LAPACKE_dpptrf_work             
+
+LAPACKE_dpptri	size = 0
+	LAPACKE_dpptri                  
+
+LAPACKE_dpptri_work	size = 0
+	LAPACKE_dpptri_work             
+
+LAPACKE_dpptrs	size = 0
+	LAPACKE_dpptrs                  
+
+LAPACKE_dpptrs_work	size = 0
+	LAPACKE_dpptrs_work             
+
+LAPACKE_dpstrf	size = 0
+	LAPACKE_dpstrf                  
+
+LAPACKE_dpstrf_work	size = 0
+	LAPACKE_dpstrf_work             
+
+LAPACKE_dpt_nancheck	size = 0
+	LAPACKE_dpt_nancheck            
+
+LAPACKE_dptcon	size = 0
+	LAPACKE_dptcon                  
+
+LAPACKE_dptcon_work	size = 0
+	LAPACKE_dptcon_work             
+
+LAPACKE_dpteqr	size = 0
+	LAPACKE_dpteqr                  
+
+LAPACKE_dpteqr_work	size = 0
+	LAPACKE_dpteqr_work             
+
+LAPACKE_dptrfs	size = 0
+	LAPACKE_dptrfs                  
+
+LAPACKE_dptrfs_work	size = 0
+	LAPACKE_dptrfs_work             
+
+LAPACKE_dptsv	size = 0
+	LAPACKE_dptsv                   
+
+LAPACKE_dptsv_work	size = 0
+	LAPACKE_dptsv_work              
+
+LAPACKE_dptsvx	size = 0
+	LAPACKE_dptsvx                  
+
+LAPACKE_dptsvx_work	size = 0
+	LAPACKE_dptsvx_work             
+
+LAPACKE_dpttrf	size = 0
+	LAPACKE_dpttrf                  
+
+LAPACKE_dpttrf_work	size = 0
+	LAPACKE_dpttrf_work             
+
+LAPACKE_dpttrs	size = 0
+	LAPACKE_dpttrs                  
+
+LAPACKE_dpttrs_work	size = 0
+	LAPACKE_dpttrs_work             
+
+LAPACKE_dsb_nancheck	size = 0
+	LAPACKE_dsb_nancheck            
+
+LAPACKE_dsb_trans	size = 0
+	LAPACKE_dsb_trans               
+
+LAPACKE_dsbev	size = 0
+	LAPACKE_dsbev                   
+
+LAPACKE_dsbev_2stage	size = 0
+	LAPACKE_dsbev_2stage            
+
+LAPACKE_dsbev_2stage_work	size = 0
+	LAPACKE_dsbev_2stage_work       
+
+LAPACKE_dsbev_work	size = 0
+	LAPACKE_dsbev_work              
+
+LAPACKE_dsbevd	size = 0
+	LAPACKE_dsbevd                  
+
+LAPACKE_dsbevd_2stage	size = 0
+	LAPACKE_dsbevd_2stage           
+
+LAPACKE_dsbevd_2stage_work	size = 0
+	LAPACKE_dsbevd_2stage_work      
+
+LAPACKE_dsbevd_work	size = 0
+	LAPACKE_dsbevd_work             
+
+LAPACKE_dsbevx	size = 0
+	LAPACKE_dsbevx                  
+
+LAPACKE_dsbevx_2stage	size = 0
+	LAPACKE_dsbevx_2stage           
+
+LAPACKE_dsbevx_2stage_work	size = 0
+	LAPACKE_dsbevx_2stage_work      
+
+LAPACKE_dsbevx_work	size = 0
+	LAPACKE_dsbevx_work             
+
+LAPACKE_dsbgst	size = 0
+	LAPACKE_dsbgst                  
+
+LAPACKE_dsbgst_work	size = 0
+	LAPACKE_dsbgst_work             
+
+LAPACKE_dsbgv	size = 0
+	LAPACKE_dsbgv                   
+
+LAPACKE_dsbgv_work	size = 0
+	LAPACKE_dsbgv_work              
+
+LAPACKE_dsbgvd	size = 0
+	LAPACKE_dsbgvd                  
+
+LAPACKE_dsbgvd_work	size = 0
+	LAPACKE_dsbgvd_work             
+
+LAPACKE_dsbgvx	size = 0
+	LAPACKE_dsbgvx                  
+
+LAPACKE_dsbgvx_work	size = 0
+	LAPACKE_dsbgvx_work             
+
+LAPACKE_dsbtrd	size = 0
+	LAPACKE_dsbtrd                  
+
+LAPACKE_dsbtrd_work	size = 0
+	LAPACKE_dsbtrd_work             
+
+LAPACKE_dsfrk	size = 0
+	LAPACKE_dsfrk                   
+
+LAPACKE_dsfrk_work	size = 0
+	LAPACKE_dsfrk_work              
+
+LAPACKE_dsgesv	size = 0
+	LAPACKE_dsgesv                  
+
+LAPACKE_dsgesv_work	size = 0
+	LAPACKE_dsgesv_work             
+
+LAPACKE_dsp_nancheck	size = 0
+	LAPACKE_dsp_nancheck            
+
+LAPACKE_dsp_trans	size = 0
+	LAPACKE_dsp_trans               
+
+LAPACKE_dspcon	size = 0
+	LAPACKE_dspcon                  
+
+LAPACKE_dspcon_work	size = 0
+	LAPACKE_dspcon_work             
+
+LAPACKE_dspev	size = 0
+	LAPACKE_dspev                   
+
+LAPACKE_dspev_work	size = 0
+	LAPACKE_dspev_work              
+
+LAPACKE_dspevd	size = 0
+	LAPACKE_dspevd                  
+
+LAPACKE_dspevd_work	size = 0
+	LAPACKE_dspevd_work             
+
+LAPACKE_dspevx	size = 0
+	LAPACKE_dspevx                  
+
+LAPACKE_dspevx_work	size = 0
+	LAPACKE_dspevx_work             
+
+LAPACKE_dspgst	size = 0
+	LAPACKE_dspgst                  
+
+LAPACKE_dspgst_work	size = 0
+	LAPACKE_dspgst_work             
+
+LAPACKE_dspgv	size = 0
+	LAPACKE_dspgv                   
+
+LAPACKE_dspgv_work	size = 0
+	LAPACKE_dspgv_work              
+
+LAPACKE_dspgvd	size = 0
+	LAPACKE_dspgvd                  
+
+LAPACKE_dspgvd_work	size = 0
+	LAPACKE_dspgvd_work             
+
+LAPACKE_dspgvx	size = 0
+	LAPACKE_dspgvx                  
+
+LAPACKE_dspgvx_work	size = 0
+	LAPACKE_dspgvx_work             
+
+LAPACKE_dsposv	size = 0
+	LAPACKE_dsposv                  
+
+LAPACKE_dsposv_work	size = 0
+	LAPACKE_dsposv_work             
+
+LAPACKE_dsprfs	size = 0
+	LAPACKE_dsprfs                  
+
+LAPACKE_dsprfs_work	size = 0
+	LAPACKE_dsprfs_work             
+
+LAPACKE_dspsv	size = 0
+	LAPACKE_dspsv                   
+
+LAPACKE_dspsv_work	size = 0
+	LAPACKE_dspsv_work              
+
+LAPACKE_dspsvx	size = 0
+	LAPACKE_dspsvx                  
+
+LAPACKE_dspsvx_work	size = 0
+	LAPACKE_dspsvx_work             
+
+LAPACKE_dsptrd	size = 0
+	LAPACKE_dsptrd                  
+
+LAPACKE_dsptrd_work	size = 0
+	LAPACKE_dsptrd_work             
+
+LAPACKE_dsptrf	size = 0
+	LAPACKE_dsptrf                  
+
+LAPACKE_dsptrf_work	size = 0
+	LAPACKE_dsptrf_work             
+
+LAPACKE_dsptri	size = 0
+	LAPACKE_dsptri                  
+
+LAPACKE_dsptri_work	size = 0
+	LAPACKE_dsptri_work             
+
+LAPACKE_dsptrs	size = 0
+	LAPACKE_dsptrs                  
+
+LAPACKE_dsptrs_work	size = 0
+	LAPACKE_dsptrs_work             
+
+LAPACKE_dst_nancheck	size = 0
+	LAPACKE_dst_nancheck            
+
+LAPACKE_dstebz	size = 0
+	LAPACKE_dstebz                  
+
+LAPACKE_dstebz_work	size = 0
+	LAPACKE_dstebz_work             
+
+LAPACKE_dstedc	size = 0
+	LAPACKE_dstedc                  
+
+LAPACKE_dstedc_work	size = 0
+	LAPACKE_dstedc_work             
+
+LAPACKE_dstegr	size = 0
+	LAPACKE_dstegr                  
+
+LAPACKE_dstegr_work	size = 0
+	LAPACKE_dstegr_work             
+
+LAPACKE_dstein	size = 0
+	LAPACKE_dstein                  
+
+LAPACKE_dstein_work	size = 0
+	LAPACKE_dstein_work             
+
+LAPACKE_dstemr	size = 0
+	LAPACKE_dstemr                  
+
+LAPACKE_dstemr_work	size = 0
+	LAPACKE_dstemr_work             
+
+LAPACKE_dsteqr	size = 0
+	LAPACKE_dsteqr                  
+
+LAPACKE_dsteqr_work	size = 0
+	LAPACKE_dsteqr_work             
+
+LAPACKE_dsterf	size = 0
+	LAPACKE_dsterf                  
+
+LAPACKE_dsterf_work	size = 0
+	LAPACKE_dsterf_work             
+
+LAPACKE_dstev	size = 0
+	LAPACKE_dstev                   
+
+LAPACKE_dstev_work	size = 0
+	LAPACKE_dstev_work              
+
+LAPACKE_dstevd	size = 0
+	LAPACKE_dstevd                  
+
+LAPACKE_dstevd_work	size = 0
+	LAPACKE_dstevd_work             
+
+LAPACKE_dstevr	size = 0
+	LAPACKE_dstevr                  
+
+LAPACKE_dstevr_work	size = 0
+	LAPACKE_dstevr_work             
+
+LAPACKE_dstevx	size = 0
+	LAPACKE_dstevx                  
+
+LAPACKE_dstevx_work	size = 0
+	LAPACKE_dstevx_work             
+
+LAPACKE_dsy_nancheck	size = 0
+	LAPACKE_dsy_nancheck            
+
+LAPACKE_dsy_trans	size = 0
+	LAPACKE_dsy_trans               
+
+LAPACKE_dsycon	size = 0
+	LAPACKE_dsycon                  
+
+LAPACKE_dsycon_3	size = 0
+	LAPACKE_dsycon_3                
+
+LAPACKE_dsycon_3_work	size = 0
+	LAPACKE_dsycon_3_work           
+
+LAPACKE_dsycon_work	size = 0
+	LAPACKE_dsycon_work             
+
+LAPACKE_dsyconv	size = 0
+	LAPACKE_dsyconv                 
+
+LAPACKE_dsyconv_work	size = 0
+	LAPACKE_dsyconv_work            
+
+LAPACKE_dsyequb	size = 0
+	LAPACKE_dsyequb                 
+
+LAPACKE_dsyequb_work	size = 0
+	LAPACKE_dsyequb_work            
+
+LAPACKE_dsyev	size = 0
+	LAPACKE_dsyev                   
+
+LAPACKE_dsyev_2stage	size = 0
+	LAPACKE_dsyev_2stage            
+
+LAPACKE_dsyev_2stage_work	size = 0
+	LAPACKE_dsyev_2stage_work       
+
+LAPACKE_dsyev_work	size = 0
+	LAPACKE_dsyev_work              
+
+LAPACKE_dsyevd	size = 0
+	LAPACKE_dsyevd                  
+
+LAPACKE_dsyevd_2stage	size = 0
+	LAPACKE_dsyevd_2stage           
+
+LAPACKE_dsyevd_2stage_work	size = 0
+	LAPACKE_dsyevd_2stage_work      
+
+LAPACKE_dsyevd_work	size = 0
+	LAPACKE_dsyevd_work             
+
+LAPACKE_dsyevr	size = 0
+	LAPACKE_dsyevr                  
+
+LAPACKE_dsyevr_2stage	size = 0
+	LAPACKE_dsyevr_2stage           
+
+LAPACKE_dsyevr_2stage_work	size = 0
+	LAPACKE_dsyevr_2stage_work      
+
+LAPACKE_dsyevr_work	size = 0
+	LAPACKE_dsyevr_work             
+
+LAPACKE_dsyevx	size = 0
+	LAPACKE_dsyevx                  
+
+LAPACKE_dsyevx_2stage	size = 0
+	LAPACKE_dsyevx_2stage           
+
+LAPACKE_dsyevx_2stage_work	size = 0
+	LAPACKE_dsyevx_2stage_work      
+
+LAPACKE_dsyevx_work	size = 0
+	LAPACKE_dsyevx_work             
+
+LAPACKE_dsygst	size = 0
+	LAPACKE_dsygst                  
+
+LAPACKE_dsygst_work	size = 0
+	LAPACKE_dsygst_work             
+
+LAPACKE_dsygv	size = 0
+	LAPACKE_dsygv                   
+
+LAPACKE_dsygv_2stage	size = 0
+	LAPACKE_dsygv_2stage            
+
+LAPACKE_dsygv_2stage_work	size = 0
+	LAPACKE_dsygv_2stage_work       
+
+LAPACKE_dsygv_work	size = 0
+	LAPACKE_dsygv_work              
+
+LAPACKE_dsygvd	size = 0
+	LAPACKE_dsygvd                  
+
+LAPACKE_dsygvd_work	size = 0
+	LAPACKE_dsygvd_work             
+
+LAPACKE_dsygvx	size = 0
+	LAPACKE_dsygvx                  
+
+LAPACKE_dsygvx_work	size = 0
+	LAPACKE_dsygvx_work             
+
+LAPACKE_dsyrfs	size = 0
+	LAPACKE_dsyrfs                  
+
+LAPACKE_dsyrfs_work	size = 0
+	LAPACKE_dsyrfs_work             
+
+LAPACKE_dsysv	size = 0
+	LAPACKE_dsysv                   
+
+LAPACKE_dsysv_aa	size = 0
+	LAPACKE_dsysv_aa                
+
+LAPACKE_dsysv_aa_2stage	size = 0
+	LAPACKE_dsysv_aa_2stage         
+
+LAPACKE_dsysv_aa_2stage_work	size = 0
+	LAPACKE_dsysv_aa_2stage_work    
+
+LAPACKE_dsysv_aa_work	size = 0
+	LAPACKE_dsysv_aa_work           
+
+LAPACKE_dsysv_rk	size = 0
+	LAPACKE_dsysv_rk                
+
+LAPACKE_dsysv_rk_work	size = 0
+	LAPACKE_dsysv_rk_work           
+
+LAPACKE_dsysv_rook	size = 0
+	LAPACKE_dsysv_rook              
+
+LAPACKE_dsysv_rook_work	size = 0
+	LAPACKE_dsysv_rook_work         
+
+LAPACKE_dsysv_work	size = 0
+	LAPACKE_dsysv_work              
+
+LAPACKE_dsysvx	size = 0
+	LAPACKE_dsysvx                  
+
+LAPACKE_dsysvx_work	size = 0
+	LAPACKE_dsysvx_work             
+
+LAPACKE_dsyswapr	size = 0
+	LAPACKE_dsyswapr                
+
+LAPACKE_dsyswapr_work	size = 0
+	LAPACKE_dsyswapr_work           
+
+LAPACKE_dsytrd	size = 0
+	LAPACKE_dsytrd                  
+
+LAPACKE_dsytrd_work	size = 0
+	LAPACKE_dsytrd_work             
+
+LAPACKE_dsytrf	size = 0
+	LAPACKE_dsytrf                  
+
+LAPACKE_dsytrf_aa	size = 0
+	LAPACKE_dsytrf_aa               
+
+LAPACKE_dsytrf_aa_2stage	size = 0
+	LAPACKE_dsytrf_aa_2stage        
+
+LAPACKE_dsytrf_aa_2stage_work	size = 0
+	LAPACKE_dsytrf_aa_2stage_work   
+
+LAPACKE_dsytrf_aa_work	size = 0
+	LAPACKE_dsytrf_aa_work          
+
+LAPACKE_dsytrf_rk	size = 0
+	LAPACKE_dsytrf_rk               
+
+LAPACKE_dsytrf_rk_work	size = 0
+	LAPACKE_dsytrf_rk_work          
+
+LAPACKE_dsytrf_rook	size = 0
+	LAPACKE_dsytrf_rook             
+
+LAPACKE_dsytrf_rook_work	size = 0
+	LAPACKE_dsytrf_rook_work        
+
+LAPACKE_dsytrf_work	size = 0
+	LAPACKE_dsytrf_work             
+
+LAPACKE_dsytri	size = 0
+	LAPACKE_dsytri                  
+
+LAPACKE_dsytri2	size = 0
+	LAPACKE_dsytri2                 
+
+LAPACKE_dsytri2_work	size = 0
+	LAPACKE_dsytri2_work            
+
+LAPACKE_dsytri2x	size = 0
+	LAPACKE_dsytri2x                
+
+LAPACKE_dsytri2x_work	size = 0
+	LAPACKE_dsytri2x_work           
+
+LAPACKE_dsytri_3	size = 0
+	LAPACKE_dsytri_3                
+
+LAPACKE_dsytri_3_work	size = 0
+	LAPACKE_dsytri_3_work           
+
+LAPACKE_dsytri_work	size = 0
+	LAPACKE_dsytri_work             
+
+LAPACKE_dsytrs	size = 0
+	LAPACKE_dsytrs                  
+
+LAPACKE_dsytrs2	size = 0
+	LAPACKE_dsytrs2                 
+
+LAPACKE_dsytrs2_work	size = 0
+	LAPACKE_dsytrs2_work            
+
+LAPACKE_dsytrs_3	size = 0
+	LAPACKE_dsytrs_3                
+
+LAPACKE_dsytrs_3_work	size = 0
+	LAPACKE_dsytrs_3_work           
+
+LAPACKE_dsytrs_aa	size = 0
+	LAPACKE_dsytrs_aa               
+
+LAPACKE_dsytrs_aa_2stage	size = 0
+	LAPACKE_dsytrs_aa_2stage        
+
+LAPACKE_dsytrs_aa_2stage_work	size = 0
+	LAPACKE_dsytrs_aa_2stage_work   
+
+LAPACKE_dsytrs_aa_work	size = 0
+	LAPACKE_dsytrs_aa_work          
+
+LAPACKE_dsytrs_rook	size = 0
+	LAPACKE_dsytrs_rook             
+
+LAPACKE_dsytrs_rook_work	size = 0
+	LAPACKE_dsytrs_rook_work        
+
+LAPACKE_dsytrs_work	size = 0
+	LAPACKE_dsytrs_work             
+
+LAPACKE_dtb_nancheck	size = 0
+	LAPACKE_dtb_nancheck            
+
+LAPACKE_dtb_trans	size = 0
+	LAPACKE_dtb_trans               
+
+LAPACKE_dtbcon	size = 0
+	LAPACKE_dtbcon                  
+
+LAPACKE_dtbcon_work	size = 0
+	LAPACKE_dtbcon_work             
+
+LAPACKE_dtbrfs	size = 0
+	LAPACKE_dtbrfs                  
+
+LAPACKE_dtbrfs_work	size = 0
+	LAPACKE_dtbrfs_work             
+
+LAPACKE_dtbtrs	size = 0
+	LAPACKE_dtbtrs                  
+
+LAPACKE_dtbtrs_work	size = 0
+	LAPACKE_dtbtrs_work             
+
+LAPACKE_dtf_nancheck	size = 0
+	LAPACKE_dtf_nancheck            
+
+LAPACKE_dtf_trans	size = 0
+	LAPACKE_dtf_trans               
+
+LAPACKE_dtfsm	size = 0
+	LAPACKE_dtfsm                   
+
+LAPACKE_dtfsm_work	size = 0
+	LAPACKE_dtfsm_work              
+
+LAPACKE_dtftri	size = 0
+	LAPACKE_dtftri                  
+
+LAPACKE_dtftri_work	size = 0
+	LAPACKE_dtftri_work             
+
+LAPACKE_dtfttp	size = 0
+	LAPACKE_dtfttp                  
+
+LAPACKE_dtfttp_work	size = 0
+	LAPACKE_dtfttp_work             
+
+LAPACKE_dtfttr	size = 0
+	LAPACKE_dtfttr                  
+
+LAPACKE_dtfttr_work	size = 0
+	LAPACKE_dtfttr_work             
+
+LAPACKE_dtgevc	size = 0
+	LAPACKE_dtgevc                  
+
+LAPACKE_dtgevc_work	size = 0
+	LAPACKE_dtgevc_work             
+
+LAPACKE_dtgexc	size = 0
+	LAPACKE_dtgexc                  
+
+LAPACKE_dtgexc_work	size = 0
+	LAPACKE_dtgexc_work             
+
+LAPACKE_dtgsen	size = 0
+	LAPACKE_dtgsen                  
+
+LAPACKE_dtgsen_work	size = 0
+	LAPACKE_dtgsen_work             
+
+LAPACKE_dtgsja	size = 0
+	LAPACKE_dtgsja                  
+
+LAPACKE_dtgsja_work	size = 0
+	LAPACKE_dtgsja_work             
+
+LAPACKE_dtgsna	size = 0
+	LAPACKE_dtgsna                  
+
+LAPACKE_dtgsna_work	size = 0
+	LAPACKE_dtgsna_work             
+
+LAPACKE_dtgsyl	size = 0
+	LAPACKE_dtgsyl                  
+
+LAPACKE_dtgsyl_work	size = 0
+	LAPACKE_dtgsyl_work             
+
+LAPACKE_dtp_nancheck	size = 0
+	LAPACKE_dtp_nancheck            
+
+LAPACKE_dtp_trans	size = 0
+	LAPACKE_dtp_trans               
+
+LAPACKE_dtpcon	size = 0
+	LAPACKE_dtpcon                  
+
+LAPACKE_dtpcon_work	size = 0
+	LAPACKE_dtpcon_work             
+
+LAPACKE_dtpmqrt	size = 0
+	LAPACKE_dtpmqrt                 
+
+LAPACKE_dtpmqrt_work	size = 0
+	LAPACKE_dtpmqrt_work            
+
+LAPACKE_dtpqrt	size = 0
+	LAPACKE_dtpqrt                  
+
+LAPACKE_dtpqrt2	size = 0
+	LAPACKE_dtpqrt2                 
+
+LAPACKE_dtpqrt2_work	size = 0
+	LAPACKE_dtpqrt2_work            
+
+LAPACKE_dtpqrt_work	size = 0
+	LAPACKE_dtpqrt_work             
+
+LAPACKE_dtprfb	size = 0
+	LAPACKE_dtprfb                  
+
+LAPACKE_dtprfb_work	size = 0
+	LAPACKE_dtprfb_work             
+
+LAPACKE_dtprfs	size = 0
+	LAPACKE_dtprfs                  
+
+LAPACKE_dtprfs_work	size = 0
+	LAPACKE_dtprfs_work             
+
+LAPACKE_dtptri	size = 0
+	LAPACKE_dtptri                  
+
+LAPACKE_dtptri_work	size = 0
+	LAPACKE_dtptri_work             
+
+LAPACKE_dtptrs	size = 0
+	LAPACKE_dtptrs                  
+
+LAPACKE_dtptrs_work	size = 0
+	LAPACKE_dtptrs_work             
+
+LAPACKE_dtpttf	size = 0
+	LAPACKE_dtpttf                  
+
+LAPACKE_dtpttf_work	size = 0
+	LAPACKE_dtpttf_work             
+
+LAPACKE_dtpttr	size = 0
+	LAPACKE_dtpttr                  
+
+LAPACKE_dtpttr_work	size = 0
+	LAPACKE_dtpttr_work             
+
+LAPACKE_dtr_nancheck	size = 0
+	LAPACKE_dtr_nancheck            
+
+LAPACKE_dtr_trans	size = 0
+	LAPACKE_dtr_trans               
+
+LAPACKE_dtrcon	size = 0
+	LAPACKE_dtrcon                  
+
+LAPACKE_dtrcon_work	size = 0
+	LAPACKE_dtrcon_work             
+
+LAPACKE_dtrevc	size = 0
+	LAPACKE_dtrevc                  
+
+LAPACKE_dtrevc_work	size = 0
+	LAPACKE_dtrevc_work             
+
+LAPACKE_dtrexc	size = 0
+	LAPACKE_dtrexc                  
+
+LAPACKE_dtrexc_work	size = 0
+	LAPACKE_dtrexc_work             
+
+LAPACKE_dtrrfs	size = 0
+	LAPACKE_dtrrfs                  
+
+LAPACKE_dtrrfs_work	size = 0
+	LAPACKE_dtrrfs_work             
+
+LAPACKE_dtrsen	size = 0
+	LAPACKE_dtrsen                  
+
+LAPACKE_dtrsen_work	size = 0
+	LAPACKE_dtrsen_work             
+
+LAPACKE_dtrsna	size = 0
+	LAPACKE_dtrsna                  
+
+LAPACKE_dtrsna_work	size = 0
+	LAPACKE_dtrsna_work             
+
+LAPACKE_dtrsyl	size = 0
+	LAPACKE_dtrsyl                  
+
+LAPACKE_dtrsyl_work	size = 0
+	LAPACKE_dtrsyl_work             
+
+LAPACKE_dtrtri	size = 0
+	LAPACKE_dtrtri                  
+
+LAPACKE_dtrtri_work	size = 0
+	LAPACKE_dtrtri_work             
+
+LAPACKE_dtrtrs	size = 0
+	LAPACKE_dtrtrs                  
+
+LAPACKE_dtrtrs_work	size = 0
+	LAPACKE_dtrtrs_work             
+
+LAPACKE_dtrttf	size = 0
+	LAPACKE_dtrttf                  
+
+LAPACKE_dtrttf_work	size = 0
+	LAPACKE_dtrttf_work             
+
+LAPACKE_dtrttp	size = 0
+	LAPACKE_dtrttp                  
+
+LAPACKE_dtrttp_work	size = 0
+	LAPACKE_dtrttp_work             
+
+LAPACKE_dtzrzf	size = 0
+	LAPACKE_dtzrzf                  
+
+LAPACKE_dtzrzf_work	size = 0
+	LAPACKE_dtzrzf_work             
+
+LAPACKE_get_nancheck	size = 0
+	LAPACKE_get_nancheck            
+
+LAPACKE_ilaver	size = 0
+	LAPACKE_ilaver                  
+
+LAPACKE_lsame	size = 0
+	LAPACKE_lsame                   
+
+LAPACKE_s_nancheck	size = 0
+	LAPACKE_s_nancheck              
+
+LAPACKE_sbbcsd	size = 0
+	LAPACKE_sbbcsd                  
+
+LAPACKE_sbbcsd_work	size = 0
+	LAPACKE_sbbcsd_work             
+
+LAPACKE_sbdsdc	size = 0
+	LAPACKE_sbdsdc                  
+
+LAPACKE_sbdsdc_work	size = 0
+	LAPACKE_sbdsdc_work             
+
+LAPACKE_sbdsqr	size = 0
+	LAPACKE_sbdsqr                  
+
+LAPACKE_sbdsqr_work	size = 0
+	LAPACKE_sbdsqr_work             
+
+LAPACKE_sbdsvdx	size = 0
+	LAPACKE_sbdsvdx                 
+
+LAPACKE_sbdsvdx_work	size = 0
+	LAPACKE_sbdsvdx_work            
+
+LAPACKE_sdisna	size = 0
+	LAPACKE_sdisna                  
+
+LAPACKE_sdisna_work	size = 0
+	LAPACKE_sdisna_work             
+
+LAPACKE_set_nancheck	size = 0
+	LAPACKE_set_nancheck            
+
+LAPACKE_sgb_nancheck	size = 0
+	LAPACKE_sgb_nancheck            
+
+LAPACKE_sgb_trans	size = 0
+	LAPACKE_sgb_trans               
+
+LAPACKE_sgbbrd	size = 0
+	LAPACKE_sgbbrd                  
+
+LAPACKE_sgbbrd_work	size = 0
+	LAPACKE_sgbbrd_work             
+
+LAPACKE_sgbcon	size = 0
+	LAPACKE_sgbcon                  
+
+LAPACKE_sgbcon_work	size = 0
+	LAPACKE_sgbcon_work             
+
+LAPACKE_sgbequ	size = 0
+	LAPACKE_sgbequ                  
+
+LAPACKE_sgbequ_work	size = 0
+	LAPACKE_sgbequ_work             
+
+LAPACKE_sgbequb	size = 0
+	LAPACKE_sgbequb                 
+
+LAPACKE_sgbequb_work	size = 0
+	LAPACKE_sgbequb_work            
+
+LAPACKE_sgbrfs	size = 0
+	LAPACKE_sgbrfs                  
+
+LAPACKE_sgbrfs_work	size = 0
+	LAPACKE_sgbrfs_work             
+
+LAPACKE_sgbsv	size = 0
+	LAPACKE_sgbsv                   
+
+LAPACKE_sgbsv_work	size = 0
+	LAPACKE_sgbsv_work              
+
+LAPACKE_sgbsvx	size = 0
+	LAPACKE_sgbsvx                  
+
+LAPACKE_sgbsvx_work	size = 0
+	LAPACKE_sgbsvx_work             
+
+LAPACKE_sgbtrf	size = 0
+	LAPACKE_sgbtrf                  
+
+LAPACKE_sgbtrf_work	size = 0
+	LAPACKE_sgbtrf_work             
+
+LAPACKE_sgbtrs	size = 0
+	LAPACKE_sgbtrs                  
+
+LAPACKE_sgbtrs_work	size = 0
+	LAPACKE_sgbtrs_work             
+
+LAPACKE_sge_nancheck	size = 0
+	LAPACKE_sge_nancheck            
+
+LAPACKE_sge_trans	size = 0
+	LAPACKE_sge_trans               
+
+LAPACKE_sgebak	size = 0
+	LAPACKE_sgebak                  
+
+LAPACKE_sgebak_work	size = 0
+	LAPACKE_sgebak_work             
+
+LAPACKE_sgebal	size = 0
+	LAPACKE_sgebal                  
+
+LAPACKE_sgebal_work	size = 0
+	LAPACKE_sgebal_work             
+
+LAPACKE_sgebrd	size = 0
+	LAPACKE_sgebrd                  
+
+LAPACKE_sgebrd_work	size = 0
+	LAPACKE_sgebrd_work             
+
+LAPACKE_sgecon	size = 0
+	LAPACKE_sgecon                  
+
+LAPACKE_sgecon_work	size = 0
+	LAPACKE_sgecon_work             
+
+LAPACKE_sgeequ	size = 0
+	LAPACKE_sgeequ                  
+
+LAPACKE_sgeequ_work	size = 0
+	LAPACKE_sgeequ_work             
+
+LAPACKE_sgeequb	size = 0
+	LAPACKE_sgeequb                 
+
+LAPACKE_sgeequb_work	size = 0
+	LAPACKE_sgeequb_work            
+
+LAPACKE_sgees	size = 0
+	LAPACKE_sgees                   
+
+LAPACKE_sgees_work	size = 0
+	LAPACKE_sgees_work              
+
+LAPACKE_sgeesx	size = 0
+	LAPACKE_sgeesx                  
+
+LAPACKE_sgeesx_work	size = 0
+	LAPACKE_sgeesx_work             
+
+LAPACKE_sgeev	size = 0
+	LAPACKE_sgeev                   
+
+LAPACKE_sgeev_work	size = 0
+	LAPACKE_sgeev_work              
+
+LAPACKE_sgeevx	size = 0
+	LAPACKE_sgeevx                  
+
+LAPACKE_sgeevx_work	size = 0
+	LAPACKE_sgeevx_work             
+
+LAPACKE_sgehrd	size = 0
+	LAPACKE_sgehrd                  
+
+LAPACKE_sgehrd_work	size = 0
+	LAPACKE_sgehrd_work             
+
+LAPACKE_sgejsv	size = 0
+	LAPACKE_sgejsv                  
+
+LAPACKE_sgejsv_work	size = 0
+	LAPACKE_sgejsv_work             
+
+LAPACKE_sgelq	size = 0
+	LAPACKE_sgelq                   
+
+LAPACKE_sgelq2	size = 0
+	LAPACKE_sgelq2                  
+
+LAPACKE_sgelq2_work	size = 0
+	LAPACKE_sgelq2_work             
+
+LAPACKE_sgelq_work	size = 0
+	LAPACKE_sgelq_work              
+
+LAPACKE_sgelqf	size = 0
+	LAPACKE_sgelqf                  
+
+LAPACKE_sgelqf_work	size = 0
+	LAPACKE_sgelqf_work             
+
+LAPACKE_sgels	size = 0
+	LAPACKE_sgels                   
+
+LAPACKE_sgels_work	size = 0
+	LAPACKE_sgels_work              
+
+LAPACKE_sgelsd	size = 0
+	LAPACKE_sgelsd                  
+
+LAPACKE_sgelsd_work	size = 0
+	LAPACKE_sgelsd_work             
+
+LAPACKE_sgelss	size = 0
+	LAPACKE_sgelss                  
+
+LAPACKE_sgelss_work	size = 0
+	LAPACKE_sgelss_work             
+
+LAPACKE_sgelsy	size = 0
+	LAPACKE_sgelsy                  
+
+LAPACKE_sgelsy_work	size = 0
+	LAPACKE_sgelsy_work             
+
+LAPACKE_sgemlq	size = 0
+	LAPACKE_sgemlq                  
+
+LAPACKE_sgemlq_work	size = 0
+	LAPACKE_sgemlq_work             
+
+LAPACKE_sgemqr	size = 0
+	LAPACKE_sgemqr                  
+
+LAPACKE_sgemqr_work	size = 0
+	LAPACKE_sgemqr_work             
+
+LAPACKE_sgemqrt	size = 0
+	LAPACKE_sgemqrt                 
+
+LAPACKE_sgemqrt_work	size = 0
+	LAPACKE_sgemqrt_work            
+
+LAPACKE_sgeqlf	size = 0
+	LAPACKE_sgeqlf                  
+
+LAPACKE_sgeqlf_work	size = 0
+	LAPACKE_sgeqlf_work             
+
+LAPACKE_sgeqp3	size = 0
+	LAPACKE_sgeqp3                  
+
+LAPACKE_sgeqp3_work	size = 0
+	LAPACKE_sgeqp3_work             
+
+LAPACKE_sgeqr	size = 0
+	LAPACKE_sgeqr                   
+
+LAPACKE_sgeqr2	size = 0
+	LAPACKE_sgeqr2                  
+
+LAPACKE_sgeqr2_work	size = 0
+	LAPACKE_sgeqr2_work             
+
+LAPACKE_sgeqr_work	size = 0
+	LAPACKE_sgeqr_work              
+
+LAPACKE_sgeqrf	size = 0
+	LAPACKE_sgeqrf                  
+
+LAPACKE_sgeqrf_work	size = 0
+	LAPACKE_sgeqrf_work             
+
+LAPACKE_sgeqrfp	size = 0
+	LAPACKE_sgeqrfp                 
+
+LAPACKE_sgeqrfp_work	size = 0
+	LAPACKE_sgeqrfp_work            
+
+LAPACKE_sgeqrt	size = 0
+	LAPACKE_sgeqrt                  
+
+LAPACKE_sgeqrt2	size = 0
+	LAPACKE_sgeqrt2                 
+
+LAPACKE_sgeqrt2_work	size = 0
+	LAPACKE_sgeqrt2_work            
+
+LAPACKE_sgeqrt3	size = 0
+	LAPACKE_sgeqrt3                 
+
+LAPACKE_sgeqrt3_work	size = 0
+	LAPACKE_sgeqrt3_work            
+
+LAPACKE_sgeqrt_work	size = 0
+	LAPACKE_sgeqrt_work             
+
+LAPACKE_sgerfs	size = 0
+	LAPACKE_sgerfs                  
+
+LAPACKE_sgerfs_work	size = 0
+	LAPACKE_sgerfs_work             
+
+LAPACKE_sgerqf	size = 0
+	LAPACKE_sgerqf                  
+
+LAPACKE_sgerqf_work	size = 0
+	LAPACKE_sgerqf_work             
+
+LAPACKE_sgesdd	size = 0
+	LAPACKE_sgesdd                  
+
+LAPACKE_sgesdd_work	size = 0
+	LAPACKE_sgesdd_work             
+
+LAPACKE_sgesv	size = 0
+	LAPACKE_sgesv                   
+
+LAPACKE_sgesv_work	size = 0
+	LAPACKE_sgesv_work              
+
+LAPACKE_sgesvd	size = 0
+	LAPACKE_sgesvd                  
+
+LAPACKE_sgesvd_work	size = 0
+	LAPACKE_sgesvd_work             
+
+LAPACKE_sgesvdx	size = 0
+	LAPACKE_sgesvdx                 
+
+LAPACKE_sgesvdx_work	size = 0
+	LAPACKE_sgesvdx_work            
+
+LAPACKE_sgesvj	size = 0
+	LAPACKE_sgesvj                  
+
+LAPACKE_sgesvj_work	size = 0
+	LAPACKE_sgesvj_work             
+
+LAPACKE_sgesvx	size = 0
+	LAPACKE_sgesvx                  
+
+LAPACKE_sgesvx_work	size = 0
+	LAPACKE_sgesvx_work             
+
+LAPACKE_sgetf2	size = 0
+	LAPACKE_sgetf2                  
+
+LAPACKE_sgetf2_work	size = 0
+	LAPACKE_sgetf2_work             
+
+LAPACKE_sgetrf	size = 0
+	LAPACKE_sgetrf                  
+
+LAPACKE_sgetrf2	size = 0
+	LAPACKE_sgetrf2                 
+
+LAPACKE_sgetrf2_work	size = 0
+	LAPACKE_sgetrf2_work            
+
+LAPACKE_sgetrf_work	size = 0
+	LAPACKE_sgetrf_work             
+
+LAPACKE_sgetri	size = 0
+	LAPACKE_sgetri                  
+
+LAPACKE_sgetri_work	size = 0
+	LAPACKE_sgetri_work             
+
+LAPACKE_sgetrs	size = 0
+	LAPACKE_sgetrs                  
+
+LAPACKE_sgetrs_work	size = 0
+	LAPACKE_sgetrs_work             
+
+LAPACKE_sgetsls	size = 0
+	LAPACKE_sgetsls                 
+
+LAPACKE_sgetsls_work	size = 0
+	LAPACKE_sgetsls_work            
+
+LAPACKE_sgg_nancheck	size = 0
+	LAPACKE_sgg_nancheck            
+
+LAPACKE_sgg_trans	size = 0
+	LAPACKE_sgg_trans               
+
+LAPACKE_sggbak	size = 0
+	LAPACKE_sggbak                  
+
+LAPACKE_sggbak_work	size = 0
+	LAPACKE_sggbak_work             
+
+LAPACKE_sggbal	size = 0
+	LAPACKE_sggbal                  
+
+LAPACKE_sggbal_work	size = 0
+	LAPACKE_sggbal_work             
+
+LAPACKE_sgges	size = 0
+	LAPACKE_sgges                   
+
+LAPACKE_sgges3	size = 0
+	LAPACKE_sgges3                  
+
+LAPACKE_sgges3_work	size = 0
+	LAPACKE_sgges3_work             
+
+LAPACKE_sgges_work	size = 0
+	LAPACKE_sgges_work              
+
+LAPACKE_sggesx	size = 0
+	LAPACKE_sggesx                  
+
+LAPACKE_sggesx_work	size = 0
+	LAPACKE_sggesx_work             
+
+LAPACKE_sggev	size = 0
+	LAPACKE_sggev                   
+
+LAPACKE_sggev3	size = 0
+	LAPACKE_sggev3                  
+
+LAPACKE_sggev3_work	size = 0
+	LAPACKE_sggev3_work             
+
+LAPACKE_sggev_work	size = 0
+	LAPACKE_sggev_work              
+
+LAPACKE_sggevx	size = 0
+	LAPACKE_sggevx                  
+
+LAPACKE_sggevx_work	size = 0
+	LAPACKE_sggevx_work             
+
+LAPACKE_sggglm	size = 0
+	LAPACKE_sggglm                  
+
+LAPACKE_sggglm_work	size = 0
+	LAPACKE_sggglm_work             
+
+LAPACKE_sgghd3	size = 0
+	LAPACKE_sgghd3                  
+
+LAPACKE_sgghd3_work	size = 0
+	LAPACKE_sgghd3_work             
+
+LAPACKE_sgghrd	size = 0
+	LAPACKE_sgghrd                  
+
+LAPACKE_sgghrd_work	size = 0
+	LAPACKE_sgghrd_work             
+
+LAPACKE_sgglse	size = 0
+	LAPACKE_sgglse                  
+
+LAPACKE_sgglse_work	size = 0
+	LAPACKE_sgglse_work             
+
+LAPACKE_sggqrf	size = 0
+	LAPACKE_sggqrf                  
+
+LAPACKE_sggqrf_work	size = 0
+	LAPACKE_sggqrf_work             
+
+LAPACKE_sggrqf	size = 0
+	LAPACKE_sggrqf                  
+
+LAPACKE_sggrqf_work	size = 0
+	LAPACKE_sggrqf_work             
+
+LAPACKE_sggsvd3	size = 0
+	LAPACKE_sggsvd3                 
+
+LAPACKE_sggsvd3_work	size = 0
+	LAPACKE_sggsvd3_work            
+
+LAPACKE_sggsvp3	size = 0
+	LAPACKE_sggsvp3                 
+
+LAPACKE_sggsvp3_work	size = 0
+	LAPACKE_sggsvp3_work            
+
+LAPACKE_sgt_nancheck	size = 0
+	LAPACKE_sgt_nancheck            
+
+LAPACKE_sgtcon	size = 0
+	LAPACKE_sgtcon                  
+
+LAPACKE_sgtcon_work	size = 0
+	LAPACKE_sgtcon_work             
+
+LAPACKE_sgtrfs	size = 0
+	LAPACKE_sgtrfs                  
+
+LAPACKE_sgtrfs_work	size = 0
+	LAPACKE_sgtrfs_work             
+
+LAPACKE_sgtsv	size = 0
+	LAPACKE_sgtsv                   
+
+LAPACKE_sgtsv_work	size = 0
+	LAPACKE_sgtsv_work              
+
+LAPACKE_sgtsvx	size = 0
+	LAPACKE_sgtsvx                  
+
+LAPACKE_sgtsvx_work	size = 0
+	LAPACKE_sgtsvx_work             
+
+LAPACKE_sgttrf	size = 0
+	LAPACKE_sgttrf                  
+
+LAPACKE_sgttrf_work	size = 0
+	LAPACKE_sgttrf_work             
+
+LAPACKE_sgttrs	size = 0
+	LAPACKE_sgttrs                  
+
+LAPACKE_sgttrs_work	size = 0
+	LAPACKE_sgttrs_work             
+
+LAPACKE_shgeqz	size = 0
+	LAPACKE_shgeqz                  
+
+LAPACKE_shgeqz_work	size = 0
+	LAPACKE_shgeqz_work             
+
+LAPACKE_shs_nancheck	size = 0
+	LAPACKE_shs_nancheck            
+
+LAPACKE_shs_trans	size = 0
+	LAPACKE_shs_trans               
+
+LAPACKE_shsein	size = 0
+	LAPACKE_shsein                  
+
+LAPACKE_shsein_work	size = 0
+	LAPACKE_shsein_work             
+
+LAPACKE_shseqr	size = 0
+	LAPACKE_shseqr                  
+
+LAPACKE_shseqr_work	size = 0
+	LAPACKE_shseqr_work             
+
+LAPACKE_slacn2	size = 0
+	LAPACKE_slacn2                  
+
+LAPACKE_slacn2_work	size = 0
+	LAPACKE_slacn2_work             
+
+LAPACKE_slacpy	size = 0
+	LAPACKE_slacpy                  
+
+LAPACKE_slacpy_work	size = 0
+	LAPACKE_slacpy_work             
+
+LAPACKE_slag2d	size = 0
+	LAPACKE_slag2d                  
+
+LAPACKE_slag2d_work	size = 0
+	LAPACKE_slag2d_work             
+
+LAPACKE_slamch	size = 0
+	LAPACKE_slamch                  
+
+LAPACKE_slamch_work	size = 0
+	LAPACKE_slamch_work             
+
+LAPACKE_slange	size = 0
+	LAPACKE_slange                  
+
+LAPACKE_slange_work	size = 0
+	LAPACKE_slange_work             
+
+LAPACKE_slansy	size = 0
+	LAPACKE_slansy                  
+
+LAPACKE_slansy_work	size = 0
+	LAPACKE_slansy_work             
+
+LAPACKE_slantr	size = 0
+	LAPACKE_slantr                  
+
+LAPACKE_slantr_work	size = 0
+	LAPACKE_slantr_work             
+
+LAPACKE_slapmr	size = 0
+	LAPACKE_slapmr                  
+
+LAPACKE_slapmr_work	size = 0
+	LAPACKE_slapmr_work             
+
+LAPACKE_slapmt	size = 0
+	LAPACKE_slapmt                  
+
+LAPACKE_slapmt_work	size = 0
+	LAPACKE_slapmt_work             
+
+LAPACKE_slapy2	size = 0
+	LAPACKE_slapy2                  
+
+LAPACKE_slapy2_work	size = 0
+	LAPACKE_slapy2_work             
+
+LAPACKE_slapy3	size = 0
+	LAPACKE_slapy3                  
+
+LAPACKE_slapy3_work	size = 0
+	LAPACKE_slapy3_work             
+
+LAPACKE_slarfb	size = 0
+	LAPACKE_slarfb                  
+
+LAPACKE_slarfb_work	size = 0
+	LAPACKE_slarfb_work             
+
+LAPACKE_slarfg	size = 0
+	LAPACKE_slarfg                  
+
+LAPACKE_slarfg_work	size = 0
+	LAPACKE_slarfg_work             
+
+LAPACKE_slarft	size = 0
+	LAPACKE_slarft                  
+
+LAPACKE_slarft_work	size = 0
+	LAPACKE_slarft_work             
+
+LAPACKE_slarfx	size = 0
+	LAPACKE_slarfx                  
+
+LAPACKE_slarfx_work	size = 0
+	LAPACKE_slarfx_work             
+
+LAPACKE_slarnv	size = 0
+	LAPACKE_slarnv                  
+
+LAPACKE_slarnv_work	size = 0
+	LAPACKE_slarnv_work             
+
+LAPACKE_slartgp	size = 0
+	LAPACKE_slartgp                 
+
+LAPACKE_slartgp_work	size = 0
+	LAPACKE_slartgp_work            
+
+LAPACKE_slartgs	size = 0
+	LAPACKE_slartgs                 
+
+LAPACKE_slartgs_work	size = 0
+	LAPACKE_slartgs_work            
+
+LAPACKE_slascl	size = 0
+	LAPACKE_slascl                  
+
+LAPACKE_slascl_work	size = 0
+	LAPACKE_slascl_work             
+
+LAPACKE_slaset	size = 0
+	LAPACKE_slaset                  
+
+LAPACKE_slaset_work	size = 0
+	LAPACKE_slaset_work             
+
+LAPACKE_slasrt	size = 0
+	LAPACKE_slasrt                  
+
+LAPACKE_slasrt_work	size = 0
+	LAPACKE_slasrt_work             
+
+LAPACKE_slassq	size = 0
+	LAPACKE_slassq                  
+
+LAPACKE_slassq_work	size = 0
+	LAPACKE_slassq_work             
+
+LAPACKE_slaswp	size = 0
+	LAPACKE_slaswp                  
+
+LAPACKE_slaswp_work	size = 0
+	LAPACKE_slaswp_work             
+
+LAPACKE_slauum	size = 0
+	LAPACKE_slauum                  
+
+LAPACKE_slauum_work	size = 0
+	LAPACKE_slauum_work             
+
+LAPACKE_sopgtr	size = 0
+	LAPACKE_sopgtr                  
+
+LAPACKE_sopgtr_work	size = 0
+	LAPACKE_sopgtr_work             
+
+LAPACKE_sopmtr	size = 0
+	LAPACKE_sopmtr                  
+
+LAPACKE_sopmtr_work	size = 0
+	LAPACKE_sopmtr_work             
+
+LAPACKE_sorbdb	size = 0
+	LAPACKE_sorbdb                  
+
+LAPACKE_sorbdb_work	size = 0
+	LAPACKE_sorbdb_work             
+
+LAPACKE_sorcsd	size = 0
+	LAPACKE_sorcsd                  
+
+LAPACKE_sorcsd2by1	size = 0
+	LAPACKE_sorcsd2by1              
+
+LAPACKE_sorcsd2by1_work	size = 0
+	LAPACKE_sorcsd2by1_work         
+
+LAPACKE_sorcsd_work	size = 0
+	LAPACKE_sorcsd_work             
+
+LAPACKE_sorgbr	size = 0
+	LAPACKE_sorgbr                  
+
+LAPACKE_sorgbr_work	size = 0
+	LAPACKE_sorgbr_work             
+
+LAPACKE_sorghr	size = 0
+	LAPACKE_sorghr                  
+
+LAPACKE_sorghr_work	size = 0
+	LAPACKE_sorghr_work             
+
+LAPACKE_sorglq	size = 0
+	LAPACKE_sorglq                  
+
+LAPACKE_sorglq_work	size = 0
+	LAPACKE_sorglq_work             
+
+LAPACKE_sorgql	size = 0
+	LAPACKE_sorgql                  
+
+LAPACKE_sorgql_work	size = 0
+	LAPACKE_sorgql_work             
+
+LAPACKE_sorgqr	size = 0
+	LAPACKE_sorgqr                  
+
+LAPACKE_sorgqr_work	size = 0
+	LAPACKE_sorgqr_work             
+
+LAPACKE_sorgrq	size = 0
+	LAPACKE_sorgrq                  
+
+LAPACKE_sorgrq_work	size = 0
+	LAPACKE_sorgrq_work             
+
+LAPACKE_sorgtr	size = 0
+	LAPACKE_sorgtr                  
+
+LAPACKE_sorgtr_work	size = 0
+	LAPACKE_sorgtr_work             
+
+LAPACKE_sormbr	size = 0
+	LAPACKE_sormbr                  
+
+LAPACKE_sormbr_work	size = 0
+	LAPACKE_sormbr_work             
+
+LAPACKE_sormhr	size = 0
+	LAPACKE_sormhr                  
+
+LAPACKE_sormhr_work	size = 0
+	LAPACKE_sormhr_work             
+
+LAPACKE_sormlq	size = 0
+	LAPACKE_sormlq                  
+
+LAPACKE_sormlq_work	size = 0
+	LAPACKE_sormlq_work             
+
+LAPACKE_sormql	size = 0
+	LAPACKE_sormql                  
+
+LAPACKE_sormql_work	size = 0
+	LAPACKE_sormql_work             
+
+LAPACKE_sormqr	size = 0
+	LAPACKE_sormqr                  
+
+LAPACKE_sormqr_work	size = 0
+	LAPACKE_sormqr_work             
+
+LAPACKE_sormrq	size = 0
+	LAPACKE_sormrq                  
+
+LAPACKE_sormrq_work	size = 0
+	LAPACKE_sormrq_work             
+
+LAPACKE_sormrz	size = 0
+	LAPACKE_sormrz                  
+
+LAPACKE_sormrz_work	size = 0
+	LAPACKE_sormrz_work             
+
+LAPACKE_sormtr	size = 0
+	LAPACKE_sormtr                  
+
+LAPACKE_sormtr_work	size = 0
+	LAPACKE_sormtr_work             
+
+LAPACKE_spb_nancheck	size = 0
+	LAPACKE_spb_nancheck            
+
+LAPACKE_spb_trans	size = 0
+	LAPACKE_spb_trans               
+
+LAPACKE_spbcon	size = 0
+	LAPACKE_spbcon                  
+
+LAPACKE_spbcon_work	size = 0
+	LAPACKE_spbcon_work             
+
+LAPACKE_spbequ	size = 0
+	LAPACKE_spbequ                  
+
+LAPACKE_spbequ_work	size = 0
+	LAPACKE_spbequ_work             
+
+LAPACKE_spbrfs	size = 0
+	LAPACKE_spbrfs                  
+
+LAPACKE_spbrfs_work	size = 0
+	LAPACKE_spbrfs_work             
+
+LAPACKE_spbstf	size = 0
+	LAPACKE_spbstf                  
+
+LAPACKE_spbstf_work	size = 0
+	LAPACKE_spbstf_work             
+
+LAPACKE_spbsv	size = 0
+	LAPACKE_spbsv                   
+
+LAPACKE_spbsv_work	size = 0
+	LAPACKE_spbsv_work              
+
+LAPACKE_spbsvx	size = 0
+	LAPACKE_spbsvx                  
+
+LAPACKE_spbsvx_work	size = 0
+	LAPACKE_spbsvx_work             
+
+LAPACKE_spbtrf	size = 0
+	LAPACKE_spbtrf                  
+
+LAPACKE_spbtrf_work	size = 0
+	LAPACKE_spbtrf_work             
+
+LAPACKE_spbtrs	size = 0
+	LAPACKE_spbtrs                  
+
+LAPACKE_spbtrs_work	size = 0
+	LAPACKE_spbtrs_work             
+
+LAPACKE_spf_nancheck	size = 0
+	LAPACKE_spf_nancheck            
+
+LAPACKE_spf_trans	size = 0
+	LAPACKE_spf_trans               
+
+LAPACKE_spftrf	size = 0
+	LAPACKE_spftrf                  
+
+LAPACKE_spftrf_work	size = 0
+	LAPACKE_spftrf_work             
+
+LAPACKE_spftri	size = 0
+	LAPACKE_spftri                  
+
+LAPACKE_spftri_work	size = 0
+	LAPACKE_spftri_work             
+
+LAPACKE_spftrs	size = 0
+	LAPACKE_spftrs                  
+
+LAPACKE_spftrs_work	size = 0
+	LAPACKE_spftrs_work             
+
+LAPACKE_spo_nancheck	size = 0
+	LAPACKE_spo_nancheck            
+
+LAPACKE_spo_trans	size = 0
+	LAPACKE_spo_trans               
+
+LAPACKE_spocon	size = 0
+	LAPACKE_spocon                  
+
+LAPACKE_spocon_work	size = 0
+	LAPACKE_spocon_work             
+
+LAPACKE_spoequ	size = 0
+	LAPACKE_spoequ                  
+
+LAPACKE_spoequ_work	size = 0
+	LAPACKE_spoequ_work             
+
+LAPACKE_spoequb	size = 0
+	LAPACKE_spoequb                 
+
+LAPACKE_spoequb_work	size = 0
+	LAPACKE_spoequb_work            
+
+LAPACKE_sporfs	size = 0
+	LAPACKE_sporfs                  
+
+LAPACKE_sporfs_work	size = 0
+	LAPACKE_sporfs_work             
+
+LAPACKE_sposv	size = 0
+	LAPACKE_sposv                   
+
+LAPACKE_sposv_work	size = 0
+	LAPACKE_sposv_work              
+
+LAPACKE_sposvx	size = 0
+	LAPACKE_sposvx                  
+
+LAPACKE_sposvx_work	size = 0
+	LAPACKE_sposvx_work             
+
+LAPACKE_spotrf	size = 0
+	LAPACKE_spotrf                  
+
+LAPACKE_spotrf2	size = 0
+	LAPACKE_spotrf2                 
+
+LAPACKE_spotrf2_work	size = 0
+	LAPACKE_spotrf2_work            
+
+LAPACKE_spotrf_work	size = 0
+	LAPACKE_spotrf_work             
+
+LAPACKE_spotri	size = 0
+	LAPACKE_spotri                  
+
+LAPACKE_spotri_work	size = 0
+	LAPACKE_spotri_work             
+
+LAPACKE_spotrs	size = 0
+	LAPACKE_spotrs                  
+
+LAPACKE_spotrs_work	size = 0
+	LAPACKE_spotrs_work             
+
+LAPACKE_spp_nancheck	size = 0
+	LAPACKE_spp_nancheck            
+
+LAPACKE_spp_trans	size = 0
+	LAPACKE_spp_trans               
+
+LAPACKE_sppcon	size = 0
+	LAPACKE_sppcon                  
+
+LAPACKE_sppcon_work	size = 0
+	LAPACKE_sppcon_work             
+
+LAPACKE_sppequ	size = 0
+	LAPACKE_sppequ                  
+
+LAPACKE_sppequ_work	size = 0
+	LAPACKE_sppequ_work             
+
+LAPACKE_spprfs	size = 0
+	LAPACKE_spprfs                  
+
+LAPACKE_spprfs_work	size = 0
+	LAPACKE_spprfs_work             
+
+LAPACKE_sppsv	size = 0
+	LAPACKE_sppsv                   
+
+LAPACKE_sppsv_work	size = 0
+	LAPACKE_sppsv_work              
+
+LAPACKE_sppsvx	size = 0
+	LAPACKE_sppsvx                  
+
+LAPACKE_sppsvx_work	size = 0
+	LAPACKE_sppsvx_work             
+
+LAPACKE_spptrf	size = 0
+	LAPACKE_spptrf                  
+
+LAPACKE_spptrf_work	size = 0
+	LAPACKE_spptrf_work             
+
+LAPACKE_spptri	size = 0
+	LAPACKE_spptri                  
+
+LAPACKE_spptri_work	size = 0
+	LAPACKE_spptri_work             
+
+LAPACKE_spptrs	size = 0
+	LAPACKE_spptrs                  
+
+LAPACKE_spptrs_work	size = 0
+	LAPACKE_spptrs_work             
+
+LAPACKE_spstrf	size = 0
+	LAPACKE_spstrf                  
+
+LAPACKE_spstrf_work	size = 0
+	LAPACKE_spstrf_work             
+
+LAPACKE_spt_nancheck	size = 0
+	LAPACKE_spt_nancheck            
+
+LAPACKE_sptcon	size = 0
+	LAPACKE_sptcon                  
+
+LAPACKE_sptcon_work	size = 0
+	LAPACKE_sptcon_work             
+
+LAPACKE_spteqr	size = 0
+	LAPACKE_spteqr                  
+
+LAPACKE_spteqr_work	size = 0
+	LAPACKE_spteqr_work             
+
+LAPACKE_sptrfs	size = 0
+	LAPACKE_sptrfs                  
+
+LAPACKE_sptrfs_work	size = 0
+	LAPACKE_sptrfs_work             
+
+LAPACKE_sptsv	size = 0
+	LAPACKE_sptsv                   
+
+LAPACKE_sptsv_work	size = 0
+	LAPACKE_sptsv_work              
+
+LAPACKE_sptsvx	size = 0
+	LAPACKE_sptsvx                  
+
+LAPACKE_sptsvx_work	size = 0
+	LAPACKE_sptsvx_work             
+
+LAPACKE_spttrf	size = 0
+	LAPACKE_spttrf                  
+
+LAPACKE_spttrf_work	size = 0
+	LAPACKE_spttrf_work             
+
+LAPACKE_spttrs	size = 0
+	LAPACKE_spttrs                  
+
+LAPACKE_spttrs_work	size = 0
+	LAPACKE_spttrs_work             
+
+LAPACKE_ssb_nancheck	size = 0
+	LAPACKE_ssb_nancheck            
+
+LAPACKE_ssb_trans	size = 0
+	LAPACKE_ssb_trans               
+
+LAPACKE_ssbev	size = 0
+	LAPACKE_ssbev                   
+
+LAPACKE_ssbev_2stage	size = 0
+	LAPACKE_ssbev_2stage            
+
+LAPACKE_ssbev_2stage_work	size = 0
+	LAPACKE_ssbev_2stage_work       
+
+LAPACKE_ssbev_work	size = 0
+	LAPACKE_ssbev_work              
+
+LAPACKE_ssbevd	size = 0
+	LAPACKE_ssbevd                  
+
+LAPACKE_ssbevd_2stage	size = 0
+	LAPACKE_ssbevd_2stage           
+
+LAPACKE_ssbevd_2stage_work	size = 0
+	LAPACKE_ssbevd_2stage_work      
+
+LAPACKE_ssbevd_work	size = 0
+	LAPACKE_ssbevd_work             
+
+LAPACKE_ssbevx	size = 0
+	LAPACKE_ssbevx                  
+
+LAPACKE_ssbevx_2stage	size = 0
+	LAPACKE_ssbevx_2stage           
+
+LAPACKE_ssbevx_2stage_work	size = 0
+	LAPACKE_ssbevx_2stage_work      
+
+LAPACKE_ssbevx_work	size = 0
+	LAPACKE_ssbevx_work             
+
+LAPACKE_ssbgst	size = 0
+	LAPACKE_ssbgst                  
+
+LAPACKE_ssbgst_work	size = 0
+	LAPACKE_ssbgst_work             
+
+LAPACKE_ssbgv	size = 0
+	LAPACKE_ssbgv                   
+
+LAPACKE_ssbgv_work	size = 0
+	LAPACKE_ssbgv_work              
+
+LAPACKE_ssbgvd	size = 0
+	LAPACKE_ssbgvd                  
+
+LAPACKE_ssbgvd_work	size = 0
+	LAPACKE_ssbgvd_work             
+
+LAPACKE_ssbgvx	size = 0
+	LAPACKE_ssbgvx                  
+
+LAPACKE_ssbgvx_work	size = 0
+	LAPACKE_ssbgvx_work             
+
+LAPACKE_ssbtrd	size = 0
+	LAPACKE_ssbtrd                  
+
+LAPACKE_ssbtrd_work	size = 0
+	LAPACKE_ssbtrd_work             
+
+LAPACKE_ssfrk	size = 0
+	LAPACKE_ssfrk                   
+
+LAPACKE_ssfrk_work	size = 0
+	LAPACKE_ssfrk_work              
+
+LAPACKE_ssp_nancheck	size = 0
+	LAPACKE_ssp_nancheck            
+
+LAPACKE_ssp_trans	size = 0
+	LAPACKE_ssp_trans               
+
+LAPACKE_sspcon	size = 0
+	LAPACKE_sspcon                  
+
+LAPACKE_sspcon_work	size = 0
+	LAPACKE_sspcon_work             
+
+LAPACKE_sspev	size = 0
+	LAPACKE_sspev                   
+
+LAPACKE_sspev_work	size = 0
+	LAPACKE_sspev_work              
+
+LAPACKE_sspevd	size = 0
+	LAPACKE_sspevd                  
+
+LAPACKE_sspevd_work	size = 0
+	LAPACKE_sspevd_work             
+
+LAPACKE_sspevx	size = 0
+	LAPACKE_sspevx                  
+
+LAPACKE_sspevx_work	size = 0
+	LAPACKE_sspevx_work             
+
+LAPACKE_sspgst	size = 0
+	LAPACKE_sspgst                  
+
+LAPACKE_sspgst_work	size = 0
+	LAPACKE_sspgst_work             
+
+LAPACKE_sspgv	size = 0
+	LAPACKE_sspgv                   
+
+LAPACKE_sspgv_work	size = 0
+	LAPACKE_sspgv_work              
+
+LAPACKE_sspgvd	size = 0
+	LAPACKE_sspgvd                  
+
+LAPACKE_sspgvd_work	size = 0
+	LAPACKE_sspgvd_work             
+
+LAPACKE_sspgvx	size = 0
+	LAPACKE_sspgvx                  
+
+LAPACKE_sspgvx_work	size = 0
+	LAPACKE_sspgvx_work             
+
+LAPACKE_ssprfs	size = 0
+	LAPACKE_ssprfs                  
+
+LAPACKE_ssprfs_work	size = 0
+	LAPACKE_ssprfs_work             
+
+LAPACKE_sspsv	size = 0
+	LAPACKE_sspsv                   
+
+LAPACKE_sspsv_work	size = 0
+	LAPACKE_sspsv_work              
+
+LAPACKE_sspsvx	size = 0
+	LAPACKE_sspsvx                  
+
+LAPACKE_sspsvx_work	size = 0
+	LAPACKE_sspsvx_work             
+
+LAPACKE_ssptrd	size = 0
+	LAPACKE_ssptrd                  
+
+LAPACKE_ssptrd_work	size = 0
+	LAPACKE_ssptrd_work             
+
+LAPACKE_ssptrf	size = 0
+	LAPACKE_ssptrf                  
+
+LAPACKE_ssptrf_work	size = 0
+	LAPACKE_ssptrf_work             
+
+LAPACKE_ssptri	size = 0
+	LAPACKE_ssptri                  
+
+LAPACKE_ssptri_work	size = 0
+	LAPACKE_ssptri_work             
+
+LAPACKE_ssptrs	size = 0
+	LAPACKE_ssptrs                  
+
+LAPACKE_ssptrs_work	size = 0
+	LAPACKE_ssptrs_work             
+
+LAPACKE_sst_nancheck	size = 0
+	LAPACKE_sst_nancheck            
+
+LAPACKE_sstebz	size = 0
+	LAPACKE_sstebz                  
+
+LAPACKE_sstebz_work	size = 0
+	LAPACKE_sstebz_work             
+
+LAPACKE_sstedc	size = 0
+	LAPACKE_sstedc                  
+
+LAPACKE_sstedc_work	size = 0
+	LAPACKE_sstedc_work             
+
+LAPACKE_sstegr	size = 0
+	LAPACKE_sstegr                  
+
+LAPACKE_sstegr_work	size = 0
+	LAPACKE_sstegr_work             
+
+LAPACKE_sstein	size = 0
+	LAPACKE_sstein                  
+
+LAPACKE_sstein_work	size = 0
+	LAPACKE_sstein_work             
+
+LAPACKE_sstemr	size = 0
+	LAPACKE_sstemr                  
+
+LAPACKE_sstemr_work	size = 0
+	LAPACKE_sstemr_work             
+
+LAPACKE_ssteqr	size = 0
+	LAPACKE_ssteqr                  
+
+LAPACKE_ssteqr_work	size = 0
+	LAPACKE_ssteqr_work             
+
+LAPACKE_ssterf	size = 0
+	LAPACKE_ssterf                  
+
+LAPACKE_ssterf_work	size = 0
+	LAPACKE_ssterf_work             
+
+LAPACKE_sstev	size = 0
+	LAPACKE_sstev                   
+
+LAPACKE_sstev_work	size = 0
+	LAPACKE_sstev_work              
+
+LAPACKE_sstevd	size = 0
+	LAPACKE_sstevd                  
+
+LAPACKE_sstevd_work	size = 0
+	LAPACKE_sstevd_work             
+
+LAPACKE_sstevr	size = 0
+	LAPACKE_sstevr                  
+
+LAPACKE_sstevr_work	size = 0
+	LAPACKE_sstevr_work             
+
+LAPACKE_sstevx	size = 0
+	LAPACKE_sstevx                  
+
+LAPACKE_sstevx_work	size = 0
+	LAPACKE_sstevx_work             
+
+LAPACKE_ssy_nancheck	size = 0
+	LAPACKE_ssy_nancheck            
+
+LAPACKE_ssy_trans	size = 0
+	LAPACKE_ssy_trans               
+
+LAPACKE_ssycon	size = 0
+	LAPACKE_ssycon                  
+
+LAPACKE_ssycon_3	size = 0
+	LAPACKE_ssycon_3                
+
+LAPACKE_ssycon_3_work	size = 0
+	LAPACKE_ssycon_3_work           
+
+LAPACKE_ssycon_work	size = 0
+	LAPACKE_ssycon_work             
+
+LAPACKE_ssyconv	size = 0
+	LAPACKE_ssyconv                 
+
+LAPACKE_ssyconv_work	size = 0
+	LAPACKE_ssyconv_work            
+
+LAPACKE_ssyequb	size = 0
+	LAPACKE_ssyequb                 
+
+LAPACKE_ssyequb_work	size = 0
+	LAPACKE_ssyequb_work            
+
+LAPACKE_ssyev	size = 0
+	LAPACKE_ssyev                   
+
+LAPACKE_ssyev_2stage	size = 0
+	LAPACKE_ssyev_2stage            
+
+LAPACKE_ssyev_2stage_work	size = 0
+	LAPACKE_ssyev_2stage_work       
+
+LAPACKE_ssyev_work	size = 0
+	LAPACKE_ssyev_work              
+
+LAPACKE_ssyevd	size = 0
+	LAPACKE_ssyevd                  
+
+LAPACKE_ssyevd_2stage	size = 0
+	LAPACKE_ssyevd_2stage           
+
+LAPACKE_ssyevd_2stage_work	size = 0
+	LAPACKE_ssyevd_2stage_work      
+
+LAPACKE_ssyevd_work	size = 0
+	LAPACKE_ssyevd_work             
+
+LAPACKE_ssyevr	size = 0
+	LAPACKE_ssyevr                  
+
+LAPACKE_ssyevr_2stage	size = 0
+	LAPACKE_ssyevr_2stage           
+
+LAPACKE_ssyevr_2stage_work	size = 0
+	LAPACKE_ssyevr_2stage_work      
+
+LAPACKE_ssyevr_work	size = 0
+	LAPACKE_ssyevr_work             
+
+LAPACKE_ssyevx	size = 0
+	LAPACKE_ssyevx                  
+
+LAPACKE_ssyevx_2stage	size = 0
+	LAPACKE_ssyevx_2stage           
+
+LAPACKE_ssyevx_2stage_work	size = 0
+	LAPACKE_ssyevx_2stage_work      
+
+LAPACKE_ssyevx_work	size = 0
+	LAPACKE_ssyevx_work             
+
+LAPACKE_ssygst	size = 0
+	LAPACKE_ssygst                  
+
+LAPACKE_ssygst_work	size = 0
+	LAPACKE_ssygst_work             
+
+LAPACKE_ssygv	size = 0
+	LAPACKE_ssygv                   
+
+LAPACKE_ssygv_2stage	size = 0
+	LAPACKE_ssygv_2stage            
+
+LAPACKE_ssygv_2stage_work	size = 0
+	LAPACKE_ssygv_2stage_work       
+
+LAPACKE_ssygv_work	size = 0
+	LAPACKE_ssygv_work              
+
+LAPACKE_ssygvd	size = 0
+	LAPACKE_ssygvd                  
+
+LAPACKE_ssygvd_work	size = 0
+	LAPACKE_ssygvd_work             
+
+LAPACKE_ssygvx	size = 0
+	LAPACKE_ssygvx                  
+
+LAPACKE_ssygvx_work	size = 0
+	LAPACKE_ssygvx_work             
+
+LAPACKE_ssyrfs	size = 0
+	LAPACKE_ssyrfs                  
+
+LAPACKE_ssyrfs_work	size = 0
+	LAPACKE_ssyrfs_work             
+
+LAPACKE_ssysv	size = 0
+	LAPACKE_ssysv                   
+
+LAPACKE_ssysv_aa	size = 0
+	LAPACKE_ssysv_aa                
+
+LAPACKE_ssysv_aa_2stage	size = 0
+	LAPACKE_ssysv_aa_2stage         
+
+LAPACKE_ssysv_aa_2stage_work	size = 0
+	LAPACKE_ssysv_aa_2stage_work    
+
+LAPACKE_ssysv_aa_work	size = 0
+	LAPACKE_ssysv_aa_work           
+
+LAPACKE_ssysv_rk	size = 0
+	LAPACKE_ssysv_rk                
+
+LAPACKE_ssysv_rk_work	size = 0
+	LAPACKE_ssysv_rk_work           
+
+LAPACKE_ssysv_rook	size = 0
+	LAPACKE_ssysv_rook              
+
+LAPACKE_ssysv_rook_work	size = 0
+	LAPACKE_ssysv_rook_work         
+
+LAPACKE_ssysv_work	size = 0
+	LAPACKE_ssysv_work              
+
+LAPACKE_ssysvx	size = 0
+	LAPACKE_ssysvx                  
+
+LAPACKE_ssysvx_work	size = 0
+	LAPACKE_ssysvx_work             
+
+LAPACKE_ssyswapr	size = 0
+	LAPACKE_ssyswapr                
+
+LAPACKE_ssyswapr_work	size = 0
+	LAPACKE_ssyswapr_work           
+
+LAPACKE_ssytrd	size = 0
+	LAPACKE_ssytrd                  
+
+LAPACKE_ssytrd_work	size = 0
+	LAPACKE_ssytrd_work             
+
+LAPACKE_ssytrf	size = 0
+	LAPACKE_ssytrf                  
+
+LAPACKE_ssytrf_aa	size = 0
+	LAPACKE_ssytrf_aa               
+
+LAPACKE_ssytrf_aa_2stage	size = 0
+	LAPACKE_ssytrf_aa_2stage        
+
+LAPACKE_ssytrf_aa_2stage_work	size = 0
+	LAPACKE_ssytrf_aa_2stage_work   
+
+LAPACKE_ssytrf_aa_work	size = 0
+	LAPACKE_ssytrf_aa_work          
+
+LAPACKE_ssytrf_rk	size = 0
+	LAPACKE_ssytrf_rk               
+
+LAPACKE_ssytrf_rk_work	size = 0
+	LAPACKE_ssytrf_rk_work          
+
+LAPACKE_ssytrf_rook	size = 0
+	LAPACKE_ssytrf_rook             
+
+LAPACKE_ssytrf_rook_work	size = 0
+	LAPACKE_ssytrf_rook_work        
+
+LAPACKE_ssytrf_work	size = 0
+	LAPACKE_ssytrf_work             
+
+LAPACKE_ssytri	size = 0
+	LAPACKE_ssytri                  
+
+LAPACKE_ssytri2	size = 0
+	LAPACKE_ssytri2                 
+
+LAPACKE_ssytri2_work	size = 0
+	LAPACKE_ssytri2_work            
+
+LAPACKE_ssytri2x	size = 0
+	LAPACKE_ssytri2x                
+
+LAPACKE_ssytri2x_work	size = 0
+	LAPACKE_ssytri2x_work           
+
+LAPACKE_ssytri_3	size = 0
+	LAPACKE_ssytri_3                
+
+LAPACKE_ssytri_3_work	size = 0
+	LAPACKE_ssytri_3_work           
+
+LAPACKE_ssytri_work	size = 0
+	LAPACKE_ssytri_work             
+
+LAPACKE_ssytrs	size = 0
+	LAPACKE_ssytrs                  
+
+LAPACKE_ssytrs2	size = 0
+	LAPACKE_ssytrs2                 
+
+LAPACKE_ssytrs2_work	size = 0
+	LAPACKE_ssytrs2_work            
+
+LAPACKE_ssytrs_3	size = 0
+	LAPACKE_ssytrs_3                
+
+LAPACKE_ssytrs_3_work	size = 0
+	LAPACKE_ssytrs_3_work           
+
+LAPACKE_ssytrs_aa	size = 0
+	LAPACKE_ssytrs_aa               
+
+LAPACKE_ssytrs_aa_2stage	size = 0
+	LAPACKE_ssytrs_aa_2stage        
+
+LAPACKE_ssytrs_aa_2stage_work	size = 0
+	LAPACKE_ssytrs_aa_2stage_work   
+
+LAPACKE_ssytrs_aa_work	size = 0
+	LAPACKE_ssytrs_aa_work          
+
+LAPACKE_ssytrs_rook	size = 0
+	LAPACKE_ssytrs_rook             
+
+LAPACKE_ssytrs_rook_work	size = 0
+	LAPACKE_ssytrs_rook_work        
+
+LAPACKE_ssytrs_work	size = 0
+	LAPACKE_ssytrs_work             
+
+LAPACKE_stb_nancheck	size = 0
+	LAPACKE_stb_nancheck            
+
+LAPACKE_stb_trans	size = 0
+	LAPACKE_stb_trans               
+
+LAPACKE_stbcon	size = 0
+	LAPACKE_stbcon                  
+
+LAPACKE_stbcon_work	size = 0
+	LAPACKE_stbcon_work             
+
+LAPACKE_stbrfs	size = 0
+	LAPACKE_stbrfs                  
+
+LAPACKE_stbrfs_work	size = 0
+	LAPACKE_stbrfs_work             
+
+LAPACKE_stbtrs	size = 0
+	LAPACKE_stbtrs                  
+
+LAPACKE_stbtrs_work	size = 0
+	LAPACKE_stbtrs_work             
+
+LAPACKE_stf_nancheck	size = 0
+	LAPACKE_stf_nancheck            
+
+LAPACKE_stf_trans	size = 0
+	LAPACKE_stf_trans               
+
+LAPACKE_stfsm	size = 0
+	LAPACKE_stfsm                   
+
+LAPACKE_stfsm_work	size = 0
+	LAPACKE_stfsm_work              
+
+LAPACKE_stftri	size = 0
+	LAPACKE_stftri                  
+
+LAPACKE_stftri_work	size = 0
+	LAPACKE_stftri_work             
+
+LAPACKE_stfttp	size = 0
+	LAPACKE_stfttp                  
+
+LAPACKE_stfttp_work	size = 0
+	LAPACKE_stfttp_work             
+
+LAPACKE_stfttr	size = 0
+	LAPACKE_stfttr                  
+
+LAPACKE_stfttr_work	size = 0
+	LAPACKE_stfttr_work             
+
+LAPACKE_stgevc	size = 0
+	LAPACKE_stgevc                  
+
+LAPACKE_stgevc_work	size = 0
+	LAPACKE_stgevc_work             
+
+LAPACKE_stgexc	size = 0
+	LAPACKE_stgexc                  
+
+LAPACKE_stgexc_work	size = 0
+	LAPACKE_stgexc_work             
+
+LAPACKE_stgsen	size = 0
+	LAPACKE_stgsen                  
+
+LAPACKE_stgsen_work	size = 0
+	LAPACKE_stgsen_work             
+
+LAPACKE_stgsja	size = 0
+	LAPACKE_stgsja                  
+
+LAPACKE_stgsja_work	size = 0
+	LAPACKE_stgsja_work             
+
+LAPACKE_stgsna	size = 0
+	LAPACKE_stgsna                  
+
+LAPACKE_stgsna_work	size = 0
+	LAPACKE_stgsna_work             
+
+LAPACKE_stgsyl	size = 0
+	LAPACKE_stgsyl                  
+
+LAPACKE_stgsyl_work	size = 0
+	LAPACKE_stgsyl_work             
+
+LAPACKE_stp_nancheck	size = 0
+	LAPACKE_stp_nancheck            
+
+LAPACKE_stp_trans	size = 0
+	LAPACKE_stp_trans               
+
+LAPACKE_stpcon	size = 0
+	LAPACKE_stpcon                  
+
+LAPACKE_stpcon_work	size = 0
+	LAPACKE_stpcon_work             
+
+LAPACKE_stpmqrt	size = 0
+	LAPACKE_stpmqrt                 
+
+LAPACKE_stpmqrt_work	size = 0
+	LAPACKE_stpmqrt_work            
+
+LAPACKE_stpqrt	size = 0
+	LAPACKE_stpqrt                  
+
+LAPACKE_stpqrt2	size = 0
+	LAPACKE_stpqrt2                 
+
+LAPACKE_stpqrt2_work	size = 0
+	LAPACKE_stpqrt2_work            
+
+LAPACKE_stpqrt_work	size = 0
+	LAPACKE_stpqrt_work             
+
+LAPACKE_stprfb	size = 0
+	LAPACKE_stprfb                  
+
+LAPACKE_stprfb_work	size = 0
+	LAPACKE_stprfb_work             
+
+LAPACKE_stprfs	size = 0
+	LAPACKE_stprfs                  
+
+LAPACKE_stprfs_work	size = 0
+	LAPACKE_stprfs_work             
+
+LAPACKE_stptri	size = 0
+	LAPACKE_stptri                  
+
+LAPACKE_stptri_work	size = 0
+	LAPACKE_stptri_work             
+
+LAPACKE_stptrs	size = 0
+	LAPACKE_stptrs                  
+
+LAPACKE_stptrs_work	size = 0
+	LAPACKE_stptrs_work             
+
+LAPACKE_stpttf	size = 0
+	LAPACKE_stpttf                  
+
+LAPACKE_stpttf_work	size = 0
+	LAPACKE_stpttf_work             
+
+LAPACKE_stpttr	size = 0
+	LAPACKE_stpttr                  
+
+LAPACKE_stpttr_work	size = 0
+	LAPACKE_stpttr_work             
+
+LAPACKE_str_nancheck	size = 0
+	LAPACKE_str_nancheck            
+
+LAPACKE_str_trans	size = 0
+	LAPACKE_str_trans               
+
+LAPACKE_strcon	size = 0
+	LAPACKE_strcon                  
+
+LAPACKE_strcon_work	size = 0
+	LAPACKE_strcon_work             
+
+LAPACKE_strevc	size = 0
+	LAPACKE_strevc                  
+
+LAPACKE_strevc_work	size = 0
+	LAPACKE_strevc_work             
+
+LAPACKE_strexc	size = 0
+	LAPACKE_strexc                  
+
+LAPACKE_strexc_work	size = 0
+	LAPACKE_strexc_work             
+
+LAPACKE_strrfs	size = 0
+	LAPACKE_strrfs                  
+
+LAPACKE_strrfs_work	size = 0
+	LAPACKE_strrfs_work             
+
+LAPACKE_strsen	size = 0
+	LAPACKE_strsen                  
+
+LAPACKE_strsen_work	size = 0
+	LAPACKE_strsen_work             
+
+LAPACKE_strsna	size = 0
+	LAPACKE_strsna                  
+
+LAPACKE_strsna_work	size = 0
+	LAPACKE_strsna_work             
+
+LAPACKE_strsyl	size = 0
+	LAPACKE_strsyl                  
+
+LAPACKE_strsyl_work	size = 0
+	LAPACKE_strsyl_work             
+
+LAPACKE_strtri	size = 0
+	LAPACKE_strtri                  
+
+LAPACKE_strtri_work	size = 0
+	LAPACKE_strtri_work             
+
+LAPACKE_strtrs	size = 0
+	LAPACKE_strtrs                  
+
+LAPACKE_strtrs_work	size = 0
+	LAPACKE_strtrs_work             
+
+LAPACKE_strttf	size = 0
+	LAPACKE_strttf                  
+
+LAPACKE_strttf_work	size = 0
+	LAPACKE_strttf_work             
+
+LAPACKE_strttp	size = 0
+	LAPACKE_strttp                  
+
+LAPACKE_strttp_work	size = 0
+	LAPACKE_strttp_work             
+
+LAPACKE_stzrzf	size = 0
+	LAPACKE_stzrzf                  
+
+LAPACKE_stzrzf_work	size = 0
+	LAPACKE_stzrzf_work             
+
+LAPACKE_xerbla	size = 0
+	LAPACKE_xerbla                  
+
+LAPACKE_z_nancheck	size = 0
+	LAPACKE_z_nancheck              
+
+LAPACKE_zbbcsd	size = 0
+	LAPACKE_zbbcsd                  
+
+LAPACKE_zbbcsd_work	size = 0
+	LAPACKE_zbbcsd_work             
+
+LAPACKE_zbdsqr	size = 0
+	LAPACKE_zbdsqr                  
+
+LAPACKE_zbdsqr_work	size = 0
+	LAPACKE_zbdsqr_work             
+
+LAPACKE_zcgesv	size = 0
+	LAPACKE_zcgesv                  
+
+LAPACKE_zcgesv_work	size = 0
+	LAPACKE_zcgesv_work             
+
+LAPACKE_zcposv	size = 0
+	LAPACKE_zcposv                  
+
+LAPACKE_zcposv_work	size = 0
+	LAPACKE_zcposv_work             
+
+LAPACKE_zgb_nancheck	size = 0
+	LAPACKE_zgb_nancheck            
+
+LAPACKE_zgb_trans	size = 0
+	LAPACKE_zgb_trans               
+
+LAPACKE_zgbbrd	size = 0
+	LAPACKE_zgbbrd                  
+
+LAPACKE_zgbbrd_work	size = 0
+	LAPACKE_zgbbrd_work             
+
+LAPACKE_zgbcon	size = 0
+	LAPACKE_zgbcon                  
+
+LAPACKE_zgbcon_work	size = 0
+	LAPACKE_zgbcon_work             
+
+LAPACKE_zgbequ	size = 0
+	LAPACKE_zgbequ                  
+
+LAPACKE_zgbequ_work	size = 0
+	LAPACKE_zgbequ_work             
+
+LAPACKE_zgbequb	size = 0
+	LAPACKE_zgbequb                 
+
+LAPACKE_zgbequb_work	size = 0
+	LAPACKE_zgbequb_work            
+
+LAPACKE_zgbrfs	size = 0
+	LAPACKE_zgbrfs                  
+
+LAPACKE_zgbrfs_work	size = 0
+	LAPACKE_zgbrfs_work             
+
+LAPACKE_zgbsv	size = 0
+	LAPACKE_zgbsv                   
+
+LAPACKE_zgbsv_work	size = 0
+	LAPACKE_zgbsv_work              
+
+LAPACKE_zgbsvx	size = 0
+	LAPACKE_zgbsvx                  
+
+LAPACKE_zgbsvx_work	size = 0
+	LAPACKE_zgbsvx_work             
+
+LAPACKE_zgbtrf	size = 0
+	LAPACKE_zgbtrf                  
+
+LAPACKE_zgbtrf_work	size = 0
+	LAPACKE_zgbtrf_work             
+
+LAPACKE_zgbtrs	size = 0
+	LAPACKE_zgbtrs                  
+
+LAPACKE_zgbtrs_work	size = 0
+	LAPACKE_zgbtrs_work             
+
+LAPACKE_zge_nancheck	size = 0
+	LAPACKE_zge_nancheck            
+
+LAPACKE_zge_trans	size = 0
+	LAPACKE_zge_trans               
+
+LAPACKE_zgebak	size = 0
+	LAPACKE_zgebak                  
+
+LAPACKE_zgebak_work	size = 0
+	LAPACKE_zgebak_work             
+
+LAPACKE_zgebal	size = 0
+	LAPACKE_zgebal                  
+
+LAPACKE_zgebal_work	size = 0
+	LAPACKE_zgebal_work             
+
+LAPACKE_zgebrd	size = 0
+	LAPACKE_zgebrd                  
+
+LAPACKE_zgebrd_work	size = 0
+	LAPACKE_zgebrd_work             
+
+LAPACKE_zgecon	size = 0
+	LAPACKE_zgecon                  
+
+LAPACKE_zgecon_work	size = 0
+	LAPACKE_zgecon_work             
+
+LAPACKE_zgeequ	size = 0
+	LAPACKE_zgeequ                  
+
+LAPACKE_zgeequ_work	size = 0
+	LAPACKE_zgeequ_work             
+
+LAPACKE_zgeequb	size = 0
+	LAPACKE_zgeequb                 
+
+LAPACKE_zgeequb_work	size = 0
+	LAPACKE_zgeequb_work            
+
+LAPACKE_zgees	size = 0
+	LAPACKE_zgees                   
+
+LAPACKE_zgees_work	size = 0
+	LAPACKE_zgees_work              
+
+LAPACKE_zgeesx	size = 0
+	LAPACKE_zgeesx                  
+
+LAPACKE_zgeesx_work	size = 0
+	LAPACKE_zgeesx_work             
+
+LAPACKE_zgeev	size = 0
+	LAPACKE_zgeev                   
+
+LAPACKE_zgeev_work	size = 0
+	LAPACKE_zgeev_work              
+
+LAPACKE_zgeevx	size = 0
+	LAPACKE_zgeevx                  
+
+LAPACKE_zgeevx_work	size = 0
+	LAPACKE_zgeevx_work             
+
+LAPACKE_zgehrd	size = 0
+	LAPACKE_zgehrd                  
+
+LAPACKE_zgehrd_work	size = 0
+	LAPACKE_zgehrd_work             
+
+LAPACKE_zgejsv	size = 0
+	LAPACKE_zgejsv                  
+
+LAPACKE_zgejsv_work	size = 0
+	LAPACKE_zgejsv_work             
+
+LAPACKE_zgelq	size = 0
+	LAPACKE_zgelq                   
+
+LAPACKE_zgelq2	size = 0
+	LAPACKE_zgelq2                  
+
+LAPACKE_zgelq2_work	size = 0
+	LAPACKE_zgelq2_work             
+
+LAPACKE_zgelq_work	size = 0
+	LAPACKE_zgelq_work              
+
+LAPACKE_zgelqf	size = 0
+	LAPACKE_zgelqf                  
+
+LAPACKE_zgelqf_work	size = 0
+	LAPACKE_zgelqf_work             
+
+LAPACKE_zgels	size = 0
+	LAPACKE_zgels                   
+
+LAPACKE_zgels_work	size = 0
+	LAPACKE_zgels_work              
+
+LAPACKE_zgelsd	size = 0
+	LAPACKE_zgelsd                  
+
+LAPACKE_zgelsd_work	size = 0
+	LAPACKE_zgelsd_work             
+
+LAPACKE_zgelss	size = 0
+	LAPACKE_zgelss                  
+
+LAPACKE_zgelss_work	size = 0
+	LAPACKE_zgelss_work             
+
+LAPACKE_zgelsy	size = 0
+	LAPACKE_zgelsy                  
+
+LAPACKE_zgelsy_work	size = 0
+	LAPACKE_zgelsy_work             
+
+LAPACKE_zgemlq	size = 0
+	LAPACKE_zgemlq                  
+
+LAPACKE_zgemlq_work	size = 0
+	LAPACKE_zgemlq_work             
+
+LAPACKE_zgemqr	size = 0
+	LAPACKE_zgemqr                  
+
+LAPACKE_zgemqr_work	size = 0
+	LAPACKE_zgemqr_work             
+
+LAPACKE_zgemqrt	size = 0
+	LAPACKE_zgemqrt                 
+
+LAPACKE_zgemqrt_work	size = 0
+	LAPACKE_zgemqrt_work            
+
+LAPACKE_zgeqlf	size = 0
+	LAPACKE_zgeqlf                  
+
+LAPACKE_zgeqlf_work	size = 0
+	LAPACKE_zgeqlf_work             
+
+LAPACKE_zgeqp3	size = 0
+	LAPACKE_zgeqp3                  
+
+LAPACKE_zgeqp3_work	size = 0
+	LAPACKE_zgeqp3_work             
+
+LAPACKE_zgeqr	size = 0
+	LAPACKE_zgeqr                   
+
+LAPACKE_zgeqr2	size = 0
+	LAPACKE_zgeqr2                  
+
+LAPACKE_zgeqr2_work	size = 0
+	LAPACKE_zgeqr2_work             
+
+LAPACKE_zgeqr_work	size = 0
+	LAPACKE_zgeqr_work              
+
+LAPACKE_zgeqrf	size = 0
+	LAPACKE_zgeqrf                  
+
+LAPACKE_zgeqrf_work	size = 0
+	LAPACKE_zgeqrf_work             
+
+LAPACKE_zgeqrfp	size = 0
+	LAPACKE_zgeqrfp                 
+
+LAPACKE_zgeqrfp_work	size = 0
+	LAPACKE_zgeqrfp_work            
+
+LAPACKE_zgeqrt	size = 0
+	LAPACKE_zgeqrt                  
+
+LAPACKE_zgeqrt2	size = 0
+	LAPACKE_zgeqrt2                 
+
+LAPACKE_zgeqrt2_work	size = 0
+	LAPACKE_zgeqrt2_work            
+
+LAPACKE_zgeqrt3	size = 0
+	LAPACKE_zgeqrt3                 
+
+LAPACKE_zgeqrt3_work	size = 0
+	LAPACKE_zgeqrt3_work            
+
+LAPACKE_zgeqrt_work	size = 0
+	LAPACKE_zgeqrt_work             
+
+LAPACKE_zgerfs	size = 0
+	LAPACKE_zgerfs                  
+
+LAPACKE_zgerfs_work	size = 0
+	LAPACKE_zgerfs_work             
+
+LAPACKE_zgerqf	size = 0
+	LAPACKE_zgerqf                  
+
+LAPACKE_zgerqf_work	size = 0
+	LAPACKE_zgerqf_work             
+
+LAPACKE_zgesdd	size = 0
+	LAPACKE_zgesdd                  
+
+LAPACKE_zgesdd_work	size = 0
+	LAPACKE_zgesdd_work             
+
+LAPACKE_zgesv	size = 0
+	LAPACKE_zgesv                   
+
+LAPACKE_zgesv_work	size = 0
+	LAPACKE_zgesv_work              
+
+LAPACKE_zgesvd	size = 0
+	LAPACKE_zgesvd                  
+
+LAPACKE_zgesvd_work	size = 0
+	LAPACKE_zgesvd_work             
+
+LAPACKE_zgesvdx	size = 0
+	LAPACKE_zgesvdx                 
+
+LAPACKE_zgesvdx_work	size = 0
+	LAPACKE_zgesvdx_work            
+
+LAPACKE_zgesvj	size = 0
+	LAPACKE_zgesvj                  
+
+LAPACKE_zgesvj_work	size = 0
+	LAPACKE_zgesvj_work             
+
+LAPACKE_zgesvx	size = 0
+	LAPACKE_zgesvx                  
+
+LAPACKE_zgesvx_work	size = 0
+	LAPACKE_zgesvx_work             
+
+LAPACKE_zgetf2	size = 0
+	LAPACKE_zgetf2                  
+
+LAPACKE_zgetf2_work	size = 0
+	LAPACKE_zgetf2_work             
+
+LAPACKE_zgetrf	size = 0
+	LAPACKE_zgetrf                  
+
+LAPACKE_zgetrf2	size = 0
+	LAPACKE_zgetrf2                 
+
+LAPACKE_zgetrf2_work	size = 0
+	LAPACKE_zgetrf2_work            
+
+LAPACKE_zgetrf_work	size = 0
+	LAPACKE_zgetrf_work             
+
+LAPACKE_zgetri	size = 0
+	LAPACKE_zgetri                  
+
+LAPACKE_zgetri_work	size = 0
+	LAPACKE_zgetri_work             
+
+LAPACKE_zgetrs	size = 0
+	LAPACKE_zgetrs                  
+
+LAPACKE_zgetrs_work	size = 0
+	LAPACKE_zgetrs_work             
+
+LAPACKE_zgetsls	size = 0
+	LAPACKE_zgetsls                 
+
+LAPACKE_zgetsls_work	size = 0
+	LAPACKE_zgetsls_work            
+
+LAPACKE_zgg_nancheck	size = 0
+	LAPACKE_zgg_nancheck            
+
+LAPACKE_zgg_trans	size = 0
+	LAPACKE_zgg_trans               
+
+LAPACKE_zggbak	size = 0
+	LAPACKE_zggbak                  
+
+LAPACKE_zggbak_work	size = 0
+	LAPACKE_zggbak_work             
+
+LAPACKE_zggbal	size = 0
+	LAPACKE_zggbal                  
+
+LAPACKE_zggbal_work	size = 0
+	LAPACKE_zggbal_work             
+
+LAPACKE_zgges	size = 0
+	LAPACKE_zgges                   
+
+LAPACKE_zgges3	size = 0
+	LAPACKE_zgges3                  
+
+LAPACKE_zgges3_work	size = 0
+	LAPACKE_zgges3_work             
+
+LAPACKE_zgges_work	size = 0
+	LAPACKE_zgges_work              
+
+LAPACKE_zggesx	size = 0
+	LAPACKE_zggesx                  
+
+LAPACKE_zggesx_work	size = 0
+	LAPACKE_zggesx_work             
+
+LAPACKE_zggev	size = 0
+	LAPACKE_zggev                   
+
+LAPACKE_zggev3	size = 0
+	LAPACKE_zggev3                  
+
+LAPACKE_zggev3_work	size = 0
+	LAPACKE_zggev3_work             
+
+LAPACKE_zggev_work	size = 0
+	LAPACKE_zggev_work              
+
+LAPACKE_zggevx	size = 0
+	LAPACKE_zggevx                  
+
+LAPACKE_zggevx_work	size = 0
+	LAPACKE_zggevx_work             
+
+LAPACKE_zggglm	size = 0
+	LAPACKE_zggglm                  
+
+LAPACKE_zggglm_work	size = 0
+	LAPACKE_zggglm_work             
+
+LAPACKE_zgghd3	size = 0
+	LAPACKE_zgghd3                  
+
+LAPACKE_zgghd3_work	size = 0
+	LAPACKE_zgghd3_work             
+
+LAPACKE_zgghrd	size = 0
+	LAPACKE_zgghrd                  
+
+LAPACKE_zgghrd_work	size = 0
+	LAPACKE_zgghrd_work             
+
+LAPACKE_zgglse	size = 0
+	LAPACKE_zgglse                  
+
+LAPACKE_zgglse_work	size = 0
+	LAPACKE_zgglse_work             
+
+LAPACKE_zggqrf	size = 0
+	LAPACKE_zggqrf                  
+
+LAPACKE_zggqrf_work	size = 0
+	LAPACKE_zggqrf_work             
+
+LAPACKE_zggrqf	size = 0
+	LAPACKE_zggrqf                  
+
+LAPACKE_zggrqf_work	size = 0
+	LAPACKE_zggrqf_work             
+
+LAPACKE_zggsvd3	size = 0
+	LAPACKE_zggsvd3                 
+
+LAPACKE_zggsvd3_work	size = 0
+	LAPACKE_zggsvd3_work            
+
+LAPACKE_zggsvp3	size = 0
+	LAPACKE_zggsvp3                 
+
+LAPACKE_zggsvp3_work	size = 0
+	LAPACKE_zggsvp3_work            
+
+LAPACKE_zgt_nancheck	size = 0
+	LAPACKE_zgt_nancheck            
+
+LAPACKE_zgtcon	size = 0
+	LAPACKE_zgtcon                  
+
+LAPACKE_zgtcon_work	size = 0
+	LAPACKE_zgtcon_work             
+
+LAPACKE_zgtrfs	size = 0
+	LAPACKE_zgtrfs                  
+
+LAPACKE_zgtrfs_work	size = 0
+	LAPACKE_zgtrfs_work             
+
+LAPACKE_zgtsv	size = 0
+	LAPACKE_zgtsv                   
+
+LAPACKE_zgtsv_work	size = 0
+	LAPACKE_zgtsv_work              
+
+LAPACKE_zgtsvx	size = 0
+	LAPACKE_zgtsvx                  
+
+LAPACKE_zgtsvx_work	size = 0
+	LAPACKE_zgtsvx_work             
+
+LAPACKE_zgttrf	size = 0
+	LAPACKE_zgttrf                  
+
+LAPACKE_zgttrf_work	size = 0
+	LAPACKE_zgttrf_work             
+
+LAPACKE_zgttrs	size = 0
+	LAPACKE_zgttrs                  
+
+LAPACKE_zgttrs_work	size = 0
+	LAPACKE_zgttrs_work             
+
+LAPACKE_zhb_nancheck	size = 0
+	LAPACKE_zhb_nancheck            
+
+LAPACKE_zhb_trans	size = 0
+	LAPACKE_zhb_trans               
+
+LAPACKE_zhbev	size = 0
+	LAPACKE_zhbev                   
+
+LAPACKE_zhbev_2stage	size = 0
+	LAPACKE_zhbev_2stage            
+
+LAPACKE_zhbev_2stage_work	size = 0
+	LAPACKE_zhbev_2stage_work       
+
+LAPACKE_zhbev_work	size = 0
+	LAPACKE_zhbev_work              
+
+LAPACKE_zhbevd	size = 0
+	LAPACKE_zhbevd                  
+
+LAPACKE_zhbevd_2stage	size = 0
+	LAPACKE_zhbevd_2stage           
+
+LAPACKE_zhbevd_2stage_work	size = 0
+	LAPACKE_zhbevd_2stage_work      
+
+LAPACKE_zhbevd_work	size = 0
+	LAPACKE_zhbevd_work             
+
+LAPACKE_zhbevx	size = 0
+	LAPACKE_zhbevx                  
+
+LAPACKE_zhbevx_2stage	size = 0
+	LAPACKE_zhbevx_2stage           
+
+LAPACKE_zhbevx_2stage_work	size = 0
+	LAPACKE_zhbevx_2stage_work      
+
+LAPACKE_zhbevx_work	size = 0
+	LAPACKE_zhbevx_work             
+
+LAPACKE_zhbgst	size = 0
+	LAPACKE_zhbgst                  
+
+LAPACKE_zhbgst_work	size = 0
+	LAPACKE_zhbgst_work             
+
+LAPACKE_zhbgv	size = 0
+	LAPACKE_zhbgv                   
+
+LAPACKE_zhbgv_work	size = 0
+	LAPACKE_zhbgv_work              
+
+LAPACKE_zhbgvd	size = 0
+	LAPACKE_zhbgvd                  
+
+LAPACKE_zhbgvd_work	size = 0
+	LAPACKE_zhbgvd_work             
+
+LAPACKE_zhbgvx	size = 0
+	LAPACKE_zhbgvx                  
+
+LAPACKE_zhbgvx_work	size = 0
+	LAPACKE_zhbgvx_work             
+
+LAPACKE_zhbtrd	size = 0
+	LAPACKE_zhbtrd                  
+
+LAPACKE_zhbtrd_work	size = 0
+	LAPACKE_zhbtrd_work             
+
+LAPACKE_zhe_nancheck	size = 0
+	LAPACKE_zhe_nancheck            
+
+LAPACKE_zhe_trans	size = 0
+	LAPACKE_zhe_trans               
+
+LAPACKE_zhecon	size = 0
+	LAPACKE_zhecon                  
+
+LAPACKE_zhecon_3	size = 0
+	LAPACKE_zhecon_3                
+
+LAPACKE_zhecon_3_work	size = 0
+	LAPACKE_zhecon_3_work           
+
+LAPACKE_zhecon_work	size = 0
+	LAPACKE_zhecon_work             
+
+LAPACKE_zheequb	size = 0
+	LAPACKE_zheequb                 
+
+LAPACKE_zheequb_work	size = 0
+	LAPACKE_zheequb_work            
+
+LAPACKE_zheev	size = 0
+	LAPACKE_zheev                   
+
+LAPACKE_zheev_2stage	size = 0
+	LAPACKE_zheev_2stage            
+
+LAPACKE_zheev_2stage_work	size = 0
+	LAPACKE_zheev_2stage_work       
+
+LAPACKE_zheev_work	size = 0
+	LAPACKE_zheev_work              
+
+LAPACKE_zheevd	size = 0
+	LAPACKE_zheevd                  
+
+LAPACKE_zheevd_2stage	size = 0
+	LAPACKE_zheevd_2stage           
+
+LAPACKE_zheevd_2stage_work	size = 0
+	LAPACKE_zheevd_2stage_work      
+
+LAPACKE_zheevd_work	size = 0
+	LAPACKE_zheevd_work             
+
+LAPACKE_zheevr	size = 0
+	LAPACKE_zheevr                  
+
+LAPACKE_zheevr_2stage	size = 0
+	LAPACKE_zheevr_2stage           
+
+LAPACKE_zheevr_2stage_work	size = 0
+	LAPACKE_zheevr_2stage_work      
+
+LAPACKE_zheevr_work	size = 0
+	LAPACKE_zheevr_work             
+
+LAPACKE_zheevx	size = 0
+	LAPACKE_zheevx                  
+
+LAPACKE_zheevx_2stage	size = 0
+	LAPACKE_zheevx_2stage           
+
+LAPACKE_zheevx_2stage_work	size = 0
+	LAPACKE_zheevx_2stage_work      
+
+LAPACKE_zheevx_work	size = 0
+	LAPACKE_zheevx_work             
+
+LAPACKE_zhegst	size = 0
+	LAPACKE_zhegst                  
+
+LAPACKE_zhegst_work	size = 0
+	LAPACKE_zhegst_work             
+
+LAPACKE_zhegv	size = 0
+	LAPACKE_zhegv                   
+
+LAPACKE_zhegv_2stage	size = 0
+	LAPACKE_zhegv_2stage            
+
+LAPACKE_zhegv_2stage_work	size = 0
+	LAPACKE_zhegv_2stage_work       
+
+LAPACKE_zhegv_work	size = 0
+	LAPACKE_zhegv_work              
+
+LAPACKE_zhegvd	size = 0
+	LAPACKE_zhegvd                  
+
+LAPACKE_zhegvd_work	size = 0
+	LAPACKE_zhegvd_work             
+
+LAPACKE_zhegvx	size = 0
+	LAPACKE_zhegvx                  
+
+LAPACKE_zhegvx_work	size = 0
+	LAPACKE_zhegvx_work             
+
+LAPACKE_zherfs	size = 0
+	LAPACKE_zherfs                  
+
+LAPACKE_zherfs_work	size = 0
+	LAPACKE_zherfs_work             
+
+LAPACKE_zhesv	size = 0
+	LAPACKE_zhesv                   
+
+LAPACKE_zhesv_aa	size = 0
+	LAPACKE_zhesv_aa                
+
+LAPACKE_zhesv_aa_2stage	size = 0
+	LAPACKE_zhesv_aa_2stage         
+
+LAPACKE_zhesv_aa_2stage_work	size = 0
+	LAPACKE_zhesv_aa_2stage_work    
+
+LAPACKE_zhesv_aa_work	size = 0
+	LAPACKE_zhesv_aa_work           
+
+LAPACKE_zhesv_rk	size = 0
+	LAPACKE_zhesv_rk                
+
+LAPACKE_zhesv_rk_work	size = 0
+	LAPACKE_zhesv_rk_work           
+
+LAPACKE_zhesv_work	size = 0
+	LAPACKE_zhesv_work              
+
+LAPACKE_zhesvx	size = 0
+	LAPACKE_zhesvx                  
+
+LAPACKE_zhesvx_work	size = 0
+	LAPACKE_zhesvx_work             
+
+LAPACKE_zheswapr	size = 0
+	LAPACKE_zheswapr                
+
+LAPACKE_zheswapr_work	size = 0
+	LAPACKE_zheswapr_work           
+
+LAPACKE_zhetrd	size = 0
+	LAPACKE_zhetrd                  
+
+LAPACKE_zhetrd_work	size = 0
+	LAPACKE_zhetrd_work             
+
+LAPACKE_zhetrf	size = 0
+	LAPACKE_zhetrf                  
+
+LAPACKE_zhetrf_aa	size = 0
+	LAPACKE_zhetrf_aa               
+
+LAPACKE_zhetrf_aa_2stage	size = 0
+	LAPACKE_zhetrf_aa_2stage        
+
+LAPACKE_zhetrf_aa_2stage_work	size = 0
+	LAPACKE_zhetrf_aa_2stage_work   
+
+LAPACKE_zhetrf_aa_work	size = 0
+	LAPACKE_zhetrf_aa_work          
+
+LAPACKE_zhetrf_rk	size = 0
+	LAPACKE_zhetrf_rk               
+
+LAPACKE_zhetrf_rk_work	size = 0
+	LAPACKE_zhetrf_rk_work          
+
+LAPACKE_zhetrf_rook	size = 0
+	LAPACKE_zhetrf_rook             
+
+LAPACKE_zhetrf_rook_work	size = 0
+	LAPACKE_zhetrf_rook_work        
+
+LAPACKE_zhetrf_work	size = 0
+	LAPACKE_zhetrf_work             
+
+LAPACKE_zhetri	size = 0
+	LAPACKE_zhetri                  
+
+LAPACKE_zhetri2	size = 0
+	LAPACKE_zhetri2                 
+
+LAPACKE_zhetri2_work	size = 0
+	LAPACKE_zhetri2_work            
+
+LAPACKE_zhetri2x	size = 0
+	LAPACKE_zhetri2x                
+
+LAPACKE_zhetri2x_work	size = 0
+	LAPACKE_zhetri2x_work           
+
+LAPACKE_zhetri_3	size = 0
+	LAPACKE_zhetri_3                
+
+LAPACKE_zhetri_3_work	size = 0
+	LAPACKE_zhetri_3_work           
+
+LAPACKE_zhetri_work	size = 0
+	LAPACKE_zhetri_work             
+
+LAPACKE_zhetrs	size = 0
+	LAPACKE_zhetrs                  
+
+LAPACKE_zhetrs2	size = 0
+	LAPACKE_zhetrs2                 
+
+LAPACKE_zhetrs2_work	size = 0
+	LAPACKE_zhetrs2_work            
+
+LAPACKE_zhetrs_3	size = 0
+	LAPACKE_zhetrs_3                
+
+LAPACKE_zhetrs_3_work	size = 0
+	LAPACKE_zhetrs_3_work           
+
+LAPACKE_zhetrs_aa	size = 0
+	LAPACKE_zhetrs_aa               
+
+LAPACKE_zhetrs_aa_2stage	size = 0
+	LAPACKE_zhetrs_aa_2stage        
+
+LAPACKE_zhetrs_aa_2stage_work	size = 0
+	LAPACKE_zhetrs_aa_2stage_work   
+
+LAPACKE_zhetrs_aa_work	size = 0
+	LAPACKE_zhetrs_aa_work          
+
+LAPACKE_zhetrs_rook	size = 0
+	LAPACKE_zhetrs_rook             
+
+LAPACKE_zhetrs_rook_work	size = 0
+	LAPACKE_zhetrs_rook_work        
+
+LAPACKE_zhetrs_work	size = 0
+	LAPACKE_zhetrs_work             
+
+LAPACKE_zhfrk	size = 0
+	LAPACKE_zhfrk                   
+
+LAPACKE_zhfrk_work	size = 0
+	LAPACKE_zhfrk_work              
+
+LAPACKE_zhgeqz	size = 0
+	LAPACKE_zhgeqz                  
+
+LAPACKE_zhgeqz_work	size = 0
+	LAPACKE_zhgeqz_work             
+
+LAPACKE_zhp_nancheck	size = 0
+	LAPACKE_zhp_nancheck            
+
+LAPACKE_zhp_trans	size = 0
+	LAPACKE_zhp_trans               
+
+LAPACKE_zhpcon	size = 0
+	LAPACKE_zhpcon                  
+
+LAPACKE_zhpcon_work	size = 0
+	LAPACKE_zhpcon_work             
+
+LAPACKE_zhpev	size = 0
+	LAPACKE_zhpev                   
+
+LAPACKE_zhpev_work	size = 0
+	LAPACKE_zhpev_work              
+
+LAPACKE_zhpevd	size = 0
+	LAPACKE_zhpevd                  
+
+LAPACKE_zhpevd_work	size = 0
+	LAPACKE_zhpevd_work             
+
+LAPACKE_zhpevx	size = 0
+	LAPACKE_zhpevx                  
+
+LAPACKE_zhpevx_work	size = 0
+	LAPACKE_zhpevx_work             
+
+LAPACKE_zhpgst	size = 0
+	LAPACKE_zhpgst                  
+
+LAPACKE_zhpgst_work	size = 0
+	LAPACKE_zhpgst_work             
+
+LAPACKE_zhpgv	size = 0
+	LAPACKE_zhpgv                   
+
+LAPACKE_zhpgv_work	size = 0
+	LAPACKE_zhpgv_work              
+
+LAPACKE_zhpgvd	size = 0
+	LAPACKE_zhpgvd                  
+
+LAPACKE_zhpgvd_work	size = 0
+	LAPACKE_zhpgvd_work             
+
+LAPACKE_zhpgvx	size = 0
+	LAPACKE_zhpgvx                  
+
+LAPACKE_zhpgvx_work	size = 0
+	LAPACKE_zhpgvx_work             
+
+LAPACKE_zhprfs	size = 0
+	LAPACKE_zhprfs                  
+
+LAPACKE_zhprfs_work	size = 0
+	LAPACKE_zhprfs_work             
+
+LAPACKE_zhpsv	size = 0
+	LAPACKE_zhpsv                   
+
+LAPACKE_zhpsv_work	size = 0
+	LAPACKE_zhpsv_work              
+
+LAPACKE_zhpsvx	size = 0
+	LAPACKE_zhpsvx                  
+
+LAPACKE_zhpsvx_work	size = 0
+	LAPACKE_zhpsvx_work             
+
+LAPACKE_zhptrd	size = 0
+	LAPACKE_zhptrd                  
+
+LAPACKE_zhptrd_work	size = 0
+	LAPACKE_zhptrd_work             
+
+LAPACKE_zhptrf	size = 0
+	LAPACKE_zhptrf                  
+
+LAPACKE_zhptrf_work	size = 0
+	LAPACKE_zhptrf_work             
+
+LAPACKE_zhptri	size = 0
+	LAPACKE_zhptri                  
+
+LAPACKE_zhptri_work	size = 0
+	LAPACKE_zhptri_work             
+
+LAPACKE_zhptrs	size = 0
+	LAPACKE_zhptrs                  
+
+LAPACKE_zhptrs_work	size = 0
+	LAPACKE_zhptrs_work             
+
+LAPACKE_zhs_nancheck	size = 0
+	LAPACKE_zhs_nancheck            
+
+LAPACKE_zhs_trans	size = 0
+	LAPACKE_zhs_trans               
+
+LAPACKE_zhsein	size = 0
+	LAPACKE_zhsein                  
+
+LAPACKE_zhsein_work	size = 0
+	LAPACKE_zhsein_work             
+
+LAPACKE_zhseqr	size = 0
+	LAPACKE_zhseqr                  
+
+LAPACKE_zhseqr_work	size = 0
+	LAPACKE_zhseqr_work             
+
+LAPACKE_zlacgv	size = 0
+	LAPACKE_zlacgv                  
+
+LAPACKE_zlacgv_work	size = 0
+	LAPACKE_zlacgv_work             
+
+LAPACKE_zlacn2	size = 0
+	LAPACKE_zlacn2                  
+
+LAPACKE_zlacn2_work	size = 0
+	LAPACKE_zlacn2_work             
+
+LAPACKE_zlacp2	size = 0
+	LAPACKE_zlacp2                  
+
+LAPACKE_zlacp2_work	size = 0
+	LAPACKE_zlacp2_work             
+
+LAPACKE_zlacpy	size = 0
+	LAPACKE_zlacpy                  
+
+LAPACKE_zlacpy_work	size = 0
+	LAPACKE_zlacpy_work             
+
+LAPACKE_zlacrm	size = 0
+	LAPACKE_zlacrm                  
+
+LAPACKE_zlacrm_work	size = 0
+	LAPACKE_zlacrm_work             
+
+LAPACKE_zlag2c	size = 0
+	LAPACKE_zlag2c                  
+
+LAPACKE_zlag2c_work	size = 0
+	LAPACKE_zlag2c_work             
+
+LAPACKE_zlange	size = 0
+	LAPACKE_zlange                  
+
+LAPACKE_zlange_work	size = 0
+	LAPACKE_zlange_work             
+
+LAPACKE_zlanhe	size = 0
+	LAPACKE_zlanhe                  
+
+LAPACKE_zlanhe_work	size = 0
+	LAPACKE_zlanhe_work             
+
+LAPACKE_zlansy	size = 0
+	LAPACKE_zlansy                  
+
+LAPACKE_zlansy_work	size = 0
+	LAPACKE_zlansy_work             
+
+LAPACKE_zlantr	size = 0
+	LAPACKE_zlantr                  
+
+LAPACKE_zlantr_work	size = 0
+	LAPACKE_zlantr_work             
+
+LAPACKE_zlapmr	size = 0
+	LAPACKE_zlapmr                  
+
+LAPACKE_zlapmr_work	size = 0
+	LAPACKE_zlapmr_work             
+
+LAPACKE_zlapmt	size = 0
+	LAPACKE_zlapmt                  
+
+LAPACKE_zlapmt_work	size = 0
+	LAPACKE_zlapmt_work             
+
+LAPACKE_zlarcm	size = 0
+	LAPACKE_zlarcm                  
+
+LAPACKE_zlarcm_work	size = 0
+	LAPACKE_zlarcm_work             
+
+LAPACKE_zlarfb	size = 0
+	LAPACKE_zlarfb                  
+
+LAPACKE_zlarfb_work	size = 0
+	LAPACKE_zlarfb_work             
+
+LAPACKE_zlarfg	size = 0
+	LAPACKE_zlarfg                  
+
+LAPACKE_zlarfg_work	size = 0
+	LAPACKE_zlarfg_work             
+
+LAPACKE_zlarft	size = 0
+	LAPACKE_zlarft                  
+
+LAPACKE_zlarft_work	size = 0
+	LAPACKE_zlarft_work             
+
+LAPACKE_zlarfx	size = 0
+	LAPACKE_zlarfx                  
+
+LAPACKE_zlarfx_work	size = 0
+	LAPACKE_zlarfx_work             
+
+LAPACKE_zlarnv	size = 0
+	LAPACKE_zlarnv                  
+
+LAPACKE_zlarnv_work	size = 0
+	LAPACKE_zlarnv_work             
+
+LAPACKE_zlascl	size = 0
+	LAPACKE_zlascl                  
+
+LAPACKE_zlascl_work	size = 0
+	LAPACKE_zlascl_work             
+
+LAPACKE_zlaset	size = 0
+	LAPACKE_zlaset                  
+
+LAPACKE_zlaset_work	size = 0
+	LAPACKE_zlaset_work             
+
+LAPACKE_zlassq	size = 0
+	LAPACKE_zlassq                  
+
+LAPACKE_zlassq_work	size = 0
+	LAPACKE_zlassq_work             
+
+LAPACKE_zlaswp	size = 0
+	LAPACKE_zlaswp                  
+
+LAPACKE_zlaswp_work	size = 0
+	LAPACKE_zlaswp_work             
+
+LAPACKE_zlauum	size = 0
+	LAPACKE_zlauum                  
+
+LAPACKE_zlauum_work	size = 0
+	LAPACKE_zlauum_work             
+
+LAPACKE_zpb_nancheck	size = 0
+	LAPACKE_zpb_nancheck            
+
+LAPACKE_zpb_trans	size = 0
+	LAPACKE_zpb_trans               
+
+LAPACKE_zpbcon	size = 0
+	LAPACKE_zpbcon                  
+
+LAPACKE_zpbcon_work	size = 0
+	LAPACKE_zpbcon_work             
+
+LAPACKE_zpbequ	size = 0
+	LAPACKE_zpbequ                  
+
+LAPACKE_zpbequ_work	size = 0
+	LAPACKE_zpbequ_work             
+
+LAPACKE_zpbrfs	size = 0
+	LAPACKE_zpbrfs                  
+
+LAPACKE_zpbrfs_work	size = 0
+	LAPACKE_zpbrfs_work             
+
+LAPACKE_zpbstf	size = 0
+	LAPACKE_zpbstf                  
+
+LAPACKE_zpbstf_work	size = 0
+	LAPACKE_zpbstf_work             
+
+LAPACKE_zpbsv	size = 0
+	LAPACKE_zpbsv                   
+
+LAPACKE_zpbsv_work	size = 0
+	LAPACKE_zpbsv_work              
+
+LAPACKE_zpbsvx	size = 0
+	LAPACKE_zpbsvx                  
+
+LAPACKE_zpbsvx_work	size = 0
+	LAPACKE_zpbsvx_work             
+
+LAPACKE_zpbtrf	size = 0
+	LAPACKE_zpbtrf                  
+
+LAPACKE_zpbtrf_work	size = 0
+	LAPACKE_zpbtrf_work             
+
+LAPACKE_zpbtrs	size = 0
+	LAPACKE_zpbtrs                  
+
+LAPACKE_zpbtrs_work	size = 0
+	LAPACKE_zpbtrs_work             
+
+LAPACKE_zpf_nancheck	size = 0
+	LAPACKE_zpf_nancheck            
+
+LAPACKE_zpf_trans	size = 0
+	LAPACKE_zpf_trans               
+
+LAPACKE_zpftrf	size = 0
+	LAPACKE_zpftrf                  
+
+LAPACKE_zpftrf_work	size = 0
+	LAPACKE_zpftrf_work             
+
+LAPACKE_zpftri	size = 0
+	LAPACKE_zpftri                  
+
+LAPACKE_zpftri_work	size = 0
+	LAPACKE_zpftri_work             
+
+LAPACKE_zpftrs	size = 0
+	LAPACKE_zpftrs                  
+
+LAPACKE_zpftrs_work	size = 0
+	LAPACKE_zpftrs_work             
+
+LAPACKE_zpo_nancheck	size = 0
+	LAPACKE_zpo_nancheck            
+
+LAPACKE_zpo_trans	size = 0
+	LAPACKE_zpo_trans               
+
+LAPACKE_zpocon	size = 0
+	LAPACKE_zpocon                  
+
+LAPACKE_zpocon_work	size = 0
+	LAPACKE_zpocon_work             
+
+LAPACKE_zpoequ	size = 0
+	LAPACKE_zpoequ                  
+
+LAPACKE_zpoequ_work	size = 0
+	LAPACKE_zpoequ_work             
+
+LAPACKE_zpoequb	size = 0
+	LAPACKE_zpoequb                 
+
+LAPACKE_zpoequb_work	size = 0
+	LAPACKE_zpoequb_work            
+
+LAPACKE_zporfs	size = 0
+	LAPACKE_zporfs                  
+
+LAPACKE_zporfs_work	size = 0
+	LAPACKE_zporfs_work             
+
+LAPACKE_zposv	size = 0
+	LAPACKE_zposv                   
+
+LAPACKE_zposv_work	size = 0
+	LAPACKE_zposv_work              
+
+LAPACKE_zposvx	size = 0
+	LAPACKE_zposvx                  
+
+LAPACKE_zposvx_work	size = 0
+	LAPACKE_zposvx_work             
+
+LAPACKE_zpotrf	size = 0
+	LAPACKE_zpotrf                  
+
+LAPACKE_zpotrf2	size = 0
+	LAPACKE_zpotrf2                 
+
+LAPACKE_zpotrf2_work	size = 0
+	LAPACKE_zpotrf2_work            
+
+LAPACKE_zpotrf_work	size = 0
+	LAPACKE_zpotrf_work             
+
+LAPACKE_zpotri	size = 0
+	LAPACKE_zpotri                  
+
+LAPACKE_zpotri_work	size = 0
+	LAPACKE_zpotri_work             
+
+LAPACKE_zpotrs	size = 0
+	LAPACKE_zpotrs                  
+
+LAPACKE_zpotrs_work	size = 0
+	LAPACKE_zpotrs_work             
+
+LAPACKE_zpp_nancheck	size = 0
+	LAPACKE_zpp_nancheck            
+
+LAPACKE_zpp_trans	size = 0
+	LAPACKE_zpp_trans               
+
+LAPACKE_zppcon	size = 0
+	LAPACKE_zppcon                  
+
+LAPACKE_zppcon_work	size = 0
+	LAPACKE_zppcon_work             
+
+LAPACKE_zppequ	size = 0
+	LAPACKE_zppequ                  
+
+LAPACKE_zppequ_work	size = 0
+	LAPACKE_zppequ_work             
+
+LAPACKE_zpprfs	size = 0
+	LAPACKE_zpprfs                  
+
+LAPACKE_zpprfs_work	size = 0
+	LAPACKE_zpprfs_work             
+
+LAPACKE_zppsv	size = 0
+	LAPACKE_zppsv                   
+
+LAPACKE_zppsv_work	size = 0
+	LAPACKE_zppsv_work              
+
+LAPACKE_zppsvx	size = 0
+	LAPACKE_zppsvx                  
+
+LAPACKE_zppsvx_work	size = 0
+	LAPACKE_zppsvx_work             
+
+LAPACKE_zpptrf	size = 0
+	LAPACKE_zpptrf                  
+
+LAPACKE_zpptrf_work	size = 0
+	LAPACKE_zpptrf_work             
+
+LAPACKE_zpptri	size = 0
+	LAPACKE_zpptri                  
+
+LAPACKE_zpptri_work	size = 0
+	LAPACKE_zpptri_work             
+
+LAPACKE_zpptrs	size = 0
+	LAPACKE_zpptrs                  
+
+LAPACKE_zpptrs_work	size = 0
+	LAPACKE_zpptrs_work             
+
+LAPACKE_zpstrf	size = 0
+	LAPACKE_zpstrf                  
+
+LAPACKE_zpstrf_work	size = 0
+	LAPACKE_zpstrf_work             
+
+LAPACKE_zpt_nancheck	size = 0
+	LAPACKE_zpt_nancheck            
+
+LAPACKE_zptcon	size = 0
+	LAPACKE_zptcon                  
+
+LAPACKE_zptcon_work	size = 0
+	LAPACKE_zptcon_work             
+
+LAPACKE_zpteqr	size = 0
+	LAPACKE_zpteqr                  
+
+LAPACKE_zpteqr_work	size = 0
+	LAPACKE_zpteqr_work             
+
+LAPACKE_zptrfs	size = 0
+	LAPACKE_zptrfs                  
+
+LAPACKE_zptrfs_work	size = 0
+	LAPACKE_zptrfs_work             
+
+LAPACKE_zptsv	size = 0
+	LAPACKE_zptsv                   
+
+LAPACKE_zptsv_work	size = 0
+	LAPACKE_zptsv_work              
+
+LAPACKE_zptsvx	size = 0
+	LAPACKE_zptsvx                  
+
+LAPACKE_zptsvx_work	size = 0
+	LAPACKE_zptsvx_work             
+
+LAPACKE_zpttrf	size = 0
+	LAPACKE_zpttrf                  
+
+LAPACKE_zpttrf_work	size = 0
+	LAPACKE_zpttrf_work             
+
+LAPACKE_zpttrs	size = 0
+	LAPACKE_zpttrs                  
+
+LAPACKE_zpttrs_work	size = 0
+	LAPACKE_zpttrs_work             
+
+LAPACKE_zsp_nancheck	size = 0
+	LAPACKE_zsp_nancheck            
+
+LAPACKE_zsp_trans	size = 0
+	LAPACKE_zsp_trans               
+
+LAPACKE_zspcon	size = 0
+	LAPACKE_zspcon                  
+
+LAPACKE_zspcon_work	size = 0
+	LAPACKE_zspcon_work             
+
+LAPACKE_zsprfs	size = 0
+	LAPACKE_zsprfs                  
+
+LAPACKE_zsprfs_work	size = 0
+	LAPACKE_zsprfs_work             
+
+LAPACKE_zspsv	size = 0
+	LAPACKE_zspsv                   
+
+LAPACKE_zspsv_work	size = 0
+	LAPACKE_zspsv_work              
+
+LAPACKE_zspsvx	size = 0
+	LAPACKE_zspsvx                  
+
+LAPACKE_zspsvx_work	size = 0
+	LAPACKE_zspsvx_work             
+
+LAPACKE_zsptrf	size = 0
+	LAPACKE_zsptrf                  
+
+LAPACKE_zsptrf_work	size = 0
+	LAPACKE_zsptrf_work             
+
+LAPACKE_zsptri	size = 0
+	LAPACKE_zsptri                  
+
+LAPACKE_zsptri_work	size = 0
+	LAPACKE_zsptri_work             
+
+LAPACKE_zsptrs	size = 0
+	LAPACKE_zsptrs                  
+
+LAPACKE_zsptrs_work	size = 0
+	LAPACKE_zsptrs_work             
+
+LAPACKE_zst_nancheck	size = 0
+	LAPACKE_zst_nancheck            
+
+LAPACKE_zstedc	size = 0
+	LAPACKE_zstedc                  
+
+LAPACKE_zstedc_work	size = 0
+	LAPACKE_zstedc_work             
+
+LAPACKE_zstegr	size = 0
+	LAPACKE_zstegr                  
+
+LAPACKE_zstegr_work	size = 0
+	LAPACKE_zstegr_work             
+
+LAPACKE_zstein	size = 0
+	LAPACKE_zstein                  
+
+LAPACKE_zstein_work	size = 0
+	LAPACKE_zstein_work             
+
+LAPACKE_zstemr	size = 0
+	LAPACKE_zstemr                  
+
+LAPACKE_zstemr_work	size = 0
+	LAPACKE_zstemr_work             
+
+LAPACKE_zsteqr	size = 0
+	LAPACKE_zsteqr                  
+
+LAPACKE_zsteqr_work	size = 0
+	LAPACKE_zsteqr_work             
+
+LAPACKE_zsy_nancheck	size = 0
+	LAPACKE_zsy_nancheck            
+
+LAPACKE_zsy_trans	size = 0
+	LAPACKE_zsy_trans               
+
+LAPACKE_zsycon	size = 0
+	LAPACKE_zsycon                  
+
+LAPACKE_zsycon_3	size = 0
+	LAPACKE_zsycon_3                
+
+LAPACKE_zsycon_3_work	size = 0
+	LAPACKE_zsycon_3_work           
+
+LAPACKE_zsycon_work	size = 0
+	LAPACKE_zsycon_work             
+
+LAPACKE_zsyconv	size = 0
+	LAPACKE_zsyconv                 
+
+LAPACKE_zsyconv_work	size = 0
+	LAPACKE_zsyconv_work            
+
+LAPACKE_zsyequb	size = 0
+	LAPACKE_zsyequb                 
+
+LAPACKE_zsyequb_work	size = 0
+	LAPACKE_zsyequb_work            
+
+LAPACKE_zsyr	size = 0
+	LAPACKE_zsyr                    
+
+LAPACKE_zsyr_work	size = 0
+	LAPACKE_zsyr_work               
+
+LAPACKE_zsyrfs	size = 0
+	LAPACKE_zsyrfs                  
+
+LAPACKE_zsyrfs_work	size = 0
+	LAPACKE_zsyrfs_work             
+
+LAPACKE_zsysv	size = 0
+	LAPACKE_zsysv                   
+
+LAPACKE_zsysv_aa	size = 0
+	LAPACKE_zsysv_aa                
+
+LAPACKE_zsysv_aa_2stage	size = 0
+	LAPACKE_zsysv_aa_2stage         
+
+LAPACKE_zsysv_aa_2stage_work	size = 0
+	LAPACKE_zsysv_aa_2stage_work    
+
+LAPACKE_zsysv_aa_work	size = 0
+	LAPACKE_zsysv_aa_work           
+
+LAPACKE_zsysv_rk	size = 0
+	LAPACKE_zsysv_rk                
+
+LAPACKE_zsysv_rk_work	size = 0
+	LAPACKE_zsysv_rk_work           
+
+LAPACKE_zsysv_rook	size = 0
+	LAPACKE_zsysv_rook              
+
+LAPACKE_zsysv_rook_work	size = 0
+	LAPACKE_zsysv_rook_work         
+
+LAPACKE_zsysv_work	size = 0
+	LAPACKE_zsysv_work              
+
+LAPACKE_zsysvx	size = 0
+	LAPACKE_zsysvx                  
+
+LAPACKE_zsysvx_work	size = 0
+	LAPACKE_zsysvx_work             
+
+LAPACKE_zsyswapr	size = 0
+	LAPACKE_zsyswapr                
+
+LAPACKE_zsyswapr_work	size = 0
+	LAPACKE_zsyswapr_work           
+
+LAPACKE_zsytrf	size = 0
+	LAPACKE_zsytrf                  
+
+LAPACKE_zsytrf_aa	size = 0
+	LAPACKE_zsytrf_aa               
+
+LAPACKE_zsytrf_aa_2stage	size = 0
+	LAPACKE_zsytrf_aa_2stage        
+
+LAPACKE_zsytrf_aa_2stage_work	size = 0
+	LAPACKE_zsytrf_aa_2stage_work   
+
+LAPACKE_zsytrf_aa_work	size = 0
+	LAPACKE_zsytrf_aa_work          
+
+LAPACKE_zsytrf_rk	size = 0
+	LAPACKE_zsytrf_rk               
+
+LAPACKE_zsytrf_rk_work	size = 0
+	LAPACKE_zsytrf_rk_work          
+
+LAPACKE_zsytrf_rook	size = 0
+	LAPACKE_zsytrf_rook             
+
+LAPACKE_zsytrf_rook_work	size = 0
+	LAPACKE_zsytrf_rook_work        
+
+LAPACKE_zsytrf_work	size = 0
+	LAPACKE_zsytrf_work             
+
+LAPACKE_zsytri	size = 0
+	LAPACKE_zsytri                  
+
+LAPACKE_zsytri2	size = 0
+	LAPACKE_zsytri2                 
+
+LAPACKE_zsytri2_work	size = 0
+	LAPACKE_zsytri2_work            
+
+LAPACKE_zsytri2x	size = 0
+	LAPACKE_zsytri2x                
+
+LAPACKE_zsytri2x_work	size = 0
+	LAPACKE_zsytri2x_work           
+
+LAPACKE_zsytri_3	size = 0
+	LAPACKE_zsytri_3                
+
+LAPACKE_zsytri_3_work	size = 0
+	LAPACKE_zsytri_3_work           
+
+LAPACKE_zsytri_work	size = 0
+	LAPACKE_zsytri_work             
+
+LAPACKE_zsytrs	size = 0
+	LAPACKE_zsytrs                  
+
+LAPACKE_zsytrs2	size = 0
+	LAPACKE_zsytrs2                 
+
+LAPACKE_zsytrs2_work	size = 0
+	LAPACKE_zsytrs2_work            
+
+LAPACKE_zsytrs_3	size = 0
+	LAPACKE_zsytrs_3                
+
+LAPACKE_zsytrs_3_work	size = 0
+	LAPACKE_zsytrs_3_work           
+
+LAPACKE_zsytrs_aa	size = 0
+	LAPACKE_zsytrs_aa               
+
+LAPACKE_zsytrs_aa_2stage	size = 0
+	LAPACKE_zsytrs_aa_2stage        
+
+LAPACKE_zsytrs_aa_2stage_work	size = 0
+	LAPACKE_zsytrs_aa_2stage_work   
+
+LAPACKE_zsytrs_aa_work	size = 0
+	LAPACKE_zsytrs_aa_work          
+
+LAPACKE_zsytrs_rook	size = 0
+	LAPACKE_zsytrs_rook             
+
+LAPACKE_zsytrs_rook_work	size = 0
+	LAPACKE_zsytrs_rook_work        
+
+LAPACKE_zsytrs_work	size = 0
+	LAPACKE_zsytrs_work             
+
+LAPACKE_ztb_nancheck	size = 0
+	LAPACKE_ztb_nancheck            
+
+LAPACKE_ztb_trans	size = 0
+	LAPACKE_ztb_trans               
+
+LAPACKE_ztbcon	size = 0
+	LAPACKE_ztbcon                  
+
+LAPACKE_ztbcon_work	size = 0
+	LAPACKE_ztbcon_work             
+
+LAPACKE_ztbrfs	size = 0
+	LAPACKE_ztbrfs                  
+
+LAPACKE_ztbrfs_work	size = 0
+	LAPACKE_ztbrfs_work             
+
+LAPACKE_ztbtrs	size = 0
+	LAPACKE_ztbtrs                  
+
+LAPACKE_ztbtrs_work	size = 0
+	LAPACKE_ztbtrs_work             
+
+LAPACKE_ztf_nancheck	size = 0
+	LAPACKE_ztf_nancheck            
+
+LAPACKE_ztf_trans	size = 0
+	LAPACKE_ztf_trans               
+
+LAPACKE_ztfsm	size = 0
+	LAPACKE_ztfsm                   
+
+LAPACKE_ztfsm_work	size = 0
+	LAPACKE_ztfsm_work              
+
+LAPACKE_ztftri	size = 0
+	LAPACKE_ztftri                  
+
+LAPACKE_ztftri_work	size = 0
+	LAPACKE_ztftri_work             
+
+LAPACKE_ztfttp	size = 0
+	LAPACKE_ztfttp                  
+
+LAPACKE_ztfttp_work	size = 0
+	LAPACKE_ztfttp_work             
+
+LAPACKE_ztfttr	size = 0
+	LAPACKE_ztfttr                  
+
+LAPACKE_ztfttr_work	size = 0
+	LAPACKE_ztfttr_work             
+
+LAPACKE_ztgevc	size = 0
+	LAPACKE_ztgevc                  
+
+LAPACKE_ztgevc_work	size = 0
+	LAPACKE_ztgevc_work             
+
+LAPACKE_ztgexc	size = 0
+	LAPACKE_ztgexc                  
+
+LAPACKE_ztgexc_work	size = 0
+	LAPACKE_ztgexc_work             
+
+LAPACKE_ztgsen	size = 0
+	LAPACKE_ztgsen                  
+
+LAPACKE_ztgsen_work	size = 0
+	LAPACKE_ztgsen_work             
+
+LAPACKE_ztgsja	size = 0
+	LAPACKE_ztgsja                  
+
+LAPACKE_ztgsja_work	size = 0
+	LAPACKE_ztgsja_work             
+
+LAPACKE_ztgsna	size = 0
+	LAPACKE_ztgsna                  
+
+LAPACKE_ztgsna_work	size = 0
+	LAPACKE_ztgsna_work             
+
+LAPACKE_ztgsyl	size = 0
+	LAPACKE_ztgsyl                  
+
+LAPACKE_ztgsyl_work	size = 0
+	LAPACKE_ztgsyl_work             
+
+LAPACKE_ztp_nancheck	size = 0
+	LAPACKE_ztp_nancheck            
+
+LAPACKE_ztp_trans	size = 0
+	LAPACKE_ztp_trans               
+
+LAPACKE_ztpcon	size = 0
+	LAPACKE_ztpcon                  
+
+LAPACKE_ztpcon_work	size = 0
+	LAPACKE_ztpcon_work             
+
+LAPACKE_ztpmqrt	size = 0
+	LAPACKE_ztpmqrt                 
+
+LAPACKE_ztpmqrt_work	size = 0
+	LAPACKE_ztpmqrt_work            
+
+LAPACKE_ztpqrt	size = 0
+	LAPACKE_ztpqrt                  
+
+LAPACKE_ztpqrt2	size = 0
+	LAPACKE_ztpqrt2                 
+
+LAPACKE_ztpqrt2_work	size = 0
+	LAPACKE_ztpqrt2_work            
+
+LAPACKE_ztpqrt_work	size = 0
+	LAPACKE_ztpqrt_work             
+
+LAPACKE_ztprfb	size = 0
+	LAPACKE_ztprfb                  
+
+LAPACKE_ztprfb_work	size = 0
+	LAPACKE_ztprfb_work             
+
+LAPACKE_ztprfs	size = 0
+	LAPACKE_ztprfs                  
+
+LAPACKE_ztprfs_work	size = 0
+	LAPACKE_ztprfs_work             
+
+LAPACKE_ztptri	size = 0
+	LAPACKE_ztptri                  
+
+LAPACKE_ztptri_work	size = 0
+	LAPACKE_ztptri_work             
+
+LAPACKE_ztptrs	size = 0
+	LAPACKE_ztptrs                  
+
+LAPACKE_ztptrs_work	size = 0
+	LAPACKE_ztptrs_work             
+
+LAPACKE_ztpttf	size = 0
+	LAPACKE_ztpttf                  
+
+LAPACKE_ztpttf_work	size = 0
+	LAPACKE_ztpttf_work             
+
+LAPACKE_ztpttr	size = 0
+	LAPACKE_ztpttr                  
+
+LAPACKE_ztpttr_work	size = 0
+	LAPACKE_ztpttr_work             
+
+LAPACKE_ztr_nancheck	size = 0
+	LAPACKE_ztr_nancheck            
+
+LAPACKE_ztr_trans	size = 0
+	LAPACKE_ztr_trans               
+
+LAPACKE_ztrcon	size = 0
+	LAPACKE_ztrcon                  
+
+LAPACKE_ztrcon_work	size = 0
+	LAPACKE_ztrcon_work             
+
+LAPACKE_ztrevc	size = 0
+	LAPACKE_ztrevc                  
+
+LAPACKE_ztrevc_work	size = 0
+	LAPACKE_ztrevc_work             
+
+LAPACKE_ztrexc	size = 0
+	LAPACKE_ztrexc                  
+
+LAPACKE_ztrexc_work	size = 0
+	LAPACKE_ztrexc_work             
+
+LAPACKE_ztrrfs	size = 0
+	LAPACKE_ztrrfs                  
+
+LAPACKE_ztrrfs_work	size = 0
+	LAPACKE_ztrrfs_work             
+
+LAPACKE_ztrsen	size = 0
+	LAPACKE_ztrsen                  
+
+LAPACKE_ztrsen_work	size = 0
+	LAPACKE_ztrsen_work             
+
+LAPACKE_ztrsna	size = 0
+	LAPACKE_ztrsna                  
+
+LAPACKE_ztrsna_work	size = 0
+	LAPACKE_ztrsna_work             
+
+LAPACKE_ztrsyl	size = 0
+	LAPACKE_ztrsyl                  
+
+LAPACKE_ztrsyl_work	size = 0
+	LAPACKE_ztrsyl_work             
+
+LAPACKE_ztrtri	size = 0
+	LAPACKE_ztrtri                  
+
+LAPACKE_ztrtri_work	size = 0
+	LAPACKE_ztrtri_work             
+
+LAPACKE_ztrtrs	size = 0
+	LAPACKE_ztrtrs                  
+
+LAPACKE_ztrtrs_work	size = 0
+	LAPACKE_ztrtrs_work             
+
+LAPACKE_ztrttf	size = 0
+	LAPACKE_ztrttf                  
+
+LAPACKE_ztrttf_work	size = 0
+	LAPACKE_ztrttf_work             
+
+LAPACKE_ztrttp	size = 0
+	LAPACKE_ztrttp                  
+
+LAPACKE_ztrttp_work	size = 0
+	LAPACKE_ztrttp_work             
+
+LAPACKE_ztzrzf	size = 0
+	LAPACKE_ztzrzf                  
+
+LAPACKE_ztzrzf_work	size = 0
+	LAPACKE_ztzrzf_work             
+
+LAPACKE_zunbdb	size = 0
+	LAPACKE_zunbdb                  
+
+LAPACKE_zunbdb_work	size = 0
+	LAPACKE_zunbdb_work             
+
+LAPACKE_zuncsd	size = 0
+	LAPACKE_zuncsd                  
+
+LAPACKE_zuncsd2by1	size = 0
+	LAPACKE_zuncsd2by1              
+
+LAPACKE_zuncsd2by1_work	size = 0
+	LAPACKE_zuncsd2by1_work         
+
+LAPACKE_zuncsd_work	size = 0
+	LAPACKE_zuncsd_work             
+
+LAPACKE_zungbr	size = 0
+	LAPACKE_zungbr                  
+
+LAPACKE_zungbr_work	size = 0
+	LAPACKE_zungbr_work             
+
+LAPACKE_zunghr	size = 0
+	LAPACKE_zunghr                  
+
+LAPACKE_zunghr_work	size = 0
+	LAPACKE_zunghr_work             
+
+LAPACKE_zunglq	size = 0
+	LAPACKE_zunglq                  
+
+LAPACKE_zunglq_work	size = 0
+	LAPACKE_zunglq_work             
+
+LAPACKE_zungql	size = 0
+	LAPACKE_zungql                  
+
+LAPACKE_zungql_work	size = 0
+	LAPACKE_zungql_work             
+
+LAPACKE_zungqr	size = 0
+	LAPACKE_zungqr                  
+
+LAPACKE_zungqr_work	size = 0
+	LAPACKE_zungqr_work             
+
+LAPACKE_zungrq	size = 0
+	LAPACKE_zungrq                  
+
+LAPACKE_zungrq_work	size = 0
+	LAPACKE_zungrq_work             
+
+LAPACKE_zungtr	size = 0
+	LAPACKE_zungtr                  
+
+LAPACKE_zungtr_work	size = 0
+	LAPACKE_zungtr_work             
+
+LAPACKE_zunmbr	size = 0
+	LAPACKE_zunmbr                  
+
+LAPACKE_zunmbr_work	size = 0
+	LAPACKE_zunmbr_work             
+
+LAPACKE_zunmhr	size = 0
+	LAPACKE_zunmhr                  
+
+LAPACKE_zunmhr_work	size = 0
+	LAPACKE_zunmhr_work             
+
+LAPACKE_zunmlq	size = 0
+	LAPACKE_zunmlq                  
+
+LAPACKE_zunmlq_work	size = 0
+	LAPACKE_zunmlq_work             
+
+LAPACKE_zunmql	size = 0
+	LAPACKE_zunmql                  
+
+LAPACKE_zunmql_work	size = 0
+	LAPACKE_zunmql_work             
+
+LAPACKE_zunmqr	size = 0
+	LAPACKE_zunmqr                  
+
+LAPACKE_zunmqr_work	size = 0
+	LAPACKE_zunmqr_work             
+
+LAPACKE_zunmrq	size = 0
+	LAPACKE_zunmrq                  
+
+LAPACKE_zunmrq_work	size = 0
+	LAPACKE_zunmrq_work             
+
+LAPACKE_zunmrz	size = 0
+	LAPACKE_zunmrz                  
+
+LAPACKE_zunmrz_work	size = 0
+	LAPACKE_zunmrz_work             
+
+LAPACKE_zunmtr	size = 0
+	LAPACKE_zunmtr                  
+
+LAPACKE_zunmtr_work	size = 0
+	LAPACKE_zunmtr_work             
+
+LAPACKE_zupgtr	size = 0
+	LAPACKE_zupgtr                  
+
+LAPACKE_zupgtr_work	size = 0
+	LAPACKE_zupgtr_work             
+
+LAPACKE_zupmtr	size = 0
+	LAPACKE_zupmtr                  
+
+LAPACKE_zupmtr_work	size = 0
+	LAPACKE_zupmtr_work             
+
+lapack_make_complex_double	size = 0
+	lapack_make_complex_double      
+
+lapack_make_complex_float	size = 0
+	lapack_make_complex_float       
