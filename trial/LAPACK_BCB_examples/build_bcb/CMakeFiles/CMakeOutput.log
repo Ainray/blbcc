@@ -1,0 +1,45 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Embarcadero/Studio/20.0/bin/bcc32.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Embarcadero C++ 7.40 for Win32 Copyright (c) 1993-2018 Embarcadero Technologies, Inc.
+cmakecxxcompilerid.cpp:
+Turbo Incremental Link 6.90 Copyright (c) 1997-2017 Embarcadero Technologies, Inc.
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "cmakecxxcompilerid.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "cmakecxxcompilerid.obj"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "cmakecxxcompilerid.tds"
+
+The CXX compiler identification is Embarcadero, found in "X:/trial/github/trial/LAPACK_BCB_examples/build_bcb/CMakeFiles/3.15.0-rc1/CompilerIdCXX/cmakecxxcompilerid.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: X:/trial/github/trial/LAPACK_BCB_examples/build_bcb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/xptools/ninja.exe cmTC_e4dbd && [1/2] Building CXX object CMakeFiles\cmTC_e4dbd.dir\testCXXCompiler.cxx.obj
+Embarcadero C++ 7.40 for Win32 Copyright (c) 1993-2018 Embarcadero Technologies, Inc.
+testcxxcompiler.cxx:
+[2/2] Linking CXX executable cmTC_e4dbd.exe
+Embarcadero C++ 7.40 for Win32 Copyright (c) 1993-2018 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.90 Copyright (c) 1997-2017 Embarcadero Technologies, Inc.
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: X:/trial/github/trial/LAPACK_BCB_examples/build_bcb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/xptools/ninja.exe cmTC_4ca47 && [1/2] Building CXX object CMakeFiles\cmTC_4ca47.dir\CMakeCXXCompilerABI.cpp.obj
+Embarcadero C++ 7.40 for Win32 Copyright (c) 1993-2018 Embarcadero Technologies, Inc.
+C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp:
+[2/2] Linking CXX executable cmTC_4ca47.exe
+Embarcadero C++ 7.40 for Win32 Copyright (c) 1993-2018 Embarcadero Technologies, Inc.
+Turbo Incremental Link 6.90 Copyright (c) 1997-2017 Embarcadero Technologies, Inc.
+
+
+

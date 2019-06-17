@@ -1,0 +1,5 @@
+# ninja log v5
+16	140	5824493253700365	CMakeFiles/Lapack_bcb_example.dir/Lapack_bcb_example.cpp.obj	c61fbf05c4ac9897
+276	1806	5824493269940241	release/Lapack_bcb_example.exe	ef509bf1a228513d
+18	128	5824501852911556	CMakeFiles/Lapack_bcb_example.dir/Lapack_bcb_example.cpp.obj	c61fbf05c4ac9897
+234	1588	5824501867151421	release/Lapack_bcb_example.exe	ef509bf1a228513d

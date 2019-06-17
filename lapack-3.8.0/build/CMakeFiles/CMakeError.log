@@ -1,0 +1,90 @@
+Fortran EXT_ETIME does not exist. 
+ Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+
+Run Build Command(s):make secondtst_EXT_ETIME && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+Scanning dependencies of target secondtst_EXT_ETIME
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+[ 33%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME.dir/second_EXT_ETIME.f.obj
+[ 66%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME.dir/secondtst.f.obj
+[100%] Linking Fortran executable secondtst_EXT_ETIME.exe
+CMakeFiles\secondtst_EXT_ETIME.dir/objects.a(second_EXT_ETIME.f.obj):second_EXT_ETIME.f:(.text+0xd): undefined reference to `etime_'
+collect2.exe: error: ld returned 1 exit status
+
+** error 1 ** deleting secondtst_EXT_ETIME.exe
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME.dir\all
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME.dir\rule
+
+** error 1 ** deleting secondtst_EXT_ETIME
+
+ 
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+
+Run Build Command(s):make secondtst_EXT_ETIME_ && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+Scanning dependencies of target secondtst_EXT_ETIME_
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+[ 33%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME_.dir/second_EXT_ETIME_.f.obj
+[ 66%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME_.dir/secondtst.f.obj
+[100%] Linking Fortran executable secondtst_EXT_ETIME_.exe
+CMakeFiles\secondtst_EXT_ETIME_.dir/objects.a(second_EXT_ETIME_.f.obj):second_EXT_ETIME_.f:(.text+0xd): undefined reference to `etime__'
+collect2.exe: error: ld returned 1 exit status
+
+** error 1 ** deleting secondtst_EXT_ETIME_.exe
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME_.dir\all
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME_.dir\rule
+
+** error 1 ** deleting secondtst_EXT_ETIME_
+
+ 
+Fortran EXT_ETIME does not exist. 
+ Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+
+Run Build Command(s):make secondtst_EXT_ETIME && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+[ 33%] Linking Fortran executable secondtst_EXT_ETIME.exe
+CMakeFiles\secondtst_EXT_ETIME.dir/objects.a(second_EXT_ETIME.f.obj):second_EXT_ETIME.f:(.text+0xd): undefined reference to `etime_'
+collect2.exe: error: ld returned 1 exit status
+
+** error 1 ** deleting secondtst_EXT_ETIME.exe
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME.dir\all
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME.dir\rule
+
+** error 1 ** deleting secondtst_EXT_ETIME
+
+ 
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: K:/trial/lapack-3.8.0/build/INSTALL
+
+Run Build Command(s):make secondtst_EXT_ETIME_ && MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+MAKE Version 5.41  Copyright (c) 1987, 2014 Embarcadero Technologies, Inc.
+[ 33%] Linking Fortran executable secondtst_EXT_ETIME_.exe
+CMakeFiles\secondtst_EXT_ETIME_.dir/objects.a(second_EXT_ETIME_.f.obj):second_EXT_ETIME_.f:(.text+0xd): undefined reference to `etime__'
+collect2.exe: error: ld returned 1 exit status
+
+** error 1 ** deleting secondtst_EXT_ETIME_.exe
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME_.dir\all
+
+** error 1 ** deleting CMakeFiles\secondtst_EXT_ETIME_.dir\rule
+
+** error 1 ** deleting secondtst_EXT_ETIME_
+
+ 

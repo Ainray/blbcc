@@ -1,0 +1,3 @@
+K:/trial/helloworld/build_bcb/CMakeFiles/HelloWorld.dir
+K:/trial/helloworld/build_bcb/CMakeFiles/edit_cache.dir
+K:/trial/helloworld/build_bcb/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,454 @@
+Publics by module
+
+caxpy_  	size = 0
+	caxpy_                          
+
+ccopy_  	size = 0
+	ccopy_                          
+
+cdotc_  	size = 0
+	cdotc_                          
+
+cdotu_  	size = 0
+	cdotu_                          
+
+cgbmv_  	size = 0
+	cgbmv_                          
+
+cgemm_  	size = 0
+	cgemm_                          
+
+cgemv_  	size = 0
+	cgemv_                          
+
+cgerc_  	size = 0
+	cgerc_                          
+
+cgeru_  	size = 0
+	cgeru_                          
+
+chbmv_  	size = 0
+	chbmv_                          
+
+chemm_  	size = 0
+	chemm_                          
+
+chemv_  	size = 0
+	chemv_                          
+
+cher2_  	size = 0
+	cher2_                          
+
+cher2k_ 	size = 0
+	cher2k_                         
+
+cher_   	size = 0
+	cher_                           
+
+cherk_  	size = 0
+	cherk_                          
+
+chpmv_  	size = 0
+	chpmv_                          
+
+chpr2_  	size = 0
+	chpr2_                          
+
+chpr_   	size = 0
+	chpr_                           
+
+crotg_  	size = 0
+	crotg_                          
+
+cscal_  	size = 0
+	cscal_                          
+
+csrot_  	size = 0
+	csrot_                          
+
+csscal_ 	size = 0
+	csscal_                         
+
+cswap_  	size = 0
+	cswap_                          
+
+csymm_  	size = 0
+	csymm_                          
+
+csyr2k_ 	size = 0
+	csyr2k_                         
+
+csyrk_  	size = 0
+	csyrk_                          
+
+ctbmv_  	size = 0
+	ctbmv_                          
+
+ctbsv_  	size = 0
+	ctbsv_                          
+
+ctpmv_  	size = 0
+	ctpmv_                          
+
+ctpsv_  	size = 0
+	ctpsv_                          
+
+ctrmm_  	size = 0
+	ctrmm_                          
+
+ctrmv_  	size = 0
+	ctrmv_                          
+
+ctrsm_  	size = 0
+	ctrsm_                          
+
+ctrsv_  	size = 0
+	ctrsv_                          
+
+dasum_  	size = 0
+	dasum_                          
+
+daxpy_  	size = 0
+	daxpy_                          
+
+dcabs1_ 	size = 0
+	dcabs1_                         
+
+dcopy_  	size = 0
+	dcopy_                          
+
+ddot_   	size = 0
+	ddot_                           
+
+dgbmv_  	size = 0
+	dgbmv_                          
+
+dgemm_  	size = 0
+	dgemm_                          
+
+dgemv_  	size = 0
+	dgemv_                          
+
+dger_   	size = 0
+	dger_                           
+
+dnrm2_  	size = 0
+	dnrm2_                          
+
+drot_   	size = 0
+	drot_                           
+
+drotg_  	size = 0
+	drotg_                          
+
+drotm_  	size = 0
+	drotm_                          
+
+drotmg_ 	size = 0
+	drotmg_                         
+
+dsbmv_  	size = 0
+	dsbmv_                          
+
+dscal_  	size = 0
+	dscal_                          
+
+dsdot_  	size = 0
+	dsdot_                          
+
+dspmv_  	size = 0
+	dspmv_                          
+
+dspr2_  	size = 0
+	dspr2_                          
+
+dspr_   	size = 0
+	dspr_                           
+
+dswap_  	size = 0
+	dswap_                          
+
+dsymm_  	size = 0
+	dsymm_                          
+
+dsymv_  	size = 0
+	dsymv_                          
+
+dsyr2_  	size = 0
+	dsyr2_                          
+
+dsyr2k_ 	size = 0
+	dsyr2k_                         
+
+dsyr_   	size = 0
+	dsyr_                           
+
+dsyrk_  	size = 0
+	dsyrk_                          
+
+dtbmv_  	size = 0
+	dtbmv_                          
+
+dtbsv_  	size = 0
+	dtbsv_                          
+
+dtpmv_  	size = 0
+	dtpmv_                          
+
+dtpsv_  	size = 0
+	dtpsv_                          
+
+dtrmm_  	size = 0
+	dtrmm_                          
+
+dtrmv_  	size = 0
+	dtrmv_                          
+
+dtrsm_  	size = 0
+	dtrsm_                          
+
+dtrsv_  	size = 0
+	dtrsv_                          
+
+dzasum_ 	size = 0
+	dzasum_                         
+
+dznrm2_ 	size = 0
+	dznrm2_                         
+
+icamax_ 	size = 0
+	icamax_                         
+
+idamax_ 	size = 0
+	idamax_                         
+
+isamax_ 	size = 0
+	isamax_                         
+
+izamax_ 	size = 0
+	izamax_                         
+
+lsame_  	size = 0
+	lsame_                          
+
+sasum_  	size = 0
+	sasum_                          
+
+saxpy_  	size = 0
+	saxpy_                          
+
+scabs1_ 	size = 0
+	scabs1_                         
+
+scasum_ 	size = 0
+	scasum_                         
+
+scnrm2_ 	size = 0
+	scnrm2_                         
+
+scopy_  	size = 0
+	scopy_                          
+
+sdot_   	size = 0
+	sdot_                           
+
+sdsdot_ 	size = 0
+	sdsdot_                         
+
+sgbmv_  	size = 0
+	sgbmv_                          
+
+sgemm_  	size = 0
+	sgemm_                          
+
+sgemv_  	size = 0
+	sgemv_                          
+
+sger_   	size = 0
+	sger_                           
+
+snrm2_  	size = 0
+	snrm2_                          
+
+srot_   	size = 0
+	srot_                           
+
+srotg_  	size = 0
+	srotg_                          
+
+srotm_  	size = 0
+	srotm_                          
+
+srotmg_ 	size = 0
+	srotmg_                         
+
+ssbmv_  	size = 0
+	ssbmv_                          
+
+sscal_  	size = 0
+	sscal_                          
+
+sspmv_  	size = 0
+	sspmv_                          
+
+sspr2_  	size = 0
+	sspr2_                          
+
+sspr_   	size = 0
+	sspr_                           
+
+sswap_  	size = 0
+	sswap_                          
+
+ssymm_  	size = 0
+	ssymm_                          
+
+ssymv_  	size = 0
+	ssymv_                          
+
+ssyr2_  	size = 0
+	ssyr2_                          
+
+ssyr2k_ 	size = 0
+	ssyr2k_                         
+
+ssyr_   	size = 0
+	ssyr_                           
+
+ssyrk_  	size = 0
+	ssyrk_                          
+
+stbmv_  	size = 0
+	stbmv_                          
+
+stbsv_  	size = 0
+	stbsv_                          
+
+stpmv_  	size = 0
+	stpmv_                          
+
+stpsv_  	size = 0
+	stpsv_                          
+
+strmm_  	size = 0
+	strmm_                          
+
+strmv_  	size = 0
+	strmv_                          
+
+strsm_  	size = 0
+	strsm_                          
+
+strsv_  	size = 0
+	strsv_                          
+
+xerbla_ 	size = 0
+	xerbla_                         
+
+xerbla_array_	size = 0
+	xerbla_array_                   
+
+zaxpy_  	size = 0
+	zaxpy_                          
+
+zcopy_  	size = 0
+	zcopy_                          
+
+zdotc_  	size = 0
+	zdotc_                          
+
+zdotu_  	size = 0
+	zdotu_                          
+
+zdrot_  	size = 0
+	zdrot_                          
+
+zdscal_ 	size = 0
+	zdscal_                         
+
+zgbmv_  	size = 0
+	zgbmv_                          
+
+zgemm_  	size = 0
+	zgemm_                          
+
+zgemv_  	size = 0
+	zgemv_                          
+
+zgerc_  	size = 0
+	zgerc_                          
+
+zgeru_  	size = 0
+	zgeru_                          
+
+zhbmv_  	size = 0
+	zhbmv_                          
+
+zhemm_  	size = 0
+	zhemm_                          
+
+zhemv_  	size = 0
+	zhemv_                          
+
+zher2_  	size = 0
+	zher2_                          
+
+zher2k_ 	size = 0
+	zher2k_                         
+
+zher_   	size = 0
+	zher_                           
+
+zherk_  	size = 0
+	zherk_                          
+
+zhpmv_  	size = 0
+	zhpmv_                          
+
+zhpr2_  	size = 0
+	zhpr2_                          
+
+zhpr_   	size = 0
+	zhpr_                           
+
+zrotg_  	size = 0
+	zrotg_                          
+
+zscal_  	size = 0
+	zscal_                          
+
+zswap_  	size = 0
+	zswap_                          
+
+zsymm_  	size = 0
+	zsymm_                          
+
+zsyr2k_ 	size = 0
+	zsyr2k_                         
+
+zsyrk_  	size = 0
+	zsyrk_                          
+
+ztbmv_  	size = 0
+	ztbmv_                          
+
+ztbsv_  	size = 0
+	ztbsv_                          
+
+ztpmv_  	size = 0
+	ztpmv_                          
+
+ztpsv_  	size = 0
+	ztpsv_                          
+
+ztrmm_  	size = 0
+	ztrmm_                          
+
+ztrmv_  	size = 0
+	ztrmv_                          
+
+ztrsm_  	size = 0
+	ztrsm_                          
+
+ztrsv_  	size = 0
+	ztrsv_                          

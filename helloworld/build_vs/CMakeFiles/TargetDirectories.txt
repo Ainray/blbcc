@@ -1,0 +1,3 @@
+K:/trial/helloworld/build_vs/CMakeFiles/HelloWorld.dir
+K:/trial/helloworld/build_vs/CMakeFiles/ALL_BUILD.dir
+K:/trial/helloworld/build_vs/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+/home/inray/Prj/51-work/xie_ore_201900531/trial/helloworld/build_ninja/CMakeFiles/rebuild_cache.dir
+/home/inray/Prj/51-work/xie_ore_201900531/trial/helloworld/build_ninja/CMakeFiles/edit_cache.dir
+/home/inray/Prj/51-work/xie_ore_201900531/trial/helloworld/build_ninja/CMakeFiles/HelloWorld.dir
