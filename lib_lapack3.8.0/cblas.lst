@@ -1,0 +1,499 @@
+Publics by module
+
+_CBLAS_CallFromC	size = 0
+	_CBLAS_CallFromC                
+
+_RowMajorStrg	size = 0
+	_RowMajorStrg                   
+
+_cblas_caxpy	size = 0
+	_cblas_caxpy                    
+
+_cblas_ccopy	size = 0
+	_cblas_ccopy                    
+
+_cblas_cdotc_sub	size = 0
+	_cblas_cdotc_sub                
+
+_cblas_cdotu_sub	size = 0
+	_cblas_cdotu_sub                
+
+_cblas_cgbmv	size = 0
+	_cblas_cgbmv                    
+
+_cblas_cgemm	size = 0
+	_cblas_cgemm                    
+
+_cblas_cgemv	size = 0
+	_cblas_cgemv                    
+
+_cblas_cgerc	size = 0
+	_cblas_cgerc                    
+
+_cblas_cgeru	size = 0
+	_cblas_cgeru                    
+
+_cblas_chbmv	size = 0
+	_cblas_chbmv                    
+
+_cblas_chemm	size = 0
+	_cblas_chemm                    
+
+_cblas_chemv	size = 0
+	_cblas_chemv                    
+
+_cblas_cher	size = 0
+	_cblas_cher                     
+
+_cblas_cher2	size = 0
+	_cblas_cher2                    
+
+_cblas_cher2k	size = 0
+	_cblas_cher2k                   
+
+_cblas_cherk	size = 0
+	_cblas_cherk                    
+
+_cblas_chpmv	size = 0
+	_cblas_chpmv                    
+
+_cblas_chpr	size = 0
+	_cblas_chpr                     
+
+_cblas_chpr2	size = 0
+	_cblas_chpr2                    
+
+_cblas_cscal	size = 0
+	_cblas_cscal                    
+
+_cblas_csscal	size = 0
+	_cblas_csscal                   
+
+_cblas_cswap	size = 0
+	_cblas_cswap                    
+
+_cblas_csymm	size = 0
+	_cblas_csymm                    
+
+_cblas_csyr2k	size = 0
+	_cblas_csyr2k                   
+
+_cblas_csyrk	size = 0
+	_cblas_csyrk                    
+
+_cblas_ctbmv	size = 0
+	_cblas_ctbmv                    
+
+_cblas_ctbsv	size = 0
+	_cblas_ctbsv                    
+
+_cblas_ctpmv	size = 0
+	_cblas_ctpmv                    
+
+_cblas_ctpsv	size = 0
+	_cblas_ctpsv                    
+
+_cblas_ctrmm	size = 0
+	_cblas_ctrmm                    
+
+_cblas_ctrmv	size = 0
+	_cblas_ctrmv                    
+
+_cblas_ctrsm	size = 0
+	_cblas_ctrsm                    
+
+_cblas_ctrsv	size = 0
+	_cblas_ctrsv                    
+
+_cblas_dasum	size = 0
+	_cblas_dasum                    
+
+_cblas_daxpy	size = 0
+	_cblas_daxpy                    
+
+_cblas_dcopy	size = 0
+	_cblas_dcopy                    
+
+_cblas_ddot	size = 0
+	_cblas_ddot                     
+
+_cblas_dgbmv	size = 0
+	_cblas_dgbmv                    
+
+_cblas_dgemm	size = 0
+	_cblas_dgemm                    
+
+_cblas_dgemv	size = 0
+	_cblas_dgemv                    
+
+_cblas_dger	size = 0
+	_cblas_dger                     
+
+_cblas_dnrm2	size = 0
+	_cblas_dnrm2                    
+
+_cblas_drot	size = 0
+	_cblas_drot                     
+
+_cblas_drotg	size = 0
+	_cblas_drotg                    
+
+_cblas_drotm	size = 0
+	_cblas_drotm                    
+
+_cblas_drotmg	size = 0
+	_cblas_drotmg                   
+
+_cblas_dsbmv	size = 0
+	_cblas_dsbmv                    
+
+_cblas_dscal	size = 0
+	_cblas_dscal                    
+
+_cblas_dsdot	size = 0
+	_cblas_dsdot                    
+
+_cblas_dspmv	size = 0
+	_cblas_dspmv                    
+
+_cblas_dspr	size = 0
+	_cblas_dspr                     
+
+_cblas_dspr2	size = 0
+	_cblas_dspr2                    
+
+_cblas_dswap	size = 0
+	_cblas_dswap                    
+
+_cblas_dsymm	size = 0
+	_cblas_dsymm                    
+
+_cblas_dsymv	size = 0
+	_cblas_dsymv                    
+
+_cblas_dsyr	size = 0
+	_cblas_dsyr                     
+
+_cblas_dsyr2	size = 0
+	_cblas_dsyr2                    
+
+_cblas_dsyr2k	size = 0
+	_cblas_dsyr2k                   
+
+_cblas_dsyrk	size = 0
+	_cblas_dsyrk                    
+
+_cblas_dtbmv	size = 0
+	_cblas_dtbmv                    
+
+_cblas_dtbsv	size = 0
+	_cblas_dtbsv                    
+
+_cblas_dtpmv	size = 0
+	_cblas_dtpmv                    
+
+_cblas_dtpsv	size = 0
+	_cblas_dtpsv                    
+
+_cblas_dtrmm	size = 0
+	_cblas_dtrmm                    
+
+_cblas_dtrmv	size = 0
+	_cblas_dtrmv                    
+
+_cblas_dtrsm	size = 0
+	_cblas_dtrsm                    
+
+_cblas_dtrsv	size = 0
+	_cblas_dtrsv                    
+
+_cblas_dzasum	size = 0
+	_cblas_dzasum                   
+
+_cblas_dznrm2	size = 0
+	_cblas_dznrm2                   
+
+_cblas_icamax	size = 0
+	_cblas_icamax                   
+
+_cblas_idamax	size = 0
+	_cblas_idamax                   
+
+_cblas_isamax	size = 0
+	_cblas_isamax                   
+
+_cblas_izamax	size = 0
+	_cblas_izamax                   
+
+_cblas_sasum	size = 0
+	_cblas_sasum                    
+
+_cblas_saxpy	size = 0
+	_cblas_saxpy                    
+
+_cblas_scasum	size = 0
+	_cblas_scasum                   
+
+_cblas_scnrm2	size = 0
+	_cblas_scnrm2                   
+
+_cblas_scopy	size = 0
+	_cblas_scopy                    
+
+_cblas_sdot	size = 0
+	_cblas_sdot                     
+
+_cblas_sdsdot	size = 0
+	_cblas_sdsdot                   
+
+_cblas_sgbmv	size = 0
+	_cblas_sgbmv                    
+
+_cblas_sgemm	size = 0
+	_cblas_sgemm                    
+
+_cblas_sgemv	size = 0
+	_cblas_sgemv                    
+
+_cblas_sger	size = 0
+	_cblas_sger                     
+
+_cblas_snrm2	size = 0
+	_cblas_snrm2                    
+
+_cblas_srot	size = 0
+	_cblas_srot                     
+
+_cblas_srotg	size = 0
+	_cblas_srotg                    
+
+_cblas_srotm	size = 0
+	_cblas_srotm                    
+
+_cblas_srotmg	size = 0
+	_cblas_srotmg                   
+
+_cblas_ssbmv	size = 0
+	_cblas_ssbmv                    
+
+_cblas_sscal	size = 0
+	_cblas_sscal                    
+
+_cblas_sspmv	size = 0
+	_cblas_sspmv                    
+
+_cblas_sspr	size = 0
+	_cblas_sspr                     
+
+_cblas_sspr2	size = 0
+	_cblas_sspr2                    
+
+_cblas_sswap	size = 0
+	_cblas_sswap                    
+
+_cblas_ssymm	size = 0
+	_cblas_ssymm                    
+
+_cblas_ssymv	size = 0
+	_cblas_ssymv                    
+
+_cblas_ssyr	size = 0
+	_cblas_ssyr                     
+
+_cblas_ssyr2	size = 0
+	_cblas_ssyr2                    
+
+_cblas_ssyr2k	size = 0
+	_cblas_ssyr2k                   
+
+_cblas_ssyrk	size = 0
+	_cblas_ssyrk                    
+
+_cblas_stbmv	size = 0
+	_cblas_stbmv                    
+
+_cblas_stbsv	size = 0
+	_cblas_stbsv                    
+
+_cblas_stpmv	size = 0
+	_cblas_stpmv                    
+
+_cblas_stpsv	size = 0
+	_cblas_stpsv                    
+
+_cblas_strmm	size = 0
+	_cblas_strmm                    
+
+_cblas_strmv	size = 0
+	_cblas_strmv                    
+
+_cblas_strsm	size = 0
+	_cblas_strsm                    
+
+_cblas_strsv	size = 0
+	_cblas_strsv                    
+
+_cblas_xerbla	size = 0
+	_cblas_xerbla                   
+
+_cblas_zaxpy	size = 0
+	_cblas_zaxpy                    
+
+_cblas_zcopy	size = 0
+	_cblas_zcopy                    
+
+_cblas_zdotc_sub	size = 0
+	_cblas_zdotc_sub                
+
+_cblas_zdotu_sub	size = 0
+	_cblas_zdotu_sub                
+
+_cblas_zdscal	size = 0
+	_cblas_zdscal                   
+
+_cblas_zgbmv	size = 0
+	_cblas_zgbmv                    
+
+_cblas_zgemm	size = 0
+	_cblas_zgemm                    
+
+_cblas_zgemv	size = 0
+	_cblas_zgemv                    
+
+_cblas_zgerc	size = 0
+	_cblas_zgerc                    
+
+_cblas_zgeru	size = 0
+	_cblas_zgeru                    
+
+_cblas_zhbmv	size = 0
+	_cblas_zhbmv                    
+
+_cblas_zhemm	size = 0
+	_cblas_zhemm                    
+
+_cblas_zhemv	size = 0
+	_cblas_zhemv                    
+
+_cblas_zher	size = 0
+	_cblas_zher                     
+
+_cblas_zher2	size = 0
+	_cblas_zher2                    
+
+_cblas_zher2k	size = 0
+	_cblas_zher2k                   
+
+_cblas_zherk	size = 0
+	_cblas_zherk                    
+
+_cblas_zhpmv	size = 0
+	_cblas_zhpmv                    
+
+_cblas_zhpr	size = 0
+	_cblas_zhpr                     
+
+_cblas_zhpr2	size = 0
+	_cblas_zhpr2                    
+
+_cblas_zscal	size = 0
+	_cblas_zscal                    
+
+_cblas_zswap	size = 0
+	_cblas_zswap                    
+
+_cblas_zsymm	size = 0
+	_cblas_zsymm                    
+
+_cblas_zsyr2k	size = 0
+	_cblas_zsyr2k                   
+
+_cblas_zsyrk	size = 0
+	_cblas_zsyrk                    
+
+_cblas_ztbmv	size = 0
+	_cblas_ztbmv                    
+
+_cblas_ztbsv	size = 0
+	_cblas_ztbsv                    
+
+_cblas_ztpmv	size = 0
+	_cblas_ztpmv                    
+
+_cblas_ztpsv	size = 0
+	_cblas_ztpsv                    
+
+_cblas_ztrmm	size = 0
+	_cblas_ztrmm                    
+
+_cblas_ztrmv	size = 0
+	_cblas_ztrmv                    
+
+_cblas_ztrsm	size = 0
+	_cblas_ztrsm                    
+
+_cblas_ztrsv	size = 0
+	_cblas_ztrsv                    
+
+_cdotcsub_	size = 0
+	_cdotcsub_                      
+
+_cdotusub_	size = 0
+	_cdotusub_                      
+
+_dasumsub_	size = 0
+	_dasumsub_                      
+
+_ddotsub_	size = 0
+	_ddotsub_                       
+
+_dnrm2sub_	size = 0
+	_dnrm2sub_                      
+
+_dsdotsub_	size = 0
+	_dsdotsub_                      
+
+_dzasumsub_	size = 0
+	_dzasumsub_                     
+
+_dznrm2sub_	size = 0
+	_dznrm2sub_                     
+
+_icamaxsub_	size = 0
+	_icamaxsub_                     
+
+_idamaxsub_	size = 0
+	_idamaxsub_                     
+
+_isamaxsub_	size = 0
+	_isamaxsub_                     
+
+_izamaxsub_	size = 0
+	_izamaxsub_                     
+
+_sasumsub_	size = 0
+	_sasumsub_                      
+
+_scasumsub_	size = 0
+	_scasumsub_                     
+
+_scnrm2sub_	size = 0
+	_scnrm2sub_                     
+
+_sdotsub_	size = 0
+	_sdotsub_                       
+
+_sdsdotsub_	size = 0
+	_sdsdotsub_                     
+
+_snrm2sub_	size = 0
+	_snrm2sub_                      
+
+_xerbla_	size = 0
+	_xerbla_                        
+
+_zdotcsub_	size = 0
+	_zdotcsub_                      
+
+_zdotusub_	size = 0
+	_zdotusub_                      
